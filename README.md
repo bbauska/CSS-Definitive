@@ -6,6 +6,7 @@ date prior editted: "11/10/2024 5+pm"
 date last editted: "11/10/2024 5+pm"
 date last editted: "5/20/2025 8+pm"
 date last editted: "11/22/2025 2+pm"
+date last editted: "1/26/2026 10+am"
 output: 
   markdown:
     with some style
@@ -18,7 +19,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of css-def.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02. jquery & uc davis logos (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p style="align:center">
   <img src="./images/cover.png"
   title="Cover for the Definitive Guide"
   alt="Cover for the Definitive Guide."
@@ -30,6 +31,7 @@ output:
 <p>This course is the third in our JavaScript for Beginners Specialization. The 
 scripts will become more complex and introduce more complex jQuery plugins. You 
 will have several challenges to practice your skills throughout the course.</p>
+
 <p>The course objectives include how to identify objects in JavaScript; create 
 new objects and populate them with data; manipulate objects by adding, modifying 
 and deleting data in objects; manipulate the DOM based on the data in objects; 
@@ -40,29 +42,27 @@ manageable pieces.</p>
 <!--~~ tobe Hoverable Dropdown Menu ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
-### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
->#### [**1.00 Welcome!**](#ch1-00)
->#### [**1.01 Module 1 Introduction**](#ch1-01)
->#### [**1.02 Intro to jQuery Plugins**](#ch1-02)
->#### [**1.03 Using Plugins and Essential Steps**](#ch1-03)
->#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-04)
+<h3>[**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)</h3>
+
+><h4>[**1.00 Welcome!**](#ch1-00)</h4>
+><h4>[**1.01 Module 1 Introduction**](#ch1-01)</h4>
+><h4>[**1.02 Intro to jQuery Plugins**](#ch1-02)</h4>
+><h4>[**1.03 Using Plugins and Essential Steps**](#ch1-03)</h4>
+><h4>[**1.04 Gotchas and Rookie Mistakes**](#ch1-04)</h4>
 
 <ul>
   <li><a href="./pdf/1.04-jQuery-Plugins.pdf" 
-    target="_blank" rel="noreferrer noopener">
+    target="_blank" rel="noreferrer noopener" title="jQuery Plugins (pdf)">
     1.04 jQuery Plugins (pdf)</a></li>
   <li><a href="./zip/1.04-FlexSliderBasic-START.zip" 
-    target="_blank" rel="noopener noreferrer">
+    target="_blank" rel="noopener noreferrer" title="FlexSlider Basic START (zip)">
     1.04 FlexSlider Basic START (zip)</a></li>
   <li><a href="./zip/1.04-FlexSliderPlugins.zip" 
-    target="_blank" rel="noopener noreferrer">
+    target="_blank" rel="noopener noreferrer" title="FlexSlider Plugin (zip)">
     1.04 FlexSlider Plugin (zip)</a></li>
 </ul>
 
-
-![CSS The Definitive Guide Web Layout and Presentation](./images/cover.png)
-
-# CSS: The Definitive Guide
+<h1>CSS: The Definitive Guide
 
 by Eric A. Meyer and Estelle Weyl
 
@@ -74,7 +74,7 @@ Published by O'Reilly Media, Inc.,
 1005 Gravenstein Highway North, 
 Sebastopol, CA 95472.
 
-### Preface
+<h3>Preface
 
 If you are a web designer or document author interested in sophisticated
 page styling, improved accessibility, and saving time and effort, this
@@ -90,31 +90,31 @@ known to be coming soon after publication. CSS features that were still
 being developed or were known to have support dropping soon are not
 covered here.
 
-### Conventions Used in This Book
+<h3>Conventions Used in This Book
 
 The following typographical conventions are used in this book (but make
 sure to read through ["Value Syntax
 Conventions"](#preface01.xhtml_value_syntax_conventions){data-type="xref"}
 to see how some of these are modified):
 
-#### Tip {#preface01.xhtml_sigil_toc_id_3}
+<h4>Tip</h4>
 
 This element signifies a tip or suggestion.
 
-#### Note {#preface01.xhtml_sigil_toc_id_4}
+<h4>Note</h4>
 
 This element signifies a general note.
-#### Warning {#preface01.xhtml_sigil_toc_id_5}
+<h4>Warning</h4>
 
 This element indicates a warning or caution.
 
-#### Value Syntax Conventions {#preface01.xhtml_sigil_toc_id_6}
+<h4>Value Syntax Conventions</h4>
 
 The allowed values for each property are listed with a syntax like the following:
 
 Components of a value definition can be combined in numerous ways:
 
-#### How to Contact Us {#preface01.xhtml_sigil_toc_id_10}
+<h4>How to Contact Us</h4>
 
 Thank you to all the members of the CSS Working Group, past and present,
 who have shepherded an amazing language to astonishing heights...even as
@@ -144,7 +144,7 @@ Cleveland Heights, OH
 
 December 4, 2022
 
-#### Estelle Weyl {#preface01.xhtml_sigil_toc_id_13}
+<h4>Estelle Weyl</h4>
 
 I would like to acknowledge everyone who has worked to make CSS what it
 is today and all those who have helped improve diversity and inclusion
@@ -202,7 +202,7 @@ San Francisco, CA
 
 February 14, 2023
 
-### [Chapter 1. ]{.label}CSS Fundamentals
+<h3>[Chapter 1. ]{.label}CSS Fundamentals
 
 *Cascading Style Sheets* (*CSS*), a []{#ch01.xhtml_ix_css_ch1
 primary="CSS (Cascading Style Sheets)" data-type="indexterm"}powerful
@@ -217,7 +217,7 @@ in JS itself. It's everywhere!
 
 :::: {.section pdf-bookmark="A Brief History of (Web) Style" data-type="sect1"}
 ::: {#ch01.xhtml_a_brief_history_of_open_parenthesis_web .sect1}
-### A Brief History of (Web) Style {#ch01.xhtml_sigil_toc_id_14}
+<h3>A Brief History of (Web) Style {#ch01.xhtml_sigil_toc_id_14}
 
 []{#ch01.xhtml_ix_css_history_ch1 primary="CSS (Cascading Style Sheets)"
 secondary="historical development" data-type="indexterm"}was first
@@ -290,7 +290,7 @@ start by covering the basics of what goes inside a
 stylesheet.[]{#ch01.xhtml_idm45797088596832 primary=""
 startref="ix_css_history_ch1" data-type="indexterm"}
 
-### Stylesheet Contents {#ch01.xhtml_sigil_toc_id_15}
+<h3>Stylesheet Contents {#ch01.xhtml_sigil_toc_id_15}
 
 Inside a []{#ch01.xhtml_idm45797088593872 primary="rules"
 seealso="at-rules" data-type="indexterm"}stylesheet, you'll find a
@@ -306,7 +306,7 @@ Styles such as these make up the bulk of any stylesheet---simple or
 complex, short or long. But which parts are which, and what do they
 represent?
 
-#### Rule Structure {#ch01.xhtml_sigil_toc_id_16}
+<h4>Rule Structure</h4>
 
 To illustrate the concept of rules in more detail, let's break down the
 structure.
@@ -353,7 +353,7 @@ the second states that part of the document will have a `background` of
 selector) will be styled in red text with a yellow
 [background]{.keep-together}.
 
-#### Vendor Prefixing {#ch01.xhtml_sigil_toc_id_18}
+<h4>Vendor Prefixing</h4>
 
 Sometimes []{#ch01.xhtml_idm45797088507888 primary="vendor prefixes"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797088758032 primary="rules"
@@ -371,7 +371,6 @@ prefixes are in the wild, with the most common shown in
 [Table 1-1](#ch01.xhtml_common_vendor_prefixes){data-type="xref"}.
 
   Prefix       Vendor
-  ------------ --------------------------------------------------------------
   `-epub-`     International Digital Publishing Forum ePub format
   `-moz-`      Gecko-based browsers (e.g., Mozilla Firefox)
   `-ms-`       Microsoft Internet Explorer
@@ -414,7 +413,7 @@ way. Again, this is no longer necessary. We're including it here only to
 give you an idea of what it might look like, should you come across this
 in the future.
 
-#### Whitespace Handling {#ch01.xhtml_sigil_toc_id_19}
+<h4>Whitespace Handling</h4>
 
 CSS is basically insensitive to []{#ch01.xhtml_idm45797088636512
 primary="CSS (Cascading Style Sheets)" secondary="whitespace in"
@@ -483,7 +482,7 @@ All of these approaches are valid, so you should pick the formatting
 that makes the most sense---that is, is easiest to read---in your eyes,
 and stick with it.
 
-#### CSS Comments {#ch01.xhtml_sigil_toc_id_20}
+<h4>CSS Comments</h4>
 
 CSS does allow for []{#ch01.xhtml_ix_slash_forward primary="slashes"
 secondary="forward slash"
@@ -519,7 +518,7 @@ example, this would *not* be correct:
  and back to the first comment, which is not a comment.*/
 ```
 
-###### Warning {#ch01.xhtml_sigil_toc_id_21}
+<h5>Warning {#ch01.xhtml_sigil_toc_id_21}
 
 One way to create "nested" comments accidentally is to temporarily
 comment out a large block of a stylesheet that already contains a
@@ -553,7 +552,7 @@ In this example, only the first rule (`h1 {color: gray;}`) will be
 applied to the document. The rest of the rules, as part of the comment,
 are ignored by the browser's rendering engine.
 
-###### Note {#ch01.xhtml_sigil_toc_id_22}
+<h5>Note {#ch01.xhtml_sigil_toc_id_22}
 
 CSS []{#ch01.xhtml_idm45797114184560 primary="whitespace"
 secondary="handling of"
@@ -575,7 +574,7 @@ data-type="indexterm"}[]{#ch01.xhtml_idm45797114325248 primary=""
 startref="ix_comments_css" data-type="indexterm"} This means you can put
 them into the middle of rules---even right inside declarations!
 
-## Markup {#ch01.xhtml_sigil_toc_id_23}
+<h2>Markup {#ch01.xhtml_sigil_toc_id_23}
 
 *There is no markup in stylesheets*. This might seem obvious, but you'd
 be surprised. []{#ch01.xhtml_idm45797091195104 primary="<style> element"
@@ -605,7 +604,7 @@ Speaking of markup, it's time to take a very slight detour to talk about
 the elements that our CSS will be used to style, and how those can be
 affected by CSS in the most [fundamental ways.]{.keep-together}
 
-# Elements {#ch01.xhtml_sigil_toc_id_24}
+<h1>Elements {#ch01.xhtml_sigil_toc_id_24}
 
 *Elements* are the basis of []{#ch01.xhtml_ix_elements_ch1
 primary="elements"
@@ -617,13 +616,13 @@ HTML, the most common elements are easily recognizable, such as `<p>`,
 `<table>`, `<span>`, `<a>`, and `<article>`. Every single element in a
 document plays a part in its presentation.
 
-## Replaced and Nonreplaced Elements {#ch01.xhtml_sigil_toc_id_25}
+<h2>Replaced and Nonreplaced Elements {#ch01.xhtml_sigil_toc_id_25}
 
 Although CSS depends on elements, not all elements are created equal.
 For example, images and paragraphs are not the same type of element. In
 CSS, elements generally take two forms: replaced and nonreplaced.
 
-### Replaced elements {#ch01.xhtml_sigil_toc_id_26}
+<h3>Replaced elements {#ch01.xhtml_sigil_toc_id_26}
 
 *Replaced elements* are used to indicate
 []{#ch01.xhtml_idm45797101332688 primary="replaced elements"
@@ -649,7 +648,7 @@ show a "broken image" placeholder.
 Similarly, the `input` element can also be replaced---by a radio button,
 checkbox, text input box, or other, depending on its type.
 
-### Nonreplaced elements {#ch01.xhtml_sigil_toc_id_27}
+<h3>Nonreplaced elements {#ch01.xhtml_sigil_toc_id_27}
 
 The []{#ch01.xhtml_idm45797111846768 primary="nonreplaced elements"
 data-type="indexterm"}majority of HTML elements are *nonreplaced
@@ -659,7 +658,7 @@ browser) inside a box generated by the element itself. For example,
 there" will be displayed by the user agent. This is true of paragraphs,
 headings, table cells, lists, and almost everything else in HTML.
 
-## Element Display Roles {#ch01.xhtml_sigil_toc_id_28}
+<h2>Element Display Roles {#ch01.xhtml_sigil_toc_id_28}
 
 CSS []{#ch01.xhtml_ix_vis_format_disp primary="visual formatting"
 secondary="display roles"
@@ -690,7 +689,7 @@ alt="css5 0102" />
 </div>
 </figure>
 
-### Block-level elements {#ch01.xhtml_sigil_toc_id_30}
+<h3>Block-level elements {#ch01.xhtml_sigil_toc_id_30}
 
 By []{#ch01.xhtml_ix_elements_block primary="elements"
 secondary="block-level"
@@ -716,7 +715,7 @@ as an element generating a *block formatting context*. It also means
 that the element generates a block *outer display type*. The parts
 inside the element may have different display types.
 
-### Inline-level elements {#ch01.xhtml_sigil_toc_id_31}
+<h3>Inline-level elements {#ch01.xhtml_sigil_toc_id_31}
 
 By []{#ch01.xhtml_ix_inline_level_elem primary="inline-level elements"
 data-type="indexterm"}[]{#ch01.xhtml_ix_inline_disp
@@ -749,9 +748,8 @@ data-type="indexterm"}let's consider the CSS property `display`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 
-# display {#ch01.xhtml_sigil_toc_id_32}
+<h1>display {#ch01.xhtml_sigil_toc_id_32}
 
-  -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`display-outside`*\> ‖ \<*`display-inside`*\> \] \| \<*`display-listitem`*\> \| \<*`display-internal`*\> \| \<*`display-box`*\> \| \<*`display-legacy`*\>
   **Definitions**      See below
   **Initial value**    `inline`
@@ -759,7 +757,6 @@ data-type="indexterm"}let's consider the CSS property `display`.
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```
 \<*`display-outside`*\>
@@ -911,7 +908,7 @@ startref="ix_block_disp_roles"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797108290960 primary=""
 startref="ix_vis_format_disp" data-type="indexterm"}
 
-# Bringing CSS and HTML Together {#ch01.xhtml_sigil_toc_id_35}
+<h1>Bringing CSS and HTML Together {#ch01.xhtml_sigil_toc_id_35}
 
 We've []{#ch01.xhtml_ix_html_link_css primary="HTML"
 secondary="relationship to CSS"
@@ -970,7 +967,7 @@ alt="css5 0105" />
 
 Now, let's examine the various ways this document connects to CSS.
 
-## The \<link\> Tag {#ch01.xhtml_sigil_toc_id_37}
+<h2>The \<link\> Tag {#ch01.xhtml_sigil_toc_id_37}
 
 First, []{#ch01.xhtml_ix_link_tag primary="<link> tag"
 primary-sortas="link tag" secondary="linking CSS to HTML documents"
@@ -1040,7 +1037,7 @@ An external stylesheet cannot contain any document markup at all, only
 CSS rules and CSS comments. The presence of markup in an external
 stylesheet can cause some or all of it to be ignored.
 
-### Attributes {#ch01.xhtml_sigil_toc_id_40}
+<h3>Attributes {#ch01.xhtml_sigil_toc_id_40}
 
 For []{#ch01.xhtml_ix_attrib_HTML primary="attributes"
 secondary="external stylesheet linking to HTML"
@@ -1128,7 +1125,7 @@ the future and, if used improperly, can have unexpected effects. Why?
 We'll explore that in the next section.[]{#ch01.xhtml_idm45797096987008
 primary="" startref="ix_attrib_HTML" data-type="indexterm"}
 
-### Alternate stylesheets {#ch01.xhtml_sigil_toc_id_41}
+<h3>Alternate stylesheets {#ch01.xhtml_sigil_toc_id_41}
 
 It's []{#ch01.xhtml_ix_alt_style primary="alternate stylesheets"
 data-type="indexterm"}possible to define *alternate stylesheets* that
@@ -1163,7 +1160,7 @@ alt="css5 0107" />
 </div>
 </figure>
 
-###### Note {#ch01.xhtml_sigil_toc_id_43}
+<h5>Note {#ch01.xhtml_sigil_toc_id_43}
 
 As of early 2023, alternate stylesheets are supported in most
 Gecko-based browsers like Firefox. The Chromium and WebKit families do
@@ -1230,7 +1227,7 @@ startref="ix_alt_style"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797104771760 primary=""
 startref="ix_title_attrib" data-type="indexterm"}
 
-## The \<style\> Element {#ch01.xhtml_sigil_toc_id_44}
+<h2>The \<style\> Element {#ch01.xhtml_sigil_toc_id_44}
 
 The `<style>` element is one way to include a
 []{#ch01.xhtml_idm45797104768736 primary="<style> element"
@@ -1275,7 +1272,7 @@ time being, though, the attribute remains wholly
 optional.[]{#ch01.xhtml_idm45797104690576 primary=""
 startref="ix_rules_css_html" data-type="indexterm"}
 
-## The \@import Directive {#ch01.xhtml_sigil_toc_id_45}
+<h2>The \@import Directive {#ch01.xhtml_sigil_toc_id_45}
 
 Now we'll []{#ch01.xhtml_ix_import_rule primary="@import rule"
 primary-sortas="import rule"
@@ -1357,7 +1354,7 @@ stylesheet, though they can be preceded by `@charset` and `@layer`
 declarations. An `@import` that comes after other rules (e.g.,
 `body {color`: `red;}`) will be ignored by conforming user agents.
 
-###### Warning {#ch01.xhtml_sigil_toc_id_46}
+<h5>Warning {#ch01.xhtml_sigil_toc_id_46}
 
 Some versions of Internet Explorer for Windows did not ignore any
 `@import` directive, even those that come after other rules, but all
@@ -1391,7 +1388,7 @@ startref="ix_atrule_import"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797104512448 primary=""
 startref="ix_import_rule" data-type="indexterm"}
 
-## HTTP Linking {#ch01.xhtml_sigil_toc_id_47}
+<h2>HTTP Linking {#ch01.xhtml_sigil_toc_id_47}
 
 In []{#ch01.xhtml_idm45797104483952
 primary="HTTP headers, linking CSS to HTML documents"
@@ -1431,7 +1428,7 @@ server to mark when you're on the development site as opposed to the
 public site. It's also an interesting way to hide styles from Chromium
 browsers, assuming you have a reason to do so.
 
-###### Note {#ch01.xhtml_sigil_toc_id_48}
+<h5>Note {#ch01.xhtml_sigil_toc_id_48}
 
 Equivalents to this linking technique are used in common scripting
 languages such as PHP and IIS, both of which allow the author to emit
@@ -1440,7 +1437,7 @@ write `link` elements into the document based on the server offering up
 the document. This is a more robust approach in terms of browser
 support: every browser supports the `link` [element.]{.keep-together}
 
-## Inline Styles {#ch01.xhtml_sigil_toc_id_49}
+<h2>Inline Styles {#ch01.xhtml_sigil_toc_id_49}
 
 If []{#ch01.xhtml_idm45797092790592 primary="inline styles"
 data-type="indexterm"}you want to just assign a few styles to one
@@ -1486,7 +1483,7 @@ startref="ix_css_link_html"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797092750112 primary=""
 startref="ix_html_link_css" data-type="indexterm"}
 
-# Summary {#ch01.xhtml_sigil_toc_id_50}
+<h1>Summary {#ch01.xhtml_sigil_toc_id_50}
 
 With CSS, you can completely change the way elements are presented by a
 user agent. You can do this at a basic level with the `display`
@@ -1508,7 +1505,7 @@ chapters.
 
 []{#ch02.xhtml}
 
-# [Chapter 2. ]{.label}Selectors
+<h1>[Chapter 2. ]{.label}Selectors
 
 One of the []{#ch02.xhtml_ix_selector_ch2 primary="selectors"
 data-type="indexterm"}primary advantages of CSS is its ability to easily
@@ -1524,7 +1521,7 @@ time you're in a meeting and someone wants to see headings with a
 different shade of green, just edit your style and hit Reload. Voilà!
 The results are accomplished in seconds and there for everyone to see.
 
-# Basic Style Rules {#ch02.xhtml_sigil_toc_id_51}
+<h1>Basic Style Rules {#ch02.xhtml_sigil_toc_id_51}
 
 As []{#ch02.xhtml_idm45797092698016
 primary="CSS (Cascading Style Sheets)" secondary="basic style rules"
@@ -1560,7 +1557,7 @@ h2 {color: gray;}
 
 :::: {.section pdf-bookmark="Type Selectors" data-type="sect1"}
 ::: {#ch02.xhtml_element_selectors .sect1}
-# Type Selectors {#ch02.xhtml_sigil_toc_id_52}
+<h1>Type Selectors {#ch02.xhtml_sigil_toc_id_52}
 
 A *type selector*, previously []{#ch02.xhtml_idm45797092675392
 primary="document structure" secondary="type selectors for"
@@ -1642,7 +1639,7 @@ alt="css5 0202" />
 
 ::::::::::::: {.section pdf-bookmark="Grouping" data-type="sect1"}
 :::::::::::: {#ch02.xhtml_grouping .sect1}
-# Grouping {#ch02.xhtml_sigil_toc_id_55}
+<h1>Grouping {#ch02.xhtml_sigil_toc_id_55}
 
 So far, you've seen fairly simple techniques for applying a single style
 to a single selector. But what if you want the same style to apply to
@@ -1652,7 +1649,7 @@ stylesheet.
 
 :::::: {.section pdf-bookmark="Grouping Selectors" data-type="sect2"}
 ::::: {#ch02.xhtml_grouping_selectors .sect2}
-## Grouping Selectors {#ch02.xhtml_sigil_toc_id_56}
+<h2>Grouping Selectors {#ch02.xhtml_sigil_toc_id_56}
 
 Let's []{#ch02.xhtml_ix_selector_group primary="selectors"
 secondary="grouping of"
@@ -1703,7 +1700,7 @@ to maintain [over time.]{.keep-together}
 
 :::: {.section pdf-bookmark="The universal selector" data-type="sect3"}
 ::: {#ch02.xhtml_idm45797092391248 .sect3}
-### The universal selector {#ch02.xhtml_sigil_toc_id_57}
+<h3>The universal selector {#ch02.xhtml_sigil_toc_id_57}
 
 The *universal selector*, []{#ch02.xhtml_idm45797092389568
 primary="* (asterisk)" secondary="universal selector"
@@ -1736,7 +1733,7 @@ Specificity"](../Text/ch04.xhtml#zeroed_selector_specificity){data-type="xref"}.
 
 ::::: {.section pdf-bookmark="Grouping Declarations" data-type="sect2"}
 :::: {#ch02.xhtml_grouping_declarations .sect2}
-## Grouping Declarations {#ch02.xhtml_sigil_toc_id_58}
+<h2>Grouping Declarations {#ch02.xhtml_sigil_toc_id_58}
 
 Just as you can []{#ch02.xhtml_ix_rules_declar primary="rules"
 secondary="declarations"
@@ -1825,7 +1822,7 @@ The declaration `font: 18px Helvetica` will still take effect since it
 was correctly terminated with a semicolon.
 
 ::: {data-type="tip"}
-###### Tip {#ch02.xhtml_sigil_toc_id_59}
+<h5>Tip {#ch02.xhtml_sigil_toc_id_59}
 
 Although following the last declaration of a rule with a semicolon is
 not technically necessary in CSS, doing so is generally good practice.
@@ -1843,7 +1840,7 @@ keep your stylesheets short, expressive, and easy to maintain.
 
 :::: {.section pdf-bookmark="Grouping Everything" data-type="sect2"}
 ::: {#ch02.xhtml_grouping_everything .sect2}
-## Grouping Everything {#ch02.xhtml_sigil_toc_id_60}
+<h2>Grouping Everything {#ch02.xhtml_sigil_toc_id_60}
 
 You now know that you can group selectors and you can group
 declarations. By combining both kinds of grouping in single rules, you
@@ -1953,7 +1950,7 @@ alt="css5 0204" />
 
 ::::::::::::::: {.section pdf-bookmark="Class and ID Selectors" data-type="sect1"}
 :::::::::::::: {#ch02.xhtml_class_and_id_selectors .sect1}
-# Class and ID Selectors {#ch02.xhtml_sigil_toc_id_63}
+<h1>Class and ID Selectors {#ch02.xhtml_sigil_toc_id_63}
 
 So far, we've been grouping selectors and declarations together in a
 variety of ways, but the selectors we've been using are very simple ones
@@ -1991,7 +1988,7 @@ elements involved, by using class selectors.
 
 ::::: {.section pdf-bookmark="Class Selectors" data-type="sect2"}
 :::: {#ch02.xhtml_class_selectors .sect2}
-## Class Selectors {#ch02.xhtml_sigil_toc_id_64}
+<h2>Class Selectors {#ch02.xhtml_sigil_toc_id_64}
 
 The []{#ch02.xhtml_ix_class_selector primary="class selectors"
 data-type="indexterm"}[]{#ch02.xhtml_ix_selector_class
@@ -2100,7 +2097,7 @@ alt="css5 0206" />
 </figure>
 
 ::: {data-type="tip"}
-###### Tip {#ch02.xhtml_sigil_toc_id_67}
+#<h5>Tip {#ch02.xhtml_sigil_toc_id_67}
 
 Notice the []{#ch02.xhtml_idm45797111220928 primary="selectors"
 secondary="universal"
@@ -2133,7 +2130,7 @@ first number in your class selector, like so: `.\8675`.
 
 :::: {.section pdf-bookmark="Multiple Classes" data-type="sect2"}
 ::: {#ch02.xhtml_multiple_classes .sect2}
-## Multiple Classes {#ch02.xhtml_sigil_toc_id_68}
+<h2>Multiple Classes {#ch02.xhtml_sigil_toc_id_68}
 
 In the []{#ch02.xhtml_ix_multi_class_selector
 primary="multiple class selectors" data-type="indexterm"}previous
@@ -2218,7 +2215,7 @@ startref="ix_multi_class_selector" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="ID Selectors" data-type="sect2"}
 :::: {#ch02.xhtml_id_selectors .sect2}
-## ID Selectors {#ch02.xhtml_sigil_toc_id_70}
+<h2>ID Selectors {#ch02.xhtml_sigil_toc_id_70}
 
 In []{#ch02.xhtml_ix_selectors_id primary="selectors" secondary="ID"
 data-type="indexterm"}[]{#ch02.xhtml_ix_id_selector
@@ -2235,7 +2232,7 @@ data-type="indexterm"}[]{#ch02.xhtml_idm45797109055072
 primary="hash mark (#)" secondary="in ID selectors"
 secondary-sortas="ID selectors"
 data-type="indexterm"}[]{#ch02.xhtml_idm45797109034240
-primary="# (octothorpe)" secondary="in ID selectors"
+primary="<h1>(octothorpe)" secondary="in ID selectors"
 secondary-sortas="ID selectors" data-type="indexterm"}some ways, *ID
 selectors* are similar to class selectors, but a few crucial differences
 exist. First, ID selectors are preceded by a hash sign (`#`)---formally
@@ -2319,7 +2316,7 @@ all three would likely be red with a yellow background because all three
 match the `#mostImportant` selector.
 
 ::: {.note data-type="note"}
-###### Note {#ch02.xhtml_sigil_toc_id_71}
+#<h5>Note {#ch02.xhtml_sigil_toc_id_71}
 
 As with class names, IDs should never start with numbers. If you must
 refer to an ID that begins with a number and cannot change the ID value
@@ -2330,7 +2327,7 @@ in the markup, use a backslash before the first number, as in `#\309`.
 
 ::::: {.section pdf-bookmark="Deciding Between Class and ID" data-type="sect2"}
 :::: {#ch02.xhtml_deciding_between_class_and_id .sect2}
-## Deciding Between Class and ID {#ch02.xhtml_sigil_toc_id_72}
+<h2>Deciding Between Class and ID {#ch02.xhtml_sigil_toc_id_72}
 
 You may []{#ch02.xhtml_idm45797108833744 primary="selectors"
 secondary="class" data-type="indexterm"}[]{#ch02.xhtml_idm45797108832736
@@ -2353,7 +2350,7 @@ have the same value for their ID attributes, you should get the same
 styles applied to each.
 
 ::: {.note data-type="note"}
-###### Note {#ch02.xhtml_sigil_toc_id_73}
+#<h5>Note {#ch02.xhtml_sigil_toc_id_73}
 
 Having []{#ch02.xhtml_idm45797108799360
 primary="Document Object Model (DOM)" secondary="ID selectors and"
@@ -2414,7 +2411,7 @@ startref="ix_selectors_id" data-type="indexterm"}
 
 :::::::::::::::::::::: {.section pdf-bookmark="Attribute Selectors" data-type="sect1"}
 ::::::::::::::::::::: {#ch02.xhtml_attribute_selectors .sect1}
-# Attribute Selectors {#ch02.xhtml_sigil_toc_id_74}
+<h1>Attribute Selectors {#ch02.xhtml_sigil_toc_id_74}
 
 With both []{#ch02.xhtml_ix_selector_attrib primary="selectors"
 secondary="attribute"
@@ -2436,7 +2433,7 @@ attribute value selectors, and leading-value attribute selectors.
 
 :::: {.section pdf-bookmark="Simple Attribute Selectors" data-type="sect2"}
 ::: {#ch02.xhtml_simple_attribute_selectors .sect2}
-## Simple Attribute Selectors {#ch02.xhtml_sigil_toc_id_75}
+<h2>Simple Attribute Selectors {#ch02.xhtml_sigil_toc_id_75}
 
 If you want to select elements that have a certain attribute, regardless
 of that attribute's value, you can use a *simple attribute selector*.
@@ -2541,7 +2538,7 @@ second or third:
 
 :::: {.section pdf-bookmark="Selection Based on Exact Attribute Value" data-type="sect2"}
 ::: {#ch02.xhtml_selection_based_on_exact_attribute_value .sect2}
-## Selection Based on Exact Attribute Value {#ch02.xhtml_sigil_toc_id_77}
+<h2>Selection Based on Exact Attribute Value {#ch02.xhtml_sigil_toc_id_77}
 
 You can []{#ch02.xhtml_ix_attrib_exact primary="attribute selectors"
 secondary="based on exact value" data-type="indexterm"}further narrow
@@ -2670,7 +2667,7 @@ primary="" startref="ix_attrib_exact" data-type="indexterm"}
 
 ::::::::::::: {.section pdf-bookmark="Selection Based on Partial Attribute Values" data-type="sect2"}
 :::::::::::: {#ch02.xhtml_selection_based_on_partial_attribute_val .sect2}
-## Selection Based on Partial Attribute Values {#ch02.xhtml_sigil_toc_id_79}
+<h2>Selection Based on Partial Attribute Values {#ch02.xhtml_sigil_toc_id_79}
 
 Odds are []{#ch02.xhtml_ix_substring_attrib
 primary="substring matching, for attribute selectors"
@@ -2697,8 +2694,7 @@ primary="tilde, equal sign (~=), in attribute selectors"
 data-type="indexterm"}
 
   Type             Description
-  ---------------- ----------------------------------------------------------------------------------------------------------------------------------------------------
-  `[foo~="bar"]`   Selects any element with an attribute `foo` whose value contains the word `bar` in a space-separated list of words
+   `[foo~="bar"]`   Selects any element with an attribute `foo` whose value contains the word `bar` in a space-separated list of words
   `[foo*="bar"]`   Selects any element with an attribute `foo` whose value *contains* the substring `bar`
   `[foo^="bar"]`   Selects any element with an attribute `foo` whose value *begins* with `bar`
   `[foo$="bar"]`   Selects any element with an attribute `foo` whose value *ends* with `bar`
@@ -2754,7 +2750,7 @@ Pseudo-Classes"](../Text/ch03.xhtml#the_colon_lang_pseudo-class){data-type="xref
 
 :::: {.section pdf-bookmark="Matching one word in a space-separated list" data-type="sect3"}
 ::: {#ch02.xhtml_matching_one_word_in_a_space-separated_l .sect3}
-### Matching one word in a space-separated list {#ch02.xhtml_sigil_toc_id_80}
+<h3>Matching one word in a space-separated list {#ch02.xhtml_sigil_toc_id_80}
 
 For any []{#ch02.xhtml_idm45797095507072
 primary="space-separated list of words" data-type="indexterm"}attribute
@@ -2840,7 +2836,7 @@ whose `title` value doesn't contain the word `Figure`, won't be matched.
 
 :::: {.section pdf-bookmark="Matching a substring within an attribute value" data-type="sect3"}
 ::: {#ch02.xhtml_matching_a_substring_within_an_attribute .sect3}
-### Matching a substring within an attribute value {#ch02.xhtml_sigil_toc_id_82}
+<h3>Matching a substring within an attribute value {#ch02.xhtml_sigil_toc_id_82}
 
 Sometimes you want to []{#ch02.xhtml_ix_asterisk_attrib2
 primary="asterisk, equal sign (*=), in attribute selectors"
@@ -2954,7 +2950,7 @@ input[type="CHeckBoX"] {margin-right: 10px;}
 
 :::: {.section pdf-bookmark="Matching a substring at the beginning of an attribute value" data-type="sect3"}
 ::: {#ch02.xhtml_matching_a_substring_at_the_beginning_of .sect3}
-### Matching a substring at the beginning of an attribute value {#ch02.xhtml_sigil_toc_id_84}
+<h3>Matching a substring at the beginning of an attribute value {#ch02.xhtml_sigil_toc_id_84}
 
 If you []{#ch02.xhtml_idm45797094949680
 primary="^= (caret, equal sign), in attribute selectors"
@@ -3009,7 +3005,7 @@ Selecting them all is just a simple matter of using
 
 ::::: {.section pdf-bookmark="Matching a substring at the end of an attribute value" data-type="sect3"}
 :::: {#ch02.xhtml_matching_a_substring_at_the_end_of_an_at .sect3}
-### Matching a substring at the end of an attribute value {#ch02.xhtml_sigil_toc_id_86}
+<h3>Matching a substring at the end of an attribute value {#ch02.xhtml_sigil_toc_id_86}
 
 The []{#ch02.xhtml_idm45797094831168
 primary="$= (dollar sign, equal sign), in attribute selectors"
@@ -3054,7 +3050,7 @@ data-type="indexterm"}[]{#ch02.xhtml_idm45797094744688 primary=""
 startref="ix_substring_attrib" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch02.xhtml_sigil_toc_id_88}
+<h5>Note {#ch02.xhtml_sigil_toc_id_88}
 
 You may have noticed that we've quoted all the attribute values in the
 attribute selectors. []{#ch02.xhtml_idm45797094742656
@@ -3075,7 +3071,7 @@ identifiers.
 
 ::::: {.section pdf-bookmark="The Case-Insensitivity Identifier" data-type="sect2"}
 :::: {#ch02.xhtml_the_case_insensitivity_identifier .sect2}
-## The Case-Insensitivity Identifier {#ch02.xhtml_sigil_toc_id_89}
+<h2>The Case-Insensitivity Identifier {#ch02.xhtml_sigil_toc_id_89}
 
 Including an `i` before the []{#ch02.xhtml_idm45797100023376
 primary="attribute selectors"
@@ -3126,7 +3122,7 @@ data-type="indexterm"}[]{#ch02.xhtml_idm45797099931184 primary=""
 startref="ix_selector_attrib" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch02.xhtml_sigil_toc_id_90}
+<h5>Note {#ch02.xhtml_sigil_toc_id_90}
 
 A proposed mirror identifier, `s`, enforces case sensitivity. As of
 early 2023, it is supported by only the Firefox family of browsers.
@@ -3138,7 +3134,7 @@ early 2023, it is supported by only the Firefox family of browsers.
 
 :::::::::::::::: {.section pdf-bookmark="Using Document Structure" data-type="sect1"}
 ::::::::::::::: {#ch02.xhtml_using_document_structure .sect1}
-# Using Document Structure {#ch02.xhtml_sigil_toc_id_91}
+<h1>Using Document Structure {#ch02.xhtml_sigil_toc_id_91}
 
 CSS is so []{#ch02.xhtml_ix_selctor_doc_struct_ch2 primary="selectors"
 secondary="document structure and"
@@ -3151,7 +3147,7 @@ selection.
 
 :::: {.section pdf-bookmark="Understanding the Parent-Child Relationship" data-type="sect2"}
 ::: {#ch02.xhtml_understanding_the_parent-child_relations .sect2}
-## Understanding the Parent-Child Relationship {#ch02.xhtml_sigil_toc_id_92}
+<h2>Understanding the Parent-Child Relationship {#ch02.xhtml_sigil_toc_id_92}
 
 To []{#ch02.xhtml_idm45797099922272
 primary="parent-child relationship, document structure"
@@ -3259,7 +3255,7 @@ element is also called the *root element*.
 
 :::::: {.section pdf-bookmark="Defining Descendant Selectors" data-type="sect2"}
 ::::: {#ch02.xhtml_descendant_selectors .sect2}
-## Defining Descendant Selectors {#ch02.xhtml_sigil_toc_id_94}
+<h2>Defining Descendant Selectors {#ch02.xhtml_sigil_toc_id_94}
 
 The first []{#ch02.xhtml_ix_descend_selector
 primary="descendant (contextual) selectors"
@@ -3363,7 +3359,7 @@ type <span class="keep-together">of element</span></h6>
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch02.xhtml_sigil_toc_id_98}
+<h5>Note {#ch02.xhtml_sigil_toc_id_98}
 
 `:any-link` refers to both visited and unvisited links. We'll talk about
 it in detail in
@@ -3449,7 +3445,7 @@ data-type="indexterm"}[]{#ch02.xhtml_idm45797099256160 primary=""
 startref="ix_descend_selector" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch02.xhtml_sigil_toc_id_99}
+<h5>Note {#ch02.xhtml_sigil_toc_id_99}
 
 As of early 2023, proposals have been made to add element-proximity
 awareness to CSS via *selector scoping*, but the proposals are still
@@ -3460,7 +3456,7 @@ being actively revised and may not come to fruition.
 
 :::: {.section pdf-bookmark="Selecting Children" data-type="sect2"}
 ::: {#ch02.xhtml_selecting_children .sect2}
-## Selecting Children {#ch02.xhtml_sigil_toc_id_100}
+<h2>Selecting Children {#ch02.xhtml_sigil_toc_id_100}
 
 In some []{#ch02.xhtml_idm45797099251856 primary="selectors"
 secondary="child combinator for"
@@ -3527,7 +3523,7 @@ that is a *child* of a `<td>` element that is itself *descended* from a
 
 :::: {.section pdf-bookmark="Selecting Adjacent-Sibling Elements" data-type="sect2"}
 ::: {#ch02.xhtml_selecting_adjacent_sibling_elements .sect2}
-## Selecting Adjacent-Sibling Elements {#ch02.xhtml_sigil_toc_id_102}
+<h2>Selecting Adjacent-Sibling Elements {#ch02.xhtml_sigil_toc_id_102}
 
 Let's say you []{#ch02.xhtml_ix_sib_elem_doc_struct
 primary="sibling elements, document structure"
@@ -3663,7 +3659,7 @@ startref="ix_selector_adj_sib" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Selecting Following Siblings" data-type="sect2"}
 ::: {#ch02.xhtml_selecting_following_siblings .sect2}
-## Selecting Following Siblings {#ch02.xhtml_sigil_toc_id_105}
+<h2>Selecting Following Siblings {#ch02.xhtml_sigil_toc_id_105}
 
 The *general sibling combinator* lets you []{#ch02.xhtml_ix_follow_sib
 primary="following siblings, selecting"
@@ -3734,7 +3730,7 @@ alt="css5 0221" />
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch02.xhtml_sel_summary .sect1}
-# Summary {#ch02.xhtml_sigil_toc_id_107}
+<h1>Summary {#ch02.xhtml_sigil_toc_id_107}
 
 By using selectors based on the document's language, you can create CSS
 rules that apply to a large number of similar elements just as easily as
@@ -3771,7 +3767,7 @@ pseudo-element selectors.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch03.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch03.xhtml_pseudo_classes_and_elements .chapter}
-# [Chapter 3. ]{.label}Pseudo-Class and -Element Selectors
+<h1>[Chapter 3. ]{.label}Pseudo-Class and -Element Selectors
 
 In the previous chapter, you saw how selectors can match a single
 element or a collection of elements, using fairly simple expressions
@@ -3784,7 +3780,7 @@ great deal more, CSS has the pseudo-class and pseudo-element selectors.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Pseudo-Class Selectors" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch03.xhtml_pseudo-class_selectors .sect1}
-# Pseudo-Class Selectors {#ch03.xhtml_sigil_toc_id_108}
+<h1>Pseudo-Class Selectors {#ch03.xhtml_sigil_toc_id_108}
 
 *Pseudo-class selectors* let you []{#ch03.xhtml_ix_pseudo_class_ch3
 primary="pseudo-class selectors" data-type="indexterm"}assign styles to
@@ -3833,7 +3829,7 @@ anywhere in a selector.
 
 :::: {.section pdf-bookmark="Combining Pseudo-Classes" data-type="sect2"}
 ::: {#ch03.xhtml_combining_pseudo-classes .sect2}
-## Combining Pseudo-Classes {#ch03.xhtml_sigil_toc_id_109}
+<h2>Combining Pseudo-Classes {#ch03.xhtml_sigil_toc_id_109}
 
 Before we really get started, a word about
 []{#ch03.xhtml_idm45797102086032 primary="pseudo-class selectors"
@@ -3867,7 +3863,7 @@ example, a link cannot be both visited and unvisited, so
 
 ::::::::::::::::::::::: {.section pdf-bookmark="Structural Pseudo-Classes" data-type="sect2"}
 :::::::::::::::::::::: {#ch03.xhtml_structural_pseudo-classes .sect2}
-## Structural Pseudo-Classes {#ch03.xhtml_sigil_toc_id_110}
+<h2>Structural Pseudo-Classes {#ch03.xhtml_sigil_toc_id_110}
 
 The []{#ch03.xhtml_ix_peudoclass_struct primary="pseudo-class selectors"
 secondary="structural pseudo-classes"
@@ -3883,7 +3879,7 @@ types of elements.
 
 :::: {.section pdf-bookmark="Selecting the root element" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_the_root_element .sect3}
-### Selecting the root element {#ch03.xhtml_sigil_toc_id_111}
+<h3>Selecting the root element {#ch03.xhtml_sigil_toc_id_111}
 
 This is the []{#ch03.xhtml_idm45797102013248
 primary=":root pseudo-class" primary-sortas="root pseudo-class"
@@ -3927,7 +3923,7 @@ but otherwise they'll have the same effect.
 
 :::: {.section pdf-bookmark="Selecting empty elements" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_empty_elements .sect3}
-### Selecting empty elements {#ch03.xhtml_sigil_toc_id_113}
+<h3>Selecting empty elements {#ch03.xhtml_sigil_toc_id_113}
 
 With the []{#ch03.xhtml_idm45797101957696 primary=":empty pseudo-class"
 primary-sortas="empty pseudo-class"
@@ -3976,7 +3972,7 @@ we'll cover in the next chapter.)
 
 :::: {.section pdf-bookmark="Selecting only children" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_only_children .sect3}
-### Selecting only children {#ch03.xhtml_sigil_toc_id_114}
+<h3>Selecting only children {#ch03.xhtml_sigil_toc_id_114}
 
 If you've ever []{#ch03.xhtml_ix_only_child_pseudo
 primary=":only-child pseudo-class"
@@ -4070,7 +4066,7 @@ startref="ix_only_child_pseudo" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Using only-of-type selection" data-type="sect3"}
 ::: {#ch03.xhtml_only_of_type_selection .sect3}
-### Using only-of-type selection {#ch03.xhtml_sigil_toc_id_117}
+<h3>Using only-of-type selection {#ch03.xhtml_sigil_toc_id_117}
 
 That's all []{#ch03.xhtml_ix_only_type_pseudo
 primary=":only-of-type pseudo-class"
@@ -4171,7 +4167,7 @@ startref="ix_only_type_pseudo" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Selecting first children" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_first_children .sect3}
-### Selecting first children {#ch03.xhtml_sigil_toc_id_119}
+<h3>Selecting first children {#ch03.xhtml_sigil_toc_id_119}
 
 It's pretty []{#ch03.xhtml_ix_first_child_pseudo
 primary=":first-child pseudo-class"
@@ -4259,7 +4255,7 @@ startref="ix_first_child_pseudo" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Selecting last children" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_last_children .sect3}
-### Selecting last children {#ch03.xhtml_sigil_toc_id_121}
+<h3>Selecting last children {#ch03.xhtml_sigil_toc_id_121}
 
 The mirror []{#ch03.xhtml_idm45797093510832
 primary=":last-child pseudo-class"
@@ -4321,7 +4317,7 @@ Either way, we get paragraphs with red foreground and background colors
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Selecting the first and last of a type" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_first_a_type .sect3}
-### Selecting the first and last of a type {#ch03.xhtml_sigil_toc_id_123}
+<h3>Selecting the first and last of a type {#ch03.xhtml_sigil_toc_id_123}
 
 In a []{#ch03.xhtml_ix_first_type_pseudo
 primary=":first-of-type pseudo-class"
@@ -4425,7 +4421,7 @@ table:first-of-type:last-of-type {background: red;}
 
 ::::: {.section pdf-bookmark="Selecting every nth child" data-type="sect3"}
 :::: {#ch03.xhtml_selecting_every_nth_child .sect3}
-### Selecting every nth child {#ch03.xhtml_sigil_toc_id_126}
+<h3>Selecting every nth child {#ch03.xhtml_sigil_toc_id_126}
 
 If you can []{#ch03.xhtml_ix_nth_child_pseudo
 primary=":nth-child() pseudo-class"
@@ -4621,7 +4617,7 @@ li:nth-last-child(-n + 5) {font-weight: bold;}
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_130}
+<h5>Note {#ch03.xhtml_sigil_toc_id_130}
 
 An extension of `:nth-child()` and `:nth-last-child()` allows selecting
 from among elements matched by a simple or compound selector; for
@@ -4684,7 +4680,7 @@ startref="ix_nth_lastchild_pseudo" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Selecting every nth of a type" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_every_nth_of_a_type .sect3}
-### Selecting every nth of a type {#ch03.xhtml_sigil_toc_id_132}
+<h3>Selecting every nth of a type {#ch03.xhtml_sigil_toc_id_132}
 
 In what []{#ch03.xhtml_idm45797105587456
 primary=":nth-of-type() pseudo-class"
@@ -4796,7 +4792,7 @@ startref="ix_struct_pseudoclass" data-type="indexterm"}
 
 ::::::::::: {.section pdf-bookmark="Location Pseudo-Classes" data-type="sect2"}
 :::::::::: {#ch03.xhtml_location_pseudo-classes .sect2}
-## Location Pseudo-Classes {#ch03.xhtml_sigil_toc_id_135}
+<h2>Location Pseudo-Classes {#ch03.xhtml_sigil_toc_id_135}
 
 With []{#ch03.xhtml_ix_loc_pseudo_class
 primary="location pseudo-classes"
@@ -4831,7 +4827,7 @@ two basic types of links: visited and unvisited.
 
 :::::: {.section .less_space .pagebreak-before pdf-bookmark="Hyperlink-specific pseudo-classes" data-type="sect3"}
 ::::: {#ch03.xhtml_hyperlink__specific_pseudo-classes .sect3}
-### Hyperlink-specific pseudo-classes {#ch03.xhtml_sigil_toc_id_136}
+<h3>Hyperlink-specific pseudo-classes {#ch03.xhtml_sigil_toc_id_136}
 
 CSS defines a few []{#ch03.xhtml_ix_pseudo_class_hyper
 primary="pseudo-class selectors" secondary="hyperlink pseudo-classes"
@@ -4844,7 +4840,6 @@ resource. [Table 3-1](#ch03.xhtml_link_pseudo-classes){data-type="xref"}
 describes the pseudo-classes you can apply to them.
 
   Name                         Description
-  ---------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `:link`                      Refers []{#ch03.xhtml_ix_link_pseudo_class primary=":link pseudo-class" primary-sortas="link pseudo-class" data-type="indexterm"}[]{#ch03.xhtml_ix_links_link_pseudo primary="links" secondary=":link pseudo-class" secondary-sortas="link pseudo-class" data-type="indexterm"}to any anchor that is a hyperlink (i.e., has an `href` attribute) and points to an address that has not been visited.
   `:visited`{.keep-together}   Refers[]{#ch03.xhtml_ix_visited_pseudo primary=":visited pseudo-class" primary-sortas="visited pseudo-class" data-type="indexterm"}[]{#ch03.xhtml_ix_links_visited_pseudo primary="links" secondary=":visited pseudo-class" secondary-sortas="visited pseudo-class" data-type="indexterm"} to any anchor that is a hyperlink to an already visited address. For security reasons, the styles that can be applied to visited links are severely limited; see ["Visited Links and Privacy"](#ch03.xhtml_visited_links_and_privacy){data-type="xref"} for details.
   `:any-link`                  Refers[]{#ch03.xhtml_idm45797105279552 primary=":any-link pseudo-class" primary-sortas="any-link pseudo-class" data-type="indexterm"}[]{#ch03.xhtml_idm45797105278544 primary="links" secondary=":any-link pseudo-class" secondary-sortas="any-link pseudo-class" data-type="indexterm"} to any element that would be matched by either `:link` or `:visited`.
@@ -4909,7 +4904,7 @@ purple once visited). For improved usability and accessibility, visited
 links should be easily distinguished from unvisited links.
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_137}
+<h5>Note {#ch03.xhtml_sigil_toc_id_137}
 
 Styled []{#ch03.xhtml_idm45797105076816 primary="accessibility issues"
 secondary="styled visited links" data-type="indexterm"}visited links
@@ -4945,7 +4940,7 @@ a#footer-copyright:any-link {text-decoration: underline;}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch03.xhtml_visited_links_and_privacy .sidebar}
-# Visited Links and Privacy {#ch03.xhtml_sigil_toc_id_138}
+<h1>Visited Links and Privacy {#ch03.xhtml_sigil_toc_id_138}
 
 For []{#ch03.xhtml_idm45797105024880 primary="privacy issue"
 secondary="visited links and"
@@ -5014,7 +5009,7 @@ startref="ix_visited_pseudo" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Nonhyperlink location pseudo-classes" data-type="sect3"}
 :::: {#ch03.xhtml_idm45797105325152 .sect3}
-### Nonhyperlink location pseudo-classes {#ch03.xhtml_sigil_toc_id_139}
+<h3>Nonhyperlink location pseudo-classes {#ch03.xhtml_sigil_toc_id_139}
 
 Hyperlinks aren't the only []{#ch03.xhtml_ix_nonhyper_pseudo
 primary="non-hyperlink location pseudo-classes"
@@ -5024,7 +5019,6 @@ summarized in
 [Table 3-2](#ch03.xhtml_non_link_pseudo-classes){data-type="xref"}.
 
   Name               Description
-  ------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `:target`          Refers[]{#ch03.xhtml_ix_target_pseudo primary=":target pseudo-class" primary-sortas="target pseudo-class" data-type="indexterm"} to an element whose `id` attribute value matches the fragment selector in the URL used to load the page---that is, the element specifically targeted by the URL.
   `:target-within`   Refers[]{#ch03.xhtml_idm45797104951584 primary=":target-within pseudo-class" primary-sortas="target-within pseudo-class" data-type="indexterm"} to an element that is the target of the URL, or that contains an element that is so targeted. *Note: not supported as of early 2023.*
   `:scope`           Refers[]{#ch03.xhtml_idm45797104948384 primary=":scope pseudo-class" primary-sortas="scope pseudo-class" data-type="indexterm"} to elements that are a reference point for selector matching.
@@ -5157,7 +5151,7 @@ future, but for now, you should use `:scope` only in JS contexts.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch03.xhtml_javascript_and_css .sidebar}
-# JS and CSS {#ch03.xhtml_sigil_toc_id_141}
+<h1>JS and CSS {#ch03.xhtml_sigil_toc_id_141}
 
 CSS has []{#ch03.xhtml_idm45797096674816
 primary="JavaScript, CSS influence on" data-type="indexterm"}influenced
@@ -5215,7 +5209,7 @@ startref="ix_loc_pseudo_class" data-type="indexterm"}
 
 :::::::::::: {.section pdf-bookmark="User Action Pseudo-Classes" data-type="sect2"}
 ::::::::::: {#ch03.xhtml_user_action_pseudo-classes .sect2}
-## User Action Pseudo-Classes {#ch03.xhtml_sigil_toc_id_142}
+<h2>User Action Pseudo-Classes {#ch03.xhtml_sigil_toc_id_142}
 
 CSS []{#ch03.xhtml_ix_pseudo_class_dyn primary="pseudo-class selectors"
 secondary="user action pseudo-classes"
@@ -5230,7 +5224,6 @@ Pseudo-classes are described in
 [Table 3-3](#ch03.xhtml_user_action_pseudo-classes-id1){data-type="xref"}.
 
   Name               Description
-  ------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `:hover`           Refers[]{#ch03.xhtml_idm45797096629344 primary=":hover pseudo-class" primary-sortas="hover pseudo-class" data-type="indexterm"} to any element over which the mouse pointer is placed---e.g., a hyperlink over which the mouse pointer is hovering
   `:active`          Refers[]{#ch03.xhtml_idm45797096603984 primary=":active pseudo-class" primary-sortas="active pseudo-class" data-type="indexterm"} to any element that has been activated by user input---e.g., a hyperlink on which a user clicks during the time the mouse button is held down, or an element a user has tapped via touch screen
   `:focus`           Refers[]{#ch03.xhtml_idm45797096601184 primary=":focus pseudo-class" primary-sortas="focus pseudo-class" data-type="indexterm"} to any element that currently has the input focus---i.e., can accept keyboard input or otherwise be activated in some way
@@ -5259,7 +5252,7 @@ a:active {color: yellow;}
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_143}
+<h5>Note {#ch03.xhtml_sigil_toc_id_143}
 
 The order of the pseudo-classes is more important than it might seem at
 first. The usual recommendation is `link`, `visited`, `focus`, `hover`,
@@ -5299,7 +5292,7 @@ second one first.
 
 :::: {.section pdf-bookmark="The :focus-visible pseudo-class" data-type="sect3"}
 ::: {#ch03.xhtml_idm45797096497424 .sect3}
-### The :focus-visible pseudo-class {#ch03.xhtml_sigil_toc_id_145}
+<h3>The :focus-visible pseudo-class {#ch03.xhtml_sigil_toc_id_145}
 
 The `:focus-visible` class is very much like `:focus` in that it applies
 to elements that have focus, but there's a big difference: it will match
@@ -5327,7 +5320,7 @@ clicked with the mouse.
 
 ::::: {.section pdf-bookmark="The :focus-within pseudo-class" data-type="sect3"}
 :::: {#ch03.xhtml_idm45797096461296 .sect3}
-### The :focus-within pseudo-class {#ch03.xhtml_sigil_toc_id_146}
+<h3>The :focus-within pseudo-class {#ch03.xhtml_sigil_toc_id_146}
 
 Building on []{#ch03.xhtml_idm45797096459920
 primary=":focus-within pseudo-class"
@@ -5369,7 +5362,7 @@ overdoing it, though. Too many focus styles can create visual overload,
 potentially confusing users.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch03.xhtml_sigil_toc_id_148}
+<h5>Warning {#ch03.xhtml_sigil_toc_id_148}
 
 While you can style elements with `:focus` any way you like, do *not*
 remove all styling from focused elements. Differentiating which element
@@ -5381,7 +5374,7 @@ navigating your site or application with a keyboard.
 
 :::: {.section pdf-bookmark="Real-world issues with dynamic styling" data-type="sect3"}
 ::: {#ch03.xhtml_real-world_issues_with_dynamic_styling .sect3}
-### Real-world issues with dynamic styling {#ch03.xhtml_sigil_toc_id_149}
+<h3>Real-world issues with dynamic styling {#ch03.xhtml_sigil_toc_id_149}
 
 Dynamic []{#ch03.xhtml_idm45797096339984 primary=":hover pseudo-class"
 primary-sortas="hover pseudo-class"
@@ -5428,7 +5421,7 @@ startref="ix_ui_pseudo_class" data-type="indexterm"}
 
 ::::::::::::::::::: {.section pdf-bookmark="UI-State Pseudo-Classes" data-type="sect2"}
 :::::::::::::::::: {#ch03.xhtml_ui_state_pseudo-classes .sect2}
-## UI-State Pseudo-Classes {#ch03.xhtml_sigil_toc_id_151}
+<h2>UI-State Pseudo-Classes {#ch03.xhtml_sigil_toc_id_151}
 
 Closely []{#ch03.xhtml_ix_uistate_pseudo_class
 primary="UI-state pseudo-classes"
@@ -5441,7 +5434,6 @@ These pseudo-classes allow for styling based on the current state of UI
 elements such as checkboxes.
 
   Name                   Description
-  ---------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `:enabled`             Refers[]{#ch03.xhtml_idm45797096275184 primary=":enabled pseudo-class" primary-sortas="enabled pseudo-class" data-type="indexterm"} to UI elements (such as form elements) that are enabled---that is, available for input
   `:disabled`            Refers[]{#ch03.xhtml_idm45797096272384 primary=":disabled pseudo-class" primary-sortas="disabled pseudo-class" data-type="indexterm"} to UI elements (such as form elements) that are disabled---that is, not available for input
   `:checked`             Refers[]{#ch03.xhtml_idm45797096269472 primary=":checked pseudo-class" primary-sortas="checked pseudo-class" data-type="indexterm"} to radio buttons or checkboxes that have been selected, either by the user or by defaults within the document itself
@@ -5469,7 +5461,7 @@ scripting.
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Enabled and disabled UI elements" data-type="sect3"}
 ::: {#ch03.xhtml_enabled_and_disabled_ui_elements .sect3}
-### Enabled and disabled UI elements {#ch03.xhtml_sigil_toc_id_152}
+<h3>Enabled and disabled UI elements {#ch03.xhtml_sigil_toc_id_152}
 
 Thanks to both []{#ch03.xhtml_idm45797096231952
 primary=":enabled pseudo-class" primary-sortas="enabled pseudo-class"
@@ -5510,7 +5502,7 @@ alt="css5 0319" />
 
 :::: {.section pdf-bookmark="Check states" data-type="sect3"}
 ::: {#ch03.xhtml_check_states .sect3}
-### Check states {#ch03.xhtml_sigil_toc_id_154}
+<h3>Check states {#ch03.xhtml_sigil_toc_id_154}
 
 In []{#ch03.xhtml_idm45797096211248 primary=":checked pseudo-class"
 primary-sortas="checked pseudo-class" data-type="indexterm"}addition to
@@ -5584,7 +5576,7 @@ pseudo-class should match only elements that should be checkable.
 
 ::::: {.section pdf-bookmark="Default-value pseudo-classes" data-type="sect3"}
 :::: {#ch03.xhtml_idm45797096212848 .sect3}
-### Default-value pseudo-classes {#ch03.xhtml_sigil_toc_id_156}
+<h3>Default-value pseudo-classes {#ch03.xhtml_sigil_toc_id_156}
 
 Three []{#ch03.xhtml_idm45797096066016 primary=":default pseudo-class"
 primary-sortas="default pseudo-class"
@@ -5656,7 +5648,7 @@ input:autofill {border: thick solid maroon;}
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_157}
+<h5>Note {#ch03.xhtml_sigil_toc_id_157}
 
 While you can add to default browser styling of autofilled text,
 overriding the browser's built-in styles for things such as background
@@ -5670,7 +5662,7 @@ protect the user.
 
 :::: {.section pdf-bookmark="Optionality pseudo-classes" data-type="sect3"}
 ::: {#ch03.xhtml_idm45797096067056 .sect3}
-### Optionality pseudo-classes {#ch03.xhtml_sigil_toc_id_158}
+<h3>Optionality pseudo-classes {#ch03.xhtml_sigil_toc_id_158}
 
 The `:required` []{#ch03.xhtml_idm45797095845760
 primary=":optional pseudo-class" primary-sortas="optional pseudo-class"
@@ -5711,7 +5703,7 @@ won't lead to an optionality pseudo-class match.
 
 :::: {.section pdf-bookmark="Validity pseudo-classes" data-type="sect3"}
 ::: {#ch03.xhtml_idm45797095803136 .sect3}
-### Validity pseudo-classes {#ch03.xhtml_sigil_toc_id_159}
+<h3>Validity pseudo-classes {#ch03.xhtml_sigil_toc_id_159}
 
 The `:valid` []{#ch03.xhtml_idm45797095801120
 primary=":valid pseudo-class" primary-sortas="valid pseudo-class"
@@ -5768,7 +5760,7 @@ email address.
 
 :::: {.section pdf-bookmark="Range pseudo-classes" data-type="sect3"}
 ::: {#ch03.xhtml_idm45797095670112 .sect3}
-### Range pseudo-classes {#ch03.xhtml_sigil_toc_id_161}
+<h3>Range pseudo-classes {#ch03.xhtml_sigil_toc_id_161}
 
 The []{#ch03.xhtml_idm45797095668192
 primary=":out-of-range pseudo-class"
@@ -5835,7 +5827,7 @@ input[type="number"]:in-range {font-weight: bold;}
 
 :::: {.section pdf-bookmark="Mutability pseudo-classes" data-type="sect3"}
 ::: {#ch03.xhtml_idm45797110598416 .sect3}
-### Mutability pseudo-classes {#ch03.xhtml_sigil_toc_id_162}
+<h3>Mutability pseudo-classes {#ch03.xhtml_sigil_toc_id_162}
 
 The []{#ch03.xhtml_idm45797110640160 primary=":read-only pseudo-class"
 primary-sortas="read-only pseudo-class"
@@ -5885,7 +5877,7 @@ startref="ix_uistate_pseudo_class" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="The :lang() and :dir() Pseudo-Classes" data-type="sect2"}
 ::: {#ch03.xhtml_the_colon_lang_pseudo-class .sect2}
-## The :lang() and :dir() Pseudo-Classes {#ch03.xhtml_sigil_toc_id_163}
+<h2>The :lang() and :dir() Pseudo-Classes {#ch03.xhtml_sigil_toc_id_163}
 
 When you want to []{#ch03.xhtml_idm45797110532592
 primary=":lang() pseudo-class" primary-sortas="lang() pseudo-class"
@@ -5945,7 +5937,7 @@ only direction values that HTML supports.
 
 :::::::::::: {.section .less_space .pagebreak-before pdf-bookmark="Logical Pseudo-Classes" data-type="sect2"}
 ::::::::::: {#ch03.xhtml_logical_pseudo-classes .sect2}
-## Logical Pseudo-Classes {#ch03.xhtml_sigil_toc_id_164}
+<h2>Logical Pseudo-Classes {#ch03.xhtml_sigil_toc_id_164}
 
 Beyond []{#ch03.xhtml_ix_pseudo_class_logical
 primary="pseudo-class selectors" secondary="logical pseudo-classes"
@@ -5956,7 +5948,7 @@ flexibility to CSS selectors.
 
 ::::: {.section pdf-bookmark="The negation pseudo-class" data-type="sect3"}
 :::: {#ch03.xhtml_the_negation_pseudo-class .sect3}
-### The negation pseudo-class {#ch03.xhtml_sigil_toc_id_165}
+<h3>The negation pseudo-class {#ch03.xhtml_sigil_toc_id_165}
 
 Every []{#ch03.xhtml_ix_neg_pseudo primary="negation pseudo-class"
 data-type="indexterm"}selector we've covered thus far has had one thing
@@ -6095,7 +6087,7 @@ form *:not(p + *, li, thead > tr > th)
 ```
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch03.xhtml_sigil_toc_id_169}
+<h5>Warning {#ch03.xhtml_sigil_toc_id_169}
 
 The ability to use complex selectors in `:not()` came to browsers in
 only early 2021, so exercise caution when using it, especially in
@@ -6138,7 +6130,7 @@ startref="ix_not_pseudo" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="The :is() and :where() pseudo-classes" data-type="sect3"}
 :::: {#ch03.xhtml_the_matches-any_pseudo-classes .sect3}
-### The :is() and :where() pseudo-classes {#ch03.xhtml_sigil_toc_id_170}
+<h3>The :is() and :where() pseudo-classes {#ch03.xhtml_sigil_toc_id_170}
 
 CSS has two []{#ch03.xhtml_ix_where_pseudo_class
 primary=":where() pseudo-class" primary-sortas="where() pseudo-class"
@@ -6220,7 +6212,7 @@ worry! We haven't discussed specificity yet but will in the next
 chapter.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch03.xhtml_sigil_toc_id_172}
+<h5>Warning {#ch03.xhtml_sigil_toc_id_172}
 
 `:is()` and `:where()` came to browsers in only early 2021, so exercise
 caution when using them, especially in legacy
@@ -6234,7 +6226,7 @@ startref="ix_where_pseudo_class" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Selecting defined elements" data-type="sect3"}
 ::: {#ch03.xhtml_selecting_defined_elements .sect3}
-### Selecting defined elements {#ch03.xhtml_sigil_toc_id_173}
+<h3>Selecting defined elements {#ch03.xhtml_sigil_toc_id_173}
 
 As the web has advanced, it's added more and more capabilities. One of
 the more recent is the ability to add custom HTML elements to your
@@ -6286,7 +6278,7 @@ mylib-combobox {font-size: inherit; border: 1px solid gray;
 
 ::::: {.section pdf-bookmark="The :has() Pseudo-Class" data-type="sect2"}
 :::: {#ch03.xhtml_the_has_pseudo_class .sect2}
-## The :has() Pseudo-Class {#ch03.xhtml_sigil_toc_id_174}
+<h2>The :has() Pseudo-Class {#ch03.xhtml_sigil_toc_id_174}
 
 The `:has()` []{#ch03.xhtml_ix_has_pseudo_class
 primary=":has() pseudo-class" primary-sortas="has() pseudo-class"
@@ -6572,7 +6564,7 @@ out thoroughly.[]{#ch03.xhtml_idm45797104200736 primary=""
 startref="ix_has_pseudo_class" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_178}
+<h5>Note {#ch03.xhtml_sigil_toc_id_178}
 
 It is not possible to []{#ch03.xhtml_idm45797104198784
 primary="pseudo-element selectors"
@@ -6585,7 +6577,7 @@ data-type="indexterm"}nest pseudo-elements like `::first-line` or
 
 :::: {.section pdf-bookmark="Other Pseudo-Classes" data-type="sect2"}
 ::: {#ch03.xhtml_idm45797109748624 .sect2}
-## Other Pseudo-Classes {#ch03.xhtml_sigil_toc_id_179}
+<h2>Other Pseudo-Classes {#ch03.xhtml_sigil_toc_id_179}
 
 Even more pseudo-classes are defined in the CSS Selectors specification,
 but they are partially supported in browsers, or in some cases not
@@ -6598,7 +6590,6 @@ could be replaced with an equivalent pseudo-class with a different name;
 that happens sometimes.)
 
   Name                    Description
-  ----------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `:nth-col()`            Refers to table cells or grid items that are in an nth column, which is found using the *an* + *b* pattern; essentially the same as `:nth-child()`, but refers specifically to table or grid columns
   `:nth-last-col()`       Refers to table cells or grid items that are in an nth-last column, which is found using the *an* + *b* pattern; essentially the same as `:nth-last-child()`, but refers specifically to table or grid columns
   `:left`                 Refers to any lefthand page in a printed document; see [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"} for more
@@ -6619,7 +6610,7 @@ that happens sometimes.)
 
 ::::::::::::::::::::::: {.section pdf-bookmark="Pseudo-Element Selectors" data-type="sect1"}
 :::::::::::::::::::::: {#ch03.xhtml_pseudo-element_selectors .sect1}
-# Pseudo-Element Selectors {#ch03.xhtml_sigil_toc_id_180}
+<h1>Pseudo-Element Selectors {#ch03.xhtml_sigil_toc_id_180}
 
 Much as []{#ch03.xhtml_ix_pseudo_elem primary="pseudo-element selectors"
 data-type="indexterm"}[]{#ch03.xhtml_ix_selector_pseudo_elem
@@ -6646,7 +6637,7 @@ single-colon pseudo-type selectors.
 
 :::: {.section pdf-bookmark="Styling the First Letter" data-type="sect2"}
 ::: {#ch03.xhtml_styling_the_first_letter .sect2}
-## Styling the First Letter {#ch03.xhtml_sigil_toc_id_181}
+<h2>Styling the First Letter {#ch03.xhtml_sigil_toc_id_181}
 
 The `::first-letter` []{#ch03.xhtml_idm45797104136048
 primary="::first-letter pseudo-element"
@@ -6717,7 +6708,7 @@ unit, even if there are several such symbols, should be included in the
 
 :::: {.section pdf-bookmark="Styling the First Line" data-type="sect2"}
 ::: {#ch03.xhtml_styling_the_first_line .sect2}
-## Styling the First Line {#ch03.xhtml_sigil_toc_id_183}
+<h2>Styling the First Line {#ch03.xhtml_sigil_toc_id_183}
 
 Similarly, `::first-line` []{#ch03.xhtml_ix_pseudo_elem_first_line
 primary="pseudo-element selectors" secondary="::first-line"
@@ -6787,7 +6778,7 @@ of that nested element that is displayed on the first line.
 
 :::: {.section pdf-bookmark="Restrictions on ::first-letter and ::first-line" data-type="sect2"}
 ::: {#ch03.xhtml_restrictions_on_colon_colon_first-letter .sect2}
-## Restrictions on ::first-letter and ::first-line {#ch03.xhtml_sigil_toc_id_185}
+<h2>Restrictions on ::first-letter and ::first-line {#ch03.xhtml_sigil_toc_id_185}
 
 The `::first-letter` and `::first-line` []{#ch03.xhtml_idm45797103929280
 primary="::first-letter pseudo-element"
@@ -6803,9 +6794,7 @@ There are also limits on the CSS properties that may be applied to
 gives an idea of these limitations. Like all pseudo-elements, neither
 can be included in `:has()` or `:not()`.
 
-+-----------------------------------+-----------------------------------+
 | `::first-letter`                  | `::first-line`                    |
-+===================================+===================================+
 | -   All font properties           | -   All font properties           |
 | -   All background properties     | -   All background properties     |
 | -   All text decoration           | -   All margin properties         |
@@ -6817,7 +6806,6 @@ can be included in `:has()` or `:not()`.
 | -   `box-shadow`                  |     properties                    |
 | -   `color`                       | -   `color`                       |
 | -   `opacity`                     | -   `opacity`                     |
-+-----------------------------------+-----------------------------------+
 
 : [Table 3-6. ]{.label}Properties permitted on pseudo-elements
 {#properties_permitted_on_pseudo-elements}
@@ -6826,7 +6814,7 @@ can be included in `:has()` or `:not()`.
 
 :::: {.section pdf-bookmark="The Placeholder Text Pseudo-Element" data-type="sect2"}
 ::: {#ch03.xhtml_the_placeholder_text_pseudo .sect2}
-## The Placeholder Text Pseudo-Element {#ch03.xhtml_sigil_toc_id_186}
+<h2>The Placeholder Text Pseudo-Element {#ch03.xhtml_sigil_toc_id_186}
 
 As it happens, the []{#ch03.xhtml_idm45797103884544
 primary="pseudo-element selectors"
@@ -6871,7 +6859,7 @@ startref="ix_pseudo_elem_first_line" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="The Form Button Pseudo-Element" data-type="sect2"}
 ::: {#ch03.xhtml_idm45797103813440 .sect2}
-## The Form Button Pseudo-Element {#ch03.xhtml_sigil_toc_id_187}
+<h2>The Form Button Pseudo-Element {#ch03.xhtml_sigil_toc_id_187}
 
 Speaking of []{#ch03.xhtml_idm45797103811712
 primary="pseudo-element selectors"
@@ -6922,7 +6910,7 @@ alt="css5 0331" />
 
 :::: {.section pdf-bookmark="Generating Content Before and After Elements" data-type="sect2"}
 ::: {#ch03.xhtml_styling_open_parenthesis_or_creating_clo .sect2}
-## Generating Content Before and After Elements {#ch03.xhtml_sigil_toc_id_189}
+<h2>Generating Content Before and After Elements {#ch03.xhtml_sigil_toc_id_189}
 
 Let's say you want to []{#ch03.xhtml_idm45797103747664
 primary="::before pseudo-element" primary-sortas="before pseudo-element"
@@ -6974,7 +6962,7 @@ thoroughly in
 
 ::::: {.section pdf-bookmark="Highlight Pseudo-Elements" data-type="sect2"}
 :::: {#ch03.xhtml_highlight_pseudo_elements .sect2}
-## Highlight Pseudo-Elements {#ch03.xhtml_sigil_toc_id_191}
+<h2>Highlight Pseudo-Elements {#ch03.xhtml_sigil_toc_id_191}
 
 A relatively new []{#ch03.xhtml_ix_pseudo_elem_highlite
 primary="pseudo-element selectors" secondary="highlight pseudo-elements"
@@ -6986,7 +6974,6 @@ summarized in
 [Table 3-7](#ch03.xhtml_highlight_pseudo-elements){data-type="xref"}.
 
   Name                 Description
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `::selection`        Refers[]{#ch03.xhtml_idm45797103619488 primary="::selection pseudo-element" primary-sortas="selection pseudo-element" data-type="indexterm"} to any part of a document that has been highlighted for user operation (e.g., text that has been drag-selected with a mouse)
   `::target-text`      Refers[]{#ch03.xhtml_idm45797103616608 primary="::target-text pseudo-element" primary-sortas="target-text pseudo-element" data-type="indexterm"} to the text of a document that has been targeted; this is distinct from the `:target` pseudo-class, which refers to a targeted element as a whole, not a fragment of text
   `::spelling-error`   Refers[]{#ch03.xhtml_idm45797103613168 primary="::spelling-error pseudo-element" primary-sortas="spelling-error pseudo-element" data-type="indexterm"} to the part of a document that has been marked by the user agent as a misspelling
@@ -7073,7 +7060,7 @@ number of CSS properties to selections: `color`, `background-color`,
 `stroke` properties (in SVG).
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_193}
+<h5>Note {#ch03.xhtml_sigil_toc_id_193}
 
 As of early 2023, selections do not have their styles inherited:
 selecting text containing some inline elements will apply the selection
@@ -7137,7 +7124,7 @@ startref="ix_pseudo_elem_highlite" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="The Backdrop Pseudo-Element" data-type="sect2"}
 ::: {#ch03.xhtml_the_background_pseudo_element .sect2}
-## The Backdrop Pseudo-Element {#ch03.xhtml_sigil_toc_id_195}
+<h2>The Backdrop Pseudo-Element {#ch03.xhtml_sigil_toc_id_195}
 
 Suppose you have an []{#ch03.xhtml_idm45797103360464
 primary="pseudo-element selectors" secondary="::backdrop"
@@ -7174,7 +7161,7 @@ universe.]{.keep-together}
 
 :::: {.section pdf-bookmark="The Video-Cue Pseudo-Element" data-type="sect2"}
 ::: {#ch03.xhtml_idm45797103354368 .sect2}
-## The Video-Cue Pseudo-Element {#ch03.xhtml_sigil_toc_id_196}
+<h2>The Video-Cue Pseudo-Element {#ch03.xhtml_sigil_toc_id_196}
 
 On the subject of []{#ch03.xhtml_ix_pseudo_elem_cue
 primary="pseudo-element selectors" secondary="::video-cue"
@@ -7280,7 +7267,7 @@ As of early 2023, a limited range of properties can be applied to cues:
 
 :::::::::: {.section pdf-bookmark="Shadow Pseudo-Classes and -Elements" data-type="sect1"}
 ::::::::: {#ch03.xhtml_shadow_pseudos .sect1}
-# Shadow Pseudo-Classes and -Elements {#ch03.xhtml_sigil_toc_id_197}
+<h1>Shadow Pseudo-Classes and -Elements {#ch03.xhtml_sigil_toc_id_197}
 
 Another recent []{#ch03.xhtml_ix_doc_obj_shadow_dom
 primary="Document Object Model (DOM)" secondary="shadow DOM"
@@ -7299,7 +7286,7 @@ panel-van artistic, doesn't it?)
 
 ::::: {.section pdf-bookmark="Shadow Pseudo-Classes" data-type="sect2"}
 :::: {#ch03.xhtml_shadow_pseudo-classes .sect2}
-## Shadow Pseudo-Classes {#ch03.xhtml_sigil_toc_id_198}
+<h2>Shadow Pseudo-Classes {#ch03.xhtml_sigil_toc_id_198}
 
 To []{#ch03.xhtml_idm45797103161360 primary="pseudo-class selectors"
 secondary="shadow pseudo-classes"
@@ -7380,7 +7367,7 @@ from a `<header>` element, apply these styles." To be clear, `form` and
 to be placed in order to be selected.
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_199}
+<h5>Note {#ch03.xhtml_sigil_toc_id_199}
 
 The four[]{#ch03.xhtml_idm45797102910448
 primary=":slotted() pseudo-class"
@@ -7400,7 +7387,7 @@ specification.
 
 ::::: {.section pdf-bookmark="Shadow Pseudo-Elements" data-type="sect2"}
 :::: {#ch03.xhtml_shadow_pseudo-elements .sect2}
-## Shadow Pseudo-Elements {#ch03.xhtml_sigil_toc_id_200}
+<h2>Shadow Pseudo-Elements {#ch03.xhtml_sigil_toc_id_200}
 
 In []{#ch03.xhtml_ix_selector_pseudo_elem2 primary="selectors"
 secondary="pseudo-element"
@@ -7456,7 +7443,7 @@ slot {color: red;}
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch03.xhtml_sigil_toc_id_201}
+<h5>Note {#ch03.xhtml_sigil_toc_id_201}
 
 The shadow DOM and its use is a complex topic, and one that we have not
 even begun to scratch the surface of in this section. Our only goal is
@@ -7474,7 +7461,7 @@ startref="ix_selector_pseudo_elem2" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch03.xhtml_pseudo_summary .sect1}
-# Summary {#ch03.xhtml_sigil_toc_id_202}
+<h1>Summary {#ch03.xhtml_sigil_toc_id_202}
 
 As you saw in this chapter, pseudo-classes and pseudo-elements bring a
 whole lot of power and flexibility to the table. Whether selecting
@@ -7495,7 +7482,7 @@ chapter.
 
 ::::::::::::::::::::::::::::::::::::::: {#ch04.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::: {#ch04.xhtml_specificity_comma_inheritance .chapter}
-# [Chapter 4. ]{.label}Specificity, Inheritance, and the Cascade
+<h1>[Chapter 4. ]{.label}Specificity, Inheritance, and the Cascade
 
 Chapters [2](../Text/ch02.xhtml#selectors){data-type="xref"
 xrefstyle="select:labelnumber"} and
@@ -7536,7 +7523,7 @@ perseverance will be rewarded.
 
 ::::::::::::::::: {.section pdf-bookmark="Specificity" data-type="sect1"}
 :::::::::::::::: {#ch04.xhtml_specificity .sect1}
-# Specificity {#ch04.xhtml_sigil_toc_id_203}
+<h1>Specificity {#ch04.xhtml_sigil_toc_id_203}
 
 You []{#ch04.xhtml_ix_selector_specificity primary="selectors"
 secondary="specificity"
@@ -7577,7 +7564,7 @@ two or more conflicting property declarations, the one with the highest
 specificity will win out.
 
 ::: {.note data-type="note"}
-###### Note {#ch04.xhtml_sigil_toc_id_204}
+<h5>Note {#ch04.xhtml_sigil_toc_id_204}
 
 This isn't the whole story in terms of conflict resolution, which is a
 bit more complicated than a single paragraph can cover. For now, just
@@ -7673,7 +7660,7 @@ beats the `0` in the second value's first position.
 
 :::: {.section pdf-bookmark="Declarations and Specificity" data-type="sect2"}
 ::: {#ch04.xhtml_declarations_and_specificity .sect2}
-## Declarations and Specificity {#ch04.xhtml_sigil_toc_id_205}
+<h2>Declarations and Specificity {#ch04.xhtml_sigil_toc_id_205}
 
 Once the []{#ch04.xhtml_ix_specificity_declar primary="specificity"
 secondary="declarations"
@@ -7772,7 +7759,7 @@ startref="ix_specificity_declar" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Resolving Multiple Matches" data-type="sect2"}
 ::: {#ch04.xhtml_multiple_matches .sect2}
-## Resolving Multiple Matches {#ch04.xhtml_sigil_toc_id_207}
+<h2>Resolving Multiple Matches {#ch04.xhtml_sigil_toc_id_207}
 
 When an []{#ch04.xhtml_idm45797098702704 primary="specificity"
 secondary="multiple match resolution" data-type="indexterm"}element is
@@ -7813,7 +7800,7 @@ classes chained together.
 
 :::: {.section pdf-bookmark="Zeroed Selector Specificity" data-type="sect2"}
 ::: {#ch04.xhtml_zeroed_selector_specificity .sect2}
-## Zeroed Selector Specificity {#ch04.xhtml_sigil_toc_id_208}
+<h2>Zeroed Selector Specificity {#ch04.xhtml_sigil_toc_id_208}
 
 The []{#ch04.xhtml_idm45797098647328
 primary="zeroed selector specificity"
@@ -7865,7 +7852,7 @@ specificity.
 
 :::: {.section pdf-bookmark="ID and Attribute Selector Specificity" data-type="sect2"}
 ::: {#ch04.xhtml_id_and_attribute_selector_specificity .sect2}
-## ID and Attribute Selector Specificity {#ch04.xhtml_sigil_toc_id_209}
+<h2>ID and Attribute Selector Specificity {#ch04.xhtml_sigil_toc_id_209}
 
 It's []{#ch04.xhtml_idm45797098559088 primary="id attribute"
 data-type="indexterm"}[]{#ch04.xhtml_idm45797098558352
@@ -7899,7 +7886,7 @@ of `meadow` will be green:
 
 :::::: {.section pdf-bookmark="Importance" data-type="sect2"}
 ::::: {#ch04.xhtml_importance .sect2}
-## Importance {#ch04.xhtml_sigil_toc_id_210}
+<h2>Importance {#ch04.xhtml_sigil_toc_id_210}
 
 Sometimes a []{#ch04.xhtml_ix_specificity_imp primary="specificity"
 secondary="importance of"
@@ -7948,7 +7935,7 @@ entire declaration would likely be invalidated and none of its styles
 applied.
 
 ::: {.note data-type="note"}
-###### Note {#ch04.xhtml_sigil_toc_id_211}
+<h5>Note {#ch04.xhtml_sigil_toc_id_211}
 
 We realize that to those of you who come from a programming background,
 the syntax of this token instinctively translates to "not important."
@@ -8000,7 +7987,7 @@ alt="css5 0402" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch04.xhtml_sigil_toc_id_213}
+<h5>Warning {#ch04.xhtml_sigil_toc_id_213}
 
 It's generally bad practice to use `!important` in your CSS, and it is
 rarely needed. If you find yourself reaching for `!important`, stop and
@@ -8022,7 +8009,7 @@ startref="ix_specificity_ch4" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Inheritance" data-type="sect1"}
 :::: {#ch04.xhtml_inheritance .sect1}
-# Inheritance {#ch04.xhtml_sigil_toc_id_214}
+<h1>Inheritance {#ch04.xhtml_sigil_toc_id_214}
 
 Another []{#ch04.xhtml_ix_rules_inherit primary="rules"
 secondary="inheritance"
@@ -8098,7 +8085,7 @@ descendants remain to inherit the value. Values are *never* propagated
 upward; an element never passes values up to its ancestors.
 
 ::: {.note data-type="note"}
-###### Note {#ch04.xhtml_sigil_toc_id_217}
+<h5>Note {#ch04.xhtml_sigil_toc_id_217}
 
 The []{#ch04.xhtml_idm45797098109888 primary="backgrounds"
 secondary="applying styles in HTML"
@@ -8263,7 +8250,7 @@ startref="ix_rules_inherit" data-type="indexterm"}
 
 ::::::::::::::::: {.section pdf-bookmark="The Cascade" data-type="sect1"}
 :::::::::::::::: {#ch04.xhtml_the_cascade .sect1}
-# The Cascade {#ch04.xhtml_sigil_toc_id_221}
+<h1>The Cascade {#ch04.xhtml_sigil_toc_id_221}
 
 Throughout this []{#ch04.xhtml_ix_css_cascade_ch4
 primary="CSS (Cascading Style Sheets)" secondary="cascade"
@@ -8371,7 +8358,7 @@ startref="ix_weight_casc_rules" data-type="indexterm"}
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Sorting by Importance and Origin" data-type="sect2"}
 ::: {#ch04.xhtml_sorting_by_weight_and_origin .sect2}
-## Sorting by Importance and Origin {#ch04.xhtml_sigil_toc_id_222}
+<h2>Sorting by Importance and Origin {#ch04.xhtml_sigil_toc_id_222}
 
 If two []{#ch04.xhtml_ix_origin_casc_rules
 primary="origin, in cascade rules"
@@ -8475,7 +8462,7 @@ startref="ix_origin_casc_rules" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Sorting by Element Attachment" data-type="sect2"}
 ::: {#ch04.xhtml_sorting_by_element_attach .sect2}
-## Sorting by Element Attachment {#ch04.xhtml_sigil_toc_id_223}
+<h2>Sorting by Element Attachment {#ch04.xhtml_sigil_toc_id_223}
 
 Styles can be []{#ch04.xhtml_idm45797097523968 primary="cascade"
 secondary="by element attachment" secondary-sortas="element attachment"
@@ -8523,7 +8510,7 @@ not to use them if at all possible.
 
 ::::: {.section pdf-bookmark="Sorting by Cascade Layer" data-type="sect2"}
 :::: {#ch04.xhtml_sorting_by_layer .sect2}
-## Sorting by Cascade Layer {#ch04.xhtml_sigil_toc_id_224}
+<h2>Sorting by Cascade Layer {#ch04.xhtml_sigil_toc_id_224}
 
 *Cascade layers* allow []{#ch04.xhtml_ix_cascade_bylayer
 primary="cascade" secondary="by cascade layer"
@@ -8536,7 +8523,7 @@ authors can balance various needs, such as the needs of a component
 library, against the needs of a specific page or part of a web app.
 
 ::: {.note data-type="note"}
-###### Note {#ch04.xhtml_sigil_toc_id_225}
+<h5>Note {#ch04.xhtml_sigil_toc_id_225}
 
 Cascade layers were introduced to CSS at the end of 2021, so browser
 support for them exists only in browsers released from that point
@@ -8750,7 +8737,7 @@ startref="ix_import_rule_ch4" data-type="indexterm"}
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Sorting by Specificity" data-type="sect2"}
 ::: {#ch04.xhtml_sorting_by_specificity .sect2}
-## Sorting by Specificity {#ch04.xhtml_sigil_toc_id_226}
+<h2>Sorting by Specificity {#ch04.xhtml_sigil_toc_id_226}
 
 If conflicting []{#ch04.xhtml_idm45797107706400 primary="cascade"
 secondary="by specificity" secondary-sortas="specificity"
@@ -8802,7 +8789,7 @@ created cascade layer, no matter how high the latter's specificity gets.
 
 :::: {.section pdf-bookmark="Sorting by Order" data-type="sect2"}
 ::: {#ch04.xhtml_sorting_by_order .sect2}
-## Sorting by Order {#ch04.xhtml_sigil_toc_id_228}
+<h2>Sorting by Order {#ch04.xhtml_sigil_toc_id_228}
 
 Finally, if []{#ch04.xhtml_ix_order_cascade_by_ch4
 primary="order, cascade by"
@@ -8989,7 +8976,7 @@ startref="ix_lvfha_acronym_order" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Working with Non-CSS Presentational Hints" data-type="sect2"}
 ::: {#ch04.xhtml_non-css_presentational_hints .sect2}
-## Working with Non-CSS Presentational Hints {#ch04.xhtml_sigil_toc_id_229}
+<h2>Working with Non-CSS Presentational Hints {#ch04.xhtml_sigil_toc_id_229}
 
 A []{#ch04.xhtml_idm45797107061360
 primary="non-CSS presentational hints"
@@ -9014,7 +9001,7 @@ startref="ix_rules_cascade_ch4" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch04.xhtml_summary-id1 .sect1}
-# Summary {#ch04.xhtml_sigil_toc_id_230}
+<h1>Summary {#ch04.xhtml_sigil_toc_id_230}
 
 Perhaps the most fundamental aspect of Cascading Style Sheets is the
 cascade itself---the process used to sort out conflicting declarations
@@ -9030,7 +9017,7 @@ the mechanism of inheritance.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch05.xhtml_sbo-rt-content}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch05.xhtml_values_and_units .chapter}
-# [Chapter 5. ]{.label}Values and Units
+<h1>[Chapter 5. ]{.label}Values and Units
 
 In this chapter, we'll tackle features that are the basis for almost
 everything you can do with CSS: the units that affect the colors,
@@ -9043,7 +9030,7 @@ more quickly.
 
 ::::::::::::::::::::::::::::::: {.section pdf-bookmark="Keywords, Strings, and Other Text Values" data-type="sect1"}
 :::::::::::::::::::::::::::::: {#ch05.xhtml_keywords_comma_strings_comma_and_other .sect1}
-# Keywords, Strings, and Other Text Values {#ch05.xhtml_sigil_toc_id_231}
+<h1>Keywords, Strings, and Other Text Values {#ch05.xhtml_sigil_toc_id_231}
 
 Everything in a stylesheet is text, but certain value types directly
 represent strings of text as opposed to, say, numbers or colors.
@@ -9051,7 +9038,7 @@ Included in this category are URLs and, interestingly enough, images.
 
 ::::::::::::::::: {.section pdf-bookmark="Keywords" data-type="sect2"}
 :::::::::::::::: {#ch05.xhtml_val_keywords .sect2}
-## Keywords {#ch05.xhtml_sigil_toc_id_232}
+<h2>Keywords {#ch05.xhtml_sigil_toc_id_232}
 
 For []{#ch05.xhtml_ix_values_keyword primary="values"
 secondary="keywords"
@@ -9078,7 +9065,7 @@ defined for `letter-spacing`, means something very different from the
 
 ::::::::::::::: {.section pdf-bookmark="Global keywords" data-type="sect3"}
 :::::::::::::: {#ch05.xhtml_idm45797106963488 .sect3}
-### Global keywords {#ch05.xhtml_sigil_toc_id_233}
+<h3>Global keywords {#ch05.xhtml_sigil_toc_id_233}
 
 CSS []{#ch05.xhtml_ix_global_key primary="global keywords"
 data-type="indexterm"}defines five *global* keywords that are accepted
@@ -9087,7 +9074,8 @@ by every property in the specification: `inherit`, `initial`, `unset`,
 
 :::: {.section pdf-bookmark="inherit" data-type="sect4"}
 ::: {#ch05.xhtml_inherit .sect4}
-#### inherit {#ch05.xhtml_sigil_toc_id_234}
+
+<h4>inherit</h4>
 
 The []{#ch05.xhtml_idm45797106939216 primary="inherit global keyword"
 data-type="indexterm"}keyword `inherit` makes the value of a property on
@@ -9142,7 +9130,8 @@ do the trick.
 
 :::: {.section pdf-bookmark="initial" data-type="sect4"}
 ::: {#ch05.xhtml_initial .sect4}
-#### initial {#ch05.xhtml_sigil_toc_id_235}
+
+<h4>initial</h4>
 
 The []{#ch05.xhtml_idm45797106898752 primary="initial global keyword"
 data-type="indexterm"}keyword `initial` sets the value of a property to
@@ -9170,7 +9159,7 @@ via JS or CSS.
 
 :::: {.section pdf-bookmark="unset" data-type="sect4"}
 ::: {#ch05.xhtml_unset .sect4}
-#### unset {#ch05.xhtml_sigil_toc_id_236}
+<h4>unset</h4>
 
 The []{#ch05.xhtml_idm45797106878432 primary="unset keyword"
 data-type="indexterm"}keyword `unset` acts as a universal stand-in for
@@ -9184,7 +9173,8 @@ styles that might be applied to it.
 
 :::: {.section pdf-bookmark="revert" data-type="sect4"}
 ::: {#ch05.xhtml_revert .sect4}
-#### revert {#ch05.xhtml_sigil_toc_id_237}
+
+<h4>revert</h4>
 
 The []{#ch05.xhtml_idm45797106871456 primary="revert keyword"
 data-type="indexterm"}keyword `revert` sets the value of a property to
@@ -9213,7 +9203,8 @@ single property, `all`, which is the topic of the next section.
 
 ::::: {.section pdf-bookmark="revert-layer" data-type="sect4"}
 :::: {#ch05.xhtml_revert-layer .sect4}
-#### revert-layer {#ch05.xhtml_sigil_toc_id_238}
+
+<h4>revert-layer</h4>
 
 If you're using []{#ch05.xhtml_idm45797106850768
 primary="revert-layer keyword" data-type="indexterm"}cascade layers (see
@@ -9252,7 +9243,7 @@ explicitly created layers, `red` is used instead of
 startref="ix_global_key" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch05.xhtml_sigil_toc_id_239}
+<h5>Note {#ch05.xhtml_sigil_toc_id_239}
 
 As of late 2023, only Firefox supports `revert-layer`, but we anticipate
 it being widely supported in the near
@@ -9270,7 +9261,7 @@ startref="ix_values_keyword" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="The all Property" data-type="sect2"}
 :::: {#ch05.xhtml_idm45797106729728 .sect2}
-## The all Property {#ch05.xhtml_sigil_toc_id_240}
+<h2>The all Property {#ch05.xhtml_sigil_toc_id_240}
 
 These []{#ch05.xhtml_idm45797106727760 primary="values"
 secondary="all property"
@@ -9283,12 +9274,10 @@ keywords: `all`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch05.xhtml_idm45797106724992 .sidebar}
-# all {#ch05.xhtml_sigil_toc_id_241}
+<h1>all {#ch05.xhtml_sigil_toc_id_241}
 
-  ------------------- -----------------------------------------------
   **Values**          `inherit` \| `initial` \| `unset` \| `revert`
   **Initial value**   See individual properties
-  ------------------- -----------------------------------------------
 :::
 
 ```{=html}
@@ -9339,7 +9328,7 @@ but your stylesheet may vary.
 
 :::: {.section pdf-bookmark="Strings" data-type="sect2"}
 ::: {#ch05.xhtml_strings .sect2}
-## Strings {#ch05.xhtml_sigil_toc_id_242}
+<h2>Strings {#ch05.xhtml_sigil_toc_id_242}
 
 A *string value* is an []{#ch05.xhtml_idm45797106593264 primary="values"
 secondary="strings"
@@ -9423,7 +9412,7 @@ reference `\A` where you want the newline to occur:
 
 :::: {.section pdf-bookmark="Identifiers" data-type="sect2"}
 ::: {#ch05.xhtml_identifiers .sect2}
-## Identifiers {#ch05.xhtml_sigil_toc_id_243}
+<h2>Identifiers {#ch05.xhtml_sigil_toc_id_243}
 
 One-word, []{#ch05.xhtml_idm45797107122832 primary="values"
 secondary="identifiers"
@@ -9455,7 +9444,7 @@ also a really bad idea.
 
 ::::: {.section pdf-bookmark="URLs" data-type="sect2"}
 :::: {#ch05.xhtml_urls .sect2}
-## URLs {#ch05.xhtml_sigil_toc_id_244}
+<h2>URLs {#ch05.xhtml_sigil_toc_id_244}
 
 If you've []{#ch05.xhtml_ix_value_url primary="values" secondary="URLs"
 data-type="indexterm"}written web pages, you're almost certainly
@@ -9566,7 +9555,7 @@ data-type="indexterm"}[]{#ch05.xhtml_idm45797106381712 primary=""
 startref="ix_value_url" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch05.xhtml_sigil_toc_id_245}
+<h5>Note {#ch05.xhtml_sigil_toc_id_245}
 
 As of late 2022, the []{#ch05.xhtml_idm45797106379792
 primary="src() function" data-type="indexterm"}CSS Working Group is
@@ -9580,7 +9569,7 @@ which file should be loaded based on the value of a custom property.
 
 :::: {.section pdf-bookmark="Images" data-type="sect2"}
 ::: {#ch05.xhtml_images .sect2}
-## Images {#ch05.xhtml_sigil_toc_id_246}
+<h2>Images {#ch05.xhtml_sigil_toc_id_246}
 
 An *image value* is a []{#ch05.xhtml_idm45797106375856 primary="values"
 secondary="images"
@@ -9648,7 +9637,7 @@ Chrome.
 
 ::::::::::::: {.section pdf-bookmark="Numbers and Percentages" data-type="sect1"}
 :::::::::::: {#ch05.xhtml_numbers_and_percentages .sect1}
-# Numbers and Percentages {#ch05.xhtml_sigil_toc_id_247}
+<h1>Numbers and Percentages {#ch05.xhtml_sigil_toc_id_247}
 
 Numbers and []{#ch05.xhtml_ix_value_number primary="values"
 secondary="numbers" data-type="indexterm"}percentages serve as the
@@ -9659,7 +9648,7 @@ here will help you better grasp defining other value types later.
 
 :::: {.section pdf-bookmark="Integers" data-type="sect2"}
 ::: {#ch05.xhtml_integers .sect2}
-## Integers {#ch05.xhtml_sigil_toc_id_248}
+<h2>Integers {#ch05.xhtml_sigil_toc_id_248}
 
 An *integer value* is []{#ch05.xhtml_idm45797106332272
 primary="<integer> value type" primary-sortas="integer value type"
@@ -9683,7 +9672,7 @@ range, user agents must support values up to ±1,073,741,824 (±2^30^).
 
 :::: {.section pdf-bookmark="Numbers" data-type="sect2"}
 ::: {#ch05.xhtml_numbers .sect2}
-## Numbers {#ch05.xhtml_sigil_toc_id_249}
+<h2>Numbers {#ch05.xhtml_sigil_toc_id_249}
 
 A *number value* is []{#ch05.xhtml_idm45797106323072
 primary="<number> value type" primary-sortas="number value type"
@@ -9712,7 +9701,7 @@ invalid and cause the entire declaration to be ignored.
 
 :::: {.section pdf-bookmark="Percentages" data-type="sect2"}
 ::: {#ch05.xhtml_val_percentages .sect2}
-## Percentages {#ch05.xhtml_sigil_toc_id_250}
+<h2>Percentages {#ch05.xhtml_sigil_toc_id_250}
 
 A *percentage value* is a \<*`number`*\> followed by a
 []{#ch05.xhtml_idm45797106308752 primary="<percentage> value type"
@@ -9732,7 +9721,7 @@ percentage values, as well as the way in which the percentage is
 
 ::::: {.section pdf-bookmark="Fractions" data-type="sect2"}
 :::: {#ch05.xhtml_val_fractions .sect2}
-## Fractions {#ch05.xhtml_sigil_toc_id_251}
+<h2>Fractions {#ch05.xhtml_sigil_toc_id_251}
 
 A *fraction value* (or *flexible ratio*) is a \<*`number`*\> followed by
 the `fr` unit label. []{#ch05.xhtml_idm45797106299424
@@ -9754,7 +9743,7 @@ with \<*`length`*\> values, unlike some \<*`percentage`*\> values), so
 they cannot be used with other unit types in `calc()` functions.
 
 ::: {.note data-type="note"}
-###### Note {#ch05.xhtml_sigil_toc_id_252}
+<h5>Note {#ch05.xhtml_sigil_toc_id_252}
 
 Fraction values are mostly used in grid layout (see
 [Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}), but
@@ -9769,7 +9758,7 @@ primary="" startref="ix_value_number" data-type="indexterm"}
 
 ::::::::::::::::::::::::::::: {.section pdf-bookmark="Distances" data-type="sect1"}
 :::::::::::::::::::::::::::: {#ch05.xhtml_distances .sect1}
-# Distances {#ch05.xhtml_sigil_toc_id_253}
+<h1>Distances {#ch05.xhtml_sigil_toc_id_253}
 
 Many CSS properties, such as margins, depend on length measurements to
 properly display various page elements. It's likely no surprise, then,
@@ -9790,7 +9779,7 @@ and *relative length units*.
 
 :::::::: {.section pdf-bookmark="Absolute Length Units" data-type="sect2"}
 ::::::: {#ch05.xhtml_absolute_length_units .sect2}
-## Absolute Length Units {#ch05.xhtml_sigil_toc_id_254}
+<h2>Absolute Length Units {#ch05.xhtml_sigil_toc_id_254}
 
 We'll []{#ch05.xhtml_ix_units_absol_length primary="units of measure"
 secondary="absolute length"
@@ -9894,7 +9883,7 @@ is common.
 
 :::: {.section pdf-bookmark="Pixel lengths" data-type="sect3"}
 ::: {#ch05.xhtml_pixel_lengths .sect3}
-### Pixel lengths {#ch05.xhtml_sigil_toc_id_256}
+<h3>Pixel lengths {#ch05.xhtml_sigil_toc_id_256}
 
 On the face of things, []{#ch05.xhtml_idm45797106246432 primary="pixels"
 data-type="indexterm"}pixels are straightforward. If you look at a
@@ -9932,7 +9921,7 @@ covered in the next section.
 
 :::: {.section pdf-bookmark="Pixel theory" data-type="sect3"}
 ::: {#ch05.xhtml_pixel_theory .sect3}
-### Pixel theory {#ch05.xhtml_sigil_toc_id_258}
+<h3>Pixel theory {#ch05.xhtml_sigil_toc_id_258}
 
 In its discussion of pixels, the CSS specification recommends that, when
 a display's resolution density is significantly different from 96 pixels
@@ -9963,7 +9952,7 @@ about the number of dots per inch on [a printout.]{.keep-together}
 
 :::: {.section pdf-bookmark="Resolution Units" data-type="sect2"}
 ::: {#ch05.xhtml_resolution_units .sect2}
-## Resolution Units {#ch05.xhtml_sigil_toc_id_259}
+<h2>Resolution Units {#ch05.xhtml_sigil_toc_id_259}
 
 Some []{#ch05.xhtml_idm45797106211056
 primary="viewport (browser display)" secondary="resolution units"
@@ -10027,7 +10016,7 @@ startref="ix_units_absol_length" data-type="indexterm"}
 
 :::::::::::: {.section pdf-bookmark="Relative Length Units" data-type="sect2"}
 ::::::::::: {#ch05.xhtml_relative_length_units .sect2}
-## Relative Length Units {#ch05.xhtml_sigil_toc_id_260}
+<h2>Relative Length Units {#ch05.xhtml_sigil_toc_id_260}
 
 Relative []{#ch05.xhtml_ix_units_relative_length
 primary="units of measure" secondary="relative length"
@@ -10048,7 +10037,7 @@ chapter.]{.keep-together}
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="The em unit" data-type="sect3"}
 ::: {#ch05.xhtml_the_em_unit .sect3}
-### The em unit {#ch05.xhtml_sigil_toc_id_261}
+<h3>The em unit {#ch05.xhtml_sigil_toc_id_261}
 
 In CSS, `1em` is []{#ch05.xhtml_idm45797106126704 primary="em unit"
 data-type="indexterm"}defined to be the value of `font-size` for a given
@@ -10098,7 +10087,7 @@ typographer's term. However, this is not assured in CSS.
 
 :::: {.section pdf-bookmark="The ex unit" data-type="sect3"}
 ::: {#ch05.xhtml_idm45797088173824 .sect3}
-### The ex unit {#ch05.xhtml_sigil_toc_id_263}
+<h3>The ex unit {#ch05.xhtml_sigil_toc_id_263}
 
 The `ex` []{#ch05.xhtml_idm45797088171824 primary="ex unit"
 data-type="indexterm"}unit refers to the height of a lowercase *x* in
@@ -10124,7 +10113,7 @@ alt="css5 0504" />
 
 :::: {.section pdf-bookmark="The ch unit" data-type="sect3"}
 ::: {#ch05.xhtml_the_ch_unit .sect3}
-### The ch unit {#ch05.xhtml_sigil_toc_id_265}
+<h3>The ch unit {#ch05.xhtml_sigil_toc_id_265}
 
 The `ch` []{#ch05.xhtml_idm45797088127648 primary="ch unit"
 data-type="indexterm"}unit is broadly meant to represent *one
@@ -10175,7 +10164,7 @@ alt="css5 0505" />
 
 :::: {.section pdf-bookmark="Other relative length units" data-type="sect3"}
 ::: {#ch05.xhtml_other_relative_length_units .sect3}
-### Other relative length units {#ch05.xhtml_sigil_toc_id_267}
+<h3>Other relative length units {#ch05.xhtml_sigil_toc_id_267}
 
 We have a few other relative length units to mention:
 
@@ -10212,7 +10201,7 @@ Chromium-based [browsers]{.keep-together} support `lh`.
 
 ::::::::: {.section pdf-bookmark="Root-Relative Length Units" data-type="sect2"}
 :::::::: {#ch05.xhtml_root-relative_length_units .sect2}
-## Root-Relative Length Units {#ch05.xhtml_sigil_toc_id_268}
+<h2>Root-Relative Length Units {#ch05.xhtml_sigil_toc_id_268}
 
 Most of the []{#ch05.xhtml_ix_root_relative_value
 primary="root-relative values" data-type="indexterm"}character-based
@@ -10225,7 +10214,7 @@ will discuss the most widely supported such unit and then
 
 ::::: {.section pdf-bookmark="The rem unit" data-type="sect3"}
 :::: {#ch05.xhtml_the_rem_unit .sect3}
-### The rem unit {#ch05.xhtml_sigil_toc_id_269}
+<h3>The rem unit {#ch05.xhtml_sigil_toc_id_269}
 
 The `rem` []{#ch05.xhtml_idm45797088064112 primary="rem unit"
 data-type="indexterm"}unit is calculated using the font size of the
@@ -10298,7 +10287,7 @@ h6 {font-size: 0.8rem;}
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch05.xhtml_sigil_toc_id_271}
+<h5>Note {#ch05.xhtml_sigil_toc_id_271}
 
 `font-size: 1rem` is equivalent to `font-size: initial` as long as no
 font size is set for the root element.
@@ -10308,7 +10297,7 @@ font size is set for the root element.
 
 :::: {.section pdf-bookmark="Other root-relative units" data-type="sect3"}
 ::: {#ch05.xhtml_other_root-relative_units .sect3}
-### Other root-relative units {#ch05.xhtml_sigil_toc_id_272}
+<h3>Other root-relative units {#ch05.xhtml_sigil_toc_id_272}
 
 As mentioned previously, `rem` is not the only root-relative unit
 defined by CSS.
@@ -10316,7 +10305,6 @@ defined by CSS.
 summarizes the other root-relative units.
 
   Length   Root-relative unit   Relative to
-  -------- -------------------- --------------------------------------
   `em`     `rem`                Computed `font-size`
   `ex`     `rex`                Computed x-height
   `ch`     `rch`                Advance measure of the `0` character
@@ -10344,7 +10332,7 @@ startref="ix_root_relative_value" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Viewport-Relative Units" data-type="sect1"}
 ::: {#ch05.xhtml_viewport-relative_units .sect1}
-# Viewport-Relative Units {#ch05.xhtml_sigil_toc_id_273}
+<h1>Viewport-Relative Units {#ch05.xhtml_sigil_toc_id_273}
 
 CSS provides []{#ch05.xhtml_ix_viewport_rel_unit
 primary="viewport-relative units" data-type="indexterm"}six
@@ -10500,7 +10488,7 @@ startref="ix_viewport_rel_unit" data-type="indexterm"}
 
 ::::::::::::::: {.section pdf-bookmark="Function Values" data-type="sect1"}
 :::::::::::::: {#ch05.xhtml_function_values .sect1}
-# Function Values {#ch05.xhtml_sigil_toc_id_275}
+<h1>Function Values {#ch05.xhtml_sigil_toc_id_275}
 
 One of the []{#ch05.xhtml_ix_values_func primary="values"
 secondary="function" data-type="indexterm"}[]{#ch05.xhtml_ix_func_values
@@ -10711,7 +10699,7 @@ their topics (e.g., the filter functions are described in
 
 :::: {.section pdf-bookmark="Calculation Values" data-type="sect2"}
 ::: {#ch05.xhtml_calc .sect2}
-## Calculation Values {#ch05.xhtml_sigil_toc_id_276}
+<h2>Calculation Values {#ch05.xhtml_sigil_toc_id_276}
 
 When you []{#ch05.xhtml_idm45797087638400 primary="calc() function"
 data-type="indexterm"}[]{#ch05.xhtml_idm45797087637696
@@ -10791,7 +10779,7 @@ is treated as invalid.
 
 ::::: {.section pdf-bookmark="Maximum Values" data-type="sect2"}
 :::: {#ch05.xhtml_maximum_values .sect2}
-## Maximum Values {#ch05.xhtml_sigil_toc_id_277}
+<h2>Maximum Values {#ch05.xhtml_sigil_toc_id_277}
 
 Calculation is nice, but []{#ch05.xhtml_idm45797087549216
 primary="maximum values, function"
@@ -10844,7 +10832,7 @@ In general, `min()` can be used in any property value that permits
 \<*`percentage`*\>, \<*`number`*\>, or \<*`integer`*\>.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch05.xhtml_sigil_toc_id_278}
+<h5>Warning {#ch05.xhtml_sigil_toc_id_278}
 
 Remember that setting a maximum value on font sizes is an accessibility
 concern. You should *never* set a maximum font size using pixels,
@@ -10857,7 +10845,7 @@ shouldn't use `min()` for font sizing in any case, but if you do, keep
 
 :::: {.section pdf-bookmark="Minimum Values" data-type="sect2"}
 ::: {#ch05.xhtml_minimum_values .sect2}
-## Minimum Values {#ch05.xhtml_sigil_toc_id_279}
+<h2>Minimum Values {#ch05.xhtml_sigil_toc_id_279}
 
 The []{#ch05.xhtml_idm45797087455280 primary="minimum values, function"
 data-type="indexterm"}[]{#ch05.xhtml_idm45797087454576
@@ -10898,7 +10886,7 @@ probably best left to box sizing and other such uses.
 
 :::: {.section pdf-bookmark="Clamping Values" data-type="sect2"}
 ::: {#ch05.xhtml_clamping_values .sect2}
-## Clamping Values {#ch05.xhtml_sigil_toc_id_280}
+<h2>Clamping Values {#ch05.xhtml_sigil_toc_id_280}
 
 If you've []{#ch05.xhtml_idm45797087379056
 primary="clamping values, functions" data-type="indexterm"}already been
@@ -10943,7 +10931,7 @@ the size of the parent element's text, whichever is larger.
 
 :::: {.section pdf-bookmark="Attribute Values" data-type="sect2"}
 ::: {#ch05.xhtml_attribute_values .sect2}
-## Attribute Values {#ch05.xhtml_sigil_toc_id_281}
+<h2>Attribute Values {#ch05.xhtml_sigil_toc_id_281}
 
 In a few []{#ch05.xhtml_idm45797087274752 primary="attr() expression"
 data-type="indexterm"}[]{#ch05.xhtml_idm45797087298512
@@ -11001,7 +10989,7 @@ startref="ix_values_func" data-type="indexterm"}
 
 :::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Color" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::::::::: {#ch05.xhtml_color .sect1}
-# Color {#ch05.xhtml_sigil_toc_id_283}
+<h1>Color {#ch05.xhtml_sigil_toc_id_283}
 
 One of the first []{#ch05.xhtml_ix_color_values_ch5
 primary="color values"
@@ -11016,7 +11004,7 @@ intuitive---methods.
 
 :::: {.section pdf-bookmark="Named Colors" data-type="sect2"}
 ::: {#ch05.xhtml_named_colors .sect2}
-## Named Colors {#ch05.xhtml_sigil_toc_id_284}
+<h2>Named Colors {#ch05.xhtml_sigil_toc_id_284}
 
 Over the []{#ch05.xhtml_ix_color_prop primary="color property"
 data-type="indexterm"}[]{#ch05.xhtml_idm45797087197616
@@ -11105,7 +11093,7 @@ color.
 
 :::: {.section pdf-bookmark="Color Keywords" data-type="sect2"}
 ::: {#ch05.xhtml_color_keywords .sect2}
-## Color Keywords {#ch05.xhtml_sigil_toc_id_286}
+<h2>Color Keywords {#ch05.xhtml_sigil_toc_id_286}
 
 CSS has two special []{#ch05.xhtml_idm45797087093760
 primary="transparent keyword"
@@ -11156,7 +11144,7 @@ startref="ix_color_prop" data-type="indexterm"}
 
 ::::::::::::: {.section pdf-bookmark="Colors by RGB and RGBa" data-type="sect2"}
 :::::::::::: {#ch05.xhtml_colors_by_rgb_and_rgba .sect2}
-## Colors by RGB and RGBa {#ch05.xhtml_sigil_toc_id_287}
+<h2>Colors by RGB and RGBa {#ch05.xhtml_sigil_toc_id_287}
 
 Computers []{#ch05.xhtml_ix_rgb_colors primary="RGB colors"
 data-type="indexterm"}[]{#ch05.xhtml_ix_color_values_rgb
@@ -11171,7 +11159,7 @@ this manner in four ways, detailed in this section.
 
 ::::: {.section pdf-bookmark="Functional RGB colors" data-type="sect3"}
 :::: {#ch05.xhtml_functional_rgb_colors .sect3}
-### Functional RGB colors {#ch05.xhtml_sigil_toc_id_288}
+<h3>Functional RGB colors {#ch05.xhtml_sigil_toc_id_288}
 
 Two color value types use *functional RGB notation* as opposed to
 hexadecimal notation. The generic syntax for this type of color value is
@@ -11200,7 +11188,7 @@ percentages in the same color value. Thus, `rgb(255,66.67%,50%)` would
 be invalid and thus ignored.
 
 ::: {.note data-type="note"}
-###### Note {#ch05.xhtml_sigil_toc_id_289}
+<h5>Note {#ch05.xhtml_sigil_toc_id_289}
 
 In more recent browsers, the separating commas in RGB values can be
 replaced with simple whitespace. Thus, black can be represented as
@@ -11308,7 +11296,7 @@ startref="ix_rgb_colors" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="RGBa colors" data-type="sect3"}
 ::: {#ch05.xhtml_rgba_colors .sect3}
-### RGBa colors {#ch05.xhtml_sigil_toc_id_291}
+<h3>RGBa colors {#ch05.xhtml_sigil_toc_id_291}
 
 RGB []{#ch05.xhtml_idm45797086515328 primary="color values"
 secondary="RGBa" data-type="indexterm"}[]{#ch05.xhtml_idm45797086514320
@@ -11364,7 +11352,7 @@ will either be ignored or reset to the nearest valid alpha value.
 
 :::: {.section pdf-bookmark="Hexadecimal RGB colors" data-type="sect3"}
 ::: {#ch05.xhtml_hexadecimal_rgb_colors .sect3}
-### Hexadecimal RGB colors {#ch05.xhtml_sigil_toc_id_293}
+<h3>Hexadecimal RGB colors {#ch05.xhtml_sigil_toc_id_293}
 
 CSS []{#ch05.xhtml_idm45797086336352 primary="color values"
 secondary="hexadecimal RGB colors"
@@ -11425,7 +11413,7 @@ would be `#888`, which is the same as `#888888`.
 
 :::: {.section pdf-bookmark="Hexadecimal RGBa colors" data-type="sect3"}
 ::: {#ch05.xhtml_hexadecimal_rgba_colors .sect3}
-### Hexadecimal RGBa colors {#ch05.xhtml_sigil_toc_id_294}
+<h3>Hexadecimal RGBa colors {#ch05.xhtml_sigil_toc_id_294}
 
 Hexadecimal []{#ch05.xhtml_idm45797086240640 primary="color values"
 secondary="hexadecimal RGBa colors"
@@ -11467,7 +11455,7 @@ repetitive, the entire eight-digit value must be written out:
 
 ::::: {.section pdf-bookmark="HSL and HSLa Colors" data-type="sect2"}
 :::: {#ch05.xhtml_hsl_and_hsla_colors .sect2}
-## HSL and HSLa Colors {#ch05.xhtml_sigil_toc_id_296}
+<h2>HSL and HSLa Colors {#ch05.xhtml_sigil_toc_id_296}
 
 Hue, saturation, and lightness (HSL) []{#ch05.xhtml_ix_hsl_colors2
 primary="HSL colors" data-type="indexterm"}[]{#ch05.xhtml_ix_hsl_colors
@@ -11508,7 +11496,7 @@ p.seven {color: hsl(400grad 0% 50%);}
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch05.xhtml_sigil_toc_id_297}
+<h5>Note {#ch05.xhtml_sigil_toc_id_297}
 
 Remember that in more recent browsers, the commas in `hsl()` values can
 be replaced with whitespace.
@@ -11566,7 +11554,7 @@ p.five {color: hsl(0rad 0% 0% / 0.2);}
 
 :::: {.section pdf-bookmark="Colors with HWB" data-type="sect2"}
 ::: {#ch05.xhtml_colors_with_hwb .sect2}
-## Colors with HWB {#ch05.xhtml_sigil_toc_id_299}
+<h2>Colors with HWB {#ch05.xhtml_sigil_toc_id_299}
 
 Colors can also be []{#ch05.xhtml_idm45797085877648
 primary="color values" secondary="HWB colors"
@@ -11603,7 +11591,7 @@ hwb(0 10% 10% / 40%)
 
 ::::: {.section pdf-bookmark="Lab Colors" data-type="sect2"}
 :::: {#ch05.xhtml_lab_colors .sect2}
-## Lab Colors {#ch05.xhtml_sigil_toc_id_300}
+<h2>Lab Colors {#ch05.xhtml_sigil_toc_id_300}
 
 Historically, all CSS []{#ch05.xhtml_idm45797085827968
 primary="color values" secondary="Lab colors"
@@ -11663,7 +11651,7 @@ specify colors in these color spaces and get a visually consistent
 result from one device to another.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch05.xhtml_sigil_toc_id_301}
+<h5>Warning {#ch05.xhtml_sigil_toc_id_301}
 
 As of late 2022, only WebKit supports `lab()`.
 :::
@@ -11672,7 +11660,7 @@ As of late 2022, only WebKit supports `lab()`.
 
 ::::: {.section pdf-bookmark="LCH Colors" data-type="sect2"}
 :::: {#ch05.xhtml_idm45797085829216 .sect2}
-## LCH Colors {#ch05.xhtml_sigil_toc_id_302}
+<h2>LCH Colors {#ch05.xhtml_sigil_toc_id_302}
 
 *Lightness Chroma Hue (LCH)* is a []{#ch05.xhtml_idm45797085734080
 primary="color values" secondary="LCH colors"
@@ -11719,7 +11707,7 @@ within the sRGB color space, but it is visually quite distinct from the
 color that is defined by `lch(52% 132 8)`.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch05.xhtml_sigil_toc_id_303}
+<h5>Warning {#ch05.xhtml_sigil_toc_id_303}
 
 As of late 2022, only Safari supports `lch()` values.
 :::
@@ -11728,7 +11716,7 @@ As of late 2022, only Safari supports `lch()` values.
 
 :::: {.section pdf-bookmark="Oklab and Oklch" data-type="sect2"}
 ::: {#ch05.xhtml_oklab_and_oklch .sect2}
-## Oklab and Oklch {#ch05.xhtml_sigil_toc_id_304}
+<h2>Oklab and Oklch {#ch05.xhtml_sigil_toc_id_304}
 
 Improved []{#ch05.xhtml_idm45797085662624 primary="color values"
 secondary="Oklab and Oklch"
@@ -11750,7 +11738,7 @@ functional values.
 
 ::::: {.section pdf-bookmark="Using color()" data-type="sect2"}
 :::: {#ch05.xhtml_Color_functional_notation .sect2}
-## Using color() {#ch05.xhtml_sigil_toc_id_305}
+<h2>Using color() {#ch05.xhtml_sigil_toc_id_305}
 
 The `color()` []{#ch05.xhtml_idm45797085655424
 primary="color() function"
@@ -11788,7 +11776,7 @@ inside the color space's gamut.
 If a color's value is straight-up invalid, opaque black is used.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch05.xhtml_sigil_toc_id_306}
+<h5>Warning {#ch05.xhtml_sigil_toc_id_306}
 
 As of late 2022, only Safari supports `color()`.
 :::
@@ -11797,7 +11785,7 @@ As of late 2022, only Safari supports `color()`.
 
 ::::: {.section pdf-bookmark="Applying Color" data-type="sect2"}
 :::: {#ch05.xhtml_applying-color .sect2}
-## Applying Color {#ch05.xhtml_sigil_toc_id_307}
+<h2>Applying Color {#ch05.xhtml_sigil_toc_id_307}
 
 Since we've just []{#ch05.xhtml_idm45797085543552
 primary="currentcolor keyword"
@@ -11812,16 +11800,14 @@ text and the value of `currentcolor`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch05.xhtml_idm45797085535520 .sidebar}
-# color {#ch05.xhtml_sigil_toc_id_308}
+<h1>color {#ch05.xhtml_sigil_toc_id_308}
 
-  -------------------- ---------------------
   **Values**           \<*`color`*\>
   **Initial value**    User-agent specific
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        Yes
   **Animatable**       Yes
-  -------------------- ---------------------
 :::
 
 ```{=html}
@@ -11936,7 +11922,7 @@ primary="" startref="ix_color_values_apply" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Affecting Form Elements" data-type="sect2"}
 ::: {#ch05.xhtml_affecting-form-elements .sect2}
-## Affecting Form Elements {#ch05.xhtml_sigil_toc_id_311}
+<h2>Affecting Form Elements {#ch05.xhtml_sigil_toc_id_311}
 
 Setting a value for `color` should (in theory, anyway) apply to form
 elements. Declaring `<select>` elements to have dark-gray text should be
@@ -12003,7 +11989,7 @@ extreme caution.
 
 :::: {.section pdf-bookmark="Inheriting Color" data-type="sect2"}
 ::: {#ch05.xhtml_inheriting-color .sect2}
-## Inheriting Color {#ch05.xhtml_sigil_toc_id_313}
+<h2>Inheriting Color {#ch05.xhtml_sigil_toc_id_313}
 
 As the []{#ch05.xhtml_idm45797085211264 primary="inheritance"
 secondary="color values"
@@ -12044,7 +12030,7 @@ startref="ix_color_values_ch5" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Angles" data-type="sect1"}
 ::: {#ch05.xhtml_angles .sect1}
-# Angles {#ch05.xhtml_sigil_toc_id_315}
+<h1>Angles {#ch05.xhtml_sigil_toc_id_315}
 
 Since we []{#ch05.xhtml_idm45797085168192 primary="units of measure"
 secondary="angle" data-type="indexterm"}[]{#ch05.xhtml_idm45797085167184
@@ -12088,7 +12074,6 @@ values, when including angles, the unit is always required, even if the
 value is `0deg`.
 
   Degrees    Gradians    Radians      Turns
-  ---------- ----------- ------------ -------------
   `0deg`     `0grad`     `0rad`       `0turn`
   `45deg`    `50grad`    `0.785rad`   `0.125turn`
   `90deg`    `100grad`   `1.571rad`   `0.25turn`
@@ -12102,7 +12087,7 @@ value is `0deg`.
 
 :::: {.section pdf-bookmark="Time and Frequency" data-type="sect1"}
 ::: {#ch05.xhtml_time_and_frequency .sect1}
-# Time and Frequency {#ch05.xhtml_sigil_toc_id_316}
+<h1>Time and Frequency {#ch05.xhtml_sigil_toc_id_316}
 
 When a []{#ch05.xhtml_idm45797085109344 primary="units of measure"
 secondary="time" data-type="indexterm"}[]{#ch05.xhtml_idm45797085108368
@@ -12149,7 +12134,7 @@ is *always* required, even when the value is `0s` or `0hz`.
 
 :::: {.section pdf-bookmark="Ratios" data-type="sect1"}
 ::: {#ch05.xhtml_ratio .sect1}
-# Ratios {#ch05.xhtml_sigil_toc_id_317}
+<h1>Ratios {#ch05.xhtml_sigil_toc_id_317}
 
 When you []{#ch05.xhtml_idm45797085034544 primary="values"
 secondary="ratio" data-type="indexterm"}[]{#ch05.xhtml_idm45797085033536
@@ -12171,7 +12156,7 @@ separator instead of a forward slash (e.g., `16:9`).
 
 :::: {.section pdf-bookmark="Position" data-type="sect1"}
 ::: {#ch05.xhtml_position .sect1}
-# Position {#ch05.xhtml_sigil_toc_id_318}
+<h1>Position {#ch05.xhtml_sigil_toc_id_318}
 
 You []{#ch05.xhtml_idm45797085025664 primary="backgrounds"
 secondary="positioning"
@@ -12235,7 +12220,7 @@ same as `right 20px top 0`.
 
 :::::: {.section pdf-bookmark="Custom Properties" data-type="sect1"}
 ::::: {#ch05.xhtml_custom_properties .sect1}
-# Custom Properties {#ch05.xhtml_sigil_toc_id_319}
+<h1>Custom Properties {#ch05.xhtml_sigil_toc_id_319}
 
 If you've []{#ch05.xhtml_ix_properties_custom primary="properties"
 secondary="custom"
@@ -12381,7 +12366,7 @@ all the math is correct.
 
 :::: {.section pdf-bookmark="Custom Property Fallbacks" data-type="sect2"}
 ::: {#ch05.xhtml_idm45797084578816 .sect2}
-## Custom Property Fallbacks {#ch05.xhtml_sigil_toc_id_322}
+<h2>Custom Property Fallbacks {#ch05.xhtml_sigil_toc_id_322}
 
 When you're setting a value by using `var()`, you can specify a fallback
 value. For example, you could say that if a custom property isn't
@@ -12486,7 +12471,7 @@ startref="ix_var_func" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch05.xhtml_idm45797084977952 .sect1}
-# Summary {#ch05.xhtml_sigil_toc_id_323}
+<h1>Summary {#ch05.xhtml_sigil_toc_id_323}
 
 As you've seen, CSS provides a wide range of value and unit types. These
 units can have advantages and drawbacks, depending on the circumstances
@@ -12502,7 +12487,7 @@ appropriate.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch06.xhtml_sbo-rt-content}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch06.xhtml_basic-visual-formatting .chapter}
-# [Chapter 6. ]{.label}Basic Visual Formatting
+<h1>[Chapter 6. ]{.label}Basic Visual Formatting
 
 You've []{#ch06.xhtml_ix_vis_format_ch6 primary="visual formatting"
 data-type="indexterm"}likely experienced the frustration of having your
@@ -12517,7 +12502,7 @@ unexpected) consequence of the rendering engine CSS defines.
 
 :::::::: {.section pdf-bookmark="Basic Boxes" data-type="sect1"}
 ::::::: {#ch06.xhtml_basic-boxes .sect1}
-# Basic Boxes {#ch06.xhtml_sigil_toc_id_324}
+<h1>Basic Boxes {#ch06.xhtml_sigil_toc_id_324}
 
 At its core, []{#ch06.xhtml_ix_box_basic primary="boxes"
 secondary="basic" data-type="indexterm"}[]{#ch06.xhtml_ix_elem_box_ch6
@@ -12562,7 +12547,7 @@ startref="ix_vis_format_content_area" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="A Quick Primer" data-type="sect2"}
 ::: {#ch06.xhtml_a-quick-primer .sect2}
-## A Quick Primer {#ch06.xhtml_sigil_toc_id_326}
+<h2>A Quick Primer {#ch06.xhtml_sigil_toc_id_326}
 
 First, we'll quickly review the kinds of boxes we'll be discussing, as
 well as some important terms that are needed to understand the
@@ -12689,7 +12674,7 @@ Root element
 
 :::: {.section pdf-bookmark="The Containing Block" data-type="sect2"}
 ::: {#ch06.xhtml_bvf_the-containing-block .sect2}
-## The Containing Block {#ch06.xhtml_sigil_toc_id_327}
+<h2>The Containing Block {#ch06.xhtml_sigil_toc_id_327}
 
 We need to []{#ch06.xhtml_idm45797084247632
 primary="absolute positioning" secondary="containing blocks and"
@@ -12785,7 +12770,7 @@ startref="ix_box_basic" data-type="indexterm"}
 
 ::::::::: {.section pdf-bookmark="Altering Element Display" data-type="sect1"}
 :::::::: {#ch06.xhtml_altering-element-display .sect1}
-# Altering Element Display {#ch06.xhtml_sigil_toc_id_328}
+<h1>Altering Element Display {#ch06.xhtml_sigil_toc_id_328}
 
 You can []{#ch06.xhtml_ix_display_roles_change primary="display roles"
 secondary="changing"
@@ -12804,9 +12789,8 @@ value for the `display` property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797084171984 .sidebar}
-# display {#ch06.xhtml_sigil_toc_id_329}
+<h1>display {#ch06.xhtml_sigil_toc_id_329}
 
-  -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`display-outside`*\> ‖ \<*`display-inside`*\> \] \| \<*`display-listitem`*\> \| \<*`display-internal`*\> \| \<*`display-box`*\> \| \<*`display-legacy`*\>
   **Definitions**      See below
   **Initial value**    `inline`
@@ -12814,7 +12798,6 @@ value for the `display` property.
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \<*`display-outside`*\>
 
@@ -12860,7 +12843,7 @@ display role can alter layout.
 
 :::: {.section pdf-bookmark="Changing Roles" data-type="sect2"}
 ::: {#ch06.xhtml_changing-roles .sect2}
-## Changing Roles {#ch06.xhtml_sigil_toc_id_330}
+<h2>Changing Roles {#ch06.xhtml_sigil_toc_id_330}
 
 When it comes to styling a document, it's sometimes handy to be able to
 change the type of box an element generates. For example, suppose we
@@ -12986,7 +12969,7 @@ startref="ix_inline_display" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Handling Block Boxes" data-type="sect2"}
 ::: {#ch06.xhtml_block-boxes .sect2}
-## Handling Block Boxes {#ch06.xhtml_sigil_toc_id_333}
+<h2>Handling Block Boxes {#ch06.xhtml_sigil_toc_id_333}
 
 Block []{#ch06.xhtml_ix_vert_format_blocks primary="vertical formatting"
 secondary="block boxes"
@@ -13086,7 +13069,7 @@ modes</h6>
 
 ::::::::::::::: {.section pdf-bookmark="Logical Element Sizing" data-type="sect1"}
 :::::::::::::: {#ch06.xhtml_logical-element-sizing .sect1}
-# Logical Element Sizing {#ch06.xhtml_sigil_toc_id_336}
+<h1>Logical Element Sizing {#ch06.xhtml_sigil_toc_id_336}
 
 Because CSS []{#ch06.xhtml_ix_vis_format_logical_size
 primary="visual formatting" secondary="sizing of logical element"
@@ -13111,9 +13094,8 @@ primary="inline-size property" data-type="indexterm"}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797083793824 .sidebar}
-# block-size, inline-size {#ch06.xhtml_sigil_toc_id_337}
-
-  -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1>block-size, inline-size</h1>
+	
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `min-content` \| `max-content` \| `fit-content` \| `auto`
   **Initial value**    `auto`
   **Applies to**       All elements except nonreplaced inline elements, table rows, and row groups
@@ -13121,7 +13103,6 @@ primary="inline-size property" data-type="indexterm"}
   **Computed value**   For `auto` and percentage values, as specified; otherwise, an absolute length, unless the property does not apply to the element (then `auto`)
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -13203,7 +13184,7 @@ startref="ix_block_size" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Content-Based Sizing Values" data-type="sect2"}
 ::: {#ch06.xhtml_idm45797083676336 .sect2}
-## Content-Based Sizing Values {#ch06.xhtml_sigil_toc_id_339}
+<h2>Content-Based Sizing Values {#ch06.xhtml_sigil_toc_id_339}
 
 Beyond the []{#ch06.xhtml_ix_horiz_format_content
 primary="horizontal formatting" secondary="content-based sizing"
@@ -13330,7 +13311,7 @@ startref="ix_horiz_format_content" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Minimum and Maximum Logical Sizing" data-type="sect2"}
 :::: {#ch06.xhtml_idm45797083619936 .sect2}
-## Minimum and Maximum Logical Sizing {#ch06.xhtml_sigil_toc_id_343}
+<h2>Minimum and Maximum Logical Sizing {#ch06.xhtml_sigil_toc_id_343}
 
 If you'd []{#ch06.xhtml_idm45797083618496
 primary="max-block-size property"
@@ -13347,9 +13328,8 @@ properties to help you out.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797083615424 .sidebar}
-# min-block-size, max-block-size, min-inline-size, max-inline-size {#ch06.xhtml_sigil_toc_id_344}
+<h1>min-block-size, max-block-size, min-inline-size, max-inline-size {#ch06.xhtml_sigil_toc_id_344}
 
-  -------------------- --------------------------------------------
   **Values**           Same as for `block-size` and `inline-size`
   **Initial value**    `0`
   **Applies to**       Same as for `block-size` and `inline-size`
@@ -13357,7 +13337,6 @@ properties to help you out.
   **Computed value**   Same as for `block-size` and `inline-size`
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- --------------------------------------------
 :::
 
 ```{=html}
@@ -13401,7 +13380,7 @@ alt="css5 0610" />
 
 ::::::: {.section pdf-bookmark="Height and Width" data-type="sect2"}
 :::::: {#ch06.xhtml_height-and-width .sect2}
-## Height and Width {#ch06.xhtml_sigil_toc_id_346}
+<h2>Height and Width {#ch06.xhtml_sigil_toc_id_346}
 
 If you've []{#ch06.xhtml_ix_height_prop primary="height property"
 secondary="logical element sizing"
@@ -13436,7 +13415,7 @@ writing mode. Each element's height has been automatically determined by
 the content, the specifics of the writing mode, and so on.
 
 ::: {data-type="tip"}
-###### Tip {#ch06.xhtml_sigil_toc_id_348}
+<h5>Tip {#ch06.xhtml_sigil_toc_id_348}
 
 If you use block and inline properties like `block-size` instead of
 physical directions like `height`, and your design is applied to content
@@ -13448,9 +13427,8 @@ your intentions.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797083507152 .sidebar}
-# height, width {#ch06.xhtml_sigil_toc_id_349}
+<h1>height, width {#ch06.xhtml_sigil_toc_id_349}
 
-  -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `min-content` \| `max-content` \| `fit-content` \| `auto`
   **Initial value**    `auto`
   **Applies to**       All elements except nonreplaced inline elements, table rows, and row groups
@@ -13458,7 +13436,6 @@ your intentions.
   **Computed value**   For `auto` and percentage values, as specified; otherwise, an absolute length, unless the property does not apply to the element (then `auto`)
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -13497,7 +13474,7 @@ treated as `auto` instead, as seen in the `#cb4` example in
 [Figure 6-12](#ch06.xhtml_heights-and-widths){data-type="xref"}.
 
 ::: {.note data-type="note"}
-###### Note {#ch06.xhtml_sigil_toc_id_350}
+<h5>Note {#ch06.xhtml_sigil_toc_id_350}
 
 The handling of `auto` top and bottom margins is different for
 positioned elements, as well as flexible-box and grid elements. The
@@ -13583,7 +13560,7 @@ startref="ix_log_prop_margin" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Altering Box Sizing" data-type="sect1"}
 :::: {#ch06.xhtml_altering-box-sizing .sect1}
-# Altering Box Sizing {#ch06.xhtml_sigil_toc_id_352}
+<h1>Altering Box Sizing {#ch06.xhtml_sigil_toc_id_352}
 
 If it []{#ch06.xhtml_ix_horiz_format_box_size
 primary="horizontal formatting" secondary="box sizing"
@@ -13604,16 +13581,14 @@ you can make that sizing more intuitive by using the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797083234480 .sidebar}
-# box-sizing {#ch06.xhtml_sigil_toc_id_353}
+<h1>box-sizing {#ch06.xhtml_sigil_toc_id_353}
 
-  -------------------- -----------------------------------------------------
   **Values**           `content-box` \| `border-box`
   **Initial value**    `content-box`
   **Applies to**       All elements that accept `width` or `height` values
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- -----------------------------------------------------
 :::
 
 ```{=html}
@@ -13676,7 +13651,7 @@ startref="ix_vert_format_box_size" data-type="indexterm"}
 
 :::::::::::::::::: {.section pdf-bookmark="Block-Axis Properties" data-type="sect1"}
 ::::::::::::::::: {#ch06.xhtml_block-axis-properties .sect1}
-# Block-Axis Properties {#ch06.xhtml_sigil_toc_id_355}
+<h1>Block-Axis Properties {#ch06.xhtml_sigil_toc_id_355}
 
 In []{#ch06.xhtml_ix_blocks_blockaxis_props primary="blocks"
 secondary="block-axis properties"
@@ -13740,7 +13715,7 @@ primary="block-size property" data-type="indexterm"} must be set to
 
 :::: {.section pdf-bookmark="Auto Block Sizing" data-type="sect2"}
 ::: {#ch06.xhtml_auto-block-sizing .sect2}
-## Auto Block Sizing {#ch06.xhtml_sigil_toc_id_357}
+<h2>Auto Block Sizing {#ch06.xhtml_sigil_toc_id_357}
 
 In the []{#ch06.xhtml_ix_vert_format_auto_block
 primary="vertical formatting" secondary="auto block sizing"
@@ -13801,7 +13776,7 @@ alt="css5 0615" />
 
 :::: {.section pdf-bookmark="Percentage Heights" data-type="sect2"}
 ::: {#ch06.xhtml_percentage-heights .sect2}
-## Percentage Heights {#ch06.xhtml_sigil_toc_id_359}
+<h2>Percentage Heights {#ch06.xhtml_sigil_toc_id_359}
 
 You []{#ch06.xhtml_idm45797083136976 primary="block-axis properties"
 secondary="percentage heights"
@@ -13874,7 +13849,7 @@ alt="css5 0617" />
 
 :::::::: {.section pdf-bookmark="Handling Content Overflow" data-type="sect2"}
 ::::::: {#ch06.xhtml_overflow .sect2}
-## Handling Content Overflow {#ch06.xhtml_sigil_toc_id_362}
+<h2>Handling Content Overflow {#ch06.xhtml_sigil_toc_id_362}
 
 Given []{#ch06.xhtml_ix_overflow_prop primary="overflow property"
 data-type="indexterm"}[]{#ch06.xhtml_ix_blocks_cont_over
@@ -13894,16 +13869,14 @@ some control over the situation with the `overflow` shorthand property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797082980560 .sidebar}
-# overflow {#ch06.xhtml_sigil_toc_id_363}
+<h1>overflow {#ch06.xhtml_sigil_toc_id_363}
 
-  -------------------- ------------------------------------------------------------------
   **Values**           \[ `visible` \| `hidden` \| `clip` \| `scroll` \| `auto` \]{1,2}
   **Initial value**    `visible`
   **Applies to**       Block-level and replaced elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- ------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -13977,7 +13950,7 @@ not, but generally do.)
 
 ::::: {.section pdf-bookmark="Single-axis overflow" data-type="sect3"}
 :::: {#ch06.xhtml_single_axis_overflow .sect3}
-### Single-axis overflow {#ch06.xhtml_sigil_toc_id_365}
+<h3>Single-axis overflow {#ch06.xhtml_sigil_toc_id_365}
 
 Two []{#ch06.xhtml_ix_single_axis_over primary="single-axis overflow"
 data-type="indexterm"}[]{#ch06.xhtml_idm45797082921920
@@ -13995,16 +13968,14 @@ setting them both in `overflow`, or by using the `overflow-x` and
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797082898368 .sidebar}
-# overflow-x, overflow-y {#ch06.xhtml_sigil_toc_id_366}
+<h1>overflow-x, overflow-y {#ch06.xhtml_sigil_toc_id_366}
 
-  -------------------- -------------------------------------------------------
   **Values**           `visible` \| `hidden` \| `clip` \| `scroll` \| `auto`
   **Initial value**    `visible`
   **Applies to**       Block-level and replaced elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- -------------------------------------------------------
 :::
 
 ```{=html}
@@ -14083,7 +14054,7 @@ startref="ix_single_axis_over" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Negative Margins and Collapsing" data-type="sect2"}
 ::: {#ch06.xhtml_negative-margins-and-collapsing .sect2}
-## Negative Margins and Collapsing {#ch06.xhtml_sigil_toc_id_368}
+<h2>Negative Margins and Collapsing {#ch06.xhtml_sigil_toc_id_368}
 
 Believe it or not, []{#ch06.xhtml_ix_margin_collapse primary="margins"
 secondary="collapsing"
@@ -14171,7 +14142,7 @@ distance from the block-end of the `<div>`.
 
 :::: {.section pdf-bookmark="Collapsing Block-Axis Margins" data-type="sect2"}
 ::: {#ch06.xhtml_collapsing-block-axis-margins .sect2}
-## Collapsing Block-Axis Margins {#ch06.xhtml_sigil_toc_id_371}
+<h2>Collapsing Block-Axis Margins {#ch06.xhtml_sigil_toc_id_371}
 
 An []{#ch06.xhtml_ix_vert_format_margin primary="vertical formatting"
 secondary="collapsing margins"
@@ -14375,7 +14346,7 @@ startref="ix_neg_margin" data-type="indexterm"}
 
 ::::::::::::::::::::::: {.section pdf-bookmark="Inline-Axis Formatting" data-type="sect1"}
 :::::::::::::::::::::: {#ch06.xhtml_inline-axis-formatting .sect1}
-# Inline-Axis Formatting {#ch06.xhtml_sigil_toc_id_377}
+<h1>Inline-Axis Formatting {#ch06.xhtml_sigil_toc_id_377}
 
 Laying out []{#ch06.xhtml_ix_block_inlineaxis primary="blocks"
 secondary="inline-axis"
@@ -14476,7 +14447,7 @@ block</h6>
 
 :::: {.section pdf-bookmark="Inline-Axis Properties" data-type="sect2"}
 ::: {#ch06.xhtml_inline-axis-properties .sect2}
-## Inline-Axis Properties {#ch06.xhtml_sigil_toc_id_381}
+<h2>Inline-Axis Properties {#ch06.xhtml_sigil_toc_id_381}
 
 The []{#ch06.xhtml_idm45797082153616 primary="inline-axis formatting"
 secondary="properties"
@@ -14535,7 +14506,7 @@ effects can occur.
 
 :::::::::: {.section pdf-bookmark="Using auto" data-type="sect2"}
 ::::::::: {#ch06.xhtml_using-auto .sect2}
-## Using auto {#ch06.xhtml_sigil_toc_id_383}
+<h2>Using auto {#ch06.xhtml_sigil_toc_id_383}
 
 In []{#ch06.xhtml_ix_inlineaxis_format_auto
 primary="inline-axis formatting" secondary="auto, using"
@@ -14549,7 +14520,7 @@ different effects, and why.
 
 :::: {.section pdf-bookmark="Only one auto" data-type="sect3"}
 ::: {#ch06.xhtml_only_one_auto .sect3}
-### Only one auto {#ch06.xhtml_sigil_toc_id_384}
+<h3>Only one auto {#ch06.xhtml_sigil_toc_id_384}
 
 If you set one of `inline-size`, `margin-inline-start`, or
 `margin-inline-end` to a value of `auto`, and give the other two
@@ -14651,7 +14622,7 @@ not how it behaves in relation to the margins.
 
 :::: {.section pdf-bookmark="More than one auto" data-type="sect3"}
 ::: {#ch06.xhtml_more-than-one-auto .sect3}
-### More than one auto {#ch06.xhtml_sigil_toc_id_387}
+<h3>More than one auto {#ch06.xhtml_sigil_toc_id_387}
 
 Now let's see what happens when two of the three properties
 (`inline-size`, `margin-inline-start`, and `margin-inline-end`) are set
@@ -14706,7 +14677,7 @@ inline-start margin <span class="keep-together">are
 
 :::: {.section pdf-bookmark="Too many autos" data-type="sect3"}
 ::: {#ch06.xhtml_too-many-autos .sect3}
-### Too many autos {#ch06.xhtml_sigil_toc_id_390}
+<h3>Too many autos {#ch06.xhtml_sigil_toc_id_390}
 
 Finally, what happens when all three properties are set to `auto`? The
 answer: both margins are set to 0, and the `inline-size` is made as wide
@@ -14747,7 +14718,7 @@ alt="css5 0635" />
 
 :::: {.section pdf-bookmark="Negative Margins" data-type="sect2"}
 ::: {#ch06.xhtml_bvf_negative-margins .sect2}
-## Negative Margins {#ch06.xhtml_sigil_toc_id_392}
+<h2>Negative Margins {#ch06.xhtml_sigil_toc_id_392}
 
 As you've []{#ch06.xhtml_ix_neg_margin2 primary="negative margins"
 data-type="indexterm"}[]{#ch06.xhtml_ix_inlineaxis_format_neg_margin
@@ -14874,7 +14845,7 @@ startref="ix_neg_margin2" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Percentages" data-type="sect2"}
 ::: {#ch06.xhtml_bvf_percentages .sect2}
-## Percentages {#ch06.xhtml_sigil_toc_id_395}
+<h2>Percentages {#ch06.xhtml_sigil_toc_id_395}
 
 When it []{#ch06.xhtml_idm45797081398848 primary="horizontal formatting"
 secondary="percentages"
@@ -14943,7 +14914,7 @@ changer, or at least a layout changer.
 
 :::: {.section pdf-bookmark="Replaced Elements" data-type="sect2"}
 ::: {#ch06.xhtml_replaced-elements .sect2}
-## Replaced Elements {#ch06.xhtml_sigil_toc_id_396}
+<h2>Replaced Elements {#ch06.xhtml_sigil_toc_id_396}
 
 So far, we've []{#ch06.xhtml_idm45797081263856
 primary="inline-axis formatting" secondary="replaced elements"
@@ -15007,7 +14978,7 @@ block size.
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="List Items" data-type="sect2"}
 :::: {#ch06.xhtml_list-items .sect2}
-## List Items {#ch06.xhtml_sigil_toc_id_398}
+<h2>List Items {#ch06.xhtml_sigil_toc_id_398}
 
 List []{#ch06.xhtml_idm45797081160800 primary="visual formatting"
 secondary="list items"
@@ -15045,7 +15016,7 @@ Remember that list-item boxes define containing blocks for their
 descendant boxes, just like regular block boxes.
 
 ::: {.note data-type="note"}
-###### Note {#ch06.xhtml_sigil_toc_id_400}
+<h5>Note {#ch06.xhtml_sigil_toc_id_400}
 
 List markers are discussed in more detail, including how to create and
 style them using the `::marker` pseudo-element, in
@@ -15063,7 +15034,7 @@ startref="ix_block_inlineaxis" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Box Sizing with Aspect Ratios" data-type="sect1"}
 :::: {#ch06.xhtml_aspect-ratio-sizing .sect1}
-# Box Sizing with Aspect Ratios {#ch06.xhtml_sigil_toc_id_401}
+<h1>Box Sizing with Aspect Ratios {#ch06.xhtml_sigil_toc_id_401}
 
 Sometimes you'll want to []{#ch06.xhtml_ix_box_aspect_ratio
 primary="boxes" secondary="sizing with aspect ratios"
@@ -15079,16 +15050,14 @@ these cases, the `aspect-ratio` property can help.
 <aside class="less_space pagebreak-before" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797081105536 .sidebar}
-# aspect-ratio {#ch06.xhtml_sigil_toc_id_402}
+<h1>aspect-ratio {#ch06.xhtml_sigil_toc_id_402}
 
-  -------------------- --------------------------------------------------------------------
   **Values**           `auto` ‖ \<*`ratio`*\>
   **Initial value**    `auto`
   **Applies to**       All elements except inline boxes and internal table and Ruby boxes
   **Computed value**   If \<*`ratio`*\>, a pair of numbers; otherwise, `auto`
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- --------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -15140,7 +15109,7 @@ startref="ix_box_aspect_ratio" data-type="indexterm"}
 
 ::::::::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Inline Formatting" data-type="sect1"}
 :::::::::::::::::::::::::::::::::::::::::::::: {#ch06.xhtml_inline-formatting .sect1}
-# Inline Formatting {#ch06.xhtml_sigil_toc_id_404}
+<h1>Inline Formatting {#ch06.xhtml_sigil_toc_id_404}
 
 *Inline formatting* isn't as simple as
 []{#ch06.xhtml_ix_vis_format_inline primary="visual formatting"
@@ -15155,7 +15124,7 @@ How can I affect it?
 
 ::::: {.section pdf-bookmark="Line Layout" data-type="sect2"}
 :::: {#ch06.xhtml_line-layout .sect2}
-## Line Layout {#ch06.xhtml_sigil_toc_id_405}
+<h2>Line Layout {#ch06.xhtml_sigil_toc_id_405}
 
 To understand how []{#ch06.xhtml_ix_line_layout primary="line layout"
 data-type="indexterm"}[]{#ch06.xhtml_ix_inline_format_line
@@ -15214,7 +15183,7 @@ each other, their borders overlap as shown in
 [Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}.
 
 ::: {.note data-type="note"}
-###### Note {#ch06.xhtml_sigil_toc_id_408}
+<h5>Note {#ch06.xhtml_sigil_toc_id_408}
 
 For simplicity, we use terms such as *top* and *bottom* when talking
 about the edges of line boxes. In this context, the top of a line box is
@@ -15271,7 +15240,7 @@ simple.
 
 :::: {.section pdf-bookmark="Basic Terms and Concepts" data-type="sect2"}
 ::: {#ch06.xhtml_basic-terms-and-concepts .sect2}
-## Basic Terms and Concepts {#ch06.xhtml_sigil_toc_id_410}
+<h2>Basic Terms and Concepts {#ch06.xhtml_sigil_toc_id_410}
 
 Before we go any further, let's []{#ch06.xhtml_ix_inline_format_terms
 primary="inline formatting" secondary="terms and concepts"
@@ -15443,7 +15412,7 @@ startref="ix_inline_format_terms" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Line Heights" data-type="sect2"}
 ::: {#ch06.xhtml_line-heights .sect2}
-## Line Heights {#ch06.xhtml_sigil_toc_id_411}
+<h2>Line Heights {#ch06.xhtml_sigil_toc_id_411}
 
 First, []{#ch06.xhtml_ix_inline_format_height
 primary="inline formatting" secondary="line heights"
@@ -15506,7 +15475,7 @@ nicely.
 
 ::::: {.section pdf-bookmark="Inline Nonreplaced Elements" data-type="sect2"}
 :::: {#ch06.xhtml_inline-nonreplaced-elements .sect2}
-## Inline Nonreplaced Elements {#ch06.xhtml_sigil_toc_id_412}
+<h2>Inline Nonreplaced Elements {#ch06.xhtml_sigil_toc_id_412}
 
 Building on our []{#ch06.xhtml_idm45797080804576
 primary="inline formatting" secondary="nonreplaced elements"
@@ -15516,7 +15485,7 @@ anonymous text). Then you'll be in a good position to understand the
 differences between nonreplaced and replaced elements in inline layout.
 
 ::: {.note data-type="note"}
-###### Note {#ch06.xhtml_sigil_toc_id_413}
+<h5>Note {#ch06.xhtml_sigil_toc_id_413}
 
 In this section, we use *top* and *bottom* to label where half-leading
 is placed and how line boxes are placed together.
@@ -15533,7 +15502,7 @@ along its inline axis.
 
 ::::: {.section pdf-bookmark="Building the Boxes" data-type="sect2"}
 :::: {#ch06.xhtml_building-the-boxes .sect2}
-## Building the Boxes {#ch06.xhtml_sigil_toc_id_414}
+<h2>Building the Boxes {#ch06.xhtml_sigil_toc_id_414}
 
 First, for an []{#ch06.xhtml_ix_inline_format_box
 primary="inline formatting" secondary="building boxes"
@@ -15663,7 +15632,7 @@ alt="css5 0647" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch06.xhtml_sigil_toc_id_419}
+<h5>Note {#ch06.xhtml_sigil_toc_id_419}
 
 In just a bit, we'll explore ways to cope with this irregular separation
 of baselines and methods for achieving consistent baseline spacing.
@@ -15679,7 +15648,7 @@ startref="ix_inline_format_box" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Setting Vertical Alignment" data-type="sect2"}
 :::: {#ch06.xhtml_vertical-alignment .sect2}
-## Setting Vertical Alignment {#ch06.xhtml_sigil_toc_id_420}
+<h2>Setting Vertical Alignment {#ch06.xhtml_sigil_toc_id_420}
 
 If we change the []{#ch06.xhtml_ix_vert_format_align
 primary="vertical formatting" secondary="alignment setting"
@@ -15719,7 +15688,7 @@ alt="css5 0648" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch06.xhtml_sigil_toc_id_422}
+<h5>Note {#ch06.xhtml_sigil_toc_id_422}
 
 A formal definition for `vertical-align` can be found in
 [[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.]{.keep-together}
@@ -15852,7 +15821,7 @@ of the assorted keyword values of `vertical-align` are as follows:
 
 :::::::: {.section pdf-bookmark="Managing the Line Height" data-type="sect2"}
 ::::::: {#ch06.xhtml_managing-the-line-height .sect2}
-## Managing the Line Height {#ch06.xhtml_sigil_toc_id_425}
+<h2>Managing the Line Height {#ch06.xhtml_sigil_toc_id_425}
 
 In previous sections, you saw that changing the `line-height` of an
 inline element can cause text from one line to overlap another. In each
@@ -15954,7 +15923,7 @@ we must make the `<p>` element's `line-height` equal to or greater than
 
 :::: {.section pdf-bookmark="Understanding baselines and line heights" data-type="sect3"}
 ::: {#ch06.xhtml_baselines-and-line-heights .sect3}
-### Understanding baselines and line heights {#ch06.xhtml_sigil_toc_id_428}
+<h3>Understanding baselines and line heights {#ch06.xhtml_sigil_toc_id_428}
 
 The []{#ch06.xhtml_idm45797080137408 primary="baselines"
 secondary="line heights and" data-type="indexterm"}actual height of each
@@ -15979,7 +15948,7 @@ adoption a distant hope at best.
 
 :::: {.section pdf-bookmark="Scaling line heights" data-type="sect3"}
 ::: {#ch06.xhtml_scaling-line-heights .sect3}
-### Scaling line heights {#ch06.xhtml_sigil_toc_id_429}
+<h3>Scaling line heights {#ch06.xhtml_sigil_toc_id_429}
 
 The []{#ch06.xhtml_idm45797080133280 primary="scaling factor"
 data-type="indexterm"}best way to set `line-height`, as it turns out, is
@@ -16040,7 +16009,7 @@ alt="css5 0653" />
 
 :::: {.section pdf-bookmark="Adding Box Properties to Nonreplaced Elements" data-type="sect2"}
 ::: {#ch06.xhtml_adding-box-properties .sect2}
-## Adding Box Properties to Nonreplaced Elements {#ch06.xhtml_sigil_toc_id_431}
+<h2>Adding Box Properties to Nonreplaced Elements {#ch06.xhtml_sigil_toc_id_431}
 
 As you []{#ch06.xhtml_ix_inline_format_nonrep
 primary="inline formatting" secondary="nonreplaced elements"
@@ -16136,7 +16105,7 @@ startref="ix_inline_format_nonrep" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Changing Breaking Behavior" data-type="sect2"}
 :::: {#ch06.xhtml_changing-breaking-behavior .sect2}
-## Changing Breaking Behavior {#ch06.xhtml_sigil_toc_id_434}
+<h2>Changing Breaking Behavior {#ch06.xhtml_sigil_toc_id_434}
 
 In the []{#ch06.xhtml_idm45797079749760 primary="breaks"
 secondary="changing"
@@ -16156,16 +16125,14 @@ changed via the property `box-decoration-break`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797079745072 .sidebar}
-# box-decoration-break {#ch06.xhtml_sigil_toc_id_435}
+<h1>box-decoration-break {#ch06.xhtml_sigil_toc_id_435}
 
-  -------------------- --------------------
   **Values**           `slice` \| `clone`
   **Initial value**    `slice`
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- --------------------
 :::
 
 ```{=html}
@@ -16215,7 +16182,7 @@ rendered.
 
 :::: {.section pdf-bookmark="Glyphs Versus Content Area" data-type="sect2"}
 ::: {#ch06.xhtml_glyphs-versus-content-area .sect2}
-## Glyphs Versus Content Area {#ch06.xhtml_sigil_toc_id_437}
+<h2>Glyphs Versus Content Area {#ch06.xhtml_sigil_toc_id_437}
 
 Even []{#ch06.xhtml_idm45797079723328 primary="content area"
 secondary="versus glyphs" secondary-sortas="glyphs"
@@ -16244,7 +16211,7 @@ of other lines.
 
 :::: {.section pdf-bookmark="Inline Replaced Elements" data-type="sect2"}
 ::: {#ch06.xhtml_inline-replaced-elements .sect2}
-## Inline Replaced Elements {#ch06.xhtml_sigil_toc_id_438}
+<h2>Inline Replaced Elements {#ch06.xhtml_sigil_toc_id_438}
 
 Inline []{#ch06.xhtml_ix_replaced_elem_inline
 primary="replaced elements" secondary="inline"
@@ -16322,7 +16289,7 @@ within the image.
 
 :::: {.section pdf-bookmark="Adding Box Properties to Replaced Elements" data-type="sect2"}
 ::: {#ch06.xhtml_adding-box-properties-1 .sect2}
-## Adding Box Properties to Replaced Elements {#ch06.xhtml_sigil_toc_id_440}
+<h2>Adding Box Properties to Replaced Elements {#ch06.xhtml_sigil_toc_id_440}
 
 After everything we've just been through, applying margins, borders, and
 padding to inline replaced elements seems almost simple.
@@ -16400,7 +16367,7 @@ alt="css5 0659" />
 
 :::: {.section pdf-bookmark="Replaced Elements and the Baseline" data-type="sect2"}
 ::: {#ch06.xhtml_replaced-elements-and-the-baseline .sect2}
-## Replaced Elements and the Baseline {#ch06.xhtml_sigil_toc_id_443}
+<h2>Replaced Elements and the Baseline {#ch06.xhtml_sigil_toc_id_443}
 
 You may have []{#ch06.xhtml_ix_inline_format_baseline
 primary="inline formatting" secondary="baselines"
@@ -16489,7 +16456,7 @@ startref="ix_inline_format_baseline" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Inline-Block Elements" data-type="sect2"}
 ::: {#ch06.xhtml_inline-block-elements .sect2}
-## Inline-Block Elements {#ch06.xhtml_sigil_toc_id_446}
+<h2>Inline-Block Elements {#ch06.xhtml_sigil_toc_id_446}
 
 As befits the []{#ch06.xhtml_ix_inline_format_inblock
 primary="inline formatting" secondary="inline-block elements"
@@ -16591,7 +16558,7 @@ alt="css5 0663" />
 
 :::: {.section pdf-bookmark="Flow Display" data-type="sect2"}
 ::: {#ch06.xhtml_flow-display .sect2}
-## Flow Display {#ch06.xhtml_sigil_toc_id_449}
+<h2>Flow Display {#ch06.xhtml_sigil_toc_id_449}
 
 The `display` values `flow` and `flow-root` deserve a moment of
 explanation. []{#ch06.xhtml_idm45797078954128 primary="display property"
@@ -16647,7 +16614,6 @@ The old `display` values you may be familiar with are still available.
 shows how the old values will be represented using the new values.
 
   Old values           New values
-  -------------------- -------------------------
   `block`              `block flow`
   `inline`             `inline flow`
   `inline-block`       `inline flow-root`
@@ -16667,7 +16633,7 @@ shows how the old values will be represented using the new values.
 
 :::: {.section pdf-bookmark="Content Display" data-type="sect2"}
 ::: {#ch06.xhtml_contents-display .sect2}
-## Content Display {#ch06.xhtml_sigil_toc_id_450}
+<h2>Content Display {#ch06.xhtml_sigil_toc_id_450}
 
 A []{#ch06.xhtml_idm45797078844848 primary="display roles"
 secondary="contents display"
@@ -16724,7 +16690,7 @@ appears higher up than the first.
 
 :::: {.section pdf-bookmark="Other Display Values" data-type="sect2"}
 ::: {#ch06.xhtml_other-display-values .sect2}
-## Other Display Values {#ch06.xhtml_sigil_toc_id_452}
+<h2>Other Display Values {#ch06.xhtml_sigil_toc_id_452}
 
 We haven't covered a great many more display values in this chapter, and
 won't. The various table-related values will come up in
@@ -16745,7 +16711,7 @@ startref="ix_vis_format_inline" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="Element Visibility" data-type="sect1"}
 ::::::: {#ch06.xhtml_element-visibility .sect1}
-# Element Visibility {#ch06.xhtml_sigil_toc_id_453}
+<h1>Element Visibility {#ch06.xhtml_sigil_toc_id_453}
 
 In []{#ch06.xhtml_ix_vis_format_elem_vis primary="visual formatting"
 secondary="visibility of elements"
@@ -16759,9 +16725,8 @@ secondary="elements" data-type="indexterm"}entire element.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch06.xhtml_idm45797078733152 .sidebar}
-# visibility {#ch06.xhtml_sigil_toc_id_454}
+<h1>visibility {#ch06.xhtml_sigil_toc_id_454}
 
-  -------------------- ----------------------------------------------------------------
   **Values**           `visible` \| `hidden` \| `collapse`
   **Initial value**    `visible`
   **Applies to**       All elements
@@ -16769,7 +16734,6 @@ secondary="elements" data-type="indexterm"}entire element.
   **Inherited**        Yes
   **Animatable**       A visibility
   **Note**             No, really, that's what the specification says: "A visibility"
-  -------------------- ----------------------------------------------------------------
 :::
 
 ```{=html}
@@ -16843,7 +16807,7 @@ a table, it has the same meaning as `hidden`.
 
 ::::: {.section pdf-bookmark="Animating Visibility" data-type="sect2"}
 :::: {#ch06.xhtml_animating_visibility .sect2}
-## Animating Visibility {#ch06.xhtml_sigil_toc_id_456}
+<h2>Animating Visibility {#ch06.xhtml_sigil_toc_id_456}
 
 If you []{#ch06.xhtml_idm45797078588704 primary="animation"
 secondary="of visibility" secondary-sortas="visibility"
@@ -16864,7 +16828,7 @@ xrefstyle="select:labelnumber"} for more information on animating CSS
 properties.)
 
 ::: {data-type="tip"}
-###### Tip {#ch06.xhtml_sigil_toc_id_457}
+<h5>Tip {#ch06.xhtml_sigil_toc_id_457}
 
 If you want to fade from being invisible to visible, don't animate
 `visibility`. Animate `opacity` instead.[]{#ch06.xhtml_idm45797078579120
@@ -16879,7 +16843,7 @@ startref="ix_vis_format_elem_vis" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch06.xhtml_bvf_summary .sect1}
-# Summary {#ch06.xhtml_sigil_toc_id_458}
+<h1>Summary {#ch06.xhtml_sigil_toc_id_458}
 
 Although some aspects of the CSS formatting model may seem
 counterintuitive at first, they begin to make sense the more you work
@@ -16901,7 +16865,7 @@ nonreplaced.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch07.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch07.xhtml_padding-borders-outlines-and-margins .chapter}
-# [Chapter 7. ]{.label}Padding, Borders, Outlines, and Margins
+<h1>[Chapter 7. ]{.label}Padding, Borders, Outlines, and Margins
 
 In
 [Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
@@ -16913,7 +16877,7 @@ that may be added.
 
 ::::: {.section pdf-bookmark="Basic Element Boxes" data-type="sect1"}
 :::: {#ch07.xhtml_basic-element-boxes .sect1}
-# Basic Element Boxes {#ch07.xhtml_sigil_toc_id_459}
+<h1>Basic Element Boxes {#ch07.xhtml_sigil_toc_id_459}
 
 As []{#ch07.xhtml_idm45797078554048 primary="borders"
 secondary="in box model" secondary-sortas="box model"
@@ -16961,7 +16925,7 @@ omits outlines, for reasons that will hopefully be clear once we discuss
 outlines.
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_461}
+<h5>Note {#ch07.xhtml_sigil_toc_id_461}
 
 The height and width of the content area, as well as the sizing of the
 content area along the block and inline directions, are covered in
@@ -16975,7 +16939,7 @@ refer to that chapter for a detailed explanation.
 
 :::::::::::::::::::::::: {.section pdf-bookmark="Padding" data-type="sect1"}
 ::::::::::::::::::::::: {#ch07.xhtml_padding .sect1}
-# Padding {#ch07.xhtml_sigil_toc_id_462}
+<h1>Padding {#ch07.xhtml_sigil_toc_id_462}
 
 Just []{#ch07.xhtml_ix_padding_ch7 primary="padding"
 data-type="indexterm"}[]{#ch07.xhtml_ix_box_elem_padding primary="boxes"
@@ -16992,9 +16956,8 @@ padding is by using the [property `padding`.]{.keep-together}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797078530432 .sidebar}
-# padding {#ch07.xhtml_sigil_toc_id_463}
+<h1>padding {#ch07.xhtml_sigil_toc_id_463}
 
-  -------------------- --------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,4}
   **Initial value**    Not defined for shorthand elements
   **Applies to**       All elements except internal table elements other than table cells
@@ -17003,7 +16966,6 @@ padding is by using the [property `padding`.]{.keep-together}
   **Inherited**        No
   **Animatable**       Yes
   **Note**             `padding` can never be negative
-  -------------------- --------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -17035,7 +16997,7 @@ background will extend into the padding area (and beyond, as you'll see
 in a later section).
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_465}
+<h5>Note {#ch07.xhtml_sigil_toc_id_465}
 
 Visible []{#ch07.xhtml_idm45797078485472 primary="clipping"
 secondary="backgrounds"
@@ -17127,7 +17089,7 @@ alt="css5 0704" />
 
 :::: {.section pdf-bookmark="Replicating Values" data-type="sect2"}
 ::: {#ch07.xhtml_replicating-values .sect2}
-## Replicating Values {#ch07.xhtml_sigil_toc_id_468}
+<h2>Replicating Values {#ch07.xhtml_sigil_toc_id_468}
 
 Sometimes the []{#ch07.xhtml_ix_rep_value_padding
 primary="replicating values, padding"
@@ -17253,7 +17215,7 @@ alt="css5 0706" />
 
 ::::: {.section pdf-bookmark="Single-Side Padding" data-type="sect2"}
 :::: {#ch07.xhtml_single-side-padding .sect2}
-## Single-Side Padding {#ch07.xhtml_sigil_toc_id_471}
+<h2>Single-Side Padding {#ch07.xhtml_sigil_toc_id_471}
 
 CSS []{#ch07.xhtml_ix_singleside_padding primary="single-side padding"
 data-type="indexterm"}[]{#ch07.xhtml_ix_padding_singleside
@@ -17283,9 +17245,8 @@ box. Their names will come as little surprise.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797078043312 .sidebar}
-# padding-top, padding-right, padding-bottom, padding-left {#ch07.xhtml_sigil_toc_id_472}
+<h1>padding-top, padding-right, padding-bottom, padding-left {#ch07.xhtml_sigil_toc_id_472}
 
-  -------------------- -----------------------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\>
   **Initial value**    `0`
   **Applies to**       All elements
@@ -17294,7 +17255,6 @@ box. Their names will come as little surprise.
   **Inherited**        No
   **Animatable**       Yes
   **Note**             Padding values can never be negative
-  -------------------- -----------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -17363,7 +17323,7 @@ startref="ix_singleside_padding" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Logical Padding" data-type="sect2"}
 :::::: {#ch07.xhtml_logical-padding .sect2}
-## Logical Padding {#ch07.xhtml_sigil_toc_id_474}
+<h2>Logical Padding {#ch07.xhtml_sigil_toc_id_474}
 
 As you'll see []{#ch07.xhtml_ix_padding_logical primary="padding"
 secondary="logical" data-type="indexterm"}[]{#ch07.xhtml_ix_prop_logic2
@@ -17389,9 +17349,8 @@ determine which physical side they should be applied to.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797077804528 .sidebar}
-# padding-block-start, padding-block-end, padding-inline-start, padding-inline-end {#ch07.xhtml_sigil_toc_id_475}
+<h1>padding-block-start, padding-block-end, padding-inline-start, padding-inline-end {#ch07.xhtml_sigil_toc_id_475}
 
-  -------------------- -----------------------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\>
   **Initial value**    `0`
   **Applies to**       All elements
@@ -17400,7 +17359,6 @@ determine which physical side they should be applied to.
   **Inherited**        No
   **Animatable**       Yes
   **Note**             Padding values can never be negative
-  -------------------- -----------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -17435,7 +17393,7 @@ alt="css5 0708" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch07.xhtml_sigil_toc_id_477}
+<h5>Warning {#ch07.xhtml_sigil_toc_id_477}
 
 Percentage values for these logical padding properties are always
 calculated with respect to the *physical* width or height of the
@@ -17457,9 +17415,8 @@ axis, and one for the [inline axis.]{.keep-together}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797077732704 .sidebar}
-# padding-block, padding-inline {#ch07.xhtml_sigil_toc_id_478}
+<h1>padding-block, padding-inline {#ch07.xhtml_sigil_toc_id_478}
 
-  -------------------- -----------------------------------------------------------------------------
   **Values**           \[\<*`length`*\> \| \<*`percentage`*\>\]{1,2}
   **Initial value**    `0`
   **Applies to**       All elements
@@ -17468,7 +17425,6 @@ axis, and one for the [inline axis.]{.keep-together}
   **Inherited**        No
   **Animatable**       Yes
   **Note**             Padding values can never be negative
-  -------------------- -----------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -17516,7 +17472,7 @@ startref="ix_prop_logic2" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Percentage Values and Padding" data-type="sect2"}
 ::: {#ch07.xhtml_percentage-values-and-padding .sect2}
-## Percentage Values and Padding {#ch07.xhtml_sigil_toc_id_479}
+<h2>Percentage Values and Padding {#ch07.xhtml_sigil_toc_id_479}
 
 We can set []{#ch07.xhtml_ix_padding_percent primary="padding"
 secondary="percentage values" data-type="indexterm"}percentage values
@@ -17637,7 +17593,7 @@ startref="ix_padding_percent" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Padding and Inline Elements" data-type="sect2"}
 :::: {#ch07.xhtml_padding-and-inline-elements .sect2}
-## Padding and Inline Elements {#ch07.xhtml_sigil_toc_id_482}
+<h2>Padding and Inline Elements {#ch07.xhtml_sigil_toc_id_482}
 
 You may []{#ch07.xhtml_ix_padding_inline_elem primary="padding"
 secondary="inline elements"
@@ -17763,7 +17719,7 @@ displayed across two lines of text</h6>
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_487}
+<h5>Note {#ch07.xhtml_sigil_toc_id_487}
 
 The way padding is (or isn't) applied to the ends of each line box can
 be altered with the property `box-decoration-break`. See
@@ -17780,7 +17736,7 @@ startref="ix_padding_inline_elem" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Padding and Replaced Elements" data-type="sect2"}
 :::: {#ch07.xhtml_padding-and-replaced-elements .sect2}
-## Padding and Replaced Elements {#ch07.xhtml_sigil_toc_id_488}
+<h2>Padding and Replaced Elements {#ch07.xhtml_sigil_toc_id_488}
 
 It is []{#ch07.xhtml_idm45797077221808 primary="padding"
 secondary="replaced elements"
@@ -17836,7 +17792,7 @@ padding would still be rendered around the spot where the element should
 have been displayed, even if that spot has no height or width.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch07.xhtml_sigil_toc_id_491}
+<h5>Warning {#ch07.xhtml_sigil_toc_id_491}
 
 As of late 2022, uncertainty []{#ch07.xhtml_idm45797077182352
 primary="form elements" secondary="padding"
@@ -17860,7 +17816,7 @@ startref="ix_padding_ch7" data-type="indexterm"}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Borders" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch07.xhtml_borders .sect1}
-# Borders {#ch07.xhtml_sigil_toc_id_492}
+<h1>Borders {#ch07.xhtml_sigil_toc_id_492}
 
 Beyond the padding of an element are its
 []{#ch07.xhtml_ix_box_elem_borders_ch7 primary="boxes"
@@ -17918,7 +17874,7 @@ element's background should appear in the spaces between the visible
 portions of the border.
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_493}
+<h5>Note {#ch07.xhtml_sigil_toc_id_493}
 
 Visible backgrounds can be prevented from extending into the border area
 by using the property `background-clip`. See
@@ -17928,7 +17884,7 @@ details.
 
 :::::::::::::: {.section pdf-bookmark="Borders with Style" data-type="sect2"}
 ::::::::::::: {#ch07.xhtml_borders-with-style .sect2}
-## Borders with Style {#ch07.xhtml_sigil_toc_id_494}
+<h2>Borders with Style {#ch07.xhtml_sigil_toc_id_494}
 
 We'll start with []{#ch07.xhtml_ix_borders_style_props primary="borders"
 secondary="styles for"
@@ -17942,16 +17898,14 @@ but because without a style, there wouldn't be any border at all.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797077121312 .sidebar}
-# border-style {#ch07.xhtml_sigil_toc_id_495}
+<h1>border-style {#ch07.xhtml_sigil_toc_id_495}
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
   **Values**                              \[ `none` \| `hidden` \| `solid` \| `dotted` \| `dashed` \| `double` \| `groove` \| `ridge` \| `inset` \| `outset` \]{1,4}
   **Initial value**                       Not defined for shorthand properties
   **Applies to**                          All elements
   [**Computed value:**]{.keep-together}   See individual properties (`border-top-style`, etc.)
   **Inherited**                           No
   **Animatable**                          No
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18074,7 +18028,7 @@ alt="css5 0720" />
 
 :::: {.section pdf-bookmark="Multiple styles" data-type="sect3"}
 ::: {#ch07.xhtml_multiple-styles .sect3}
-### Multiple styles {#ch07.xhtml_sigil_toc_id_500}
+<h3>Multiple styles {#ch07.xhtml_sigil_toc_id_500}
 
 We can []{#ch07.xhtml_idm45797077014688 primary="multiple border styles"
 data-type="indexterm"}[]{#ch07.xhtml_idm45797077013952 primary="borders"
@@ -18114,7 +18068,7 @@ alt="css5 0721" />
 
 ::::: {.section pdf-bookmark="Single-side styles" data-type="sect3"}
 :::: {#ch07.xhtml_single-side-styles .sect3}
-### Single-side styles {#ch07.xhtml_sigil_toc_id_502}
+<h3>Single-side styles {#ch07.xhtml_sigil_toc_id_502}
 
 Sometimes you []{#ch07.xhtml_idm45797076928864
 primary="single-side border styles"
@@ -18135,16 +18089,14 @@ all four. That's where the single-side border style properties come in.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076924400 .sidebar}
-# border-top-style, border-right-style, [border-bottom-style, border-left-style]{.keep-together} {#ch07.xhtml_sigil_toc_id_503}
+<h1>border-top-style, border-right-style, [border-bottom-style, border-left-style]{.keep-together} {#ch07.xhtml_sigil_toc_id_503}
 
-  -------------------- -----------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| `hidden` \| `dotted` \| `dashed` \| `solid` \| `double` \| `groove` \| `ridge` \| `inset` \| `outset`
   **Initial value**    `none`
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- -----------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18188,7 +18140,7 @@ shorthand's value will override the single-side value of `none`.
 
 :::::: {.section pdf-bookmark="Logical styles" data-type="sect3"}
 ::::: {#ch07.xhtml_logical-styles .sect3}
-### Logical styles {#ch07.xhtml_sigil_toc_id_505}
+<h3>Logical styles {#ch07.xhtml_sigil_toc_id_505}
 
 If you want your []{#ch07.xhtml_idm45797076854656
 primary="logical properties" secondary="border styles"
@@ -18210,16 +18162,14 @@ directions, the following are the border-styling properties for you.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076849888 .sidebar}
-# border-block-start-style, border-block-end-style, [border-inline-start-style, border-inline-end-style]{.keep-together} {#ch07.xhtml_sigil_toc_id_506}
+<h1>border-block-start-style, border-block-end-style, [border-inline-start-style, border-inline-end-style]{.keep-together} {#ch07.xhtml_sigil_toc_id_506}
 
-  -------------------- -----------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| `hidden` \| `dotted` \| `dashed` \| `solid` \| `double` \| `groove` \| `ridge` \| `inset` \| `outset`
   **Initial value**    `none`
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- -----------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18229,16 +18179,14 @@ directions, the following are the border-styling properties for you.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076809616 .sidebar}
-# border-block-style, border-inline-style {#ch07.xhtml_sigil_toc_id_507}
+<h1>border-block-style, border-inline-style {#ch07.xhtml_sigil_toc_id_507}
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `none` \| `hidden` \| `dotted` \| `dashed` \| `solid` \| `double` \| `groove` \| `ridge` \| `inset` \| `outset` \]{1,2}
   **Initial value**    `none`
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18289,7 +18237,7 @@ startref="ix_borders_style_props" data-type="indexterm"}
 
 ::::::::::::: {.section pdf-bookmark="Border Widths" data-type="sect2"}
 :::::::::::: {#ch07.xhtml_border-widths .sect2}
-## Border Widths {#ch07.xhtml_sigil_toc_id_509}
+<h2>Border Widths {#ch07.xhtml_sigil_toc_id_509}
 
 Once you've []{#ch07.xhtml_ix_border_width_prop
 primary="border-width property"
@@ -18302,16 +18250,14 @@ property `border-width` or one of its cousin properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076691408 .sidebar}
-# border-width {#ch07.xhtml_sigil_toc_id_510}
+<h1>border-width {#ch07.xhtml_sigil_toc_id_510}
 
-  -------------------- ------------------------------------------------------------
   **Values**           \[ `thin` \| `medium` \| `thick` \| \<*`length`*\> \]{1,4}
   **Initial value**    Not defined for shorthand properties
   **Applies to**       All elements
   **Computed value**   See individual properties (`border-top-style`, etc.)
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18321,16 +18267,14 @@ property `border-width` or one of its cousin properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076648288 .sidebar}
-# border-top-width, border-right-width, [border-bottom-width, border-left-width]{.keep-together} {#ch07.xhtml_sigil_toc_id_511}
+<h1>border-top-width, border-right-width, [border-bottom-width, border-left-width]{.keep-together} {#ch07.xhtml_sigil_toc_id_511}
 
-  -------------------- -----------------------------------------------------------------------------
   **Values**           `thin` \| `medium` \| `thick` \| \<*`length`*\>
   **Initial value**    `medium`
   **Applies to**       All elements
   **Computed value**   An absolute length, or `0` if the style of the border is `none` or `hidden`
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- -----------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18348,7 +18292,7 @@ used to set the width on a specific border side, just as with the margin
 properties.
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_512}
+<h5>Note {#ch07.xhtml_sigil_toc_id_512}
 
 As of early 2023, border widths *still* cannot be given percentage
 values, which is rather a shame.
@@ -18421,7 +18365,7 @@ alt="css5 0725" />
 
 :::::: {.section pdf-bookmark="Logical border widths" data-type="sect3"}
 ::::: {#ch07.xhtml_logical-border-widths .sect3}
-### Logical border widths {#ch07.xhtml_sigil_toc_id_515}
+<h3>Logical border widths {#ch07.xhtml_sigil_toc_id_515}
 
 That said, []{#ch07.xhtml_idm45797076514064
 primary="border-block-width property"
@@ -18439,16 +18383,14 @@ properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076510576 .sidebar}
-# border-block-width, border-inline-width {#ch07.xhtml_sigil_toc_id_516}
+<h1>border-block-width, border-inline-width {#ch07.xhtml_sigil_toc_id_516}
 
-  -------------------- ------------------------------------------------------------
   **Values**           \[ `thin` \| `medium` \| `thick` \| \<*`length`*\> \]{1,2}
   **Initial value**    Not defined for shorthand properties
   **Applies to**       All elements
   **Computed value**   See individual properties (`border-top-style`, etc.)
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18458,16 +18400,14 @@ properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076472336 .sidebar}
-# border-block-start-width, border-block-end-width, [border-inline-start-width, border-inline-end-width]{.keep-together} {#ch07.xhtml_sigil_toc_id_517}
+<h1>border-block-start-width, border-block-end-width, [border-inline-start-width, border-inline-end-width]{.keep-together} {#ch07.xhtml_sigil_toc_id_517}
 
-  -------------------- -----------------------------------------------------------------------------
   **Values**           `thin` \| `medium` \| `thick` \| \<*`length`*\>
   **Initial value**    `medium`
   **Applies to**       All elements
   **Computed value**   An absolute length, or `0` if the style of the border is `none` or `hidden`
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- -----------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18503,7 +18443,7 @@ p {
 
 :::: {.section pdf-bookmark="No border at all" data-type="sect3"}
 ::: {#ch07.xhtml_no-border-at-all .sect3}
-### No border at all {#ch07.xhtml_sigil_toc_id_518}
+<h3>No border at all {#ch07.xhtml_sigil_toc_id_518}
 
 So far, we've talked only about using a visible border style such as
 `solid` or `outset`. []{#ch07.xhtml_idm45797076400560
@@ -18557,7 +18497,7 @@ startref="ix_border_width_prop" data-type="indexterm"}
 
 :::::::::::: {.section pdf-bookmark="Border Colors" data-type="sect2"}
 ::::::::::: {#ch07.xhtml_border-colors .sect2}
-## Border Colors {#ch07.xhtml_sigil_toc_id_519}
+<h2>Border Colors {#ch07.xhtml_sigil_toc_id_519}
 
 Compared to the []{#ch07.xhtml_ix_color_border primary="colors"
 secondary="border"
@@ -18575,16 +18515,14 @@ value formats of colors.)
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076289488 .sidebar}
-# border-color {#ch07.xhtml_sigil_toc_id_520}
+<h1>border-color {#ch07.xhtml_sigil_toc_id_520}
 
-  -------------------- ------------------------------------------------------
   **Values**           \<*`color`*\>{1,4}
   **Initial value**    Not defined for shorthand properties
   **Applies to**       All elements
   **Computed value**   See individual properties (`border-top-color`, etc.)
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ------------------------------------------------------
 :::
 
 ```{=html}
@@ -18674,16 +18612,15 @@ h1 {border-style: solid; border-color: black; border-right-color: gray;}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076098720 .sidebar}
-# border-top-color, border-right-color, [border-bottom-color, border-left-color]{.keep-together} {#ch07.xhtml_sigil_toc_id_523}
+<h1>border-top-color, border-right-color, [border-bottom-color, border-left-color]{.keep-together} {#ch07.xhtml_sigil_toc_id_523}
 
-  -------------------- -------------------------------------------------------------------------------------------
   **Values**           \<*`color`*\>
   **Initial value**    The element's `currentcolor`
   **Applies to**       All elements
   **Computed value**   If no value is declared, use the computed value of `currentcolor`; otherwise, as declared
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- -------------------------------------------------------------------------------------------
+
 :::
 
 ```{=html}
@@ -18691,7 +18628,7 @@ h1 {border-style: solid; border-color: black; border-right-color: gray;}
 ```
 :::::: {.section pdf-bookmark="Logical border colors" data-type="sect3"}
 ::::: {#ch07.xhtml_logical-border-colors .sect3}
-### Logical border colors {#ch07.xhtml_sigil_toc_id_524}
+<h3>Logical border colors {#ch07.xhtml_sigil_toc_id_524}
 
 Just as []{#ch07.xhtml_idm45797076021840
 primary="border-inline-end-color property"
@@ -18716,16 +18653,15 @@ two shorthand, four longhand.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076015664 .sidebar}
-# border-block-color, border-inline-color {#ch07.xhtml_sigil_toc_id_525}
+<h1>border-block-color, border-inline-color {#ch07.xhtml_sigil_toc_id_525}
 
-  -------------------- --------------------------------------------------------------
   **Values**           \<*`color`*\>{1,2}
   **Initial value**    Not defined for shorthand properties
   **Applies to**       All elements
   **Computed value**   See individual properties (`border-block-start-color`, etc.)
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- --------------------------------------------------------------
+
 :::
 
 ```{=html}
@@ -18735,19 +18671,19 @@ two shorthand, four longhand.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797076002432 .sidebar}
-# border-block-start-color, border-block-end-color, [border-inline-start-color, border-inline-end-color]{.keep-together} {#ch07.xhtml_sigil_toc_id_526}
+<h1>border-block-start-color, border-block-end-color, [border-inline-start-color, border-inline-end-color]{.keep-together} {#ch07.xhtml_sigil_toc_id_526}
 
-  -------------------- -------------------------------------------------------------------------------------------
+
   **Values**           \<*`color`*\>
   **Initial value**    The element's `currentcolor`
   **Applies to**       All elements
   **Computed value**   If no value is declared, use the computed value of `currentcolor`; otherwise, as declared
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- -------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
+
 </aside>
 ```
 Thus, the following two rules would have the exact same outcome:
@@ -18769,7 +18705,7 @@ p {
 
 :::: {.section pdf-bookmark="Transparent borders" data-type="sect3"}
 ::: {#ch07.xhtml_transparent-borders .sect3}
-### Transparent borders {#ch07.xhtml_sigil_toc_id_527}
+<h3>Transparent borders {#ch07.xhtml_sigil_toc_id_527}
 
 As you may recall, if a border has []{#ch07.xhtml_idm45797075896928
 primary="borders" secondary="transparent"
@@ -18815,7 +18751,7 @@ alt="css5 0728" />
 
 ::::: {.section pdf-bookmark="Single-Side Shorthand Border Properties" data-type="sect2"}
 :::: {#ch07.xhtml_single-side-shorthand-border-properties .sect2}
-## Single-Side Shorthand Border Properties {#ch07.xhtml_sigil_toc_id_529}
+<h2>Single-Side Shorthand Border Properties {#ch07.xhtml_sigil_toc_id_529}
 
 It turns out that []{#ch07.xhtml_ix_border_singleside_prop
 primary="borders" secondary="single-side properties"
@@ -18881,16 +18817,14 @@ shorthand properties and four logical shorthand properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797075723776 .sidebar}
-# border-top, border-right, border-bottom, border-left, border-block-start, border-block-end, border-inline-start, border-inline-end {#ch07.xhtml_sigil_toc_id_531}
+<h1>border-top, border-right, border-bottom, border-left, border-block-start, border-block-end, border-inline-start, border-inline-end {#ch07.xhtml_sigil_toc_id_531}
 
-  -------------------- --------------------------------------------------------------------------
   **Values**           \[ \<*`border-width`*\> ‖ \<*`border-style`*\> ‖ \<*`border-color`*\> \]
   **Initial value**    Not defined for shorthand properties
   **Applies to**       All elements
   **Computed value**   See individual properties (`border-width`, etc.)
   **Inherited**        No
   **Animatable**       See individual properties
-  -------------------- --------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -18992,7 +18926,7 @@ startref="ix_border_top_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Global Borders" data-type="sect2"}
 :::: {#ch07.xhtml_global-borders .sect2}
-## Global Borders {#ch07.xhtml_sigil_toc_id_534}
+<h2>Global Borders {#ch07.xhtml_sigil_toc_id_534}
 
 Now, we come to the []{#ch07.xhtml_idm45797075472080
 primary="border property" secondary="shorthand property"
@@ -19007,16 +18941,14 @@ equally.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797075468816 .sidebar}
-# border {#ch07.xhtml_sigil_toc_id_535}
+<h1>border {#ch07.xhtml_sigil_toc_id_535}
 
-  -------------------- --------------------------------------------------------------------------
   **Values**           \[ \<*`border-width`*\> ‖ \<*`border-style`*\> ‖ \<*`border-color`*\> \]
   **Initial value**    Refer to individual properties
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       See individual properties
-  -------------------- --------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -19074,14 +19006,14 @@ h4 {border: medium green;}
 ```
 
 Here, we've failed to assign a `border-style`, which means that the
-default value of `none` will be used, and thus no `<h4>` elements will
+default value of `none` will be used, and thus no `&lt;h4&gt;` elements will
 have any border at all.
 ::::
 :::::
 
 ::::: {.section pdf-bookmark="Borders and Inline Elements" data-type="sect2"}
 :::: {#ch07.xhtml_borders-and-inline-elements .sect2}
-## Borders and Inline Elements {#ch07.xhtml_sigil_toc_id_538}
+<h2>Borders and Inline Elements {#ch07.xhtml_sigil_toc_id_538}
 
 Dealing with []{#ch07.xhtml_ix_inline_format_borders
 primary="inline formatting" secondary="borders"
@@ -19146,7 +19078,7 @@ borders may shift portions of the line over a bit, which may in turn
 change which word is at the end of the line.
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_541}
+<h5>Note {#ch07.xhtml_sigil_toc_id_541}
 
 The way borders are (or aren't) drawn at the ends of each line box can
 be altered with the property `box-decoration-break`. See
@@ -19182,7 +19114,7 @@ alt="css5 0736" />
 
 ::::::::::::::: {.section pdf-bookmark="Rounding Border Corners" data-type="sect2"}
 :::::::::::::: {#ch07.xhtml_border-radius .sect2}
-## Rounding Border Corners {#ch07.xhtml_sigil_toc_id_543}
+<h2>Rounding Border Corners {#ch07.xhtml_sigil_toc_id_543}
 
 We can []{#ch07.xhtml_ix_round_corner primary="rounding corners"
 data-type="indexterm"}[]{#ch07.xhtml_ix_border_round_corner
@@ -19202,9 +19134,8 @@ logical equivalents.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797075200032 .sidebar}
-# border-radius {#ch07.xhtml_sigil_toc_id_544}
+<h1>border-radius {#ch07.xhtml_sigil_toc_id_544}
 
-  -------------------- ----------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,4} \[ / \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,4} \]?
   **Initial value**    `0`
   **Applies to**       All elements, except internal table elements
@@ -19212,7 +19143,7 @@ logical equivalents.
   **Percentages**      Calculated with respect to the relevant dimension of the border box
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ----------------------------------------------------------------------------------------------------------
+
 :::
 
 ```{=html}
@@ -19374,7 +19305,7 @@ filled by border and background, thanks to `border-radius`.
 
 :::: {.section pdf-bookmark="Rounded corner clamping" data-type="sect3"}
 ::: {#ch07.xhtml_rounded_border_clamping .sect3}
-### Rounded corner clamping {#ch07.xhtml_sigil_toc_id_549}
+<h3>Rounded corner clamping {#ch07.xhtml_sigil_toc_id_549}
 
 What []{#ch07.xhtml_ix_shape_corner
 primary="shaping of rounded corners in borders"
@@ -19401,7 +19332,7 @@ left and right sides, but no guarantees) to be smooth semicircular caps.
 
 :::: {.section pdf-bookmark="More complex corner shaping" data-type="sect3"}
 ::: {#ch07.xhtml_idm45797074993808 .sect3}
-### More complex corner shaping {#ch07.xhtml_sigil_toc_id_550}
+<h3>More complex corner shaping {#ch07.xhtml_sigil_toc_id_550}
 
 Now that you've seen how assigning a single radius value to a corner
 shapes it, let's talk about what happens when corners get two
@@ -19496,7 +19427,7 @@ startref="ix_shape_corner" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Corner blending" data-type="sect3"}
 ::: {#ch07.xhtml_corner-blending .sect3}
-### Corner blending {#ch07.xhtml_sigil_toc_id_553}
+<h3>Corner blending {#ch07.xhtml_sigil_toc_id_553}
 
 So far, the []{#ch07.xhtml_idm45797074784048 primary="borders"
 secondary="corner blending"
@@ -19576,7 +19507,7 @@ This would occur with code like the following:
 
 :::::: {.section pdf-bookmark="Individual rounding properties" data-type="sect3"}
 ::::: {#ch07.xhtml_idm45797074735424 .sect3}
-### Individual rounding properties {#ch07.xhtml_sigil_toc_id_555}
+<h3>Individual rounding properties {#ch07.xhtml_sigil_toc_id_555}
 
 After that []{#ch07.xhtml_idm45797074728672
 primary="border-bottom-left-radius property"
@@ -19594,7 +19525,7 @@ corners, which are what `border-radius` brings together.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797074724608 .sidebar}
-# border-top-left-radius, border-top-right-radius, [border-bottom-right-radius, border-bottom-left-radius]{.keep-together} {#ch07.xhtml_sigil_toc_id_556}
+<h1>border-top-left-radius, border-top-right-radius, [border-bottom-right-radius, border-bottom-left-radius]{.keep-together} {#ch07.xhtml_sigil_toc_id_556}
 
   -------------------- ---------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,2}
@@ -19666,7 +19597,7 @@ data-type="indexterm"}physical corners, CSS also has logical corners.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797074586832 .sidebar}
-# border-start-start-radius, border-start-end-radius, [border-end-start-radius, border-end-end-radius]{.keep-together} {#ch07.xhtml_sigil_toc_id_558}
+<h1>border-start-start-radius, border-start-end-radius, [border-end-start-radius, border-end-end-radius]{.keep-together} {#ch07.xhtml_sigil_toc_id_558}
 
   -------------------- ---------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,2}
@@ -19735,7 +19666,7 @@ startref="ix_round_corner" data-type="indexterm"}
 
 :::::::::::::::::::::::::: {.section pdf-bookmark="Image Borders" data-type="sect2"}
 ::::::::::::::::::::::::: {#ch07.xhtml_image-borders .sect2}
-## Image Borders {#ch07.xhtml_sigil_toc_id_560}
+<h2>Image Borders {#ch07.xhtml_sigil_toc_id_560}
 
 The various []{#ch07.xhtml_ix_image_border_ch7 primary="image borders"
 data-type="indexterm"}border styles are nice enough but are still fairly
@@ -19747,7 +19678,7 @@ create.
 
 ::::::: {.section pdf-bookmark="Loading and slicing a border image" data-type="sect3"}
 :::::: {#ch07.xhtml_loading-and-slicing-a-border-image .sect3}
-### Loading and slicing a border image {#ch07.xhtml_sigil_toc_id_561}
+<h3>Loading and slicing a border image {#ch07.xhtml_sigil_toc_id_561}
 
 If you're []{#ch07.xhtml_idm45797074524128
 primary="border-image-source property"
@@ -19763,7 +19694,7 @@ you tell the browser where to look for it.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797074520768 .sidebar}
-# border-image-source {#ch07.xhtml_sigil_toc_id_562}
+<h1>border-image-source {#ch07.xhtml_sigil_toc_id_562}
 
   -------------------- ---------------------------------------------------------------------------------------------------
   **Values**           `none` \| \<*`image`*\>
@@ -19819,7 +19750,7 @@ property `border-image-slice` is defined.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797074459904 .sidebar}
-# border-image-slice {#ch07.xhtml_sigil_toc_id_564}
+<h1>border-image-slice {#ch07.xhtml_sigil_toc_id_564}
 
   -------------------- ---------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`number`*\> \| \<*`percentage`*\> \]{1,4} && `fill`?
@@ -19856,7 +19787,7 @@ alt="css5 0747" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_566}
+<h5>Note {#ch07.xhtml_sigil_toc_id_566}
 
 As of late 2022, no logical-property equivalent exists for
 `border-image-slice`. If the proposed `logical` keyword, or something
@@ -20047,7 +19978,7 @@ alt="css5 0753" />
 
 :::::: {.section pdf-bookmark="Altering the image widths" data-type="sect3"}
 ::::: {#ch07.xhtml_altering-the-image-widths .sect3}
-### Altering the image widths {#ch07.xhtml_sigil_toc_id_573}
+<h3>Altering the image widths {#ch07.xhtml_sigil_toc_id_573}
 
 Thus far, all our []{#ch07.xhtml_ix_border_image_width_prop
 primary="border-image-width property"
@@ -20064,7 +19995,7 @@ physical property `border-image-width`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797074247888 .sidebar}
-# border-image-width {#ch07.xhtml_sigil_toc_id_574}
+<h1>border-image-width {#ch07.xhtml_sigil_toc_id_574}
 
   -------------------- -------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \| \<*`number`*\> \| `auto` \]{1,4}
@@ -20251,7 +20182,7 @@ border-image-width: 0.42em 13% 3.14 auto;
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_579}
+<h5>Note {#ch07.xhtml_sigil_toc_id_579}
 
 As with `border-image-slice`, no logical-property equivalent exists for
 `border-image-width` as of late 2022.[]{#ch07.xhtml_idm45797073905520
@@ -20264,7 +20195,7 @@ startref="ix_image_border_widths" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Creating a border overhang" data-type="sect3"}
 ::::: {#ch07.xhtml_creating-a-border-overhang .sect3}
-### Creating a border overhang {#ch07.xhtml_sigil_toc_id_580}
+<h3>Creating a border overhang {#ch07.xhtml_sigil_toc_id_580}
 
 Well, now that we can []{#ch07.xhtml_ix_border_image_outset_prop
 primary="border-image-outset property"
@@ -20283,7 +20214,7 @@ to manage.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073879104 .sidebar}
-# border-image-outset {#ch07.xhtml_sigil_toc_id_581}
+<h1>border-image-outset {#ch07.xhtml_sigil_toc_id_581}
 
   -------------------- -----------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`number`*\> \]{1,4}
@@ -20309,7 +20240,7 @@ multiple of the width defined by `border-width`---*not*
 `border-image-width`.
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_582}
+<h5>Note {#ch07.xhtml_sigil_toc_id_582}
 
 As with `border-image-slice` and `border-image-width`, no
 logical-property equivalent exists for `border-image-outset` as of late
@@ -20390,7 +20321,7 @@ startref="ix_border_image_outset_prop" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Altering the repeat pattern" data-type="sect3"}
 ::::: {#ch07.xhtml_altering-the-repeat-pattern .sect3}
-### Altering the repeat pattern {#ch07.xhtml_sigil_toc_id_584}
+<h3>Altering the repeat pattern {#ch07.xhtml_sigil_toc_id_584}
 
 So far, you've []{#ch07.xhtml_ix_image_border_repeat
 primary="image borders" secondary="repeating"
@@ -20407,7 +20338,7 @@ sides are handled.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073727504 .sidebar}
-# border-image-repeat {#ch07.xhtml_sigil_toc_id_585}
+<h1>border-image-repeat {#ch07.xhtml_sigil_toc_id_585}
 
   -------------------- -----------------------------------------------------------------------------------
   **Values**           \[ `stretch` \| `repeat` \| `round` \| `space` \]{1,2}
@@ -20423,7 +20354,7 @@ sides are handled.
 </aside>
 ```
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_586}
+<h5>Note {#ch07.xhtml_sigil_toc_id_586}
 
 As with the previous border image properties, no logical-property
 equivalent exists for `border-image-repeat` as of late 2022.
@@ -20503,7 +20434,7 @@ alt="css5 0760" />
 
 ::::: {.section pdf-bookmark="Shorthand border image" data-type="sect3"}
 :::: {#ch07.xhtml_shorthand-border-image .sect3}
-### Shorthand border image {#ch07.xhtml_sigil_toc_id_589}
+<h3>Shorthand border image {#ch07.xhtml_sigil_toc_id_589}
 
 The single []{#ch07.xhtml_idm45797073672352
 primary="border-image property"
@@ -20517,7 +20448,7 @@ unusual, but it offers a lot of power without a lot of typing.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073669920 .sidebar}
-# border-image {#ch07.xhtml_sigil_toc_id_590}
+<h1>border-image {#ch07.xhtml_sigil_toc_id_590}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | \<*`border-image-source`*\> ‖     |
@@ -20588,7 +20519,7 @@ border-image: url(orbit.svg) stretch 100% / 1 / 0;
 
 :::: {.section pdf-bookmark="Some examples" data-type="sect3"}
 ::: {#ch07.xhtml_some-examples .sect3}
-### Some examples {#ch07.xhtml_sigil_toc_id_591}
+<h3>Some examples {#ch07.xhtml_sigil_toc_id_591}
 
 Border images can be tricky to internalize, conceptually speaking, so
 it's worth looking at some examples of ways to use them.
@@ -20707,7 +20638,7 @@ alt="css5 0763" />
 
 ::::::::::::::::::: {.section pdf-bookmark="Outlines" data-type="sect1"}
 :::::::::::::::::: {#ch07.xhtml_outlines .sect1}
-# Outlines {#ch07.xhtml_sigil_toc_id_595}
+<h1>Outlines {#ch07.xhtml_sigil_toc_id_595}
 
 CSS defines a special sort of []{#ch07.xhtml_ix_outline_ch7
 primary="outlines"
@@ -20739,7 +20670,7 @@ counterparts.
 
 ::::: {.section pdf-bookmark="Outline Styles" data-type="sect2"}
 :::: {#ch07.xhtml_outline-styles .sect2}
-## Outline Styles {#ch07.xhtml_sigil_toc_id_596}
+<h2>Outline Styles {#ch07.xhtml_sigil_toc_id_596}
 
 Much as []{#ch07.xhtml_ix_outline_style_prop
 primary="outline-style property"
@@ -20752,7 +20683,7 @@ values will seem familiar to anyone who's styled a border before.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073282736 .sidebar}
-# outline-style {#ch07.xhtml_sigil_toc_id_597}
+<h1>outline-style {#ch07.xhtml_sigil_toc_id_597}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------
   **Values**           `auto` \| `none` \| `solid` \| `dotted` \| `dashed` \| `double` \| `groove` \| `ridge` \| `inset` \| `outset`
@@ -20810,7 +20741,7 @@ alt="css5 0764" />
 
 ::::: {.section pdf-bookmark="Outline Width" data-type="sect2"}
 :::: {#ch07.xhtml_outline-width .sect2}
-## Outline Width {#ch07.xhtml_sigil_toc_id_599}
+<h2>Outline Width {#ch07.xhtml_sigil_toc_id_599}
 
 Once you've []{#ch07.xhtml_idm45797073252800 primary="outlines"
 secondary="width of"
@@ -20823,7 +20754,7 @@ width for the outline.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073250416 .sidebar}
-# outline-width {#ch07.xhtml_sigil_toc_id_600}
+<h1>outline-width {#ch07.xhtml_sigil_toc_id_600}
 
   -------------------- ------------------------------------------------------------------
   **Values**           \<*`length`*\> \| `thin` \| `medium` \| `thick`
@@ -20867,7 +20798,7 @@ become clear.)
 
 :::::::: {.section pdf-bookmark="Outline Color" data-type="sect2"}
 ::::::: {#ch07.xhtml_outline-color .sect2}
-## Outline Color {#ch07.xhtml_sigil_toc_id_602}
+<h2>Outline Color {#ch07.xhtml_sigil_toc_id_602}
 
 Does your []{#ch07.xhtml_idm45797073225968
 primary="outline-color property"
@@ -20881,7 +20812,7 @@ width? Great! Let's give it some color!
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073223088 .sidebar}
-# outline-color {#ch07.xhtml_sigil_toc_id_603}
+<h1>outline-color {#ch07.xhtml_sigil_toc_id_603}
 
   -------------------- ---------------------------
   **Values**           \<*`color`*\> \| `invert`
@@ -20916,7 +20847,7 @@ details.)
 
 ::::: {.section pdf-bookmark="The only outline shorthand" data-type="sect3"}
 :::: {#ch07.xhtml_the-only-outline-shorthand .sect3}
-### The only outline shorthand {#ch07.xhtml_sigil_toc_id_604}
+<h3>The only outline shorthand {#ch07.xhtml_sigil_toc_id_604}
 
 So far, you've seen three []{#ch07.xhtml_idm45797073201952
 primary="outline property"
@@ -20930,7 +20861,7 @@ a shorthand: `outline`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073199088 .sidebar}
-# outline {#ch07.xhtml_sigil_toc_id_605}
+<h1>outline {#ch07.xhtml_sigil_toc_id_605}
 
   -------------------- -----------------------------------------------------------------------------
   **Values**           \[ \<*`outline-color`*\> ‖ \<*`outline-style`*\> ‖ \<*`outline-width`*\> \]
@@ -20973,7 +20904,7 @@ different?
 
 ::::: {.section pdf-bookmark="How They Are Different" data-type="sect2"}
 :::: {#ch07.xhtml_how-they-are-different .sect2}
-## How They Are Different {#ch07.xhtml_sigil_toc_id_607}
+<h2>How They Are Different {#ch07.xhtml_sigil_toc_id_607}
 
 The first major difference between borders and outlines is that
 outlines, like outset border images, don't affect layout at all. In any
@@ -21056,7 +20987,7 @@ This is why CSS has no side-specific outline properties like
 are the right sides?
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch07.xhtml_sigil_toc_id_611}
+<h5>Warning {#ch07.xhtml_sigil_toc_id_611}
 
 As of late 2022, not every browser combines the inline fragments into a
 single contiguous polygon. In those that do not support this behavior,
@@ -21084,7 +21015,7 @@ startref="ix_outline_vs_border" data-type="indexterm"}
 
 ::::::::::::::::::::: {.section pdf-bookmark="Margins" data-type="sect1"}
 :::::::::::::::::::: {#ch07.xhtml_margins .sect1}
-# Margins {#ch07.xhtml_sigil_toc_id_612}
+<h1>Margins {#ch07.xhtml_sigil_toc_id_612}
 
 The []{#ch07.xhtml_ix_margins_ch7 primary="margins"
 data-type="indexterm"}[]{#ch07.xhtml_ix_box_elem_margin primary="boxes"
@@ -21116,7 +21047,7 @@ physical property `margin`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797073007248 .sidebar}
-# margin {#ch07.xhtml_sigil_toc_id_614}
+<h1>margin {#ch07.xhtml_sigil_toc_id_614}
 
   -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \| `auto` \]{1,4}
@@ -21175,7 +21106,7 @@ primary="" startref="ix_margin_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Length Values and Margins" data-type="sect2"}
 ::: {#ch07.xhtml_length-values-and-margins .sect2}
-## Length Values and Margins {#ch07.xhtml_sigil_toc_id_616}
+<h2>Length Values and Margins {#ch07.xhtml_sigil_toc_id_616}
 
 Any []{#ch07.xhtml_idm45797072955376 primary="margins"
 secondary="length values" data-type="indexterm"}length value can be used
@@ -21233,7 +21164,7 @@ alt="css5 0772" />
 
 :::: {.section pdf-bookmark="Percentages and Margins" data-type="sect2"}
 ::: {#ch07.xhtml_percentages-and-margins .sect2}
-## Percentages and Margins {#ch07.xhtml_sigil_toc_id_618}
+<h2>Percentages and Margins {#ch07.xhtml_sigil_toc_id_618}
 
 We can set []{#ch07.xhtml_idm45797072819248 primary="margins"
 secondary="percentage values" data-type="indexterm"}percentage values
@@ -21286,7 +21217,7 @@ remember---but it's worth reviewing again, just to see how it operates.
 
 :::::: {.section pdf-bookmark="Single-Side Margin Properties" data-type="sect2"}
 ::::: {#ch07.xhtml_single-side-margin-properties .sect2}
-## Single-Side Margin Properties {#ch07.xhtml_sigil_toc_id_620}
+<h2>Single-Side Margin Properties {#ch07.xhtml_sigil_toc_id_620}
 
 As you've seen throughout the chapter, CSS has
 []{#ch07.xhtml_idm45797072753856 primary="margins"
@@ -21317,7 +21248,7 @@ properties, and two logical shorthand properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797072746736 .sidebar}
-# margin-top, margin-right, margin-bottom, margin-left, [margin-block-start, margin-block-end,]{.keep-together} [margin-inline-start, margin-inline-end]{.keep-together} {#ch07.xhtml_sigil_toc_id_621}
+<h1>margin-top, margin-right, margin-bottom, margin-left, [margin-block-start, margin-block-end,]{.keep-together} [margin-inline-start, margin-inline-end]{.keep-together} {#ch07.xhtml_sigil_toc_id_621}
 
   -------------------- ---------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `auto`
@@ -21337,7 +21268,7 @@ properties, and two logical shorthand properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch07.xhtml_idm45797072693392 .sidebar}
-# margin-block, margin-inline {#ch07.xhtml_sigil_toc_id_622}
+<h1>margin-block, margin-inline {#ch07.xhtml_sigil_toc_id_622}
 
   -------------------- ---------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \| `auto` \]{1,2}
@@ -21380,7 +21311,7 @@ h2 {margin-block: 0.25in 0.5em; margin-inline: 0;}
 
 ::::: {.section pdf-bookmark="Margin Collapsing" data-type="sect2"}
 :::: {#ch07.xhtml_margin-collapsing .sect2}
-## Margin Collapsing {#ch07.xhtml_sigil_toc_id_623}
+<h2>Margin Collapsing {#ch07.xhtml_sigil_toc_id_623}
 
 An []{#ch07.xhtml_ix_margin_collapse2 primary="margins"
 secondary="collapsing"
@@ -21488,7 +21419,7 @@ far out of alignment with the list item's bullet [(or
 number).]{.keep-together}
 
 ::: {.note data-type="note"}
-###### Note {#ch07.xhtml_sigil_toc_id_627}
+<h5>Note {#ch07.xhtml_sigil_toc_id_627}
 
 Margin collapsing can be interrupted by factors such as padding and
 borders on parent elements. For more details, see the discussion in
@@ -21505,7 +21436,7 @@ startref="ix_vert_format_collapse_margin2" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Negative Margins" data-type="sect2"}
 ::: {#ch07.xhtml_pbom_negative-margins .sect2}
-## Negative Margins {#ch07.xhtml_sigil_toc_id_628}
+<h2>Negative Margins {#ch07.xhtml_sigil_toc_id_628}
 
 It's possible to set []{#ch07.xhtml_ix_neg_margin3
 primary="negative margins"
@@ -21575,7 +21506,7 @@ alt="css5 0778" />
 
 ::::: {.section pdf-bookmark="Margins and Inline Elements" data-type="sect2"}
 :::: {#ch07.xhtml_margins-and-inline-elements .sect2}
-## Margins and Inline Elements {#ch07.xhtml_sigil_toc_id_631}
+<h2>Margins and Inline Elements {#ch07.xhtml_sigil_toc_id_631}
 
 Margins can also be applied to []{#ch07.xhtml_ix_inline_format_margins
 primary="inline formatting" secondary="margins"
@@ -21666,7 +21597,7 @@ sooner. Margins affect line breaking only by changing the point at which
 the element's content begins within a line.
 
 ::: {data-type="tip"}
-###### Tip {#ch07.xhtml_sigil_toc_id_635}
+<h5>Tip {#ch07.xhtml_sigil_toc_id_635}
 
 You can alter the way margins are (or aren't) applied to the ends of
 each line box by using the property `box-decoration-break`. See
@@ -21733,7 +21664,7 @@ alt="css5 0783" />
 ::: {#ch07.xhtml_pbom_summary .sect1}
 ```
 
-# Summary {#ch07.xhtml_sigil_toc_id_638}
+<h1>Summary {#ch07.xhtml_sigil_toc_id_638}
 
 The ability to apply margins, borders, and padding to any element allows
 you to manage the separation and appearance of elements in a detailed
@@ -21750,7 +21681,7 @@ of design for the web.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch08.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch08.xhtml_backgrounds .chapter}
-# [Chapter 8. ]{.label}Backgrounds
+<h1>[Chapter 8. ]{.label}Backgrounds
 
 By default, the *background area* of an
 []{#ch08.xhtml_ix_backgrounds_ch8 primary="backgrounds"
@@ -21765,7 +21696,7 @@ gradients of various shapes to fill the background area.
 
 ::::::::: {.section pdf-bookmark="Setting Background Colors" data-type="sect1"}
 :::::::: {#ch08.xhtml_background-colors .sect1}
-# Setting Background Colors {#ch08.xhtml_sigil_toc_id_639}
+<h1>Setting Background Colors {#ch08.xhtml_sigil_toc_id_639}
 
 To declare a []{#ch08.xhtml_ix_background_colors primary="backgrounds"
 secondary="colors"
@@ -21781,7 +21712,7 @@ accepts any valid color value.
 ```
 
 ::: {#ch08.xhtml_idm45797072015904 .sidebar}
-# background-color {#ch08.xhtml_sigil_toc_id_640}
+<h1>background-color {#ch08.xhtml_sigil_toc_id_640}
 
   -------------------- ---------------
   **Values**           \<*`color`*\>
@@ -21845,7 +21776,7 @@ discuss background images, it's a critical difference.
 ::: {#ch08.xhtml_idm45797071943184 .sect2}
 ```
 
-## Explicitly Setting a Transparent Background {#ch08.xhtml_sigil_toc_id_642}
+<h2>Explicitly Setting a Transparent Background {#ch08.xhtml_sigil_toc_id_642}
 
 
 Most of the time, you'll have no reason to use the keyword
@@ -21892,7 +21823,7 @@ mean your styles are invalid: only errors prevent validation.
 ::: {#ch08.xhtml_special-effects .sect2}
 ```
 
-## Background and Color Combinations {#ch08.xhtml_sigil_toc_id_643}
+<h2>Background and Color Combinations {#ch08.xhtml_sigil_toc_id_643}
 
 By combining `color` and `background-color`, you can
 []{#ch08.xhtml_idm45797071911936 primary="color property"
@@ -21986,7 +21917,7 @@ startref="ix_colors_background" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Clipping the Background" data-type="sect1"}
 ::::: {#ch08.xhtml_clipping-the-background .sect1}
-# Clipping the Background {#ch08.xhtml_sigil_toc_id_647}
+<h1>Clipping the Background {#ch08.xhtml_sigil_toc_id_647}
 
 When you apply a []{#ch08.xhtml_ix_backgrounds_clipping
 primary="backgrounds" secondary="clipping"
@@ -22013,7 +21944,7 @@ background will go.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797071712016 .sidebar}
-# background-clip {#ch08.xhtml_sigil_toc_id_648}
+<h1>background-clip {#ch08.xhtml_sigil_toc_id_648}
 
   -------------------- -----------------------------------------------------------------
   **Values**           \[ `border-box` \| `padding-box` \| `content-box` \| `text` \]#
@@ -22153,7 +22084,7 @@ transparent text meant to be "filled" with the background will instead
 be completely unreadable.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch08.xhtml_sigil_toc_id_651}
+<h5>Warning {#ch08.xhtml_sigil_toc_id_651}
 
 As of late 2022, not all browsers support `background-clip: text`
 correctly. Blink browsers (Chrome and Edge) require a `-webkit-` prefix,
@@ -22176,7 +22107,7 @@ startref="ix_clip_background" data-type="indexterm"}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Working with Background Images" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch08.xhtml_background-images .sect1}
-# Working with Background Images {#ch08.xhtml_sigil_toc_id_652}
+<h1>Working with Background Images {#ch08.xhtml_sigil_toc_id_652}
 
 Having covered the basics of []{#ch08.xhtml_ix_position_back_image
 primary="positioning" secondary="background images"
@@ -22194,7 +22125,7 @@ our way up.
 
 ::::: {.section pdf-bookmark="Using an Image" data-type="sect2"}
 :::: {#ch08.xhtml_using-an-image .sect2}
-## Using an Image {#ch08.xhtml_sigil_toc_id_653}
+<h2>Using an Image {#ch08.xhtml_sigil_toc_id_653}
 
 In order to get an []{#ch08.xhtml_ix_back_image_prop
 primary="background-image property" data-type="indexterm"}image into the
@@ -22205,10 +22136,10 @@ background in the first place, use the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797071441440 .sidebar}
-# background-image {#ch08.xhtml_sigil_toc_id_654}
+<h1>background-image {#ch08.xhtml_sigil_toc_id_654}
 
   -------------------- -----------------------------------------------
-  **Values**           \[ \<*`image`*\># \| `none`
+  **Values**           \[ \<*`image`*\><h1>\| `none`
   **Initial value**    `none`
   **Applies to**       All elements
   **Computed value**   As specified, but with all URLs made absolute
@@ -22301,7 +22232,7 @@ primary="" startref="ix_back_image_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Understanding Why Backgrounds Aren’t Inherited" data-type="sect2"}
 ::: {#ch08.xhtml_why-backgrounds-arent-inherited .sect2}
-## Understanding Why Backgrounds Aren't Inherited {#ch08.xhtml_sigil_toc_id_657}
+<h2>Understanding Why Backgrounds Aren't Inherited {#ch08.xhtml_sigil_toc_id_657}
 
 Earlier, we []{#ch08.xhtml_idm45797071306560 primary="background images"
 secondary="inheritance and"
@@ -22345,7 +22276,7 @@ body {background-image: url(yinyang.png);}
 
 :::: {.section pdf-bookmark="Following Good Background Practices" data-type="sect2"}
 ::: {#ch08.xhtml_good-background-practices .sect2}
-## Following Good Background Practices {#ch08.xhtml_sigil_toc_id_659}
+<h2>Following Good Background Practices {#ch08.xhtml_sigil_toc_id_659}
 
 Images are []{#ch08.xhtml_idm45797071233408 primary="background images"
 secondary="specifying" data-type="indexterm"}laid on top of whatever
@@ -22372,7 +22303,7 @@ risk of illegibility.
 
 ::::::::::::::::::: {.section pdf-bookmark="Positioning Background Images" data-type="sect2"}
 :::::::::::::::::: {#ch08.xhtml_background-positioning .sect2}
-## Positioning Background Images {#ch08.xhtml_sigil_toc_id_660}
+<h2>Positioning Background Images {#ch08.xhtml_sigil_toc_id_660}
 
 OK, so we can []{#ch08.xhtml_ix_background_position
 primary="backgrounds" secondary="positioning"
@@ -22388,7 +22319,7 @@ to help.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797071204512 .sidebar}
-# background-position {#ch08.xhtml_sigil_toc_id_661}
+<h1>background-position {#ch08.xhtml_sigil_toc_id_661}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`position`*\>#
@@ -22424,7 +22355,7 @@ simple, but the percent values can be a little difficult to wrap your
 head around.
 
 ::: {.note data-type="note"}
-###### Note {#ch08.xhtml_sigil_toc_id_662}
+<h5>Note {#ch08.xhtml_sigil_toc_id_662}
 
 Throughout []{#ch08.xhtml_idm45797071158720
 primary="background-repeat property" data-type="indexterm"}this section,
@@ -22472,7 +22403,7 @@ effect on the placement of the background image.
 
 :::: {.section pdf-bookmark="Keywords" data-type="sect3"}
 ::: {#ch08.xhtml_cab_keywords .sect3}
-### Keywords {#ch08.xhtml_sigil_toc_id_664}
+<h3>Keywords {#ch08.xhtml_sigil_toc_id_664}
 
 The image placement keywords are easiest to understand. They have the
 effects you'd expect from their names; for example, `top right` would
@@ -22508,7 +22439,7 @@ p {background-image: url(yinyang-sm.png);
 
 :::: {.section pdf-bookmark="Percentage values" data-type="sect3"}
 ::: {#ch08.xhtml_percentage-values .sect3}
-### Percentage values {#ch08.xhtml_sigil_toc_id_665}
+<h3>Percentage values {#ch08.xhtml_sigil_toc_id_665}
 
 Percentage values are closely related to the keywords, although they
 behave in a more sophisticated way. Let's say that you want to center an
@@ -22626,7 +22557,7 @@ from the top-left corner of the element's background.
 
 :::: {.section pdf-bookmark="Length values" data-type="sect3"}
 ::: {#ch08.xhtml_length-values .sect3}
-### Length values {#ch08.xhtml_sigil_toc_id_667}
+<h3>Length values {#ch08.xhtml_sigil_toc_id_667}
 
 Finally, we turn to []{#ch08.xhtml_idm45797070866224 primary="offsets"
 secondary="length values" data-type="indexterm"}length values for
@@ -22678,7 +22609,7 @@ ignored (because `right` is not a valid vertical keyword).
 
 :::: {.section pdf-bookmark="Negative values" data-type="sect3"}
 ::: {#ch08.xhtml_negative-values .sect3}
-### Negative values {#ch08.xhtml_sigil_toc_id_669}
+<h3>Negative values {#ch08.xhtml_sigil_toc_id_669}
 
 If you're using lengths or percentages, you can use negative values to
 pull the origin image outside of the element's background. Consider a
@@ -22770,7 +22701,7 @@ are shorter than the background image.
 
 :::: {.section pdf-bookmark="Changing the offset edges" data-type="sect3"}
 ::: {#ch08.xhtml_changing-the-offset-edges .sect3}
-### Changing the offset edges {#ch08.xhtml_sigil_toc_id_672}
+<h3>Changing the offset edges {#ch08.xhtml_sigil_toc_id_672}
 
 It's time for a confession: throughout this whole discussion of
 background positioning, we've been keeping two facts from you. We acted
@@ -22865,7 +22796,7 @@ startref="ix_offset_position" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Changing the positioning box" data-type="sect3"}
 :::: {#ch08.xhtml_changing-the-positioning-box .sect3}
-### Changing the positioning box {#ch08.xhtml_sigil_toc_id_675}
+<h3>Changing the positioning box {#ch08.xhtml_sigil_toc_id_675}
 
 Now you know how to []{#ch08.xhtml_ix_box_back_image_pos primary="boxes"
 secondary="background image position" data-type="indexterm"}add an image
@@ -22879,7 +22810,7 @@ outer padding edge? We can use the property `background-origin`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797070561728 .sidebar}
-# background-origin {#ch08.xhtml_sigil_toc_id_676}
+<h1>background-origin {#ch08.xhtml_sigil_toc_id_676}
 
   -------------------- -------------------------------------------------------
   **Values**           \[ `border-box` \| `padding-box` \| `content-box` \]#
@@ -23011,7 +22942,7 @@ startref="ix_box_back_image_pos" data-type="indexterm"}
 
 :::::::::::::: {.section pdf-bookmark="Background Repeating (or Lack Thereof)" data-type="sect2"}
 ::::::::::::: {#ch08.xhtml_background-repeating-or-lack-thereof .sect2}
-## Background Repeating (or Lack Thereof) {#ch08.xhtml_sigil_toc_id_680}
+<h2>Background Repeating (or Lack Thereof) {#ch08.xhtml_sigil_toc_id_680}
 
 Viewports []{#ch08.xhtml_ix_back_repeat_prop
 primary="background-repeat property"
@@ -23031,7 +22962,7 @@ don't want to repeat it at all, we have `background-repeat`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797070298784 .sidebar}
-# background-repeat {#ch08.xhtml_sigil_toc_id_681}
+<h1>background-repeat {#ch08.xhtml_sigil_toc_id_681}
 
   -------------------- -----------------------
   **Values**           \<*`repeat-style`*\>#
@@ -23180,7 +23111,7 @@ alt="css5 0823" />
 </figure>
 
 ::: {data-type="tip"}
-###### Tip {#ch08.xhtml_sigil_toc_id_686}
+<h5>Tip {#ch08.xhtml_sigil_toc_id_686}
 
 There are better ways to create a wavy-border effect---notably, the
 border image properties explored in ["Image
@@ -23189,7 +23120,7 @@ Borders"](../Text/ch07.xhtml#image-borders){data-type="xref"}.
 
 ::::: {.section pdf-bookmark="Positioning images that repeat" data-type="sect3"}
 :::: {#ch08.xhtml_repeating-and-positioning .sect3}
-### Positioning images that repeat {#ch08.xhtml_sigil_toc_id_687}
+<h3>Positioning images that repeat {#ch08.xhtml_sigil_toc_id_687}
 
 In the []{#ch08.xhtml_idm45797070062416 primary="background images"
 secondary="positioning"
@@ -23248,7 +23179,7 @@ around the edges. The `spacing` and `rounding` values, on the other
 hand, prevent image clipping but have their own drawbacks.
 
 ::: {.note data-type="note"}
-###### Note {#ch08.xhtml_sigil_toc_id_689}
+<h5>Note {#ch08.xhtml_sigil_toc_id_689}
 
 In case you're wondering, CSS has no single-direction values such as
 `repeat-left` or `repeat-up`.
@@ -23258,7 +23189,7 @@ In case you're wondering, CSS has no single-direction values such as
 
 ::::: {.section pdf-bookmark="Spacing and rounding repeat patterns" data-type="sect3"}
 :::: {#ch08.xhtml_spacing-and-rounding .sect3}
-### Spacing and rounding repeat patterns {#ch08.xhtml_sigil_toc_id_690}
+<h3>Spacing and rounding repeat patterns {#ch08.xhtml_sigil_toc_id_690}
 
 Beyond the []{#ch08.xhtml_ix_spacing_back_image primary="spacing"
 secondary="background images"
@@ -23312,7 +23243,7 @@ class="keep-together">elements</span> of different sizes</h6>
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch08.xhtml_sigil_toc_id_693}
+<h5>Note {#ch08.xhtml_sigil_toc_id_693}
 
 Keep in mind that any background color, or the "backdrop" of the element
 (that is, the combined backgrounds of the element's ancestors) will show
@@ -23430,7 +23361,7 @@ xrefstyle="select:nopage"} for more).
 
 :::: {.section pdf-bookmark="Tiling and clipping repeated backgrounds" data-type="sect3"}
 ::: {#ch08.xhtml_tiling-and-clipping .sect3}
-### Tiling and clipping repeated backgrounds {#ch08.xhtml_sigil_toc_id_697}
+<h3>Tiling and clipping repeated backgrounds {#ch08.xhtml_sigil_toc_id_697}
 
 As you may []{#ch08.xhtml_idm45797069806688
 primary="background-clip property"
@@ -23483,7 +23414,7 @@ startref="ix_tiling_back_image" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Getting Attached" data-type="sect2"}
 :::::: {#ch08.xhtml_getting-attached .sect2}
-## Getting Attached {#ch08.xhtml_sigil_toc_id_699}
+<h2>Getting Attached {#ch08.xhtml_sigil_toc_id_699}
 
 Now you know how to []{#ch08.xhtml_ix_back_image_attach
 primary="background images" secondary="attaching to viewing area"
@@ -23512,7 +23443,7 @@ background image from scrolling out of view.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797069769136 .sidebar}
-# background-attachment {#ch08.xhtml_sigil_toc_id_700}
+<h1>background-attachment {#ch08.xhtml_sigil_toc_id_700}
 
   -------------------- ---------------------------------------
   **Values**           \[ `scroll` \| `fixed` \| `local` \]#
@@ -23610,7 +23541,7 @@ image at all.
 
 :::: {.section pdf-bookmark="Useful side effects of attached backgrounds" data-type="sect3"}
 ::: {#ch08.xhtml_useful-side-effects .sect3}
-### Useful side effects of attached backgrounds {#ch08.xhtml_sigil_toc_id_703}
+<h3>Useful side effects of attached backgrounds {#ch08.xhtml_sigil_toc_id_703}
 
 In technical terms, when a background image has been fixed, it is
 positioned with respect to the viewing area, not the element that
@@ -23690,7 +23621,7 @@ startref="ix_back_image_attach" data-type="indexterm"}
 
 :::::::::: {.section pdf-bookmark="Sizing Background Images" data-type="sect2"}
 ::::::::: {#ch08.xhtml_sizing-background-images .sect2}
-## Sizing Background Images {#ch08.xhtml_sigil_toc_id_706}
+<h2>Sizing Background Images {#ch08.xhtml_sigil_toc_id_706}
 
 Thus far, we've []{#ch08.xhtml_ix_back_image_size
 primary="background images" secondary="sizing"
@@ -23705,7 +23636,7 @@ all the tiled images that spawn from it?
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797069510128 .sidebar}
-# background-size {#ch08.xhtml_sigil_toc_id_707}
+<h1>background-size {#ch08.xhtml_sigil_toc_id_707}
 
   -------------------- ------------------------------------------------------------------------------------------
   **Values**           \[ \[ \<*`length`*\> \| \<*`percentage`*\> \| `auto` \]{1,2} \| `cover` \| `contain` \]#
@@ -23796,7 +23727,7 @@ Negative length and percentage values are not permitted for
 
 :::: {.section pdf-bookmark="Maintaining the background image’s aspect ratio" data-type="sect3"}
 ::: {#ch08.xhtml_idm45797069425632 .sect3}
-### Maintaining the background image's aspect ratio {#ch08.xhtml_sigil_toc_id_711}
+<h3>Maintaining the background image's aspect ratio {#ch08.xhtml_sigil_toc_id_711}
 
 Now, what about the []{#ch08.xhtml_idm45797069424032
 primary="aspect-ratio, background image" data-type="indexterm"}default
@@ -23829,7 +23760,7 @@ main {background-image: url(yinyang.png);
 
 ::::: {.section pdf-bookmark="Covering and containing" data-type="sect3"}
 :::: {#ch08.xhtml_covering-and-containing .sect3}
-### Covering and containing {#ch08.xhtml_sigil_toc_id_712}
+<h3>Covering and containing {#ch08.xhtml_sigil_toc_id_712}
 
 Now for some real fun! []{#ch08.xhtml_ix_cover_back_image
 primary="cover, background image" data-type="indexterm"}Suppose you want
@@ -23979,7 +23910,7 @@ ignored. If there are fewer, the list is repeated. You can set only one
 background color, though.
 
 ::: {.note data-type="note"}
-###### Note {#ch08.xhtml_sigil_toc_id_717}
+<h5>Note {#ch08.xhtml_sigil_toc_id_717}
 
 In this section, we used raster images (GIFs, to be precise) even though
 they tend to look horrible when scaled up and represent a waste of
@@ -24006,7 +23937,7 @@ startref="ix_cover_back_image" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Bringing It All Together" data-type="sect2"}
 :::: {#ch08.xhtml_bringing-it-all-together .sect2}
-## Bringing It All Together {#ch08.xhtml_sigil_toc_id_718}
+<h2>Bringing It All Together {#ch08.xhtml_sigil_toc_id_718}
 
 As is often the []{#ch08.xhtml_ix_back_prop_ch8
 primary="background property"
@@ -24021,7 +23952,7 @@ entirely.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797069069312 .sidebar}
-# background {#ch08.xhtml_sigil_toc_id_719}
+<h1>background {#ch08.xhtml_sigil_toc_id_719}
 
   -------------------- --------------------------------------------------
   **Values**           \[ \<*`bg-layer`*\>, \]\* \<*`final-bg-layer`*\>
@@ -24187,7 +24118,7 @@ startref="ix_back_prop_ch8" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Working with Multiple Backgrounds" data-type="sect2"}
 ::: {#ch08.xhtml_multiple-backgrounds .sect2}
-## Working with Multiple Backgrounds {#ch08.xhtml_sigil_toc_id_721}
+<h2>Working with Multiple Backgrounds {#ch08.xhtml_sigil_toc_id_721}
 
 Throughout []{#ch08.xhtml_ix_back_image_multi
 primary="background images" secondary="multiple"
@@ -24397,7 +24328,7 @@ alt="css5 0846" />
 
 :::: {.section pdf-bookmark="Using the Background Shorthand" data-type="sect2"}
 ::: {#ch08.xhtml_using-the-background-shorthand .sect2}
-## Using the Background Shorthand {#ch08.xhtml_sigil_toc_id_726}
+<h2>Using the Background Shorthand {#ch08.xhtml_sigil_toc_id_726}
 
 One way to []{#ch08.xhtml_idm45797068166096
 primary="background property"
@@ -24473,7 +24404,7 @@ alt="css5 0847" />
 
 :::::: {.section pdf-bookmark="Creating Box Shadows" data-type="sect1"}
 ::::: {#ch08.xhtml_box-shadows .sect1}
-# Creating Box Shadows {#ch08.xhtml_sigil_toc_id_728}
+<h1>Creating Box Shadows {#ch08.xhtml_sigil_toc_id_728}
 
 You have []{#ch08.xhtml_ix_shadow_prop primary="shadows"
 secondary="box-shadow property"
@@ -24490,7 +24421,7 @@ inside and outside of an element without impacting the box model:
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch08.xhtml_idm45797067948336 .sidebar}
-# box-shadow {#ch08.xhtml_sigil_toc_id_729}
+<h1>box-shadow {#ch08.xhtml_sigil_toc_id_729}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| \[`inset`? && \<*`length`*\>{2,4} && \<*`color`*\>?\]#
@@ -24676,7 +24607,7 @@ Because of this, make sure to include enough space, especially if you're
 doing large offsets or blur distances.
 
 ::: {data-type="tip"}
-###### Tip {#ch08.xhtml_sigil_toc_id_734}
+<h5>Tip {#ch08.xhtml_sigil_toc_id_734}
 
 The `filter` []{#ch08.xhtml_idm45797067156048 primary="filter property"
 data-type="indexterm"}property is another way to create element drop
@@ -24697,7 +24628,7 @@ startref="ix_shadow_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch08.xhtml_bg_summary .sect1}
-# Summary {#ch08.xhtml_sigil_toc_id_735}
+<h1>Summary {#ch08.xhtml_sigil_toc_id_735}
 
 Adding backgrounds to elements, whether with colors or images, gives you
 a great deal of power over the total visual presentation. The advantage
@@ -24713,7 +24644,7 @@ ways.
 
 ::::::::::::::::::::::::::::::::::::::::::::: {#ch09.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::: {#ch09.xhtml_gradients .chapter}
-# [Chapter 9. ]{.label}Gradients
+<h1>[Chapter 9. ]{.label}Gradients
 
 Three []{#ch09.xhtml_ix_grad_ch9 primary="gradients"
 data-type="indexterm"}image types defined by CSS are described entirely
@@ -24761,7 +24692,7 @@ percentage) value, by default it will tile.
 
 ::::::::::::::: {.section pdf-bookmark="Linear Gradients" data-type="sect1"}
 :::::::::::::: {#ch09.xhtml_linear-gradients .sect1}
-# Linear Gradients {#ch09.xhtml_sigil_toc_id_737}
+<h1>Linear Gradients {#ch09.xhtml_sigil_toc_id_737}
 
 *Linear gradients* are []{#ch09.xhtml_idm45797067091072
 primary="linear gradients" secondary="gradient lines"
@@ -24845,7 +24776,7 @@ The basic syntax of a linear gradient is shown here:
 
     linear-gradient(
         [[ <angle> | to <side-or-quadrant> ],]?
-         [ <color-stop-list> [, <color-hint>]? ]# ,
+         [ <color-stop-list> [, <color-hint>]? ]<h1>,
         <color-stop-list>
     )
 
@@ -24879,7 +24810,7 @@ is valid.
 
 :::: {.section pdf-bookmark="Setting Gradient Colors" data-type="sect2"}
 ::: {#ch09.xhtml_gradient-colors .sect2}
-## Setting Gradient Colors {#ch09.xhtml_sigil_toc_id_740}
+<h2>Setting Gradient Colors {#ch09.xhtml_sigil_toc_id_740}
 
 You can use any []{#ch09.xhtml_idm45797066859648
 primary="linear gradients" secondary="color settings"
@@ -24949,7 +24880,7 @@ over gradient progression, hopefully improving the visual effect.
 
 :::: {.section pdf-bookmark="Positioning Color Stops" data-type="sect2"}
 ::: {#ch09.xhtml_positioning-color-stops .sect2}
-## Positioning Color Stops {#ch09.xhtml_sigil_toc_id_743}
+<h2>Positioning Color Stops {#ch09.xhtml_sigil_toc_id_743}
 
 The[]{#ch09.xhtml_ix_lin_grad_color_stop primary="linear gradients"
 secondary="color stops"
@@ -25249,7 +25180,7 @@ startref="ix_grad_color_stop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Setting Color Hints" data-type="sect2"}
 :::: {#ch09.xhtml_gradient-lines-color-hints .sect2}
-## Setting Color Hints {#ch09.xhtml_sigil_toc_id_751}
+<h2>Setting Color Hints {#ch09.xhtml_sigil_toc_id_751}
 
 Thus far, we've worked with []{#ch09.xhtml_ix_lin_grad_color_hint
 primary="linear gradients" secondary="color hints"
@@ -25262,7 +25193,7 @@ color hints after each color stop:
 
     linear-gradient(
         [[ <angle> | to <side-or-quadrant> ],]?
-         [ <color-stop-list> [, <color-hint>]? ]# ,
+         [ <color-stop-list> [, <color-hint>]? ]<h1>,
         <color-stop-list>
     )
 
@@ -25386,7 +25317,7 @@ are different because of the (somewhat complicated) easing algorithm
 defined in the CSS specifications.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch09.xhtml_sigil_toc_id_755}
+<h5>Warning {#ch09.xhtml_sigil_toc_id_755}
 
 If you're []{#ch09.xhtml_idm45797062888624 primary="linear gradients"
 secondary="easing functions" data-type="indexterm"}familiar with
@@ -25409,7 +25340,7 @@ startref="ix_grad_color_hint" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Understanding Gradient Lines: The Gory Details" data-type="sect2"}
 ::: {#ch09.xhtml_gradient-lines-the-gory-details .sect2}
-## Understanding Gradient Lines: The Gory Details {#ch09.xhtml_sigil_toc_id_756}
+<h2>Understanding Gradient Lines: The Gory Details {#ch09.xhtml_sigil_toc_id_756}
 
 Now that you have a grasp of the basics of
 []{#ch09.xhtml_ix_lin_grad_grad_line primary="linear gradients"
@@ -25658,7 +25589,7 @@ startref="ix_lin_grad_grad_line" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Repeating Linear Gradients" data-type="sect2"}
 ::: {#ch09.xhtml_repeating-linear-gradients .sect2}
-## Repeating Linear Gradients {#ch09.xhtml_sigil_toc_id_764}
+<h2>Repeating Linear Gradients {#ch09.xhtml_sigil_toc_id_764}
 
 Regular []{#ch09.xhtml_ix_repeat_lin_grad primary="repeating elements"
 secondary="gradients"
@@ -25833,7 +25764,7 @@ startref="ix_repeat_lin_grad" data-type="indexterm"}
 
 ::::::::::::::: {.section pdf-bookmark="Radial Gradients" data-type="sect1"}
 :::::::::::::: {#ch09.xhtml_radial-gradients .sect1}
-# Radial Gradients {#ch09.xhtml_sigil_toc_id_769}
+<h1>Radial Gradients {#ch09.xhtml_sigil_toc_id_769}
 
 Linear []{#ch09.xhtml_ix_grad_rad_grad_ch9 primary="gradients"
 secondary="radial" data-type="indexterm"}[]{#ch09.xhtml_ix_rad_grad_ch9
@@ -25893,7 +25824,7 @@ constructed from it. (We'll get to the details in just a bit.)
 
 :::: {.section pdf-bookmark="Setting Shape and Size" data-type="sect2"}
 ::: {#ch09.xhtml_shape-and-size .sect2}
-## Setting Shape and Size {#ch09.xhtml_sigil_toc_id_771}
+<h2>Setting Shape and Size {#ch09.xhtml_sigil_toc_id_771}
 
 First off, a []{#ch09.xhtml_idm45797062142816 primary="radial gradients"
 secondary="shape of"
@@ -26058,7 +25989,7 @@ startref="ix_rad_grad_size" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Positioning Radial Gradients" data-type="sect2"}
 ::: {#ch09.xhtml_positioning-radial-gradients .sect2}
-## Positioning Radial Gradients {#ch09.xhtml_sigil_toc_id_775}
+<h2>Positioning Radial Gradients {#ch09.xhtml_sigil_toc_id_775}
 
 If you want to shift the []{#ch09.xhtml_ix_position_rad_grad
 primary="positioning" secondary="gradient"
@@ -26131,7 +26062,7 @@ fade from one color to another. Next stop, color stops!
 
 :::: {.section pdf-bookmark="Using Radial Color Stops and the Gradient Ray" data-type="sect2"}
 ::: {#ch09.xhtml_radial-color-stops-and-the-gradient-ray .sect2}
-## Using Radial Color Stops and the Gradient Ray {#ch09.xhtml_sigil_toc_id_778}
+<h2>Using Radial Color Stops and the Gradient Ray {#ch09.xhtml_sigil_toc_id_778}
 
 Color []{#ch09.xhtml_ix_rad_grad_ray primary="radial gradients"
 secondary="gradient rays"
@@ -26337,7 +26268,7 @@ startref="ix_grad_color_stop2" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Handling Degenerate Cases" data-type="sect2"}
 :::: {#ch09.xhtml_degenerate-cases .sect2}
-## Handling Degenerate Cases {#ch09.xhtml_sigil_toc_id_784}
+<h2>Handling Degenerate Cases {#ch09.xhtml_sigil_toc_id_784}
 
 Given that we can []{#ch09.xhtml_ix_zero_size_rad_grad
 primary="zero size situation, radial gradients"
@@ -26481,7 +26412,7 @@ the specification is written such that the zero-width behavior is used;
 thus, you'll get the mirrored-linear-gradient behavior.
 
 ::: {.note data-type="note"}
-###### Note {#ch09.xhtml_sigil_toc_id_787}
+<h5>Note {#ch09.xhtml_sigil_toc_id_787}
 
 As of late 2022, browser support for the defined behavior in these edge
 cases is unstable, at best. Some browsers use the last color-stop's
@@ -26496,7 +26427,7 @@ startref="ix_zero_size_rad_grad" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Repeating Radial Gradients" data-type="sect2"}
 ::: {#ch09.xhtml_repeating-radial-gradients .sect2}
-## Repeating Radial Gradients {#ch09.xhtml_sigil_toc_id_788}
+<h2>Repeating Radial Gradients {#ch09.xhtml_sigil_toc_id_788}
 
 While []{#ch09.xhtml_idm45797061210288 primary="repeating elements"
 secondary="gradients"
@@ -26575,7 +26506,7 @@ startref="ix_grad_rad_grad_ch9" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Conic Gradients" data-type="sect1"}
 ::: {#ch09.xhtml_conic-gradients .sect1}
-# Conic Gradients {#ch09.xhtml_sigil_toc_id_790}
+<h1>Conic Gradients {#ch09.xhtml_sigil_toc_id_790}
 
 Radial []{#ch09.xhtml_ix_gradient_conic primary="gradients"
 secondary="conic gradients"
@@ -26718,7 +26649,7 @@ mixed.
 
 :::::: {.section pdf-bookmark="Creating Conic Color Stops" data-type="sect1"}
 ::::: {#ch09.xhtml_idm45797061016832 .sect1}
-# Creating Conic Color Stops {#ch09.xhtml_sigil_toc_id_794}
+<h1>Creating Conic Color Stops {#ch09.xhtml_sigil_toc_id_794}
 
 If you want a conic gradient to blend smoothly from color to color all
 the way around the circle, it is necessary to make the last color stop
@@ -26842,7 +26773,7 @@ startref="ix_grad_color_stop2" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Repeating Conic Gradients" data-type="sect2"}
 ::: {#ch09.xhtml_repeating-conic-gradients .sect2}
-## Repeating Conic Gradients {#ch09.xhtml_sigil_toc_id_797}
+<h2>Repeating Conic Gradients {#ch09.xhtml_sigil_toc_id_797}
 
 And now we come to []{#ch09.xhtml_ix_repeat_conic
 primary="repeating elements" secondary="gradients"
@@ -26928,7 +26859,7 @@ startref="ix_gradient_conic" data-type="indexterm"}
 
 ::::::::: {.section pdf-bookmark="Manipulating Gradient Images" data-type="sect1"}
 :::::::: {#ch09.xhtml_manipulating-gradient-images .sect1}
-# Manipulating Gradient Images {#ch09.xhtml_sigil_toc_id_800}
+<h1>Manipulating Gradient Images {#ch09.xhtml_sigil_toc_id_800}
 
 As we have []{#ch09.xhtml_ix_grad_repeat_sp primary="gradients"
 secondary="repeating for special effect"
@@ -26975,7 +26906,7 @@ in this case has three advantages:
 
 :::: {.section pdf-bookmark="Creating Special Effects" data-type="sect2"}
 ::: {#ch09.xhtml_creating-special-effects .sect2}
-## Creating Special Effects {#ch09.xhtml_sigil_toc_id_802}
+<h2>Creating Special Effects {#ch09.xhtml_sigil_toc_id_802}
 
 Gradients can't do []{#ch09.xhtml_idm45797060107376
 primary="curtain effect, with gradients"
@@ -27050,7 +26981,7 @@ startref="ix_grad_repeat_sp" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Triggering Average Gradient Colors" data-type="sect2"}
 :::: {#ch09.xhtml_average-gradient-colors .sect2}
-## Triggering Average Gradient Colors {#ch09.xhtml_sigil_toc_id_805}
+<h2>Triggering Average Gradient Colors {#ch09.xhtml_sigil_toc_id_805}
 
 It's worth []{#ch09.xhtml_idm45797059921184 primary="gradients"
 secondary="triggering average colors in" data-type="indexterm"}asking
@@ -27082,7 +27013,7 @@ placed into a corner.[]{#ch09.xhtml_idm45797059898928 primary=""
 startref="ix_repeat_conic" data-type="indexterm"}
 
 ::: {.less_space .pagebreak-before .warning data-type="warning"}
-###### Warning {#ch09.xhtml_sigil_toc_id_806}
+<h5>Warning {#ch09.xhtml_sigil_toc_id_806}
 
 As of late 2022, no browsers really do average colors correctly. Some of
 the correct behaviors can be triggered under very limited conditions,
@@ -27098,7 +27029,7 @@ startref="ix_grad_ch9" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch09.xhtml_grad_summary .sect1}
-# Summary {#ch09.xhtml_sigil_toc_id_807}
+<h1>Summary {#ch09.xhtml_sigil_toc_id_807}
 
 Gradients are a fascinating image type, being constructed entirely with
 CSS values instead of with raster data or vector elements. With the
@@ -27113,7 +27044,7 @@ visual effect.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch10.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch10.xhtml_floating_and_positioning .chapter}
-# [Chapter 10. ]{.label}Floating and Positioning
+<h1>[Chapter 10. ]{.label}Floating and Positioning
 
 For a very long time, floated elements were the basis of all our web
 layout schemes. (This is largely because of the property `clear`, which
@@ -27128,7 +27059,7 @@ content can flow past.
 
 :::::::::::::::::: {.section pdf-bookmark="Floating" data-type="sect1"}
 ::::::::::::::::: {#ch10.xhtml_floating .sect1}
-# Floating {#ch10.xhtml_sigil_toc_id_808}
+<h1>Floating {#ch10.xhtml_sigil_toc_id_808}
 
 Ever since the early 1990s, it has been possible to float images by
 declaring, for instance, `<img src="b5.gif" alt="B4" align="right">`.
@@ -27145,7 +27076,7 @@ lists. This is accomplished using the property `float`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797059866304 .sidebar}
-# float {#ch10.xhtml_sigil_toc_id_809}
+<h1>float {#ch10.xhtml_sigil_toc_id_809}
 
   -------------------- ---------------------------------------------------------------
   **Values**           `left` \| `right` \| `inline-start` \| `inline-end` \| `none`
@@ -27187,7 +27118,7 @@ regardless of the direction that axis is pointing. (See
 for details on the inline axis.)
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_811}
+<h5>Note {#ch10.xhtml_sigil_toc_id_811}
 
 Throughout the rest of this section, we mostly stick to `left` and
 `right` because they simplify explanations. They will also be nearly the
@@ -27197,7 +27128,7 @@ years.
 
 :::::: {.section pdf-bookmark="Floated Elements" data-type="sect2"}
 ::::: {#ch10.xhtml_floated_elements .sect2}
-## Floated Elements {#ch10.xhtml_sigil_toc_id_812}
+<h2>Floated Elements {#ch10.xhtml_sigil_toc_id_812}
 
 Keep a few points in mind with regard to
 []{#ch10.xhtml_ix_float_elem_rule primary="floating"
@@ -27258,7 +27189,7 @@ alt="css5 1003" />
 
 :::: {.section pdf-bookmark="No floating at all" data-type="sect3"}
 ::: {#ch10.xhtml_no_floating_at_all .sect3}
-### No floating at all {#ch10.xhtml_sigil_toc_id_815}
+<h3>No floating at all {#ch10.xhtml_sigil_toc_id_815}
 
 CSS has one other value for `float` []{#ch10.xhtml_idm45797059719824
 primary="floating" secondary="preventing" data-type="indexterm"}besides
@@ -27284,7 +27215,7 @@ primary="" startref="ix_float_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Floating: The Details" data-type="sect2"}
 ::: {#ch10.xhtml_floating_the_details .sect2}
-## Floating: The Details {#ch10.xhtml_sigil_toc_id_816}
+<h2>Floating: The Details {#ch10.xhtml_sigil_toc_id_816}
 
 Before we start []{#ch10.xhtml_idm45797059712368 primary="blocks"
 secondary="containing blocks"
@@ -27558,7 +27489,7 @@ follows:
 
 :::::: {.section pdf-bookmark="Applied Behavior" data-type="sect2"}
 ::::: {#ch10.xhtml_applied_behavior .sect2}
-## Applied Behavior {#ch10.xhtml_sigil_toc_id_826}
+<h2>Applied Behavior {#ch10.xhtml_sigil_toc_id_826}
 
 Several interesting consequences fall out of the rules we've just seen,
 both because of what they say and what they don't say. The first topic
@@ -27645,7 +27576,7 @@ alt="image" />
 
 :::: {.section pdf-bookmark="Negative margins" data-type="sect3"}
 ::: {#ch10.xhtml_negative_margins .sect3}
-### Negative margins {#ch10.xhtml_sigil_toc_id_830}
+<h3>Negative margins {#ch10.xhtml_sigil_toc_id_830}
 
 Interestingly, []{#ch10.xhtml_ix_margin_neg4 primary="margins"
 secondary="negative" data-type="indexterm"}[]{#ch10.xhtml_ix_neg_margin4
@@ -27736,7 +27667,7 @@ alt="image" />
 
 :::: {.section pdf-bookmark="Floats, Content, and Overlapping" data-type="sect2"}
 ::: {#ch10.xhtml_floats_content_and_overlapping .sect2}
-## Floats, Content, and Overlapping {#ch10.xhtml_sigil_toc_id_834}
+<h2>Floats, Content, and Overlapping {#ch10.xhtml_sigil_toc_id_834}
 
 An []{#ch10.xhtml_ix_float_overlap2 primary="floating"
 secondary="overlapping content prevention"
@@ -27820,7 +27751,7 @@ startref="ix_overlap_float2" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Clearing" data-type="sect1"}
 :::: {#ch10.xhtml_clearing .sect1}
-# Clearing {#ch10.xhtml_sigil_toc_id_836}
+<h1>Clearing {#ch10.xhtml_sigil_toc_id_836}
 
 We've []{#ch10.xhtml_ix_float_clear primary="floating"
 secondary="clearing to control" data-type="indexterm"}talked quite a bit
@@ -27853,7 +27784,7 @@ data-type="indexterm"}done with `clear`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797059141360 .sidebar}
-# clear {#ch10.xhtml_sigil_toc_id_838}
+<h1>clear {#ch10.xhtml_sigil_toc_id_838}
 
   -------------------- -------------------------------------------------------------------------
   **Values**           `both` \| `left` \| `right` \| `inline-start` \| `inline-end` \| `none`
@@ -28014,7 +27945,7 @@ startref="ix_clear_prop" data-type="indexterm"}
 
 ::::::::::::::::::::::::: {.section pdf-bookmark="Positioning" data-type="sect1"}
 :::::::::::::::::::::::: {#ch10.xhtml_positioning .sect1}
-# Positioning {#ch10.xhtml_sigil_toc_id_843}
+<h1>Positioning {#ch10.xhtml_sigil_toc_id_843}
 
 The idea []{#ch10.xhtml_ix_position_ch10 primary="positioning"
 data-type="indexterm"}behind positioning is fairly simple. It allows you
@@ -28028,7 +27959,7 @@ to look at what types exist and how they differ.
 
 ::::: {.section pdf-bookmark="Types of Positioning" data-type="sect2"}
 :::: {#ch10.xhtml_types-of-positioning .sect2}
-## Types of Positioning {#ch10.xhtml_sigil_toc_id_844}
+<h2>Types of Positioning {#ch10.xhtml_sigil_toc_id_844}
 
 You can []{#ch10.xhtml_ix_position_types primary="positioning"
 secondary="types" data-type="indexterm"}[]{#ch10.xhtml_ix_position_prop
@@ -28040,7 +27971,7 @@ types of positioning, which affect how the element's box is
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797058820144 .sidebar}
-# position {#ch10.xhtml_sigil_toc_id_845}
+<h1>position {#ch10.xhtml_sigil_toc_id_845}
 
   -------------------- -------------------------------------------------------------
   **Values**           `static` \| `relative` \| `sticky` \| `absolute` \| `fixed`
@@ -28137,7 +28068,7 @@ startref="ix_position_prop" data-type="indexterm"}
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="The Containing Block" data-type="sect2"}
 ::: {#ch10.xhtml_pos_the-containing-block .sect2}
-## The Containing Block {#ch10.xhtml_sigil_toc_id_846}
+<h2>The Containing Block {#ch10.xhtml_sigil_toc_id_846}
 
 In []{#ch10.xhtml_idm45797058778016 primary="blocks"
 secondary="containing blocks"
@@ -28203,7 +28134,7 @@ really be "positioning context," but since the specification uses
 
 :::::: {.section pdf-bookmark="Offset Properties" data-type="sect2"}
 ::::: {#ch10.xhtml_offset-properties .sect2}
-## Offset Properties {#ch10.xhtml_sigil_toc_id_847}
+<h2>Offset Properties {#ch10.xhtml_sigil_toc_id_847}
 
 Four of the []{#ch10.xhtml_ix_offset_position2 primary="offsets"
 secondary="basic properties"
@@ -28238,7 +28169,7 @@ offset properties and four logical offset properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797058746080 .sidebar}
-# top, right, bottom, left, inset-block-start, inset-block-end, [inset-inline-start,]{.keep-together} inset-inline-end {#ch10.xhtml_sigil_toc_id_848}
+<h1>top, right, bottom, left, inset-block-start, inset-block-end, [inset-inline-start,]{.keep-together} inset-inline-end {#ch10.xhtml_sigil_toc_id_848}
 
   -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `auto`
@@ -28308,7 +28239,7 @@ alt="css5 1025" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_850}
+<h5>Note {#ch10.xhtml_sigil_toc_id_850}
 
 What's depicted in
 [Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"},
@@ -28387,7 +28318,7 @@ startref="ix_offset_position2" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Inset Shorthands" data-type="sect2"}
 ::::: {#ch10.xhtml_inset-shorthands .sect2}
-## Inset Shorthands {#ch10.xhtml_sigil_toc_id_852}
+<h2>Inset Shorthands {#ch10.xhtml_sigil_toc_id_852}
 
 In []{#ch10.xhtml_ix_position_inset_short primary="positioning"
 secondary="inset shorthand properties"
@@ -28403,7 +28334,7 @@ primary="inset-inline property" data-type="indexterm"}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797058540800 .sidebar}
-# inset-block, inset-inline {#ch10.xhtml_sigil_toc_id_853}
+<h1>inset-block, inset-inline {#ch10.xhtml_sigil_toc_id_853}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,2} \| `auto`
@@ -28442,7 +28373,7 @@ called `inset`, but it's a physical property---it's shorthand for `top`,
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797058499024 .sidebar}
-# inset {#ch10.xhtml_sigil_toc_id_854}
+<h1>inset {#ch10.xhtml_sigil_toc_id_854}
 
   ------------------- ----------------------------------------------------------------------------------------------------------------------------------
   **Values**          \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,4} \| `auto`
@@ -28479,7 +28410,7 @@ startref="ix_log_prop_float" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Setting Width and Height" data-type="sect2"}
 ::: {#ch10.xhtml_setting-width-and-height .sect2}
-## Setting Width and Height {#ch10.xhtml_sigil_toc_id_855}
+<h2>Setting Width and Height {#ch10.xhtml_sigil_toc_id_855}
 
 After []{#ch10.xhtml_ix_offset_length primary="offsets"
 secondary="length values"
@@ -28571,7 +28502,7 @@ startref="ix_width_prop2" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="Limiting Width and Height" data-type="sect2"}
 ::::::: {#ch10.xhtml_limiting-width-and-height .sect2}
-## Limiting Width and Height {#ch10.xhtml_sigil_toc_id_858}
+<h2>Limiting Width and Height {#ch10.xhtml_sigil_toc_id_858}
 
 Should it become necessary or desirable, you can place limits on an
 element's width by using the following properties, which we'll refer to
@@ -28586,7 +28517,7 @@ area can be defined to have minimum dimensions by using `min-width` and
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797058297680 .sidebar}
-# min-width, min-height {#ch10.xhtml_sigil_toc_id_859}
+<h1>min-width, min-height {#ch10.xhtml_sigil_toc_id_859}
 
   -------------------- -----------------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\>
@@ -28612,7 +28543,7 @@ can be limited using the properties `max-width` and `max-height`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797058255072 .sidebar}
-# max-width, max-height {#ch10.xhtml_sigil_toc_id_860}
+<h1>max-width, max-height {#ch10.xhtml_sigil_toc_id_860}
 
   -------------------- ------------------------------------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `none`
@@ -28664,7 +28595,7 @@ element be as tall as necessary to display its content, no matter how
 narrow it gets (never less than `15em`, though!).
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_862}
+<h5>Note {#ch10.xhtml_sigil_toc_id_862}
 
 We'll look at the role `auto` plays in the height and width of
 positioned elements in ["Placement and Sizing of Absolutely Positioned
@@ -28701,7 +28632,7 @@ This will set the float to `40em` wide, unless that would be more than
 limited to that 40% width.
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_863}
+<h5>Note {#ch10.xhtml_sigil_toc_id_863}
 
 For details on what to do with content that overflows an element when
 it's been constrained to a certain maximum size, see ["Handling Content
@@ -28725,7 +28656,7 @@ startref="ix_offset_length" data-type="indexterm"}
 
 :::::::::::::::::: {.section pdf-bookmark="Absolute Positioning" data-type="sect1"}
 ::::::::::::::::: {#ch10.xhtml_pos_absolute-positioning .sect1}
-# Absolute Positioning {#ch10.xhtml_sigil_toc_id_864}
+<h1>Absolute Positioning {#ch10.xhtml_sigil_toc_id_864}
 
 Since []{#ch10.xhtml_ix_offset_absol_pos primary="offsets"
 secondary="absolute positioning"
@@ -28738,7 +28669,7 @@ invoked.
 
 :::: {.section pdf-bookmark="Containing Blocks and Absolutely Positioned Elements" data-type="sect2"}
 ::: {#ch10.xhtml_containing-blocks-and-absolutely-positioned-elements .sect2}
-## Containing Blocks and Absolutely Positioned Elements {#ch10.xhtml_sigil_toc_id_865}
+<h2>Containing Blocks and Absolutely Positioned Elements {#ch10.xhtml_sigil_toc_id_865}
 
 When an []{#ch10.xhtml_ix_absol_pos_cont primary="absolute positioning"
 secondary="containing blocks and"
@@ -28920,7 +28851,7 @@ alt="image" />
 
 :::: {.section pdf-bookmark="Placement and Sizing of Absolutely Positioned Elements" data-type="sect2"}
 ::: {#ch10.xhtml_placement-and-sizing-of-absolutely-positioned-elements .sect2}
-## Placement and Sizing of Absolutely Positioned Elements {#ch10.xhtml_sigil_toc_id_869}
+<h2>Placement and Sizing of Absolutely Positioned Elements {#ch10.xhtml_sigil_toc_id_869}
 
 Combining the concepts of placement and sizing may seem odd, but it's a
 necessity with absolutely positioned elements because the specification
@@ -28983,7 +28914,7 @@ values to 0." We'll see the actual answer, starting in the next section.
 
 :::: {.section pdf-bookmark="Auto-edges" data-type="sect2"}
 ::: {#ch10.xhtml_auto-edges .sect2}
-## Auto-edges {#ch10.xhtml_sigil_toc_id_871}
+<h2>Auto-edges {#ch10.xhtml_sigil_toc_id_871}
 
 When []{#ch10.xhtml_ix_position_auto_edge primary="positioning"
 secondary="auto edges and"
@@ -29104,7 +29035,7 @@ startref="ix_position_auto_edge" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Placing and Sizing Nonreplaced Elements" data-type="sect2"}
 ::: {#ch10.xhtml_placing-and-sizing-nonreplaced-elements .sect2}
-## Placing and Sizing Nonreplaced Elements {#ch10.xhtml_sigil_toc_id_874}
+<h2>Placing and Sizing Nonreplaced Elements {#ch10.xhtml_sigil_toc_id_874}
 
 In general, the size and []{#ch10.xhtml_ix_pos_nonrep
 primary="positioning" secondary="nonreplaced elements"
@@ -29370,7 +29301,7 @@ startref="ix_pos_nonrep" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Placing and Sizing Replaced Elements" data-type="sect2"}
 ::: {#ch10.xhtml_placing-and-sizing-replaced-elements .sect2}
-## Placing and Sizing Replaced Elements {#ch10.xhtml_sigil_toc_id_881}
+<h2>Placing and Sizing Replaced Elements {#ch10.xhtml_sigil_toc_id_881}
 
 Positioning []{#ch10.xhtml_ix_pos_replaced primary="positioning"
 secondary="replaced elements"
@@ -29516,7 +29447,7 @@ alt="css5 1043" />
 
 :::::: {.section pdf-bookmark="Placement on the Z-Axis" data-type="sect2"}
 ::::: {#ch10.xhtml_placement-on-the-z-axis .sect2}
-## Placement on the Z-Axis {#ch10.xhtml_sigil_toc_id_884}
+<h2>Placement on the Z-Axis {#ch10.xhtml_sigil_toc_id_884}
 
 With all of the []{#ch10.xhtml_ix_zindex_prop primary="z-index property"
 data-type="indexterm"}[]{#ch10.xhtml_ix_absol_pos_zindex
@@ -29540,7 +29471,7 @@ illustrates this system.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch10.xhtml_idm45797056175920 .sidebar}
-# z-index {#ch10.xhtml_sigil_toc_id_885}
+<h1>z-index {#ch10.xhtml_sigil_toc_id_885}
 
   -------------------- ---------------------------
   **Values**           \<*`integer`*\> \| `auto`
@@ -29687,7 +29618,7 @@ to `z-index: 0`.[]{#ch10.xhtml_idm45797055651312 primary=""
 startref="ix_stack_elem" data-type="indexterm"}
 
 ::: {data-type="tip"}
-###### Tip {#ch10.xhtml_sigil_toc_id_890}
+<h5>Tip {#ch10.xhtml_sigil_toc_id_890}
 
 `z-index` is also honored by flex and grid items, even though they are
 not positioned using the `position` property. The rules are essentially
@@ -29707,7 +29638,7 @@ startref="ix_absol_pos_ch10" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Fixed Positioning" data-type="sect1"}
 :::: {#ch10.xhtml_fixed-positioning .sect1}
-# Fixed Positioning {#ch10.xhtml_sigil_toc_id_891}
+<h1>Fixed Positioning {#ch10.xhtml_sigil_toc_id_891}
 
 As implied in a []{#ch10.xhtml_ix_pos_fixed primary="positioning"
 secondary="fixed" data-type="indexterm"}[]{#ch10.xhtml_ix_fixed_pos
@@ -29791,7 +29722,7 @@ This would place the `footer` element at the bottom of the viewport and
 leave it there no matter how much the document is scrolled.
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_893}
+<h5>Note {#ch10.xhtml_sigil_toc_id_893}
 
 Many of the layout cases for fixed positioning, besides "persistent
 elements," are handled as well, if not better, by grid layout (see
@@ -29808,7 +29739,7 @@ startref="ix_offset_fix_pos" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Relative Positioning" data-type="sect1"}
 ::::: {#ch10.xhtml_relative-positioning .sect1}
-# Relative Positioning {#ch10.xhtml_sigil_toc_id_894}
+<h1>Relative Positioning {#ch10.xhtml_sigil_toc_id_894}
 
 The simplest of the []{#ch10.xhtml_ix_position_rel primary="positioning"
 secondary="relative"
@@ -29846,7 +29777,7 @@ from its normal place, but the space it would have occupied [doesn't
 disappear.]{.keep-together}
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_896}
+<h5>Note {#ch10.xhtml_sigil_toc_id_896}
 
 Relative positioning is very similar to translation element transforms,
 which are discussed in
@@ -29932,7 +29863,7 @@ languages; but in right-to-left languages, this is reversed: `left`
 always equals `-right`.
 
 ::: {.note data-type="note"}
-###### Note {#ch10.xhtml_sigil_toc_id_899}
+<h5>Note {#ch10.xhtml_sigil_toc_id_899}
 
 As you saw in []{#ch10.xhtml_idm45797054978464 primary="positioning"
 secondary="containing blocks and"
@@ -29953,7 +29884,7 @@ startref="ix_rel_position" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Sticky Positioning" data-type="sect1"}
 ::: {#ch10.xhtml_sticky-positioning .sect1}
-# Sticky Positioning {#ch10.xhtml_sigil_toc_id_900}
+<h1>Sticky Positioning {#ch10.xhtml_sigil_toc_id_900}
 
 The last type of []{#ch10.xhtml_ix_pos_sticky primary="positioning"
 secondary="sticky" data-type="indexterm"}[]{#ch10.xhtml_ix_sticky_pos
@@ -30145,7 +30076,7 @@ alt="image" />
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch10.xhtml_pos_summary .sect1}
-# Summary {#ch10.xhtml_sigil_toc_id_908}
+<h1>Summary {#ch10.xhtml_sigil_toc_id_908}
 
 As you saw in this chapter, CSS offers numerous ways to affect the
 placement of basic elements. Floats may be a fundamentally simple aspect
@@ -30167,7 +30098,7 @@ layout are available to us.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch11.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch11.xhtml_flexbox .chapter}
-# [Chapter 11. ]{.label}Flexible Box Layout
+<h1>[Chapter 11. ]{.label}Flexible Box Layout
 
 The [CSS Flexible Box Module Level
 1](http://www.w3.org/TR/css-flexbox-1), or
@@ -30180,7 +30111,7 @@ CSS to create almost any feature your site requires.
 
 :::::::: {.section pdf-bookmark="Flexbox Fundamentals" data-type="sect1"}
 ::::::: {#ch11.xhtml_learning-flexbox .sect1}
-# Flexbox Fundamentals {#ch11.xhtml_sigil_toc_id_909}
+<h1>Flexbox Fundamentals {#ch11.xhtml_sigil_toc_id_909}
 
 *Flexbox* is a simple and powerful way to lay out page components by
 dictating how space is distributed, content is aligned, and elements are
@@ -30193,7 +30124,7 @@ order. Though visually altered, flex properties should not impact the
 order of content read by screen [readers.]{.keep-together}
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_910}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_910}
 
 Specifications say that []{#ch11.xhtml_idm45797054542064
 primary="accessibility issues"
@@ -30258,7 +30189,7 @@ height="100" /></span></a></h6>
 </figure>
 
 ::: {data-type="tip"}
-###### Tip {#ch11.xhtml_sigil_toc_id_912}
+<h5>Tip {#ch11.xhtml_sigil_toc_id_912}
 
 Look for the Play symbol
 [![](./images/play-icon-round.png){height="100"
@@ -30322,7 +30253,7 @@ startref="ix_flexbox_item" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="A Simple Example" data-type="sect2"}
 ::: {#ch11.xhtml_idm45797054348672 .sect2}
-## A Simple Example {#ch11.xhtml_sigil_toc_id_913}
+<h2>A Simple Example {#ch11.xhtml_sigil_toc_id_913}
 
 Let's say we want to create a navigation bar out of a group of links.
 This is exactly the sort of thing flexbox was designed to handle.
@@ -30481,7 +30412,7 @@ yourself pining for two-dimensional layout capabilities, see
 
 :::::::::::::::::::: {.section pdf-bookmark="Flex Containers" data-type="sect1"}
 ::::::::::::::::::: {#ch11.xhtml_flex-container .sect1}
-# Flex Containers {#ch11.xhtml_sigil_toc_id_917}
+<h1>Flex Containers {#ch11.xhtml_sigil_toc_id_917}
 
 The first []{#ch11.xhtml_ix_flexbox_container2
 primary="flexible box (flexbox) layout" secondary="flex containers"
@@ -30507,7 +30438,7 @@ items. We'll then explore the equally important concept of flex items in
 
 :::::: {.section pdf-bookmark="Using the flex-direction Property" data-type="sect2"}
 ::::: {#ch11.xhtml_the-flex-direction-property .sect2}
-## Using the flex-direction Property {#ch11.xhtml_sigil_toc_id_918}
+<h2>Using the flex-direction Property {#ch11.xhtml_sigil_toc_id_918}
 
 If you want your []{#ch11.xhtml_ix_flex_cont_direct_prop
 primary="flexible box (flexbox) layout" secondary="flex containers"
@@ -30522,7 +30453,7 @@ flex items get laid out.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797054073904 .sidebar}
-# flex-direction {#ch11.xhtml_sigil_toc_id_919}
+<h1>flex-direction {#ch11.xhtml_sigil_toc_id_919}
 
   -------------------- --------------------------------------------------------
   **Values**           `row` \| `row-reverse` \| `column` \| `column-reverse`
@@ -30592,7 +30523,7 @@ out---is the direction of the current writing mode. We'll discuss how
 writing modes affect flex direction and layout in a bit.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_921}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_921}
 
 Do *not* use `flex-direction` to change the layout for right-to-left
 languages. []{#ch11.xhtml_idm45797053992720
@@ -30747,7 +30678,7 @@ article, images, paragraphs, and buttons [flex items.]{.keep-together}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Working with Other Writing Directions" data-type="sect2"}
 :::: {#ch11.xhtml_other-writing-directions .sect2}
-## Working with Other Writing Directions {#ch11.xhtml_sigil_toc_id_924}
+<h2>Working with Other Writing Directions {#ch11.xhtml_sigil_toc_id_924}
 
 If you're []{#ch11.xhtml_ix_write_mode_lang
 primary="writing modes (flow direction)"
@@ -30804,7 +30735,7 @@ height="100" /></span></a></span></h6>
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_926}
+<h5>Note {#ch11.xhtml_sigil_toc_id_926}
 
 If the CSS `direction` []{#ch11.xhtml_idm45797053538064
 primary="direction property"
@@ -30879,7 +30810,7 @@ startref="ix_write_mode_lang" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Wrapping Flex Lines" data-type="sect2"}
 :::: {#ch11.xhtml_the-flex-wrap-property .sect2}
-## Wrapping Flex Lines {#ch11.xhtml_sigil_toc_id_928}
+<h2>Wrapping Flex Lines {#ch11.xhtml_sigil_toc_id_928}
 
 If all the []{#ch11.xhtml_ix_wrap_flex_line
 primary="wrapping flex lines"
@@ -30902,7 +30833,7 @@ allowed to become multiline when needed.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797053493248 .sidebar}
-# flex-wrap {#ch11.xhtml_sigil_toc_id_929}
+<h1>flex-wrap {#ch11.xhtml_sigil_toc_id_929}
 
   -------------------- --------------------------------------
   **Values**           `nowrap` \| `wrap` \| `wrap-reverse`
@@ -30966,7 +30897,7 @@ startref="ix_wrap_flex_line" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Defining Flexible Flows" data-type="sect2"}
 :::: {#ch11.xhtml_the-flex-flow-shorthand-property .sect2}
-## Defining Flexible Flows {#ch11.xhtml_sigil_toc_id_931}
+<h2>Defining Flexible Flows {#ch11.xhtml_sigil_toc_id_931}
 
 The `flex-flow` property[]{#ch11.xhtml_idm45797053426112
 primary="flex-flow property"
@@ -30980,7 +30911,7 @@ the flex items can wrap to more than one line if needed.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797053423776 .sidebar}
-# flex-flow {#ch11.xhtml_sigil_toc_id_932}
+<h1>flex-flow {#ch11.xhtml_sigil_toc_id_932}
 
   -------------------- --------------------------------------------
   **Values**           \<*`flex-direction`*\> ‖ \<*`flex-wrap`*\>
@@ -31051,7 +30982,7 @@ delving into what they mean. It's time to clarify all that.
 
 ::::: {.section pdf-bookmark="Understanding Axes" data-type="sect2"}
 :::: {#ch11.xhtml_understanding-axis .sect2}
-## Understanding Axes {#ch11.xhtml_sigil_toc_id_934}
+<h2>Understanding Axes {#ch11.xhtml_sigil_toc_id_934}
 
 First: []{#ch11.xhtml_ix_flex_cont_axes
 primary="flexible box (flexbox) layout" secondary="flex containers"
@@ -31126,7 +31057,7 @@ the writing mode. Charting all the combinations for every writing mode
 would get difficult, so let's examine what they mean for LTR languages.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_935}
+<h5>Note {#ch11.xhtml_sigil_toc_id_935}
 
 It's important to understand that direction gets reversed when writing
 direction is reversed. To make explaining (and understanding) flex
@@ -31220,7 +31151,7 @@ alt="Flex lines on columns and column-reverse when flex-wrap: wrap-reverse is se
 
 :::: {.section pdf-bookmark="Arrangement of Flex Items" data-type="sect1"}
 ::: {#ch11.xhtml_arranging-items .sect1}
-# Arrangement of Flex Items {#ch11.xhtml_sigil_toc_id_938}
+<h1>Arrangement of Flex Items {#ch11.xhtml_sigil_toc_id_938}
 
 In our []{#ch11.xhtml_ix_flex_items_ch11
 primary="flexible box (flexbox) layout" secondary="flex items"
@@ -31258,7 +31189,7 @@ that allow us to alter that.
 
 :::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Flex Item Alignment" data-type="sect1"}
 ::::::::::::::::::::::::::::::::: {#ch11.xhtml_flex-item-alignment .sect1}
-# Flex Item Alignment {#ch11.xhtml_sigil_toc_id_940}
+<h1>Flex Item Alignment {#ch11.xhtml_sigil_toc_id_940}
 
 In our []{#ch11.xhtml_ix_flex_items_align
 primary="flexible box (flexbox) layout" secondary="flex items"
@@ -31289,7 +31220,7 @@ flex container.
 
 ::::::::::: {.section pdf-bookmark="Justifying Content" data-type="sect2"}
 :::::::::: {#ch11.xhtml_the-justify-content-property .sect2}
-## Justifying Content {#ch11.xhtml_sigil_toc_id_941}
+<h2>Justifying Content {#ch11.xhtml_sigil_toc_id_941}
 
 The `justify-content` property[]{#ch11.xhtml_ix_just_cont_prop
 primary="justify-content property"
@@ -31306,7 +31237,7 @@ items.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797053242512 .sidebar}
-# justify-content {#ch11.xhtml_sigil_toc_id_942}
+<h1>justify-content {#ch11.xhtml_sigil_toc_id_942}
 
   -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| `space-between` \| `space-around` \| `space-evenly` \| `stretch` \| `unsafe` \| `safe` ? \[ `center` \| `start` \| `end` \| `flex-start` \| `flex-end` \| `left` \| `right` \]
@@ -31325,7 +31256,7 @@ but not for [grid layout.]{.keep-together}
 </aside>
 ```
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_943}
+<h5>Note {#ch11.xhtml_sigil_toc_id_943}
 
 The `safe` and `unsafe` values, introduced with several other values in
 CSS Box Alignment Module Level 3, are recognized but not supported in
@@ -31376,7 +31307,7 @@ container, it causes grid items to grow in size until they take up all
 available space in the main-axis direction.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_945}
+<h5>Note {#ch11.xhtml_sigil_toc_id_945}
 
 We'll cover `safe` and `unsafe`, which vary how the browser should
 handle items that overflow the container along the cross-axis, in ["Safe
@@ -31386,7 +31317,7 @@ alignment"](#ch11.xhtml_safe-and-unsafe-alignment){data-type="xref"}.
 
 :::: {.section pdf-bookmark="Justifying and overflow" data-type="sect3"}
 ::: {#ch11.xhtml_justifying_and_overflow .sect3}
-### Justifying and overflow {#ch11.xhtml_sigil_toc_id_946}
+<h3>Justifying and overflow {#ch11.xhtml_sigil_toc_id_946}
 
 If []{#ch11.xhtml_ix_overflow_flex_cont
 primary="overflowing flex container" data-type="indexterm"}flex items
@@ -31575,7 +31506,7 @@ many cases) be consistent from one line to the next.
 
 :::: {.section pdf-bookmark="justify-content example" data-type="sect3"}
 ::: {#ch11.xhtml_justify-content-example .sect3}
-### justify-content example {#ch11.xhtml_sigil_toc_id_953}
+<h3>justify-content example {#ch11.xhtml_sigil_toc_id_953}
 
 We took advantage of the default value of `justify-content` in
 [Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"},
@@ -31663,7 +31594,7 @@ startref="ix_just_cont_prop" data-type="indexterm"}
 
 ::::::::::::::::: {.section pdf-bookmark="Aligning Items" data-type="sect2"}
 :::::::::::::::: {#ch11.xhtml_the-align-items-property .sect2}
-## Aligning Items {#ch11.xhtml_sigil_toc_id_956}
+<h2>Aligning Items {#ch11.xhtml_sigil_toc_id_956}
 
 Whereas `justify-content` defines how flex items are aligned along the
 flex container's main-axis, the `align-items` property defines how flex
@@ -31676,7 +31607,7 @@ primary="align-items property" data-type="indexterm"}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797053060592 .sidebar}
-# align-items {#ch11.xhtml_sigil_toc_id_957}
+<h1>align-items {#ch11.xhtml_sigil_toc_id_957}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| `space-between` \| `space-around` \| `space-evenly` \| `stretch` \| \[ `first` \| `last` \]? && `baseline` \| \[ `safe` \| `unsafe` \]? `center` \| `start` \| `end` \| `flex-start` \| `flex-end`
@@ -31694,7 +31625,7 @@ Note the `normal` behaves as `stretch` for flexbox.
 </aside>
 ```
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_958}
+<h5>Note {#ch11.xhtml_sigil_toc_id_958}
 
 While `align-items` sets the alignment for all the flex items within a
 container, the [`align-self`
@@ -31776,7 +31707,7 @@ case of `last baseline`.
 
 ::::: {.section pdf-bookmark="Flex item margins and alignment" data-type="sect3"}
 :::: {#ch11.xhtml_idm45797053011536 .sect3}
-### Flex item margins and alignment {#ch11.xhtml_sigil_toc_id_960}
+<h3>Flex item margins and alignment {#ch11.xhtml_sigil_toc_id_960}
 
 Now you have a []{#ch11.xhtml_ix_margin_flexbox primary="margins"
 secondary="flexbox layout"
@@ -31849,7 +31780,7 @@ data-type="indexterm"}[]{#ch11.xhtml_idm45797052957184 primary=""
 startref="ix_margin_flexbox" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_962}
+<h5>Note {#ch11.xhtml_sigil_toc_id_962}
 
 If a flex []{#ch11.xhtml_idm45797052902064
 primary="overflowing flex container" data-type="indexterm"}container's
@@ -31867,7 +31798,7 @@ the [container.]{.keep-together}
 
 :::: {.section pdf-bookmark="Baseline alignment" data-type="sect3"}
 ::: {#ch11.xhtml_align-items-baseline .sect3}
-### Baseline alignment {#ch11.xhtml_sigil_toc_id_963}
+<h3>Baseline alignment {#ch11.xhtml_sigil_toc_id_963}
 
 The `baseline` values[]{#ch11.xhtml_ix_baseline_flex_item
 primary="baselines" secondary="flex item alignment"
@@ -31952,7 +31883,7 @@ startref="ix_baseline_flex_item" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Safe and unsafe alignment" data-type="sect3"}
 :::: {#ch11.xhtml_safe-and-unsafe-alignment .sect3}
-### Safe and unsafe alignment {#ch11.xhtml_sigil_toc_id_965}
+<h3>Safe and unsafe alignment {#ch11.xhtml_sigil_toc_id_965}
 
 In all the []{#ch11.xhtml_idm45797052872112
 primary="safe and unsafe flex item alignment"
@@ -31987,7 +31918,7 @@ farthest away from the edge they would otherwise overflow.
 shows some examples.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_966}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_966}
 
 As of late 2022, only Firefox browsers fully support the `safe` and
 `unsafe` keywords, and they have to be written first in the value (as
@@ -32008,7 +31939,7 @@ these keywords as valid, but they have no impact on the layout.
 
 ::::: {.section pdf-bookmark="The align-self property" data-type="sect3"}
 :::: {#ch11.xhtml_the-align-self-property .sect3}
-### The align-self property {#ch11.xhtml_sigil_toc_id_968}
+<h3>The align-self property {#ch11.xhtml_sigil_toc_id_968}
 
 If you []{#ch11.xhtml_idm45797052835328 primary="align-self property"
 data-type="indexterm"}want to change the alignment of one or more flex
@@ -32021,7 +31952,7 @@ property value on a per-flex-item basis.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797052832880 .sidebar}
-# align-self {#ch11.xhtml_sigil_toc_id_969}
+<h1>align-self {#ch11.xhtml_sigil_toc_id_969}
 
   ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**          `auto` \| `normal` \| `stretch` \| \[ `first` \| `last` \]? && `baseline` \| \[ `unsafe` \| `safe` \]? \[ `center` \| `start` \| `end` \| `self-start` \| `self-end` \| `flex-start` \| `flex-end` \]
@@ -32087,7 +32018,7 @@ alignment, `safe` and `unsafe` alignment, and so on.
 
 ::::: {.section pdf-bookmark="Aligning Flex Lines" data-type="sect2"}
 :::: {#ch11.xhtml_the-align-content-property .sect2}
-## Aligning Flex Lines {#ch11.xhtml_sigil_toc_id_971}
+<h2>Aligning Flex Lines {#ch11.xhtml_sigil_toc_id_971}
 
 In nearly all the previous examples, the flex container's cross-size was
 always as tall as it needed to be: no `block-size` or `height` was
@@ -32105,7 +32036,7 @@ CSS allows us to control the overall placement of flex lines with the
 <aside class="less_space pagebreak-before" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797052749264 .sidebar}
-# align-content {#ch11.xhtml_sigil_toc_id_972}
+<h1>align-content {#ch11.xhtml_sigil_toc_id_972}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | `normal` \| \[ `first` \| `last`  |
@@ -32273,7 +32204,7 @@ startref="ix_align_content_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Using the place-content Property" data-type="sect2"}
 :::: {#ch11.xhtml_the-place-content-property .sect2}
-## Using the place-content Property {#ch11.xhtml_sigil_toc_id_975}
+<h2>Using the place-content Property {#ch11.xhtml_sigil_toc_id_975}
 
 CSS offers a []{#ch11.xhtml_idm45797052613616
 primary="flexible box (flexbox) layout" secondary="flex items"
@@ -32287,7 +32218,7 @@ property that collapses `align-content`, which we just covered, and
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797052610496 .sidebar}
-# place-content {#ch11.xhtml_sigil_toc_id_976}
+<h1>place-content {#ch11.xhtml_sigil_toc_id_976}
 
   -------------------- ------------------------------------------------
   **Values**           \<*`align-content`*\> \<*`justify-content`*\>?
@@ -32346,7 +32277,7 @@ startref="ix_flex_items_align" data-type="indexterm"}
 
 ::::::: {.section .less_space .pagebreak-before pdf-bookmark="Opening Gaps Between Flex Items" data-type="sect1"}
 :::::: {#ch11.xhtml_the-gap-properties .sect1}
-# Opening Gaps Between Flex Items {#ch11.xhtml_sigil_toc_id_977}
+<h1>Opening Gaps Between Flex Items {#ch11.xhtml_sigil_toc_id_977}
 
 Flex []{#ch11.xhtml_ix_gap_flex_item primary="gaps"
 secondary="opening between flex items"
@@ -32371,7 +32302,7 @@ thanks to the gap properties, there is.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797052437232 .sidebar}
-# row-gap, column-gap {#ch11.xhtml_sigil_toc_id_978}
+<h1>row-gap, column-gap {#ch11.xhtml_sigil_toc_id_978}
 
   -------------------- -----------------------------------------------------------------
   **Values**           `normal` \| \[ \<*`length`*\> \| \<*`percentage`*\> \]
@@ -32546,7 +32477,7 @@ startref="ix_row_gap_prop" data-type="indexterm"}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797052230096 .sidebar}
-# gap {#ch11.xhtml_sigil_toc_id_983}
+<h1>gap {#ch11.xhtml_sigil_toc_id_983}
 
   -------------------- ----------------------------------------------------------------
   **Values**           \<*`row-gap`*\> \<*`column-gap`*\>?
@@ -32584,7 +32515,7 @@ property</h6>
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_985}
+<h5>Note {#ch11.xhtml_sigil_toc_id_985}
 
 The original `gap` property was defined in CSS Multiple Columns, with
 additional hyphenated gap properties defined in CSS Grid as
@@ -32608,7 +32539,7 @@ startref="ix_gap_prop" data-type="indexterm"}
 
 :::::::::::: {.section pdf-bookmark="Flex Items" data-type="sect1"}
 ::::::::::: {#ch11.xhtml_flex-items .sect1}
-# Flex Items {#ch11.xhtml_sigil_toc_id_986}
+<h1>Flex Items {#ch11.xhtml_sigil_toc_id_986}
 
 In the []{#ch11.xhtml_ix_flex_item_cont
 primary="flexible box (flexbox) layout" secondary="flex items"
@@ -32624,7 +32555,7 @@ of individual flex containers' children.
 
 :::: {.section pdf-bookmark="What Are Flex Items?" data-type="sect2"}
 ::: {#ch11.xhtml_what-are-flex-items .sect2}
-## What Are Flex Items? {#ch11.xhtml_sigil_toc_id_987}
+<h2>What Are Flex Items? {#ch11.xhtml_sigil_toc_id_987}
 
 As you've []{#ch11.xhtml_idm45797052148272 primary="display property"
 secondary="flex items" data-type="indexterm"}seen throughout the
@@ -32718,7 +32649,7 @@ startref="ix_flex_item_cont" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Flex Item Features" data-type="sect2"}
 ::: {#ch11.xhtml_flex-item-features .sect2}
-## Flex Item Features {#ch11.xhtml_sigil_toc_id_989}
+<h2>Flex Item Features {#ch11.xhtml_sigil_toc_id_989}
 
 The []{#ch11.xhtml_idm45797051975936
 primary="flexible box (flexbox) layout" secondary="margins and"
@@ -32846,7 +32777,7 @@ startref="ix_flex_margin2" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Absolute Positioning" data-type="sect2"}
 ::: {#ch11.xhtml_flex_absolute-positioning .sect2}
-## Absolute Positioning {#ch11.xhtml_sigil_toc_id_991}
+<h2>Absolute Positioning {#ch11.xhtml_sigil_toc_id_991}
 
 While `float` will not actually float a flex item, setting
 `position: absolute` is a different story.
@@ -32884,7 +32815,7 @@ its siblings.
 
 :::: {.section pdf-bookmark="Minimum Widths" data-type="sect2"}
 ::: {#ch11.xhtml_min-width .sect2}
-## Minimum Widths {#ch11.xhtml_sigil_toc_id_992}
+<h2>Minimum Widths {#ch11.xhtml_sigil_toc_id_992}
 
 In [Figure 11-38](#ch11.xhtml_three-vals-flex-wrap){data-type="xref"},
 you'll note that the []{#ch11.xhtml_ix_min_width_prop2
@@ -32941,7 +32872,7 @@ height="100" /></span></a></h6>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Flex-Item-Specific Properties" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch11.xhtml_flex-item-specific .sect1}
-# Flex-Item-Specific Properties {#ch11.xhtml_sigil_toc_id_995}
+<h1>Flex-Item-Specific Properties {#ch11.xhtml_sigil_toc_id_995}
 
 While []{#ch11.xhtml_ix_flex_items_props
 primary="flexible box (flexbox) layout" secondary="flex items"
@@ -32961,7 +32892,7 @@ startref="ix_min_width_prop2" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="The flex Property" data-type="sect2"}
 ::::: {#ch11.xhtml_flex .sect2}
-## The flex Property {#ch11.xhtml_sigil_toc_id_996}
+<h2>The flex Property {#ch11.xhtml_sigil_toc_id_996}
 
 The defining aspect of flex layout is the ability to make the flex items
 *flex*: altering their width or height to fill the available space in
@@ -32987,7 +32918,7 @@ use the `flex` shorthand, for reasons we'll soon cover.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797051669904 .sidebar}
-# flex {#ch11.xhtml_sigil_toc_id_997}
+<h1>flex {#ch11.xhtml_sigil_toc_id_997}
 
   -------------------- ----------------------------------------------------------------------------------------
   **Values**           \[ \<*`flex-grow`*\> \<*`flex-shrink`*\>? ‖ \<*`flex-basis`*\> \] \| `none`
@@ -33036,7 +32967,7 @@ value of `width` (`50%`) is ignored. Similarly, a value for `height`
 would be ignored if the main-axis were vertical.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_998}
+<h5>Note {#ch11.xhtml_sigil_toc_id_998}
 
 This override of `height` and `width` occurs outside the cascade, so you
 can't even override the flex basis by adding `!important` to the
@@ -33055,7 +32986,7 @@ startref="ix_flex_prop" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="The flex-grow Property" data-type="sect2"}
 :::::: {#ch11.xhtml_flex-grow .sect2}
-## The flex-grow Property {#ch11.xhtml_sigil_toc_id_999}
+<h2>The flex-grow Property {#ch11.xhtml_sigil_toc_id_999}
 
 The `flex-grow` property[]{#ch11.xhtml_ix_flex_grow_prop
 primary="flex-grow property" data-type="indexterm"} defines whether a
@@ -33064,7 +32995,7 @@ much it will grow proportionally relative to the growth of other
 flex-item siblings.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_1000}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_1000}
 
 Declaring the growth factor[]{#ch11.xhtml_idm45797051611696
 primary="growth factor, flex box layout" data-type="indexterm"} via the
@@ -33078,7 +33009,7 @@ growth works.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797051609232 .sidebar}
-# flex-grow {#ch11.xhtml_sigil_toc_id_1001}
+<h1>flex-grow {#ch11.xhtml_sigil_toc_id_1001}
 
   -------------------- ------------------------------------------
   **Values**           \<*`number`*\>
@@ -33177,7 +33108,7 @@ have had more than 450 pixels of distributable space along the
 main-axis.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_1003}
+<h5>Note {#ch11.xhtml_sigil_toc_id_1003}
 
 The main-axis size of a flex item is impacted by the available space,
 the growth factor of all the flex items, and the flex basis of the item.
@@ -33230,7 +33161,7 @@ which adds up to 750 pixels.
 
 :::: {.section pdf-bookmark="Growth Factors and the flex Property" data-type="sect2"}
 ::: {#ch11.xhtml_growth-factors-and-the-flex-property .sect2}
-## Growth Factors and the flex Property {#ch11.xhtml_sigil_toc_id_1005}
+<h2>Growth Factors and the flex Property {#ch11.xhtml_sigil_toc_id_1005}
 
 The `flex` property[]{#ch11.xhtml_ix_grow_factor
 primary="growth factor, flex box layout" data-type="indexterm"} takes up
@@ -33406,7 +33337,7 @@ startref="ix_grow_factor" data-type="indexterm"}
 
 :::::::::::::::: {.section .less_space .pagebreak-before pdf-bookmark="The flex-shrink Property" data-type="sect2"}
 ::::::::::::::: {#ch11.xhtml_flex-shrink .sect2}
-## The flex-shrink Property {#ch11.xhtml_sigil_toc_id_1008}
+<h2>The flex-shrink Property {#ch11.xhtml_sigil_toc_id_1008}
 
 The \<*`flex-shrink`*\> portion[]{#ch11.xhtml_ix_shrink_factor_flex
 primary="shrink factor, for flexbox layout"
@@ -33417,7 +33348,7 @@ shorthand property specifies the *flex shrink*
 property.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_1009}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_1009}
 
 Declaring the shrink factor via the `flex-shrink` property is *strongly*
 discouraged by the authors of the specification itself. Instead, declare
@@ -33429,7 +33360,7 @@ property here only to explore how shrinking works.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797051342016 .sidebar}
-# flex-shrink {#ch11.xhtml_sigil_toc_id_1010}
+<h1>flex-shrink {#ch11.xhtml_sigil_toc_id_1010}
 
   -------------------- ------------------------------------------
   **Values**           \<*`number`*\>
@@ -33614,7 +33545,7 @@ similar to the first example in
 
 ::::: {.section pdf-bookmark="Proportional shrinkage based on width and shrink factor" data-type="sect3"}
 :::: {#ch11.xhtml_proportional-based-on-width-and-shrink-factor .sect3}
-### Proportional shrinkage based on width and shrink factor {#ch11.xhtml_sigil_toc_id_1013}
+<h3>Proportional shrinkage based on width and shrink factor {#ch11.xhtml_sigil_toc_id_1013}
 
 The []{#ch11.xhtml_idm45797051143632 primary="flex-shrink property"
 secondary="proportional shrinkage" data-type="indexterm"}preceding code
@@ -33681,7 +33612,7 @@ and 250 pixels, respectively. Thus we have flex items that are 208.33,
 
 :::::: {.section pdf-bookmark="Differing basis values" data-type="sect3"}
 ::::: {#ch11.xhtml_differing-bases .sect3}
-### Differing basis values {#ch11.xhtml_sigil_toc_id_1015}
+<h3>Differing basis values {#ch11.xhtml_sigil_toc_id_1015}
 
 When the []{#ch11.xhtml_ix_flex_basis_shrink
 primary="flex-basis property" secondary="shrink factor and"
@@ -33725,7 +33656,7 @@ In the third example, with no shrink factor, the text doesn't wrap at
 all, and the flex items overflow the container by quite a bit.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_1017}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_1017}
 
 As of late 2022, this "line-balancing" and refusal-to-wrap behavior is
 not consistent across browsers. If you see different results when trying
@@ -33747,7 +33678,7 @@ have 1,235 pixels of negative available space to proportionally
 distribute.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_1018}
+<h5>Note {#ch11.xhtml_sigil_toc_id_1018}
 
 Remember that you can't rely on web inspector tools to figure out shrink
 factors for production. We're going through this exercise to show how
@@ -33823,7 +33754,7 @@ startref="ix_flex_basis_shrink" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Responsive flexing" data-type="sect3"}
 :::: {#ch11.xhtml_responsive-flexing .sect3}
-### Responsive flexing {#ch11.xhtml_sigil_toc_id_1019}
+<h3>Responsive flexing {#ch11.xhtml_sigil_toc_id_1019}
 
 Allowing []{#ch11.xhtml_ix_resp_flexing primary="responsive flexing"
 data-type="indexterm"}[]{#ch11.xhtml_ix_flex_shrink_prop_resp
@@ -33939,7 +33870,7 @@ some lower limits based on character widths and others on viewport
 width.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_1022}
+<h5>Note {#ch11.xhtml_sigil_toc_id_1022}
 
 Flexbox can be useful for a one-dimensional page layout like the one
 shown in this section, with only three columns in a line. For anything
@@ -33961,7 +33892,7 @@ startref="ix_resp_flexing" data-type="indexterm"}
 
 ::::::::::::::::::: {.section .less_space .pagebreak-before pdf-bookmark="The flex-basis Property" data-type="sect2"}
 :::::::::::::::::: {#ch11.xhtml_flex-basis .sect2}
-## The flex-basis Property {#ch11.xhtml_sigil_toc_id_1023}
+<h2>The flex-basis Property {#ch11.xhtml_sigil_toc_id_1023}
 
 As you've already seen, a []{#ch11.xhtml_ix_flex_basis_prop2
 primary="flex-basis property" data-type="indexterm"}flex item's size is
@@ -33973,7 +33904,7 @@ flex items are allowed to grow or shrink according to the growth and
 shrink factors. It can also be set via the `flex-basis` property.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_1024}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_1024}
 
 Declaring the flex basis via the `flex-basis` property is *strongly*
 discouraged by the authors of the specification itself. Instead, declare
@@ -33985,7 +33916,7 @@ property here only to explore the flex basis.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797050837552 .sidebar}
-# flex-basis {#ch11.xhtml_sigil_toc_id_1025}
+<h1>flex-basis {#ch11.xhtml_sigil_toc_id_1025}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------
   **Values**           `auto` \| `content` \| `max-content` \| `min-content` \| `fit-content` \| \[ \<*`length`*\> \| \<*`percentage`*\> \]
@@ -34024,7 +33955,7 @@ for doing so is not made explicit in the specification.
 
 :::: {.section pdf-bookmark="The content keywords" data-type="sect3"}
 ::: {#ch11.xhtml_content_keywords .sect3}
-### The content keywords {#ch11.xhtml_sigil_toc_id_1026}
+<h3>The content keywords {#ch11.xhtml_sigil_toc_id_1026}
 
 In addition to []{#ch11.xhtml_ix_flex_basis_prop_cont_key
 primary="flex-basis property" secondary="content keywords"
@@ -34212,7 +34143,7 @@ startref="ix_flex_basis_prop_cont_key" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Automatic flex basis" data-type="sect3"}
 ::: {#ch11.xhtml_auto .sect3}
-### Automatic flex basis {#ch11.xhtml_sigil_toc_id_1031}
+<h3>Automatic flex basis {#ch11.xhtml_sigil_toc_id_1031}
 
 When []{#ch11.xhtml_ix_flex_basis_prop_auto
 primary="flex-basis property" secondary="automatic flex basis"
@@ -34281,7 +34212,7 @@ startref="ix_flex_basis_prop_auto" data-type="indexterm"}
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Default values" data-type="sect3"}
 ::: {#ch11.xhtml_default-values .sect3}
-### Default values {#ch11.xhtml_sigil_toc_id_1033}
+<h3>Default values {#ch11.xhtml_sigil_toc_id_1033}
 
 When []{#ch11.xhtml_idm45797050585392 primary="flex-basis property"
 secondary="default values"
@@ -34326,7 +34257,7 @@ widths 135, 270, and 135 pixels.
 
 :::: {.section pdf-bookmark="Length units" data-type="sect3"}
 ::: {#ch11.xhtml_length-units .sect3}
-### Length units {#ch11.xhtml_sigil_toc_id_1035}
+<h3>Length units {#ch11.xhtml_sigil_toc_id_1035}
 
 In the []{#ch11.xhtml_idm45797050572224 primary="flex-basis property"
 secondary="length units" data-type="indexterm"}previous examples, the
@@ -34387,7 +34318,7 @@ even though the flex basis is smaller.
 
 ::::: {.section pdf-bookmark="Percentage units" data-type="sect3"}
 :::: {#ch11.xhtml_length-units-percentages .sect3}
-### Percentage units {#ch11.xhtml_sigil_toc_id_1037}
+<h3>Percentage units {#ch11.xhtml_sigil_toc_id_1037}
 
 Percentage []{#ch11.xhtml_ix_flex_basis_prop_percent
 primary="flex-basis property" secondary="percentage units"
@@ -34441,7 +34372,7 @@ contains nonwrappable content that is as wide or wider than the parent
 container.
 
 ::: {data-type="tip"}
-###### Tip {#ch11.xhtml_sigil_toc_id_1039}
+<h5>Tip {#ch11.xhtml_sigil_toc_id_1039}
 
 Remember: when the flex basis is a percent value, the main-axis size is
 relative to the parent, which is the flex container.
@@ -34574,7 +34505,7 @@ startref="ix_flex_basis_prop_percent" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Zero basis" data-type="sect3"}
 ::: {#ch11.xhtml_zero-basis .sect3}
-### Zero basis {#ch11.xhtml_sigil_toc_id_1041}
+<h3>Zero basis {#ch11.xhtml_sigil_toc_id_1041}
 
 If []{#ch11.xhtml_idm45797050320080 primary="flex-basis property"
 secondary="zero basis" data-type="indexterm"}neither the `flex-basis`
@@ -34629,7 +34560,7 @@ primary="" startref="ix_flex_basis_prop2" data-type="indexterm"}
 
 :::::::::::::: {.section pdf-bookmark="The flex Shorthand" data-type="sect2"}
 ::::::::::::: {#ch11.xhtml_flex-shorthand-property .sect2}
-## The flex Shorthand {#ch11.xhtml_sigil_toc_id_1043}
+<h2>The flex Shorthand {#ch11.xhtml_sigil_toc_id_1043}
 
 Now []{#ch11.xhtml_ix_flex_prop2 primary="flex property"
 data-type="indexterm"}[]{#ch11.xhtml_ix_flex_item_short
@@ -34644,7 +34575,7 @@ the use of an integer, usually `1`, meaning the flex item can grow.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797050296544 .sidebar}
-# flex {#ch11.xhtml_sigil_toc_id_1044}
+<h1>flex {#ch11.xhtml_sigil_toc_id_1044}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| \[ \<*`flex-grow`*\> \<*`flex-shrink`*\>? ‖ \<*`flex-basis`*\> \]
@@ -34694,7 +34625,7 @@ Let's consider each of these in turn.
 
 :::: {.section pdf-bookmark="Flexing with initial" data-type="sect3"}
 ::: {#ch11.xhtml_idm45797050266576 .sect3}
-### Flexing with initial {#ch11.xhtml_sigil_toc_id_1045}
+<h3>Flexing with initial {#ch11.xhtml_sigil_toc_id_1045}
 
 The global CSS []{#ch11.xhtml_ix_initial_key_flex
 primary="initial keyword, flex property" data-type="indexterm"}keyword
@@ -34756,7 +34687,7 @@ primary="" startref="ix_initial_key_flex" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Flexing with auto" data-type="sect3"}
 ::: {#ch11.xhtml_idm45797050232576 .sect3}
-### Flexing with auto {#ch11.xhtml_sigil_toc_id_1047}
+<h3>Flexing with auto {#ch11.xhtml_sigil_toc_id_1047}
 
 The `flex: auto` option is similar to `flex: initial`, but makes the
 flex items flexible in both directions: they'll shrink if there isn't
@@ -34800,7 +34731,7 @@ incorporate all the extra available space.
 
 :::: {.section pdf-bookmark="Preventing flexing with none" data-type="sect3"}
 ::: {#ch11.xhtml_idm45797050183504 .sect3}
-### Preventing flexing with none {#ch11.xhtml_sigil_toc_id_1049}
+<h3>Preventing flexing with none {#ch11.xhtml_sigil_toc_id_1049}
 
 Any `flex: none` flex items are inflexible: they can neither shrink nor
 grow. The following two lines of CSS are equivalent:
@@ -34847,7 +34778,7 @@ property applied to them.
 
 ::::: {.section pdf-bookmark="Numeric flexing" data-type="sect3"}
 :::: {#ch11.xhtml_idm45797050138224 .sect3}
-### Numeric flexing {#ch11.xhtml_sigil_toc_id_1051}
+<h3>Numeric flexing {#ch11.xhtml_sigil_toc_id_1051}
 
 When the value of the `flex` property is a single, positive, numeric
 value, that value will be used for the growth factor, while the shrink
@@ -34905,7 +34836,7 @@ example---but, by default, flex items won't shrink below the length of
 the longest word or fixed-size element.
 
 ::: {.note data-type="note"}
-###### Note {#ch11.xhtml_sigil_toc_id_1053}
+<h5>Note {#ch11.xhtml_sigil_toc_id_1053}
 
 We added a bit of padding, margins, and borders to the figures to make
 the visuals more pleasing. For this reason, the leftmost flex item, with
@@ -34927,7 +34858,7 @@ startref="ix_flex_prop2" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="The order Property" data-type="sect1"}
 ::::::: {#ch11.xhtml_the-order-property .sect1}
-# The order Property {#ch11.xhtml_sigil_toc_id_1054}
+<h1>The order Property {#ch11.xhtml_sigil_toc_id_1054}
 
 Flex []{#ch11.xhtml_ix_order_prop primary="order property"
 data-type="indexterm"}[]{#ch11.xhtml_ix_flex_item_order
@@ -34943,7 +34874,7 @@ ordering of individual flex items.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch11.xhtml_idm45797050080112 .sidebar}
-# order {#ch11.xhtml_sigil_toc_id_1055}
+<h1>order {#ch11.xhtml_sigil_toc_id_1055}
 
   -------------------- ------------------------------------------------------------------
   **Values**           \<*`integer`*\>
@@ -34970,7 +34901,7 @@ that are not children of a flex container has no effect on such
 elements.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch11.xhtml_sigil_toc_id_1056}
+<h5>Warning {#ch11.xhtml_sigil_toc_id_1056}
 
 Changing the []{#ch11.xhtml_idm45797050063024
 primary="accessibility issues" secondary="order of flex items"
@@ -35110,7 +35041,7 @@ order of the source code, *not* in the order of the layout.
 
 :::: {.section pdf-bookmark="Tabbed Navigation Revisited" data-type="sect2"}
 ::: {#ch11.xhtml_tabbed-navigation-revisited .sect2}
-## Tabbed Navigation Revisited {#ch11.xhtml_sigil_toc_id_1059}
+<h2>Tabbed Navigation Revisited {#ch11.xhtml_sigil_toc_id_1059}
 
 Adding to our tabbed navigation bar example in
 [Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"},
@@ -35266,7 +35197,7 @@ startref="ix_order_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch11.xhtml_idm45797050084608 .sect1}
-# Summary {#ch11.xhtml_sigil_toc_id_1061}
+<h1>Summary {#ch11.xhtml_sigil_toc_id_1061}
 
 With flexible box layout, you can lay out sibling elements in ways that
 are responsive to many layout contexts and writing modes, with a variety
@@ -35286,7 +35217,7 @@ normal-flow and grid layout, which is the subject of the next chapter.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch12.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch12.xhtml_grid-layout .chapter}
-# [Chapter 12. ]{.label}Grid Layout
+<h1>[Chapter 12. ]{.label}Grid Layout
 
 At its []{#ch12.xhtml_grid_layout_ch12 primary="grid layout"
 data-type="indexterm"}inception, CSS had a layout-shaped hole at its
@@ -35319,7 +35250,7 @@ and allows you to create them simply, flexibly, and robustly.
 
 :::: {.section pdf-bookmark="Creating a Grid Container" data-type="sect1"}
 ::: {#ch12.xhtml_creating-a-grid-container .sect1}
-# Creating a Grid Container {#ch12.xhtml_sigil_toc_id_1062}
+<h1>Creating a Grid Container {#ch12.xhtml_sigil_toc_id_1062}
 
 The []{#ch12.xhtml_ix_grid_container primary="grid layout"
 secondary="grid container"
@@ -35484,7 +35415,7 @@ startref="ix_grid_container" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Understanding Basic Grid Terminology" data-type="sect1"}
 :::: {#ch12.xhtml_basic-grid-terminology .sect1}
-# Understanding Basic Grid Terminology {#ch12.xhtml_sigil_toc_id_1066}
+<h1>Understanding Basic Grid Terminology {#ch12.xhtml_sigil_toc_id_1066}
 
 We've []{#ch12.xhtml_ix_grid_term primary="grid layout"
 secondary="terminology" data-type="indexterm"}already talked about grid
@@ -35540,7 +35471,7 @@ difficult (or impossible) to affect with the various grid properties
 we'll discuss.
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1068}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1068}
 
 If you're wondering about `grid-template-rows` and
 `grid-template-columns`, we'll tackle them in the next section.
@@ -35625,7 +35556,7 @@ startref="ix_grid_term" data-type="indexterm"}
 
 ::::::::::::::::::::::::::: {.section pdf-bookmark="Creating Grid Lines" data-type="sect1"}
 :::::::::::::::::::::::::: {#ch12.xhtml_creating-grid-lines .sect1}
-# Creating Grid Lines {#ch12.xhtml_sigil_toc_id_1070}
+<h1>Creating Grid Lines {#ch12.xhtml_sigil_toc_id_1070}
 
 It turns out that creating grid lines can get fairly complex. That's not
 so much because the concept is difficult. CSS just provides many ways to
@@ -35641,7 +35572,7 @@ looking at two closely related properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797049238704 .sidebar}
-# grid-template-rows, grid-template-columns {#ch12.xhtml_sigil_toc_id_1071}
+<h1>grid-template-rows, grid-template-columns {#ch12.xhtml_sigil_toc_id_1071}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| \<*`track-list`*\> \| \<*`auto-track-list`*\>\_ \| \[ `subgrid` \<*`line-name-list`*\> \]?
@@ -35670,7 +35601,7 @@ start of the first track, one between the two, and one at the end of the
 second track. And so on.
 
 ::: {data-type="tip"}
-###### Tip {#ch12.xhtml_sigil_toc_id_1072}
+<h5>Tip {#ch12.xhtml_sigil_toc_id_1072}
 
 When you're starting out with CSS grid layout, it's probably a good idea
 to sketch out where the grid tracks need to be on paper first, or in
@@ -35725,7 +35656,7 @@ template. We'll start with the simpler ones and work our way toward the
 more complex.
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1074}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1074}
 
 We'll discuss the `subgrid` value in ["Using
 Subgrids"](#ch12.xhtml_subgrid){data-type="xref"}, after establishing
@@ -35735,7 +35666,7 @@ so on.
 
 :::: {.section pdf-bookmark="Using Fixed-Width Grid Tracks" data-type="sect2"}
 ::: {#ch12.xhtml_fixed-width-grid-tracks .sect2}
-## Using Fixed-Width Grid Tracks {#ch12.xhtml_sigil_toc_id_1075}
+<h2>Using Fixed-Width Grid Tracks {#ch12.xhtml_sigil_toc_id_1075}
 
 As our initial step, let's create a
 []{#ch12.xhtml_ix_grid_line_fixw_track primary="grid layout"
@@ -35947,7 +35878,7 @@ startref="ix_grid_track_fixw" data-type="indexterm"}
 
 ::::::::: {.section pdf-bookmark="Using Flexible Grid Tracks" data-type="sect2"}
 :::::::: {#ch12.xhtml_flexible-grid-tracks .sect2}
-## Using Flexible Grid Tracks {#ch12.xhtml_sigil_toc_id_1081}
+<h2>Using Flexible Grid Tracks {#ch12.xhtml_sigil_toc_id_1081}
 
 Thus far, []{#ch12.xhtml_ix_grid_line_flex_track primary="grid layout"
 secondary="grid lines" tertiary="flexible tracks"
@@ -35964,7 +35895,7 @@ track.
 
 :::: {.section pdf-bookmark="Fractional units" data-type="sect3"}
 ::: {#ch12.xhtml_fractional-units .sect3}
-### Fractional units {#ch12.xhtml_sigil_toc_id_1082}
+<h3>Fractional units {#ch12.xhtml_sigil_toc_id_1082}
 
 If you []{#ch12.xhtml_ix_unit_fraction primary="units of measure"
 secondary="fractional"
@@ -36205,7 +36136,7 @@ startref="ix_minmax_func" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Content-aware tracks" data-type="sect3"}
 :::: {#ch12.xhtml_content-aware-tracks .sect3}
-### Content-aware tracks {#ch12.xhtml_sigil_toc_id_1087}
+<h3>Content-aware tracks {#ch12.xhtml_sigil_toc_id_1087}
 
 It's one thing to set up []{#ch12.xhtml_ix_grid_line_cont_aware
 primary="grid layout" secondary="grid lines" tertiary="content-aware"
@@ -36339,7 +36270,7 @@ it wants. Sometimes that's fine, but in general you'll probably want to
 avoid it.
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1091}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1091}
 
 There is a caveat to that last statement: `auto` values allow grid items
 to be resized by the `align-content` and `justify-content` properties, a
@@ -36365,7 +36296,7 @@ startref="ix_grid_line_cont_aware" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Fitting Track Contents" data-type="sect2"}
 ::: {#ch12.xhtml_idm45797048749520 .sect2}
-## Fitting Track Contents {#ch12.xhtml_sigil_toc_id_1092}
+<h2>Fitting Track Contents {#ch12.xhtml_sigil_toc_id_1092}
 
 In []{#ch12.xhtml_ix_grid_line_fit_cont primary="grid layout"
 secondary="grid lines" tertiary="fitting content to"
@@ -36503,7 +36434,7 @@ section.]{.keep-together}
 
 :::::::: {.section pdf-bookmark="Repeating Grid Tracks" data-type="sect2"}
 ::::::: {#ch12.xhtml_repeating-grid-tracks .sect2}
-## Repeating Grid Tracks {#ch12.xhtml_sigil_toc_id_1095}
+<h2>Repeating Grid Tracks {#ch12.xhtml_sigil_toc_id_1095}
 
 If you []{#ch12.xhtml_ix_repeat_elem_track primary="repeating elements"
 secondary="grid tracks"
@@ -36601,7 +36532,7 @@ grid-template-rows: [top] 5em [bottom top] 5em [top bottom] 5em [bottom];
 ```
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1098}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1098}
 
 If you're []{#ch12.xhtml_idm45797047697888 primary="grid layout"
 secondary="grid lines" tertiary="naming" data-type="indexterm"}concerned
@@ -36613,7 +36544,7 @@ Lines"](#ch12.xhtml_using-column-and-row-lines){data-type="xref"}.
 
 ::::: {.section pdf-bookmark="Autofilling tracks" data-type="sect3"}
 :::: {#ch12.xhtml_auto-filling-tracks .sect3}
-### Autofilling tracks {#ch12.xhtml_sigil_toc_id_1099}
+<h3>Autofilling tracks {#ch12.xhtml_sigil_toc_id_1099}
 
 CSS []{#ch12.xhtml_ix_grid_line_autofill_track primary="grid layout"
 secondary="grid lines" tertiary="autofilling tracks"
@@ -36672,7 +36603,7 @@ track sizes with auto-repeated tracks, so values such as `min-content`
 and `max-content` can't be put into an auto-repeated pattern.
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1101}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1101}
 
 You []{#ch12.xhtml_idm45797047549296 primary="column-gap property"
 data-type="indexterm"}[]{#ch12.xhtml_idm45797047548560
@@ -36786,7 +36717,7 @@ alt="image" />
 
 ::::: {.section pdf-bookmark="Defining Grid Areas" data-type="sect2"}
 :::: {#ch12.xhtml_grid-areas .sect2}
-## Defining Grid Areas {#ch12.xhtml_sigil_toc_id_1104}
+<h2>Defining Grid Areas {#ch12.xhtml_sigil_toc_id_1104}
 
 Maybe you'd []{#ch12.xhtml_ix_grid_temp_area_prop
 primary="grid-template-areas property"
@@ -36801,7 +36732,7 @@ with the `grid-template-areas` property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797047351088 .sidebar}
-# grid-template-areas {#ch12.xhtml_sigil_toc_id_1105}
+<h1>grid-template-areas {#ch12.xhtml_sigil_toc_id_1105}
 
   -------------------- --------------------------
   **Values**           `none` \| \<*`string`*\>
@@ -37135,7 +37066,7 @@ startref="ix_grid_temp_area_prop" data-type="indexterm"}
 
 ::::::::::::::::::: {.section pdf-bookmark="Placing Elements in the Grid" data-type="sect1"}
 :::::::::::::::::: {#ch12.xhtml_placing-elements-in-the-grid .sect1}
-# Placing Elements in the Grid {#ch12.xhtml_sigil_toc_id_1113}
+<h1>Placing Elements in the Grid {#ch12.xhtml_sigil_toc_id_1113}
 
 Believe it or not, we've []{#ch12.xhtml_ix_grid_line_place_elem
 primary="grid layout" secondary="grid lines" tertiary="placing elements"
@@ -37144,7 +37075,7 @@ items are actually placed in a grid, once they've been defined.
 
 ::::: {.section pdf-bookmark="Using Column and Row Lines" data-type="sect2"}
 :::: {#ch12.xhtml_using-column-and-row-lines .sect2}
-## Using Column and Row Lines {#ch12.xhtml_sigil_toc_id_1114}
+<h2>Using Column and Row Lines {#ch12.xhtml_sigil_toc_id_1114}
 
 There are a []{#ch12.xhtml_ix_col_row_grid_line
 primary="column and row grid lines"
@@ -37164,7 +37095,7 @@ that attach an element to grid lines.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797046706224 .sidebar}
-# grid-row-start, grid-row-end, grid-column-start, grid-column-end {#ch12.xhtml_sigil_toc_id_1115}
+<h1>grid-row-start, grid-row-end, grid-column-start, grid-column-end {#ch12.xhtml_sigil_toc_id_1115}
 
   -------------------- ----------------------------------------------------------------------------------------------
   **Value**            \<*`grid-line`*\>
@@ -37434,7 +37365,7 @@ startref="ix_grid_row_strt_prop" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Using Row and Column Shorthands" data-type="sect2"}
 :::: {#ch12.xhtml_row-and-column-shorthands .sect2}
-## Using Row and Column Shorthands {#ch12.xhtml_sigil_toc_id_1120}
+<h2>Using Row and Column Shorthands {#ch12.xhtml_sigil_toc_id_1120}
 
 Two []{#ch12.xhtml_ix_grid_row_prop primary="grid-row property"
 data-type="indexterm"}[]{#ch12.xhtml_ix_grid_col_prop
@@ -37445,7 +37376,7 @@ properties allow you to more compactly attach an element to grid lines.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797045774464 .sidebar}
-# grid-row, grid-column {#ch12.xhtml_sigil_toc_id_1121}
+<h1>grid-row, grid-column {#ch12.xhtml_sigil_toc_id_1121}
 
   -------------------- ----------------------------------------------------------------------------------------------
   **Values**           \<*`grid-line`*\> \[ / \<*`grid-line`*\> \]?
@@ -37597,7 +37528,7 @@ startref="ix_grid_row_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Working with Implicit Grid" data-type="sect2"}
 ::: {#ch12.xhtml_the-implicit-grid .sect2}
-## Working with Implicit Grid {#ch12.xhtml_sigil_toc_id_1123}
+<h2>Working with Implicit Grid {#ch12.xhtml_sigil_toc_id_1123}
 
 Up to this []{#ch12.xhtml_ix_implicit_grid primary="implicit grid"
 data-type="indexterm"}[]{#ch12.xhtml_ix_grid_implicit
@@ -37757,7 +37688,7 @@ startref="ix_implicit_grid" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Handling Errors" data-type="sect2"}
 ::: {#ch12.xhtml_error-handling .sect2}
-## Handling Errors {#ch12.xhtml_sigil_toc_id_1126}
+<h2>Handling Errors {#ch12.xhtml_sigil_toc_id_1126}
 
 We []{#ch12.xhtml_idm45797044917440 primary="grid layout"
 secondary="error handling when placing" data-type="indexterm"}need to
@@ -37814,7 +37745,7 @@ with `span 1`.
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Using Areas" data-type="sect2"}
 :::: {#ch12.xhtml_using-areas .sect2}
-## Using Areas {#ch12.xhtml_sigil_toc_id_1127}
+<h2>Using Areas {#ch12.xhtml_sigil_toc_id_1127}
 
 Attaching by []{#ch12.xhtml_ix_grid_layout_areas primary="grid layout"
 secondary="grid areas"
@@ -37827,7 +37758,7 @@ property? Behold: `grid-area`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797044773584 .sidebar}
-# grid-area {#ch12.xhtml_sigil_toc_id_1128}
+<h1>grid-area {#ch12.xhtml_sigil_toc_id_1128}
 
   -------------------- ----------------------------------------------------------------------------------------------
   **Values**           \<*`grid-line`*\> \[ / \<*`grid-line`*\> \]{0,3}
@@ -37961,7 +37892,7 @@ startref="ix_grid_layout_areas" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Understanding Grid-Item Overlap" data-type="sect2"}
 ::: {#ch12.xhtml_grid-item-overlap .sect2}
-## Understanding Grid-Item Overlap {#ch12.xhtml_sigil_toc_id_1131}
+<h2>Understanding Grid-Item Overlap {#ch12.xhtml_sigil_toc_id_1131}
 
 One []{#ch12.xhtml_idm45797044342960 primary="grid layout"
 secondary="overlapping elements"
@@ -38038,7 +37969,7 @@ avoid overlap: the concept of *grid flow*.
 
 :::::: {.section pdf-bookmark="Specifying Grid Flow" data-type="sect1"}
 ::::: {#ch12.xhtml_grid-flow .sect1}
-# Specifying Grid Flow {#ch12.xhtml_sigil_toc_id_1134}
+<h1>Specifying Grid Flow {#ch12.xhtml_sigil_toc_id_1134}
 
 For the most part, we've been explicitly placing grid items on the grid.
 If items aren't []{#ch12.xhtml_ix_grid_flow primary="grid layout"
@@ -38060,7 +37991,7 @@ done with the property called [`grid-auto-flow`.]{.keep-together}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797044166432 .sidebar}
-# grid-auto-flow {#ch12.xhtml_sigil_toc_id_1135}
+<h1>grid-auto-flow {#ch12.xhtml_sigil_toc_id_1135}
 
   -------------------- -----------------------------------
   **Values**           \[ `row` \| `column` \] ‖ `dense`
@@ -38260,7 +38191,7 @@ after it, since they were just one grid cell in size, filled in the
 cells after it in column order.
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1142}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1142}
 
 Grid flow []{#ch12.xhtml_idm45797043775440
 primary="writing modes (flow direction)" secondary="grid flow and"
@@ -38313,7 +38244,7 @@ startref="ix_grid_flow" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Defining Automatic Grid Tracks" data-type="sect1"}
 :::: {#ch12.xhtml_automatic-grid-tracks .sect1}
-# Defining Automatic Grid Tracks {#ch12.xhtml_sigil_toc_id_1144}
+<h1>Defining Automatic Grid Tracks {#ch12.xhtml_sigil_toc_id_1144}
 
 So far, we've []{#ch12.xhtml_ix_grid_track_auto primary="grid layout"
 secondary="grid tracks" tertiary="automatic"
@@ -38342,7 +38273,7 @@ needed. If you want to exert a little more control over their sizing,
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797043752528 .sidebar}
-# grid-auto-rows, grid-auto-columns {#ch12.xhtml_sigil_toc_id_1145}
+<h1>grid-auto-rows, grid-auto-columns {#ch12.xhtml_sigil_toc_id_1145}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | \<*`track-breadth`*\>+ \|         |
@@ -38464,7 +38395,7 @@ startref="ix_grid_track_auto" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Using the grid Shorthand" data-type="sect1"}
 :::: {#ch12.xhtml_the-grid-shorthand .sect1}
-# Using the grid Shorthand {#ch12.xhtml_sigil_toc_id_1149}
+<h1>Using the grid Shorthand {#ch12.xhtml_sigil_toc_id_1149}
 
 At long last, we've come to the []{#ch12.xhtml_ix_grid_prop
 primary="grid property"
@@ -38477,7 +38408,7 @@ you, though, because it's not like other shorthand properties.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797043632736 .sidebar}
-# grid {#ch12.xhtml_sigil_toc_id_1150}
+<h1>grid {#ch12.xhtml_sigil_toc_id_1150}
 
   -------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| \[ \<*`grid-template-rows`*\> / \<*`grid-template-columns`*\> \] \| \[ \<*`line-names`*\>? \<*`string`*\> \<*`track-size`*\>? \<*`line-names`*\>? \]+ \[ / \<*`track-list`*\> \]? \| \[ \<*`grid-auto-flow`*\> \[ \<*`grid-auto-rows`*\> \[ / \<*`grid-auto-columns`*\> \]? \]? \] \]
@@ -38632,7 +38563,7 @@ startref="ix_grid_prop" data-type="indexterm"}
 
 ::::::::::::: {.section pdf-bookmark="Using Subgrids" data-type="sect1"}
 :::::::::::: {#ch12.xhtml_subgrid .sect1}
-# Using Subgrids {#ch12.xhtml_sigil_toc_id_1152}
+<h1>Using Subgrids {#ch12.xhtml_sigil_toc_id_1152}
 
 We promised many, many pages ago to talk []{#ch12.xhtml_ix_grid_subgrid
 primary="grid layout" secondary="subgrids" data-type="indexterm"}about
@@ -38808,7 +38739,7 @@ isn't at all necessary!
 
 :::: {.section pdf-bookmark="Defining Explicit Tracks" data-type="sect2"}
 ::: {#ch12.xhtml_Subgrids_and_Explicit_Tracks .sect2}
-## Defining Explicit Tracks {#ch12.xhtml_sigil_toc_id_1156}
+<h2>Defining Explicit Tracks {#ch12.xhtml_sigil_toc_id_1156}
 
 A more []{#ch12.xhtml_idm45797042633376 primary="explicit grid"
 data-type="indexterm"}[]{#ch12.xhtml_idm45797042632640
@@ -38854,7 +38785,7 @@ alt="css5 1258" />
 
 :::: {.section pdf-bookmark="Dealing with Offsets" data-type="sect2"}
 ::: {#ch12.xhtml_deadling_with_offsets .sect2}
-## Dealing with Offsets {#ch12.xhtml_sigil_toc_id_1158}
+<h2>Dealing with Offsets {#ch12.xhtml_sigil_toc_id_1158}
 
 Let's turn []{#ch12.xhtml_ix_subgrid_offset primary="subgrids"
 secondary="offsets"
@@ -39087,7 +39018,7 @@ startref="ix_subgrid_offset" data-type="indexterm"}
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Naming Subgridded Lines" data-type="sect2"}
 ::: {#ch12.xhtml_naming_subgridded_lines .sect2}
-## Naming Subgridded Lines {#ch12.xhtml_sigil_toc_id_1163}
+<h2>Naming Subgridded Lines {#ch12.xhtml_sigil_toc_id_1163}
 
 In addition to using the []{#ch12.xhtml_ix_subgrid_name_line
 primary="subgrids" secondary="naming lines" data-type="indexterm"}names
@@ -39213,7 +39144,7 @@ startref="ix_subgrid_name_line" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Giving Subgrids Their Own Gaps" data-type="sect2"}
 :::: {#ch12.xhtml_subgrids_and_gaps .sect2}
-## Giving Subgrids Their Own Gaps {#ch12.xhtml_sigil_toc_id_1166}
+<h2>Giving Subgrids Their Own Gaps {#ch12.xhtml_sigil_toc_id_1166}
 
 It's possible to set []{#ch12.xhtml_ix_subgrid_gaps primary="subgrids"
 secondary="gaps for"
@@ -39260,7 +39191,7 @@ these gaps.[]{#ch12.xhtml_idm45797041472704 primary=""
 startref="ix_grid_subgrid" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1168}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1168}
 
 If gaps aren't familiar to you, the properties `row-gap`, `column-gap`,
 and `gap` are covered in
@@ -39276,7 +39207,7 @@ startref="ix_subgrid_gaps" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Grid Items and the Box Model" data-type="sect1"}
 ::::: {#ch12.xhtml_grid-items-and-the-box-model .sect1}
-# Grid Items and the Box Model {#ch12.xhtml_sigil_toc_id_1169}
+<h1>Grid Items and the Box Model {#ch12.xhtml_sigil_toc_id_1169}
 
 Now we can create a []{#ch12.xhtml_ix_box_model primary="box model"
 data-type="indexterm"}[]{#ch12.xhtml_ix_grid_box_model
@@ -39344,7 +39275,7 @@ compensates for the top margin and content height totaling 110 pixels,
 when the grid area is only 100 pixels tall.
 
 ::: {.less_space .pagebreak-before .note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1171}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1171}
 
 Margins on grid items are ignored when calculating grid-track sizes.
 Therefore, no matter how big or small you make a grid item's margins, it
@@ -39410,7 +39341,7 @@ alt="image" />
 </figure>
 
 ::: {data-type="tip"}
-###### Tip {#ch12.xhtml_sigil_toc_id_1174}
+<h5>Tip {#ch12.xhtml_sigil_toc_id_1174}
 
 CSS has other ways to align grid items, notably with properties like
 `justify-self`, which don't depend on having explicit element sizes or
@@ -39515,7 +39446,7 @@ startref="ix_grid_box_model" data-type="indexterm"}
 
 :::::::::::::::: {.section pdf-bookmark="Setting Alignment in Grids" data-type="sect1"}
 ::::::::::::::: {#ch12.xhtml_aligning-and-grids .sect1}
-# Setting Alignment in Grids {#ch12.xhtml_sigil_toc_id_1177}
+<h1>Setting Alignment in Grids {#ch12.xhtml_sigil_toc_id_1177}
 
 If you have any []{#ch12.xhtml_ix_grid_align primary="grid layout"
 secondary="alignment" data-type="indexterm"}[]{#ch12.xhtml_ix_align_grid
@@ -39560,7 +39491,7 @@ shorthands that apply in both the block and inline directions.
 
 :::::: {.section pdf-bookmark="Aligning and Justifying Individual Items" data-type="sect2"}
 ::::: {#ch12.xhtml_aligning-and-justifying-individual-items .sect2}
-## Aligning and Justifying Individual Items {#ch12.xhtml_sigil_toc_id_1178}
+<h2>Aligning and Justifying Individual Items {#ch12.xhtml_sigil_toc_id_1178}
 
 It's easiest to []{#ch12.xhtml_ix_justified_grid_items
 primary="justified items, grid layout" data-type="indexterm"}start with
@@ -39669,7 +39600,7 @@ baseline-align itself in a direction where baselines can't be compared,
 startref="ix_inline_format_box_mod" data-type="indexterm"}
 
 ::: {.note data-type="note"}
-###### Note {#ch12.xhtml_sigil_toc_id_1180}
+<h5>Note {#ch12.xhtml_sigil_toc_id_1180}
 
 This section intentionally skips two values: `flex-start` and
 `flex-end`. These values are supposed to be used only in flexbox layout,
@@ -39689,7 +39620,7 @@ self-placement properties [just discussed.]{.keep-together}
 <aside class="less_space pagebreak-before" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797040865984 .sidebar}
-# place-self {#ch12.xhtml_sigil_toc_id_1181}
+<h1>place-self {#ch12.xhtml_sigil_toc_id_1181}
 
   -------------------- ----------------------------------------------------------------
   **Values**           \<*`align-self`*\> \<*`justify-self`*\>?
@@ -39736,7 +39667,7 @@ that are equivalent to each other:
 
 :::::::: {.section pdf-bookmark="Aligning and Justifying All Items" data-type="sect2"}
 ::::::: {#ch12.xhtml_aligning-and-justifying-all-items .sect2}
-## Aligning and Justifying All Items {#ch12.xhtml_sigil_toc_id_1182}
+<h2>Aligning and Justifying All Items {#ch12.xhtml_sigil_toc_id_1182}
 
 Now let's []{#ch12.xhtml_idm45797040705856
 primary="justify-items property"
@@ -39752,7 +39683,7 @@ individual grid items.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797040728896 .sidebar}
-# align-items {#ch12.xhtml_sigil_toc_id_1183}
+<h1>align-items {#ch12.xhtml_sigil_toc_id_1183}
 
   -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| `stretch` \| \[ \[ `first` \| `last` \]? && `baseline` \] \| \[ \[ `unsafe` \| `safe` \]? `center` \| `start` \| `end` \| `left` \| `right` \]
@@ -39771,7 +39702,7 @@ individual grid items.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797040686640 .sidebar}
-# justify-items {#ch12.xhtml_sigil_toc_id_1184}
+<h1>justify-items {#ch12.xhtml_sigil_toc_id_1184}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| `stretch` \| \[ \[ `first` \| `last` \]? && `baseline` \] \| \[ \[ `unsafe` \| `safe` \]? `center` \| `start` \| `end` \| `left` \| `right` \] \| \[ `legacy` && \[ `left` \| `right` \| `center` \]? \]
@@ -39836,7 +39767,7 @@ HTML's ancient [`<CENTER>`]{.keep-together} element and `align`
 attribute, neither of which is relevant in a grid context.)
 
 ::: {data-type="tip"}
-###### Tip {#ch12.xhtml_sigil_toc_id_1187}
+<h5>Tip {#ch12.xhtml_sigil_toc_id_1187}
 
 For an exploration of what `safe` and `unsafe` mean in terms of items
 overflowing their container, see
@@ -39851,7 +39782,7 @@ item-placement properties just discussed.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch12.xhtml_idm45797040627600 .sidebar}
-# place-items {#ch12.xhtml_sigil_toc_id_1188}
+<h1>place-items {#ch12.xhtml_sigil_toc_id_1188}
 
   -------------------- --------------------------------------------
   **Values**           \<*`align-items`*\> \<*`justify-items`*\>?
@@ -39881,7 +39812,7 @@ Thus, the following rules are equivalent:
 
 :::: {.section pdf-bookmark="Distributing Grid Items and Tracks" data-type="sect2"}
 ::: {#ch12.xhtml_distributing-grid-items-and-tracks .sect2}
-## Distributing Grid Items and Tracks {#ch12.xhtml_sigil_toc_id_1189}
+<h2>Distributing Grid Items and Tracks {#ch12.xhtml_sigil_toc_id_1189}
 
 Beyond []{#ch12.xhtml_ix_grid_distr_items primary="grid layout"
 secondary="distributing grid items and tracks"
@@ -39989,7 +39920,7 @@ startref="ix_grid_distr_items" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Layering and Ordering" data-type="sect1"}
 :::: {#ch12.xhtml_layering-and-ordering .sect1}
-# Layering and Ordering {#ch12.xhtml_sigil_toc_id_1192}
+<h1>Layering and Ordering {#ch12.xhtml_sigil_toc_id_1192}
 
 As we []{#ch12.xhtml_ix_grid_order_layer primary="grid layout"
 secondary="ordering layers"
@@ -40104,7 +40035,7 @@ nearly forced into using it by specific circumstances, think very hard
 about whether it's the best solution.
 
 ::: {data-type="tip"}
-###### Tip {#ch12.xhtml_sigil_toc_id_1196}
+<h5>Tip {#ch12.xhtml_sigil_toc_id_1196}
 
 For a formal definition of the `order` property, see
 [Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.[]{#ch12.xhtml_idm45797040124896
@@ -40123,7 +40054,7 @@ startref="ix_overlap_grid_items" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch12.xhtml_gl_summary .sect1}
-# Summary {#ch12.xhtml_sigil_toc_id_1197}
+<h1>Summary {#ch12.xhtml_sigil_toc_id_1197}
 
 Grid layout is complex and powerful, so don't be discouraged if you feel
 overwhelmed at first. It takes some time to get used to the way grid
@@ -40149,7 +40080,7 @@ and persistence will be rewarded.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch13.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch13.xhtml_title-table-layout-in-css .chapter}
-# [Chapter 13. ]{.label}Table Layout in CSS
+<h1>[Chapter 13. ]{.label}Table Layout in CSS
 
 You []{#ch13.xhtml_ix_table_layout_ch13 primary="table layout"
 data-type="indexterm"}may have glanced at this chapter's title and
@@ -40171,7 +40102,7 @@ apply to tables, and only tables.
 
 ::::::::::::::::::::::: {.section pdf-bookmark="Table Formatting" data-type="sect1"}
 :::::::::::::::::::::: {#ch13.xhtml_table-formatting .sect1}
-# Table Formatting {#ch13.xhtml_sigil_toc_id_1198}
+<h1>Table Formatting {#ch13.xhtml_sigil_toc_id_1198}
 
 Before we can start to worry about how cell borders are drawn and tables
 sized, we need to delve into the fundamental ways in which tables are
@@ -40182,7 +40113,7 @@ completed.
 
 :::: {.section pdf-bookmark="Visually Arranging a Table" data-type="sect2"}
 ::: {#ch13.xhtml_visually-arranging-a-table .sect2}
-## Visually Arranging a Table {#ch13.xhtml_sigil_toc_id_1199}
+<h2>Visually Arranging a Table {#ch13.xhtml_sigil_toc_id_1199}
 
 The []{#ch13.xhtml_idm45797040107392 primary="table layout"
 secondary="visual arrangement" data-type="indexterm"}first thing to
@@ -40237,7 +40168,7 @@ describe how tables are assembled for styling.
 
 ::::: {.section pdf-bookmark="Table Arrangement Rules" data-type="sect2"}
 :::: {#ch13.xhtml_table-arrangement-rules .sect2}
-## Table Arrangement Rules {#ch13.xhtml_sigil_toc_id_1201}
+<h2>Table Arrangement Rules {#ch13.xhtml_sigil_toc_id_1201}
 
 The []{#ch13.xhtml_idm45797040091680 primary="table layout"
 secondary="arrangement rules"
@@ -40289,7 +40220,7 @@ table arrangement are as follows:
     that encloses it.
 
 ::: {.note data-type="note"}
-###### Note {#ch13.xhtml_sigil_toc_id_1202}
+<h5>Note {#ch13.xhtml_sigil_toc_id_1202}
 
 The CSS specification discourages, but does not prohibit, the
 positioning of table cells and other internal table elements.
@@ -40313,7 +40244,7 @@ you know which elements are cells and which are not?
 
 ::::::::: {.section pdf-bookmark="Setting Table Display Values" data-type="sect2"}
 :::::::: {#ch13.xhtml_table-display-values .sect2}
-## Setting Table Display Values {#ch13.xhtml_sigil_toc_id_1203}
+<h2>Setting Table Display Values {#ch13.xhtml_sigil_toc_id_1203}
 
 In HTML, it's easy to know which []{#ch13.xhtml_ix_table_disp_val
 primary="table layout" secondary="display values"
@@ -40327,7 +40258,7 @@ might be part of a table. This is where a whole collection of values for
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch13.xhtml_idm45797040068592 .sidebar}
-# display {#ch13.xhtml_sigil_toc_id_1204}
+<h1>display {#ch13.xhtml_sigil_toc_id_1204}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | \[ \<*`display-outside`*\> ‖      |
@@ -40533,7 +40464,7 @@ boldfacing the `<label>` elements and right-aligning the `<score>`s.
 
 :::: {.section pdf-bookmark="Row primacy" data-type="sect3"}
 ::: {#ch13.xhtml_row-primacy .sect3}
-### Row primacy {#ch13.xhtml_sigil_toc_id_1205}
+<h3>Row primacy {#ch13.xhtml_sigil_toc_id_1205}
 
 CSS defines its []{#ch13.xhtml_idm45797039772848
 primary="row primacy, tables"
@@ -40558,7 +40489,7 @@ that the intent is to use CSS to present such
 
 :::: {.section pdf-bookmark="Columns" data-type="sect3"}
 ::: {#ch13.xhtml_columns .sect3}
-### Columns {#ch13.xhtml_sigil_toc_id_1206}
+<h3>Columns {#ch13.xhtml_sigil_toc_id_1206}
 
 Although the CSS []{#ch13.xhtml_idm45797039767392
 primary="columns, properties for table" data-type="indexterm"}table
@@ -40621,7 +40552,7 @@ only in the columnar context:
 
 :::: {.section pdf-bookmark="Inserting Anonymous Table Objects" data-type="sect2"}
 ::: {#ch13.xhtml_anonymous-table-objects .sect2}
-## Inserting Anonymous Table Objects {#ch13.xhtml_sigil_toc_id_1207}
+<h2>Inserting Anonymous Table Objects {#ch13.xhtml_sigil_toc_id_1207}
 
 A []{#ch13.xhtml_ix_tables_anon_obj primary="table layout"
 secondary="anonymous objects"
@@ -40883,7 +40814,7 @@ The rules are as follows:
 
 :::: {.section pdf-bookmark="Working with Table Layers" data-type="sect2"}
 ::: {#ch13.xhtml_table-layers .sect2}
-## Working with Table Layers {#ch13.xhtml_sigil_toc_id_1209}
+<h2>Working with Table Layers {#ch13.xhtml_sigil_toc_id_1209}
 
 For the []{#ch13.xhtml_idm45797066431088 primary="table layout"
 secondary="layers in" data-type="indexterm"}assembly of a table's
@@ -40953,7 +40884,7 @@ layers</h6>
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Using Captions" data-type="sect2"}
 :::: {#ch13.xhtml_captions .sect2}
-## Using Captions {#ch13.xhtml_sigil_toc_id_1212}
+<h2>Using Captions {#ch13.xhtml_sigil_toc_id_1212}
 
 A *table caption* is []{#ch13.xhtml_ix_caption_side_prop
 primary="caption-side property" data-type="indexterm"}about what you'd
@@ -40970,7 +40901,7 @@ of a `<table>` element, but other languages may have different rules.)
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch13.xhtml_idm45797066297104 .sidebar}
-# caption-side {#ch13.xhtml_sigil_toc_id_1213}
+<h1>caption-side {#ch13.xhtml_sigil_toc_id_1213}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------
   **Values**           `top` \| `bottom`
@@ -41039,7 +40970,7 @@ caption {background: gray; margin: 1em 0;
 
 :::::::::::::::::::: {.section pdf-bookmark="Table Cell Borders" data-type="sect1"}
 ::::::::::::::::::: {#ch13.xhtml_table-cell-borders .sect1}
-# Table Cell Borders {#ch13.xhtml_sigil_toc_id_1215}
+<h1>Table Cell Borders {#ch13.xhtml_sigil_toc_id_1215}
 
 CSS has two quite []{#ch13.xhtml_ix_cell_border_table
 primary="cell borders, table"
@@ -41059,7 +40990,7 @@ you can choose between the two models with the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch13.xhtml_idm45797066145632 .sidebar}
-# border-collapse {#ch13.xhtml_sigil_toc_id_1216}
+<h1>border-collapse {#ch13.xhtml_sigil_toc_id_1216}
 
   -------------------- -------------------------------------------------------------
   **Values**           `collapse` \| `separate` \| `inherit`
@@ -41082,7 +41013,7 @@ first, since it's much easier to describe and is the default.
 
 :::::::::: {.section pdf-bookmark="Separated Cell Borders" data-type="sect2"}
 ::::::::: {#ch13.xhtml_separated-cell-borders .sect2}
-## Separated Cell Borders {#ch13.xhtml_sigil_toc_id_1217}
+<h2>Separated Cell Borders {#ch13.xhtml_sigil_toc_id_1217}
 
 In the []{#ch13.xhtml_ix_sep_cell_border_table
 primary="separated cell borders, table" data-type="indexterm"}separated
@@ -41134,7 +41065,7 @@ there is.
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Applying border spacing" data-type="sect3"}
 :::: {#ch13.xhtml_border-spacing .sect3}
-### Applying border spacing {#ch13.xhtml_sigil_toc_id_1219}
+<h3>Applying border spacing {#ch13.xhtml_sigil_toc_id_1219}
 
 Once you've []{#ch13.xhtml_ix_space_border_spac_prop primary="spacing"
 secondary="border-spacing property"
@@ -41149,7 +41080,7 @@ HTML attribute `cellspacing`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch13.xhtml_idm45797066017760 .sidebar}
-# border-spacing {#ch13.xhtml_sigil_toc_id_1220}
+<h1>border-spacing {#ch13.xhtml_sigil_toc_id_1220}
 
   -------------------- ------------------------------------------------------------------
   **Values**           \<*`length`*\> \<*`length`*\>?
@@ -41222,7 +41153,7 @@ startref="ix_space_border_spac_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Handling empty cells" data-type="sect3"}
 :::: {#ch13.xhtml_handling-empty-cells .sect3}
-### Handling empty cells {#ch13.xhtml_sigil_toc_id_1222}
+<h3>Handling empty cells {#ch13.xhtml_sigil_toc_id_1222}
 
 Because every []{#ch13.xhtml_idm45797065894480
 primary="empty-cells property" data-type="indexterm"}cell is, in a
@@ -41235,7 +41166,7 @@ property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch13.xhtml_idm45797065893104 .sidebar}
-# empty-cells {#ch13.xhtml_sigil_toc_id_1223}
+<h1>empty-cells {#ch13.xhtml_sigil_toc_id_1223}
 
   -------------------- ------------------------------------------------------------------
   **Values**           `show` \| `hide`
@@ -41271,7 +41202,7 @@ primary="" startref="ix_sep_cell_border_table" data-type="indexterm"}
 
 ::::::::: {.section pdf-bookmark="Collapsed Cell Borders" data-type="sect2"}
 :::::::: {#ch13.xhtml_collapsing-cell-borders .sect2}
-## Collapsed Cell Borders {#ch13.xhtml_sigil_toc_id_1224}
+<h2>Collapsed Cell Borders {#ch13.xhtml_sigil_toc_id_1224}
 
 While the []{#ch13.xhtml_ix_border_collapse_prop
 primary="border-collapse property"
@@ -41306,7 +41237,7 @@ sections.
 
 ::::: {.section pdf-bookmark="Collapsing border layout" data-type="sect3"}
 :::: {#ch13.xhtml_collapsing-border-layout .sect3}
-### Collapsing border layout {#ch13.xhtml_sigil_toc_id_1225}
+<h3>Collapsing border layout {#ch13.xhtml_sigil_toc_id_1225}
 
 To better understand how the collapsed border model works, let's look at
 the layout of a single table row, as shown in
@@ -41377,7 +41308,7 @@ display elements, use anti-aliasing, or adjust anything else that seems
 
 :::: {.section pdf-bookmark="Border collapsing" data-type="sect3"}
 ::: {#ch13.xhtml_border-collapsing .sect3}
-### Border collapsing {#ch13.xhtml_sigil_toc_id_1227}
+<h3>Border collapsing {#ch13.xhtml_sigil_toc_id_1227}
 
 When two or more borders are adjacent, they collapse into each other. In
 fact, they don't collapse so much as fight it out to see which will gain
@@ -41524,7 +41455,7 @@ startref="ix_border_collapse_prop" data-type="indexterm"}
 
 :::::::::::::::: {.section pdf-bookmark="Table Sizing" data-type="sect1"}
 ::::::::::::::: {#ch13.xhtml_table-sizing .sect1}
-# Table Sizing {#ch13.xhtml_sigil_toc_id_1229}
+<h1>Table Sizing {#ch13.xhtml_sigil_toc_id_1229}
 
 Now []{#ch13.xhtml_ix_table_sizing primary="table layout"
 secondary="sizing" data-type="indexterm"}that we've dug into the guts of
@@ -41538,7 +41469,7 @@ automatically, no matter what width algorithms are used.
 
 ::::::::: {.section pdf-bookmark="Width" data-type="sect2"}
 :::::::: {#ch13.xhtml_width .sect2}
-## Width {#ch13.xhtml_sigil_toc_id_1230}
+<h2>Width {#ch13.xhtml_sigil_toc_id_1230}
 
 Since there are two ways to figure out the width of a table, it's only
 logical that there is a way to declare which should be used for a given
@@ -41549,7 +41480,7 @@ kinds of table width calculations.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch13.xhtml_idm45797065458688 .sidebar}
-# table-layout {#ch13.xhtml_sigil_toc_id_1231}
+<h1>table-layout {#ch13.xhtml_sigil_toc_id_1231}
 
   -------------------- -------------------------------------------------------------
   **Values**           `auto` \| `fixed`
@@ -41571,7 +41502,7 @@ the table more quickly than is possible in the automatic-width model.
 
 :::: {.section pdf-bookmark="Fixed layout" data-type="sect3"}
 ::: {#ch13.xhtml_fixed-layout .sect3}
-### Fixed layout {#ch13.xhtml_sigil_toc_id_1232}
+<h3>Fixed layout {#ch13.xhtml_sigil_toc_id_1232}
 
 The main reason the fixed-layout model is so fast is that its layout
 does not fully depend on the contents of table cells. Instead, it's
@@ -41678,7 +41609,7 @@ startref="ix_fix_width_table" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Automatic layout" data-type="sect3"}
 ::: {#ch13.xhtml_automatic-layout .sect3}
-### Automatic layout {#ch13.xhtml_sigil_toc_id_1234}
+<h3>Automatic layout {#ch13.xhtml_sigil_toc_id_1234}
 
 The []{#ch13.xhtml_ix_table_layout_prop primary="table-layout property"
 data-type="indexterm"}[]{#ch13.xhtml_ix_auto_width_table
@@ -41897,7 +41828,7 @@ startref="ix_table_layout_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Height" data-type="sect2"}
 :::: {#ch13.xhtml_height .sect2}
-## Height {#ch13.xhtml_sigil_toc_id_1236}
+<h2>Height {#ch13.xhtml_sigil_toc_id_1236}
 
 After all of the []{#ch13.xhtml_idm45797064772160 primary="table layout"
 secondary="height of"
@@ -41923,7 +41854,7 @@ its height, or leave blank space inside the table's box, or something
 completely different. It's up to each user agent to decide.
 
 ::: {.note data-type="note"}
-###### Note {#ch13.xhtml_sigil_toc_id_1237}
+<h5>Note {#ch13.xhtml_sigil_toc_id_1237}
 
 As of mid-2022, the most common behavior of user agents is to increase
 the heights of the rows in a table to fill out its overall height. This
@@ -41963,7 +41894,7 @@ possible.]{.keep-together}
 
 :::: {.section pdf-bookmark="Alignment" data-type="sect2"}
 ::: {#ch13.xhtml_alignment .sect2}
-## Alignment {#ch13.xhtml_sigil_toc_id_1238}
+<h2>Alignment {#ch13.xhtml_sigil_toc_id_1238}
 
 In a rather []{#ch13.xhtml_ix_table_align_cell primary="table layout"
 secondary="alignment within cells"
@@ -42140,7 +42071,7 @@ startref="ix_table_align_cell" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch13.xhtml_tl_summary .sect1}
-# Summary {#ch13.xhtml_sigil_toc_id_1241}
+<h1>Summary {#ch13.xhtml_sigil_toc_id_1241}
 
 Even if you're quite familiar with table layout from years of
 table-and-spacer design, it turns out that the mechanisms driving such
@@ -42165,7 +42096,7 @@ you to use any element to describe table components.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch14.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch14.xhtml_fonts .chapter}
-# [Chapter 14. ]{.label}Fonts
+<h1>[Chapter 14. ]{.label}Fonts
 
 The "Font Properties" section of the []{#ch14.xhtml_ix_fonts_ch14
 primary="fonts" data-type="indexterm"}[]{#ch14.xhtml_idm45797064474992
@@ -42200,7 +42131,7 @@ and even fail altogether.
 
 :::::::::: {.section pdf-bookmark="Font Families" data-type="sect1"}
 ::::::::: {#ch14.xhtml_font_families .sect1}
-# Font Families {#ch14.xhtml_sigil_toc_id_1242}
+<h1>Font Families {#ch14.xhtml_sigil_toc_id_1242}
 
 What we []{#ch14.xhtml_ix_font_fam_ch14 primary="fonts"
 secondary="families" data-type="indexterm"}think of as a "font" is
@@ -42292,7 +42223,7 @@ Material Icons Round contain images rather than letters.
 
 :::::: {.section pdf-bookmark="Using Generic Font Families" data-type="sect2"}
 ::::: {#ch14.xhtml_using_generic_font_families .sect2}
-## Using Generic Font Families {#ch14.xhtml_sigil_toc_id_1243}
+<h2>Using Generic Font Families {#ch14.xhtml_sigil_toc_id_1243}
 
 You []{#ch14.xhtml_ix_font_fam_prop primary="font-family property"
 data-type="indexterm"}can call on any available font family by using the
@@ -42302,7 +42233,7 @@ property `font-family`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-family .sidebar}
-# font-family {#ch14.xhtml_sigil_toc_id_1244}
+<h1>font-family {#ch14.xhtml_sigil_toc_id_1244}
 
   ---------------------------- ------------------------------------------------------
   **Values**                   \[ \<*`family-name`*\> \| \<*`generic-family`*\> \]#
@@ -42352,7 +42283,7 @@ Helvetica, while the elements `<code>`, `<pre>`, `<tt>`, and `<kbd>`
 will use a monospace font [like Courier.]{.keep-together}
 
 ::: {.note data-type="note"}
-###### Note {#ch14.xhtml_sigil_toc_id_1245}
+<h5>Note {#ch14.xhtml_sigil_toc_id_1245}
 
 Using generic defaults is excellent for rendering speed, as it allows
 the browser to use whichever default fonts it already has in memory
@@ -42435,7 +42366,7 @@ pick an available serif font.
 
 :::: {.section pdf-bookmark="Using Quotation Marks" data-type="sect2"}
 ::: {#ch14.xhtml_using_quotation_marks .sect2}
-## Using Quotation Marks {#ch14.xhtml_sigil_toc_id_1247}
+<h2>Using Quotation Marks {#ch14.xhtml_sigil_toc_id_1247}
 
 You may have []{#ch14.xhtml_idm45797064167200
 primary="'…​' or \"…​\" (quotes)" secondary="enclosing font names"
@@ -42500,7 +42431,7 @@ startref="ix_font_fam_prop" data-type="indexterm"}
 
 :::::::::::::::::::: {.section pdf-bookmark="Using Custom Fonts" data-type="sect1"}
 ::::::::::::::::::: {#ch14.xhtml_using_at_the_rate_font-face .sect1}
-# Using Custom Fonts {#ch14.xhtml_sigil_toc_id_1248}
+<h1>Using Custom Fonts {#ch14.xhtml_sigil_toc_id_1248}
 
 The `@font-face` rule enables you to use
 []{#ch14.xhtml_ix_font_face_ch14 primary="fonts" secondary="font faces"
@@ -42534,7 +42465,7 @@ use that font to render text when called upon via
 `font-family: SwitzeraADF`.
 
 ::: {.note data-type="note"}
-###### Note {#ch14.xhtml_sigil_toc_id_1249}
+<h5>Note {#ch14.xhtml_sigil_toc_id_1249}
 
 The examples in this section refer to SwitzeraADF, a font face
 collection available from the [Arkandis Digital
@@ -42569,7 +42500,7 @@ remember, with great power comes great responsibility. Use fonts wisely!
 
 :::::::: {.section pdf-bookmark="Using Font-Face Descriptors" data-type="sect2"}
 ::::::: {#ch14.xhtml_font-face_descriptors .sect2}
-## Using Font-Face Descriptors {#ch14.xhtml_sigil_toc_id_1250}
+<h2>Using Font-Face Descriptors {#ch14.xhtml_sigil_toc_id_1250}
 
 All the parameters that define the font you're referencing are contained
 within the `@font-face { }` construct. These are called *descriptors*,
@@ -42615,7 +42546,7 @@ descriptors are required: `font-family` and `src`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-family-id1 .sidebar}
-# font-family descriptor {#ch14.xhtml_sigil_toc_id_1251}
+<h1>font-family descriptor {#ch14.xhtml_sigil_toc_id_1251}
 
   ------------------- ---------------------
   **Value**           \<*`family-name`*\>
@@ -42630,14 +42561,14 @@ descriptors are required: `font-family` and `src`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_src .sidebar}
-# src descriptor {#ch14.xhtml_sigil_toc_id_1252}
+<h1>src descriptor {#ch14.xhtml_sigil_toc_id_1252}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | \<*`uri`*\> \[ `format(`          |
-|                                   | \<*`string`*\># `)` \]? \[        |
-|                                   | `tech(` \<*`font-tech`*\># `)`    |
+|                                   | \<*`string`*\><h1>`)` \]? \[        |
+|                                   | `tech(` \<*`font-tech`*\><h1>`)`    |
 |                                   | \]? \|\                           |
-|                                   | *\<*`font-face-name`*\>* \]#      |
+|                                   | *\<*`font-face-name`*\>* \]<h1>     |
 +-----------------------------------+-----------------------------------+
 | **Initial value**                 | Not defined                       |
 +-----------------------------------+-----------------------------------+
@@ -42670,7 +42601,7 @@ or use a font-hosting service that provides both the stylesheet(s) and
 the font file(s).
 
 ::: {.note data-type="note"}
-###### Note {#ch14.xhtml_sigil_toc_id_1253}
+<h5>Note {#ch14.xhtml_sigil_toc_id_1253}
 
 To create an exception to the same-origin restriction for fonts, include
 the following in your server's *.htaccess* file:
@@ -42919,7 +42850,7 @@ startref="ix_src_desc" data-type="indexterm"}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_custom_font_considerations .sidebar}
-# Custom Font Considerations {#ch14.xhtml_sigil_toc_id_1255}
+<h1>Custom Font Considerations {#ch14.xhtml_sigil_toc_id_1255}
 
 You []{#ch14.xhtml_idm45797035937856 primary="@font-face rule"
 primary-sortas="font-face rule" secondary="custom font considerations"
@@ -42980,7 +42911,7 @@ range, in order to reduce the file size.
 
 :::::: {.section pdf-bookmark="Restricting Character Range" data-type="sect2"}
 ::::: {#ch14.xhtml_restricting_character_range .sect2}
-## Restricting Character Range {#ch14.xhtml_sigil_toc_id_1256}
+<h2>Restricting Character Range {#ch14.xhtml_sigil_toc_id_1256}
 
 At []{#ch14.xhtml_ix_unicode_font_face_desc
 primary="unicode-range descriptor, @font-face"
@@ -42997,7 +42928,7 @@ the use of a font to certain characters or symbols, and the
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_unicode-range .sidebar}
-# unicode-range descriptor {#ch14.xhtml_sigil_toc_id_1257}
+<h1>unicode-range descriptor {#ch14.xhtml_sigil_toc_id_1257}
 
   ------------------- -----------------
   **Values**          \<*`urange`*\>#
@@ -43129,7 +43060,7 @@ ampersand character. You can use a tool like Font Squirrel to create a
 single-character font file.
 
 ::: {.note data-type="note"}
-###### Note {#ch14.xhtml_sigil_toc_id_1258}
+<h5>Note {#ch14.xhtml_sigil_toc_id_1258}
 
 Remember that pages can be translated with automated services like
 Google Translate. If you too aggressively restrict your Unicode ranges
@@ -43148,7 +43079,7 @@ startref="ix_unicode_font_face_desc" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Working with Font Display" data-type="sect2"}
 :::: {#ch14.xhtml_font_display .sect2}
-## Working with Font Display {#ch14.xhtml_sigil_toc_id_1259}
+<h2>Working with Font Display {#ch14.xhtml_sigil_toc_id_1259}
 
 If you're a []{#ch14.xhtml_idm45797035576960
 primary="FOUC (flash of unstyled content)"
@@ -43193,7 +43124,7 @@ font has yet to load.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-display .sidebar}
-# font-display descriptor {#ch14.xhtml_sigil_toc_id_1260}
+<h1>font-display descriptor {#ch14.xhtml_sigil_toc_id_1260}
 
   -------------------- ---------------------------------------------------------
   **Values**           `auto` \| `block` \| `swap` \| `fallback` \| `optional`
@@ -43290,7 +43221,7 @@ Let's consider each value in turn:
 
 :::: {.section pdf-bookmark="Combining Descriptors" data-type="sect2"}
 ::: {#ch14.xhtml_combining_descriptors .sect2}
-## Combining Descriptors {#ch14.xhtml_sigil_toc_id_1261}
+<h2>Combining Descriptors {#ch14.xhtml_sigil_toc_id_1261}
 
 Something that []{#ch14.xhtml_ix_font_face_combine
 primary="@font-face rule" primary-sortas="font-face rule"
@@ -43485,7 +43416,7 @@ startref="ix_font_face_combine" data-type="indexterm"}
 
 ::::::::: {.section pdf-bookmark="Font Weights" data-type="sect1"}
 :::::::: {#ch14.xhtml_font_weights .sect1}
-# Font Weights {#ch14.xhtml_sigil_toc_id_1263}
+<h1>Font Weights {#ch14.xhtml_sigil_toc_id_1263}
 
 Most of us are used to []{#ch14.xhtml_ix_font_weights primary="fonts"
 secondary="weights"
@@ -43499,7 +43430,7 @@ a lot more control over font weights with the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-weight .sidebar}
-# font-weight {#ch14.xhtml_sigil_toc_id_1264}
+<h1>font-weight {#ch14.xhtml_sigil_toc_id_1264}
 
   ---------------------------- -------------------------------------------------------------------------------------------------------------------------------
   **Values**                   `normal` \| `bold` \| `bolder` \| `lighter` \| \<*`number`*\>
@@ -43602,7 +43533,7 @@ the browser, creating a faux bold. (To prevent this, use
 
 :::: {.section pdf-bookmark="How Weights Work" data-type="sect2"}
 ::: {#ch14.xhtml_how_weights_work .sect2}
-## How Weights Work {#ch14.xhtml_sigil_toc_id_1265}
+<h2>How Weights Work {#ch14.xhtml_sigil_toc_id_1265}
 
 To understand how a user agent determines the heaviness, or weight, of a
 given font variant (not to mention how weight is inherited), it's
@@ -43760,7 +43691,7 @@ causes the user agent to move down the weight scale instead of up.
 
 :::: {.section pdf-bookmark="The font-weight Descriptor" data-type="sect2"}
 ::: {#ch14.xhtml_the_font-weight_descriptor .sect2}
-## The font-weight Descriptor {#ch14.xhtml_sigil_toc_id_1268}
+<h2>The font-weight Descriptor {#ch14.xhtml_sigil_toc_id_1268}
 
 With the `font-weight` descriptor, []{#ch14.xhtml_ix_font_weight_desc
 primary="font-weight descriptor, @font-face"
@@ -43845,7 +43776,7 @@ startref="ix_font_weight_desc" data-type="indexterm"}
 
 ::::::::::::::::::: {.section pdf-bookmark="Font Size" data-type="sect1"}
 :::::::::::::::::: {#ch14.xhtml_font_size .sect1}
-# Font Size {#ch14.xhtml_sigil_toc_id_1270}
+<h1>Font Size {#ch14.xhtml_sigil_toc_id_1270}
 
 While []{#ch14.xhtml_ix_font_size_prop2 primary="font-size property"
 data-type="indexterm"}[]{#ch14.xhtml_ix_font_size_ch14 primary="fonts"
@@ -43859,7 +43790,7 @@ different.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-size .sidebar}
-# font-size {#ch14.xhtml_sigil_toc_id_1271}
+<h1>font-size {#ch14.xhtml_sigil_toc_id_1271}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `xx-small` \| `x-small` \| `small` \| `medium` \| `large` \| `x-large` \| `xx-large` \| `xxx-large` \| `smaller` \| `larger` \| \<*`length`*\> \| \<*`percentage`*\>
@@ -43911,7 +43842,7 @@ alt="css5 1407" />
 
 ::::: {.section pdf-bookmark="Using Absolute Sizes" data-type="sect2"}
 :::: {#ch14.xhtml_absolute_sizes .sect2}
-## Using Absolute Sizes {#ch14.xhtml_sigil_toc_id_1273}
+<h2>Using Absolute Sizes {#ch14.xhtml_sigil_toc_id_1273}
 
 Having []{#ch14.xhtml_ix_font_size_prop_absol
 primary="font-size property" secondary="absolute sizes"
@@ -43983,7 +43914,7 @@ browsers, serif and sans-serif fonts have `medium` equal to `16px`, but
 `monospace` set [to `13px`.]{.keep-together}
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1275}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1275}
 
 As of late 2022, the `xxx-large` keyword is not supported by Safari or
 Opera, either on desktop or mobile
@@ -43997,7 +43928,7 @@ startref="ix_font_size_prop_absol" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Using Relative Sizes" data-type="sect2"}
 :::: {#ch14.xhtml_relative_sizes .sect2}
-## Using Relative Sizes {#ch14.xhtml_sigil_toc_id_1276}
+<h2>Using Relative Sizes {#ch14.xhtml_sigil_toc_id_1276}
 
 Just as `font-weight` has the []{#ch14.xhtml_ix_font_size_prop_rel
 primary="font-size property" secondary="relative sizes"
@@ -44061,7 +43992,7 @@ alt="css5 1409" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1278}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1278}
 
 User []{#ch14.xhtml_idm45797033810880 primary="accessibility issues"
 secondary="small text sizes" data-type="indexterm"}agents are not
@@ -44080,7 +44011,7 @@ startref="ix_font_size_prop_rel" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Setting Sizes as Percentages" data-type="sect2"}
 ::: {#ch14.xhtml_percentages_and_sizes .sect2}
-## Setting Sizes as Percentages {#ch14.xhtml_sigil_toc_id_1279}
+<h2>Setting Sizes as Percentages {#ch14.xhtml_sigil_toc_id_1279}
 
 In a way, []{#ch14.xhtml_ix_font_size_prop_percent
 primary="font-size property" secondary="percentages"
@@ -44199,7 +44130,7 @@ startref="ix_inherit_font_size_prop" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="Automatically Adjusting Size" data-type="sect2"}
 ::::::: {#ch14.xhtml_automatically_adjusting_size .sect2}
-## Automatically Adjusting Size {#ch14.xhtml_sigil_toc_id_1282}
+<h2>Automatically Adjusting Size {#ch14.xhtml_sigil_toc_id_1282}
 
 Two of the []{#ch14.xhtml_ix_font_size_adj_prop
 primary="font-size-adjust property"
@@ -44223,7 +44154,7 @@ aspect value, with the property `font-size-adjust`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-size-adjust .sidebar}
-# font-size-adjust {#ch14.xhtml_sigil_toc_id_1283}
+<h1>font-size-adjust {#ch14.xhtml_sigil_toc_id_1283}
 
   ---------------------------- ---------------------------------------------------------------------------------------------------------------------------------------
   **Values**                   \[ `ex-height` \| `cap-height` \| `ch-width` \| `ic-width` \| `ic-height` \]? \[ `from-font` \| \<*`number`*\> \] \| `none` \| `auto`
@@ -44366,7 +44297,7 @@ p.cl2 {font-family: Times, serif; }
 ```
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1286}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1286}
 
 As of late 2022, the only user-agent line to support `font-size-adjust`
 is the Gecko (Firefox) family.
@@ -44384,7 +44315,7 @@ x-heights instead of the range of font metrics available for
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_size-adjust .sidebar}
-# size-adjust descriptor {#ch14.xhtml_sigil_toc_id_1287}
+<h1>size-adjust descriptor {#ch14.xhtml_sigil_toc_id_1287}
 
   ------------------- --------------------
   **Values**          \<*`percentage`*\>
@@ -44416,7 +44347,7 @@ sizes and other metrics of the font:
 ```
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1288}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1288}
 
 As of late 2022, the only user-agent line that does *not* support the
 `size-adjust` descriptor is the WebKit (Safari)
@@ -44438,7 +44369,7 @@ startref="ix_font_size_prop_adj" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="Font Style" data-type="sect1"}
 ::::::: {#ch14.xhtml_font_style .sect1}
-# Font Style {#ch14.xhtml_sigil_toc_id_1289}
+<h1>Font Style {#ch14.xhtml_sigil_toc_id_1289}
 
 The `font-style` property[]{#ch14.xhtml_ix_font_style_prop
 primary="font-style property"
@@ -44451,7 +44382,7 @@ text if you're using it.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-style .sidebar}
-# font-style {#ch14.xhtml_sigil_toc_id_1290}
+<h1>font-style {#ch14.xhtml_sigil_toc_id_1290}
 
   ---------------------------- ---------------------------------------------------------------------------------------
   **Values**                   `italic` \|\[ `oblique` \<*`angle`*\>? \] \| `normal`
@@ -44580,7 +44511,7 @@ inline-end-leaning needs a positive value.
 
 ::::: {.section pdf-bookmark="The font-style Descriptor" data-type="sect2"}
 :::: {#ch14.xhtml_the_font-style_descriptor .sect2}
-## The font-style Descriptor {#ch14.xhtml_sigil_toc_id_1293}
+<h2>The font-style Descriptor {#ch14.xhtml_sigil_toc_id_1293}
 
 As a []{#ch14.xhtml_ix_font_style_desc
 primary="font-style descriptor, @font-face"
@@ -44591,7 +44522,7 @@ specific faces to specific font-style values.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_idm45797033010336 .sidebar}
-# font-style descriptor {#ch14.xhtml_sigil_toc_id_1294}
+<h1>font-style descriptor {#ch14.xhtml_sigil_toc_id_1294}
 
   ------------------- ------------------------------------------------------
   **Values**          `normal` \| `italic` \| `oblique` \<*`angle`*\>{0,2}
@@ -44689,7 +44620,7 @@ startref="ix_font_style_desc" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Font Stretching" data-type="sect1"}
 :::::: {#ch14.xhtml_font_stretching .sect1}
-# Font Stretching {#ch14.xhtml_sigil_toc_id_1296}
+<h1>Font Stretching {#ch14.xhtml_sigil_toc_id_1296}
 
 In some []{#ch14.xhtml_ix_font_stretch_prop
 primary="font-stretch property" data-type="indexterm"}font families,
@@ -44705,7 +44636,7 @@ the somewhat misleadingly named `font-stretch`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-stretch .sidebar}
-# font-stretch {#ch14.xhtml_sigil_toc_id_1297}
+<h1>font-stretch {#ch14.xhtml_sigil_toc_id_1297}
 
   ---------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**                   `normal` \| `ultra-condensed` \| `extra-condensed` \| `condensed` \| `semi-condensed` \| `semi-expanded` \| `expanded` \| `extra-expanded` \| `ultra-expanded` \| \<*`percentage`*\>
@@ -44792,7 +44723,7 @@ startref="ix_font_stretch_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="The font-stretch Descriptor" data-type="sect2"}
 ::: {#ch14.xhtml_the_font-stretch_descriptor .sect2}
-## The font-stretch Descriptor {#ch14.xhtml_sigil_toc_id_1299}
+<h2>The font-stretch Descriptor {#ch14.xhtml_sigil_toc_id_1299}
 
 Much []{#ch14.xhtml_ix_font_stretch_desc
 primary="font-stretch descriptor, @font-face"
@@ -44900,7 +44831,7 @@ strong {
 
 ::::: {.section pdf-bookmark="Font Synthesis" data-type="sect1"}
 :::: {#ch14.xhtml_font_synthesis .sect1}
-# Font Synthesis {#ch14.xhtml_sigil_toc_id_1301}
+<h1>Font Synthesis {#ch14.xhtml_sigil_toc_id_1301}
 
 Sometimes a given font family will lack alternate faces for options like
 bold or italic text or small capital letters. In such situations, the
@@ -44920,7 +44851,7 @@ it now.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-synthesis .sidebar}
-# font-synthesis {#ch14.xhtml_sigil_toc_id_1302}
+<h1>font-synthesis {#ch14.xhtml_sigil_toc_id_1302}
 
   ------------------- -----------------------------------------------
   **Values**          `none` \| `weight` \| `style` \| `small-caps`
@@ -44972,7 +44903,7 @@ those variants and doing a poor job of it.
 
 ::::::::::::::::::::::::: {.section pdf-bookmark="Font Variants" data-type="sect1"}
 :::::::::::::::::::::::: {#ch14.xhtml_font_variants .sect1}
-# Font Variants {#ch14.xhtml_sigil_toc_id_1304}
+<h1>Font Variants {#ch14.xhtml_sigil_toc_id_1304}
 
 Beyond []{#ch14.xhtml_ix_font_variant primary="fonts"
 secondary="variants"
@@ -44992,7 +44923,7 @@ exist, through the shorthand property `font-variant`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-variant .sidebar}
-# font-variant {#ch14.xhtml_sigil_toc_id_1305}
+<h1>font-variant {#ch14.xhtml_sigil_toc_id_1305}
 
   ---------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**                   \[ \<*`font-variant-caps`*\> ‖ \<*`font-variant-numeric`*\> ‖ [\<*`font-variant-alternates`*\>]{.keep-together} ‖ \<*`font-variant-ligatures`*\> ‖ \<*`font-variant-east-asian`*\> \] \| `normal` \| `none`
@@ -45075,7 +45006,7 @@ the declaration `text-transform: uppercase` had been used instead. This
 is not an ideal solution but it is permitted.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1307}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1307}
 
 Bear in mind that not every font supports every variant. For example,
 most Latin fonts won't support any of the East Asian variants. In
@@ -45094,7 +45025,7 @@ primary="" startref="ix_font_var_prop" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Capital Font Variants" data-type="sect2"}
 :::: {#ch14.xhtml_idm45797032078864 .sect2}
-## Capital Font Variants {#ch14.xhtml_sigil_toc_id_1308}
+<h2>Capital Font Variants {#ch14.xhtml_sigil_toc_id_1308}
 
 In []{#ch14.xhtml_ix_font_var_cap_prop
 primary="font-variant-caps property"
@@ -45107,7 +45038,7 @@ variants. These are addressed via the property `font-variant-caps`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-variant-caps .sidebar}
-# font-variant-caps {#ch14.xhtml_sigil_toc_id_1309}
+<h1>font-variant-caps {#ch14.xhtml_sigil_toc_id_1309}
 
   ---------------------------- -------------------------------------------------------------------------------------------------------------------------------------
   **Values**                   `normal` \| `small-caps` \| `all-small-caps` \| `petite-caps` \| [`all-petite-caps`]{.keep-together} \| `titling-caps` \| `unicase`
@@ -45262,7 +45193,7 @@ summarized in
 
 ::::: {.section pdf-bookmark="Numeric Font Variants" data-type="sect2"}
 :::: {#ch14.xhtml_idm45797032078272 .sect2}
-## Numeric Font Variants {#ch14.xhtml_sigil_toc_id_1311}
+<h2>Numeric Font Variants {#ch14.xhtml_sigil_toc_id_1311}
 
 Many []{#ch14.xhtml_ix_num_font_var primary="numeric font variants"
 data-type="indexterm"}[]{#ch14.xhtml_ix_font_var_num_prop
@@ -45276,7 +45207,7 @@ numbers, fractions, and ordinal markers.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-variant-numeric .sidebar}
-# font-variant-numeric {#ch14.xhtml_sigil_toc_id_1312}
+<h1>font-variant-numeric {#ch14.xhtml_sigil_toc_id_1312}
 
   -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| \[ `lining-nums` \| `oldstyle-nums` \] ‖ \[ [`proportional-nums` \|]{.keep-together} [`tabular-nums` \]]{.keep-together} ‖ \[ `diagonal-fractions` \| `stacked-fractions` \] ‖ `ordinal` ‖ `slashed-zero` \]
@@ -45400,7 +45331,7 @@ startref="ix_num_font_var" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Ligature Variants" data-type="sect2"}
 :::: {#ch14.xhtml_ligature_variants .sect2}
-## Ligature Variants {#ch14.xhtml_sigil_toc_id_1314}
+<h2>Ligature Variants {#ch14.xhtml_sigil_toc_id_1314}
 
 A *ligature* is a []{#ch14.xhtml_ix_font_var_lig_prop
 primary="font-variant-ligatures property"
@@ -45419,7 +45350,7 @@ with the `font-variant-ligatures` property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-variant-ligatures .sidebar}
-# font-variant-ligatures {#ch14.xhtml_sigil_toc_id_1315}
+<h1>font-variant-ligatures {#ch14.xhtml_sigil_toc_id_1315}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| `none` \| \[ \[ `common-ligatures` \| `no-common-ligatures` \] ‖ [\[ `discretionary-ligatures`]{.keep-together} \| `no-discretionary-ligatures` \] ‖ [\[ `historical-ligatures`]{.keep-together} \| `no-historical-ligatures` \] ‖ \[ [`contextual`]{.keep-together} \| [`no-contextual`]{.keep-together} \] \]
@@ -45537,7 +45468,7 @@ startref="ix_ligatures_ch14" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Alternate Variants" data-type="sect2"}
 ::::: {#ch14.xhtml_alternate-variants .sect2}
-## Alternate Variants {#ch14.xhtml_sigil_toc_id_1316}
+<h2>Alternate Variants {#ch14.xhtml_sigil_toc_id_1316}
 
 For any given []{#ch14.xhtml_ix_font_var_alt_prop
 primary="font-variant-alternates property"
@@ -45552,7 +45483,7 @@ glyphs.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-variant-alternates .sidebar}
-# font-variant-alternates {#ch14.xhtml_sigil_toc_id_1317}
+<h1>font-variant-alternates {#ch14.xhtml_sigil_toc_id_1317}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| \[ `historical-forms` ‖ `stylistic()` ‖ `historical-forms` ‖ [`styleset()`]{.keep-together} ‖ `character-variant()` ‖ `swash()` ‖ `ornaments()` ‖ [`annotation()`]{.keep-together} \]
@@ -45629,7 +45560,7 @@ paragraph styles would have to say `font-variant-alternates: swash(2)`
 instead of using `flowing` for the value of the `swash` function.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1318}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1318}
 
 As of late 2022, while all browsers support `font-variant` and its
 associated subproperties, only Firefox and Safari have
@@ -45645,7 +45576,7 @@ startref="ix_font_var_alt_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="East Asian Font Variants" data-type="sect2"}
 :::: {#ch14.xhtml_east_asian_font_variants .sect2}
-## East Asian Font Variants {#ch14.xhtml_sigil_toc_id_1319}
+<h2>East Asian Font Variants {#ch14.xhtml_sigil_toc_id_1319}
 
 The []{#ch14.xhtml_idm45797031511632 primary="East Asian font variant"
 data-type="indexterm"}[]{#ch14.xhtml_idm45797031510928
@@ -45657,7 +45588,7 @@ substitution and sizing in East Asian text.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font_variant_east_asian .sidebar}
-# font-variant-east-asian {#ch14.xhtml_sigil_toc_id_1320}
+<h1>font-variant-east-asian {#ch14.xhtml_sigil_toc_id_1320}
 
   -------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| \[ \[ `jis78` \| `jis83` \| `jis90` \| `jis04` \| `simplified` \| `traditional`\] ‖ [\[ `full-width`]{.keep-together} \| `proportional-width` \] ‖ `ruby` \]
@@ -45695,7 +45626,7 @@ associated font scaling.
 
 ::::: {.section pdf-bookmark="Font Variant Position" data-type="sect2"}
 :::: {#ch14.xhtml_font_variant_position .sect2}
-## Font Variant Position {#ch14.xhtml_sigil_toc_id_1321}
+<h2>Font Variant Position {#ch14.xhtml_sigil_toc_id_1321}
 
 Compared to the []{#ch14.xhtml_idm45797031486800
 primary="font-variant-position property" data-type="indexterm"}previous
@@ -45706,7 +45637,7 @@ strange, then, that it's so poorly supported.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font_variant_position_property .sidebar}
-# font-variant-position {#ch14.xhtml_sigil_toc_id_1322}
+<h1>font-variant-position {#ch14.xhtml_sigil_toc_id_1322}
 
   -------------------- ------------------------------
   **Values**           `normal` \| `sub` \| `super`
@@ -45749,7 +45680,7 @@ startref="ix_font_variant" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Font Feature Settings" data-type="sect1"}
 :::::: {#ch14.xhtml_font_feature_settings .sect1}
-# Font Feature Settings {#ch14.xhtml_sigil_toc_id_1323}
+<h1>Font Feature Settings {#ch14.xhtml_sigil_toc_id_1323}
 
 Throughout this []{#ch14.xhtml_ix_font_feat_set primary="fonts"
 secondary="feature settings"
@@ -45764,7 +45695,7 @@ control over which OpenType font features are available for use.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-feature-settings .sidebar}
-# font-feature-settings {#ch14.xhtml_sigil_toc_id_1324}
+<h1>font-feature-settings {#ch14.xhtml_sigil_toc_id_1324}
 
   ------------------- ----------------------------------------
   **Values**          `normal` \| \<*`feature-tag-value`*\>#
@@ -45932,7 +45863,7 @@ startref="ix_font_feat_set_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="The font-feature-settings Descriptor" data-type="sect2"}
 ::: {#ch14.xhtml_the_font-feature-settings_descriptor .sect2}
-## The font-feature-settings Descriptor {#ch14.xhtml_sigil_toc_id_1325}
+<h2>The font-feature-settings Descriptor {#ch14.xhtml_sigil_toc_id_1325}
 
 The `font-feature-settings` []{#ch14.xhtml_idm45797031191632
 primary="@font-face rule" primary-sortas="font-face rule"
@@ -45990,7 +45921,7 @@ startref="ix_opentype_feat" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Font Variation Settings" data-type="sect1"}
 ::::: {#ch14.xhtml_font-variation-settings .sect1}
-# Font Variation Settings {#ch14.xhtml_sigil_toc_id_1326}
+<h1>Font Variation Settings {#ch14.xhtml_sigil_toc_id_1326}
 
 The `font-variation-settings`
 property[]{#ch14.xhtml_ix_font_var_set_prop
@@ -46004,7 +45935,7 @@ axis name along with a value.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_idm45797031144320 .sidebar}
-# font-variation-settings {#ch14.xhtml_sigil_toc_id_1327}
+<h1>font-variation-settings {#ch14.xhtml_sigil_toc_id_1327}
 
   -------------------- --------------------------------------------------
   **Values**           `normal` \| \[ \<*`string`*\> \<*`number`*\> \]#
@@ -46071,7 +46002,7 @@ on one line, comma separated:
 ```
 
 ::: {data-type="tip"}
-###### Tip {#ch14.xhtml_sigil_toc_id_1328}
+<h5>Tip {#ch14.xhtml_sigil_toc_id_1328}
 
 Although you can set the weight, style, and so forth of a given font by
 using `font-variation-settings`, it is recommended that you use the more
@@ -46086,7 +46017,7 @@ startref="ix_font_var_set_prop" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Font Optical Sizing" data-type="sect1"}
 ::::: {#ch14.xhtml_font-optical-sizing .sect1}
-# Font Optical Sizing {#ch14.xhtml_sigil_toc_id_1329}
+<h1>Font Optical Sizing {#ch14.xhtml_sigil_toc_id_1329}
 
 Text []{#ch14.xhtml_idm45797030982720 primary="optical sizing, fonts"
 data-type="indexterm"}[]{#ch14.xhtml_idm45797030981984 primary="fonts"
@@ -46104,7 +46035,7 @@ authors to enable or disable this feature of variable fonts.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_idm45797030949168 .sidebar}
-# font-optical-sizing {#ch14.xhtml_sigil_toc_id_1330}
+<h1>font-optical-sizing {#ch14.xhtml_sigil_toc_id_1330}
 
   ------------------------ -----------------------
   **Values**               `auto` \| `none`
@@ -46125,7 +46056,7 @@ on font size and pixel density. The `none` value tells the browser to
 *not* do this.
 
 ::: {data-type="tip"}
-###### Tip {#ch14.xhtml_sigil_toc_id_1331}
+<h5>Tip {#ch14.xhtml_sigil_toc_id_1331}
 
 In fonts that support it, optical sizing is usually defined as a range
 of numbers. If you want to explicitly change the optical sizing of a
@@ -46139,7 +46070,7 @@ sturdier or more delicate than it would be by default, use the
 
 ::::: {.section pdf-bookmark="Override Descriptors" data-type="sect1"}
 :::: {#ch14.xhtml_override_descriptors .sect1}
-# Override Descriptors {#ch14.xhtml_sigil_toc_id_1332}
+<h1>Override Descriptors {#ch14.xhtml_sigil_toc_id_1332}
 
 This []{#ch14.xhtml_idm45797030928512 primary="@font-face rule"
 primary-sortas="font-face rule" secondary="override descriptors"
@@ -46162,7 +46093,7 @@ the same values: `normal` or a \<*`percentage`*\>.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_idm45797030921264 .sidebar}
-# ascent-override, descent-override, line-gap-override descriptors {#ch14.xhtml_sigil_toc_id_1333}
+<h1>ascent-override, descent-override, line-gap-override descriptors {#ch14.xhtml_sigil_toc_id_1333}
 
   ------------------- --------------------------------
   **Values**          `normal` \| \<*`percentage`*\>
@@ -46219,7 +46150,7 @@ distance in the fallback font.
 
 :::::: {.section pdf-bookmark="Font Kerning" data-type="sect1"}
 ::::: {#ch14.xhtml_font_kerning .sect1}
-# Font Kerning {#ch14.xhtml_sigil_toc_id_1334}
+<h1>Font Kerning {#ch14.xhtml_sigil_toc_id_1334}
 
 A font []{#ch14.xhtml_idm45797030866800 primary="fonts"
 secondary="kerning"
@@ -46242,7 +46173,7 @@ the property `font-kerning`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font-kerning .sidebar}
-# font-kerning {#ch14.xhtml_sigil_toc_id_1335}
+<h1>font-kerning {#ch14.xhtml_sigil_toc_id_1335}
 
   ------------------- ------------------------------
   **Values**          `auto` \| `normal` \| `none`
@@ -46275,7 +46206,7 @@ font, browsers are allowed to enforce it even if the font lacks an
 explicit enabling of kerning via a [feature table.]{.keep-together}
 
 ::: {.less_space .pagebreak-before .note data-type="note"}
-###### Note {#ch14.xhtml_sigil_toc_id_1336}
+<h5>Note {#ch14.xhtml_sigil_toc_id_1336}
 
 If the `letter-spacing` property[]{#ch14.xhtml_idm45797030811104
 primary="letter-spacing property"
@@ -46291,7 +46222,7 @@ not the other way around.
 
 :::::::::::::: {.section pdf-bookmark="The font Property" data-type="sect1"}
 ::::::::::::: {#ch14.xhtml_the_font_property .sect1}
-# The font Property {#ch14.xhtml_sigil_toc_id_1337}
+<h1>The font Property {#ch14.xhtml_sigil_toc_id_1337}
 
 All of the []{#ch14.xhtml_ix_fonts_shorthand primary="fonts"
 secondary="shorthand property"
@@ -46316,7 +46247,7 @@ other font properties, and a little more besides.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch14.xhtml_font .sidebar}
-# font {#ch14.xhtml_sigil_toc_id_1338}
+<h1>font {#ch14.xhtml_sigil_toc_id_1338}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[\[ \<*`font-style`*\> ‖ \[ `normal` \| `small-caps` \] ‖ \<*`font-weight`*\> ‖ [\<*`font-stretch`*\>]{.keep-together} \]? \<*`font-size`*\> \[ / \<*`line-height`*\> \]? [\<*`font-family`*\>\]]{.keep-together} \| `caption` \| `icon` \| `menu` \| `message-box` \| `small-caption` \| [`status-bar`]{.keep-together}
@@ -46403,7 +46334,7 @@ alt="css5 1424" />
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Understanding font Property Limitations" data-type="sect2"}
 ::: {#ch14.xhtml_font_property_limitations .sect2}
-## Understanding font Property Limitations {#ch14.xhtml_sigil_toc_id_1341}
+<h2>Understanding font Property Limitations {#ch14.xhtml_sigil_toc_id_1341}
 
 Because the `font` property has been part of CSS since the very
 beginning, and because so many properties dealing with all the variants
@@ -46461,7 +46392,7 @@ the range of 50% to 200% (inclusive). The keywords may be used in
 
 ::::: {.section pdf-bookmark="Adding the Line Height" data-type="sect2"}
 :::: {#ch14.xhtml_adding_the_line_height .sect2}
-## Adding the Line Height {#ch14.xhtml_sigil_toc_id_1342}
+<h2>Adding the Line Height {#ch14.xhtml_sigil_toc_id_1342}
 
 We also can set the []{#ch14.xhtml_idm45797030430416
 primary="line-height property" data-type="indexterm"}value of the
@@ -46496,7 +46427,7 @@ value, remember that `font-size` always comes before `line-height`,
 never after, and the two are always separated by a slash.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch14.xhtml_sigil_toc_id_1344}
+<h5>Warning {#ch14.xhtml_sigil_toc_id_1344}
 
 This may seem repetitive, but it's one of the most common errors made by
 CSS authors, so we can't say it enough: the required values for `font`
@@ -46508,7 +46439,7 @@ strictly optional.
 
 :::: {.section pdf-bookmark="Using the Shorthand Properly" data-type="sect2"}
 ::: {#ch14.xhtml_using_shorthands_properly .sect2}
-## Using the Shorthand Properly {#ch14.xhtml_sigil_toc_id_1345}
+<h2>Using the Shorthand Properly {#ch14.xhtml_sigil_toc_id_1345}
 
 It is important to remember that `font`, being a shorthand property, can
 act in unexpected ways if you are careless with its use. Consider the
@@ -46562,7 +46493,7 @@ startref="ix_fonts_shorthand" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Using System Fonts" data-type="sect2"}
 ::: {#ch14.xhtml_using_system_fonts .sect2}
-## Using System Fonts {#ch14.xhtml_sigil_toc_id_1347}
+<h2>Using System Fonts {#ch14.xhtml_sigil_toc_id_1347}
 
 When you []{#ch14.xhtml_idm45797030199648 primary="fonts"
 secondary="system"
@@ -46638,7 +46569,7 @@ agent will use the value `normal` for the `small-caps` property.
 
 :::: {.section pdf-bookmark="Font Matching" data-type="sect1"}
 ::: {#ch14.xhtml_font_matching .sect1}
-# Font Matching {#ch14.xhtml_sigil_toc_id_1348}
+<h1>Font Matching {#ch14.xhtml_sigil_toc_id_1348}
 
 As you've seen, CSS allows for the []{#ch14.xhtml_ix_font_match
 primary="fonts" secondary="matching" data-type="indexterm"}matching of
@@ -46751,7 +46682,7 @@ startref="ix_font_match" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch14.xhtml_font_summary .sect1}
-# Summary {#ch14.xhtml_sigil_toc_id_1349}
+<h1>Summary {#ch14.xhtml_sigil_toc_id_1349}
 
 From what was initially a very simple set of font properties, CSS has
 grown to allow fine-grained and wide-ranging influence over the way
@@ -46777,7 +46708,7 @@ are advised to use your power wisely, not wildly.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch15.xhtml_sbo-rt-content}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch15.xhtml_text_properties .chapter}
-# [Chapter 15. ]{.label}Text Properties
+<h1>[Chapter 15. ]{.label}Text Properties
 
 Because []{#ch15.xhtml_ix_text_properties_ch15 primary="text properties"
 data-type="indexterm"}text is so important, many CSS properties affect
@@ -46796,7 +46727,7 @@ placement of text decorations.
 
 ::::::::::::::::::::::::::::::: {.section pdf-bookmark="Indentation and Inline Alignment" data-type="sect1"}
 :::::::::::::::::::::::::::::: {#ch15.xhtml_indentation_and_inline_alignment .sect1}
-# Indentation and Inline Alignment {#ch15.xhtml_sigil_toc_id_1350}
+<h1>Indentation and Inline Alignment {#ch15.xhtml_sigil_toc_id_1350}
 
 Let's start with a discussion of how you can affect the inline
 positioning of text within a line. Think of these basic actions as the
@@ -46839,7 +46770,7 @@ suddenly the block direction is horizontal and the inline direction is
 vertical. (And bottom to top, at that.)
 
 ::: {data-type="tip"}
-###### Tip {#ch15.xhtml_sigil_toc_id_1351}
+<h5>Tip {#ch15.xhtml_sigil_toc_id_1351}
 
 You can still find a lot of English-centric blog posts and other
 CSS-related documentation on the web using the terms *vertical* and
@@ -46849,7 +46780,7 @@ mentally translate them to *block* and *inline* as needed.
 
 :::::: {.section pdf-bookmark="Indenting Text" data-type="sect2"}
 ::::: {#ch15.xhtml_indenting_text .sect2}
-## Indenting Text {#ch15.xhtml_sigil_toc_id_1352}
+<h2>Indenting Text {#ch15.xhtml_sigil_toc_id_1352}
 
 Most []{#ch15.xhtml_ix_text_indent_prop primary="text-indent property"
 data-type="indexterm"}[]{#ch15.xhtml_ix_text_indents
@@ -46864,7 +46795,7 @@ that look, CSS provides the property `text-indent`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-indent .sidebar}
-# text-indent {#ch15.xhtml_sigil_toc_id_1353}
+<h1>text-indent {#ch15.xhtml_sigil_toc_id_1353}
 
   -------------------- -----------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \] && hanging && each-line
@@ -46910,7 +46841,7 @@ block-level element, it will be shifted over with the rest of the text
 in the line.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1355}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1355}
 
 If you want to "indent" the first line of an inline element, you can
 create the effect with left padding or a margin.
@@ -47030,7 +46961,7 @@ pre {text-indent: 5ch each-line;}
 
 :::::::::::: {.section pdf-bookmark="Aligning Text" data-type="sect2"}
 ::::::::::: {#ch15.xhtml_text_alignment .sect2}
-## Aligning Text {#ch15.xhtml_sigil_toc_id_1357}
+<h2>Aligning Text {#ch15.xhtml_sigil_toc_id_1357}
 
 Even []{#ch15.xhtml_ix_text_align_in_line primary="text properties"
 secondary="alignment within a line"
@@ -47044,7 +46975,7 @@ lines of text in an element are aligned with respect to one another.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-align .sidebar}
-# text-align {#ch15.xhtml_sigil_toc_id_1358}
+<h1>text-align {#ch15.xhtml_sigil_toc_id_1358}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------
   **Values**           `start` \| `end` \| `left` \| `right` \| `center` \| `justify` \| `justify-all` \| [`match-parent`]{.keep-together}
@@ -47112,7 +47043,7 @@ alt="css5 1504" />
 
 :::: {.section pdf-bookmark="Start and end alignment" data-type="sect3"}
 ::: {#ch15.xhtml_start_and_end_alignment .sect3}
-### Start and end alignment {#ch15.xhtml_sigil_toc_id_1361}
+<h3>Start and end alignment {#ch15.xhtml_sigil_toc_id_1361}
 
 Remembering that []{#ch15.xhtml_idm45797029626176
 primary="end and start alignment"
@@ -47153,7 +47084,7 @@ alt="css5 1505" />
 
 ::::: {.section pdf-bookmark="Justified text" data-type="sect3"}
 :::: {#ch15.xhtml_justified_text .sect3}
-### Justified text {#ch15.xhtml_sigil_toc_id_1363}
+<h3>Justified text {#ch15.xhtml_sigil_toc_id_1363}
 
 An often-overlooked alignment value is `justify`, which raises some
 issues of its own. In justified text, both ends of a line of text
@@ -47188,7 +47119,7 @@ The value `justify-all` sets full justification for both `text-align`
 and `text-align-last` (covered in an upcoming section).
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1365}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1365}
 
 As of mid-2022, the `justify-all` value is not supported by any browser,
 even though nearly all of them support `text-align: justify` and
@@ -47207,7 +47138,7 @@ press time, but is solved in most browsers with the following:
 
 :::: {.section pdf-bookmark="Parent matching" data-type="sect3"}
 ::: {#ch15.xhtml_parent_matching .sect3}
-### Parent matching {#ch15.xhtml_sigil_toc_id_1366}
+<h3>Parent matching {#ch15.xhtml_sigil_toc_id_1366}
 
 We have one more []{#ch15.xhtml_idm45797029578608
 primary="match-parent keyword, text-align" data-type="indexterm"}value
@@ -47243,7 +47174,7 @@ Here is some en-US text.
 
 ::::: {.section pdf-bookmark="Aligning the Last Line" data-type="sect2"}
 :::: {#ch15.xhtml_aligning_the_last_line .sect2}
-## Aligning the Last Line {#ch15.xhtml_sigil_toc_id_1367}
+<h2>Aligning the Last Line {#ch15.xhtml_sigil_toc_id_1367}
 
 At []{#ch15.xhtml_idm45797029425248 primary="last-line alignment"
 data-type="indexterm"}[]{#ch15.xhtml_idm45797029424512
@@ -47259,7 +47190,7 @@ alignment. For those situations, you can use `text-align-last`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-align-last .sidebar}
-# text-align-last {#ch15.xhtml_sigil_toc_id_1368}
+<h1>text-align-last {#ch15.xhtml_sigil_toc_id_1368}
 
   -------------------- --------------------------------------------------------------------------
   **Values**           `auto` \| `start` \| `end` \| `left` \| `right` \| `center` \| `justify`
@@ -47321,7 +47252,7 @@ p {text-align: start; text-align-last: center;}
 
 ::::: {.section pdf-bookmark="Word Spacing" data-type="sect2"}
 :::: {#ch15.xhtml_word_spacing .sect2}
-## Word Spacing {#ch15.xhtml_sigil_toc_id_1370}
+<h2>Word Spacing {#ch15.xhtml_sigil_toc_id_1370}
 
 The `word-spacing` property[]{#ch15.xhtml_ix_space_word
 primary="spacing" secondary="word"
@@ -47338,7 +47269,7 @@ same as setting a value of `0`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_word-spacing .sidebar}
-# word-spacing {#ch15.xhtml_sigil_toc_id_1371}
+<h1>word-spacing {#ch15.xhtml_sigil_toc_id_1371}
 
   -------------------- -----------------------------------------------------------------------
   **Values**           \<*`length`*\> \| `normal`
@@ -47417,7 +47348,7 @@ alt="css5 1509" />
 
 :::::: {.section .less_space .pagebreak-before pdf-bookmark="Letter Spacing" data-type="sect2"}
 ::::: {#ch15.xhtml_letter_spacing .sect2}
-## Letter Spacing {#ch15.xhtml_sigil_toc_id_1374}
+<h2>Letter Spacing {#ch15.xhtml_sigil_toc_id_1374}
 
 Many of the issues you []{#ch15.xhtml_ix_text_space_letter
 primary="text properties" secondary="letter spacing"
@@ -47433,7 +47364,7 @@ letters.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_letter-spacing .sidebar}
-# letter-spacing {#ch15.xhtml_sigil_toc_id_1375}
+<h1>letter-spacing {#ch15.xhtml_sigil_toc_id_1375}
 
   -------------------- -------------------------------------------------------------
   **Values**           \<*`length`*\> \| `normal`
@@ -47481,7 +47412,7 @@ alt="css5 1510" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1377}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1377}
 
 If a []{#ch15.xhtml_idm45797029027120 primary="fonts"
 secondary="ligatures"
@@ -47496,7 +47427,7 @@ ligatures or other joins when letter spacing is altered.
 
 :::: {.section pdf-bookmark="Spacing and Alignment" data-type="sect2"}
 ::: {#ch15.xhtml_spacing_and_alignment .sect2}
-## Spacing and Alignment {#ch15.xhtml_sigil_toc_id_1378}
+<h2>Spacing and Alignment {#ch15.xhtml_sigil_toc_id_1378}
 
 It's []{#ch15.xhtml_idm45797029051744 primary="text-align property"
 data-type="indexterm"}[]{#ch15.xhtml_idm45797029051008
@@ -47566,7 +47497,7 @@ And the same goes for word spacing.
 
 ::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Vertical Alignment" data-type="sect1"}
 :::::::::::::::::::::::::::::::: {#ch15.xhtml_vertical_alignment .sect1}
-# Vertical Alignment {#ch15.xhtml_sigil_toc_id_1380}
+<h1>Vertical Alignment {#ch15.xhtml_sigil_toc_id_1380}
 
 Now []{#ch15.xhtml_ix_text_align_in_elem primary="text properties"
 secondary="alignment of lines in an element"
@@ -47591,7 +47522,7 @@ small book, we'll just stick to a quick overview here.
 
 :::::::::::: {.section pdf-bookmark="Adjusting the Height of Lines" data-type="sect2"}
 ::::::::::: {#ch15.xhtml_the_height_of_lines .sect2}
-## Adjusting the Height of Lines {#ch15.xhtml_sigil_toc_id_1381}
+<h2>Adjusting the Height of Lines {#ch15.xhtml_sigil_toc_id_1381}
 
 The []{#ch15.xhtml_ix_text_line_height primary="text properties"
 secondary="line height" data-type="indexterm"}distance between lines can
@@ -47620,7 +47551,7 @@ size of the font is the leading.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_line-height .sidebar}
-# line-height {#ch15.xhtml_sigil_toc_id_1382}
+<h1>line-height {#ch15.xhtml_sigil_toc_id_1382}
 
   -------------------- -------------------------------------------------------------------------------
   **Values**           \<*`number`*\> \| \<*`length`*\> \| \<*`percentage`*\> \| `normal`
@@ -47647,7 +47578,7 @@ applies to them.
 
 :::: {.section pdf-bookmark="Constructing a line" data-type="sect3"}
 ::: {#ch15.xhtml_constructing_a_line .sect3}
-### Constructing a line {#ch15.xhtml_sigil_toc_id_1383}
+<h3>Constructing a line {#ch15.xhtml_sigil_toc_id_1383}
 
 As you []{#ch15.xhtml_idm45797028860400 primary="content area"
 secondary="inline-level elements" data-type="indexterm"}learned in
@@ -47711,7 +47642,7 @@ alt="css5 1512" />
 
 ::::: {.section pdf-bookmark="Assigning values to line-height" data-type="sect3"}
 :::: {#ch15.xhtml_assigning_values_to_line-height .sect3}
-### Assigning values to line-height {#ch15.xhtml_sigil_toc_id_1385}
+<h3>Assigning values to line-height {#ch15.xhtml_sigil_toc_id_1385}
 
 Let's now consider the possible values of `line-height`. If you use the
 default value of [`normal`]{.keep-together}, the user agent must
@@ -47725,7 +47656,7 @@ Many values are simple length measures (e.g., `18px` or `2em` ), but
 situations.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1386}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1386}
 
 Be aware that even if you use a valid length measurement, such as `4cm`,
 the browser (or the operating system) may be using an incorrect metric
@@ -47771,7 +47702,7 @@ property</h6>
 
 :::: {.section pdf-bookmark="Understanding line-height and inheritance" data-type="sect3"}
 ::: {#ch15.xhtml_line_height_and_inheritance .sect3}
-### Understanding line-height and inheritance {#ch15.xhtml_sigil_toc_id_1388}
+<h3>Understanding line-height and inheritance {#ch15.xhtml_sigil_toc_id_1388}
 
 When the `line-height` is []{#ch15.xhtml_idm45797028736944
 primary="inheritance" secondary="line-height"
@@ -47865,7 +47796,7 @@ startref="ix_line_height_prop2" data-type="indexterm"}
 
 ::::::::::::::::::::: {.section pdf-bookmark="Vertically Aligning Text" data-type="sect2"}
 :::::::::::::::::::: {#ch15.xhtml_vertically_aligning_text .sect2}
-## Vertically Aligning Text {#ch15.xhtml_sigil_toc_id_1391}
+<h2>Vertically Aligning Text {#ch15.xhtml_sigil_toc_id_1391}
 
 If you've ever used the []{#ch15.xhtml_ix_vert_align_prop_text
 primary="vertical-align property" secondary="in text"
@@ -47875,7 +47806,7 @@ secondary-sortas="text" data-type="indexterm"}elements `<sup>` and
 alignment.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1392}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1392}
 
 Because of the property name `vertical-align`, this section will use the
 terms *vertical* and *horizontal* to refer to the block and inline
@@ -47886,7 +47817,7 @@ directions of the text.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_vertical-align .sidebar}
-# vertical-align {#ch15.xhtml_sigil_toc_id_1393}
+<h1>vertical-align {#ch15.xhtml_sigil_toc_id_1393}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `baseline` \| `sub` \| `super` \| `top` \| `text-top` \| `middle` \| `bottom` \| [`text-bottom`]{.keep-together} \| \<*`length`*\> \| \<*`percentage`*\>
@@ -47910,7 +47841,7 @@ familiar and unfamiliar: `baseline` (the default value), `sub`, `super`,
 how each keyword works in relation to inline elements.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1394}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1394}
 
 Remember: `vertical-align` does *not* affect the alignment of content
 within a block-level element, just the alignment of inline content
@@ -47921,7 +47852,7 @@ forward.
 
 ::::: {.section pdf-bookmark="Baseline alignment" data-type="sect3"}
 :::: {#ch15.xhtml_baseline_alignment .sect3}
-### Baseline alignment {#ch15.xhtml_sigil_toc_id_1395}
+<h3>Baseline alignment {#ch15.xhtml_sigil_toc_id_1395}
 
 Using `vertical-align: baseline` forces[]{#ch15.xhtml_idm45797028452176
 primary="baselines" secondary="vertical alignment of text"
@@ -47968,7 +47899,7 @@ appear. The gap behavior is correct, despite its lack of appeal to most
 authors.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1397}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1397}
 
 See the deeply aged and yet somehow still relevant article ["Images,
 Tables, and Mysterious
@@ -47981,7 +47912,7 @@ it.
 
 ::::: {.section pdf-bookmark="Superscripting and subscripting" data-type="sect3"}
 :::: {#ch15.xhtml_superscripting_and_subscripting .sect3}
-### Superscripting and subscripting {#ch15.xhtml_sigil_toc_id_1398}
+<h3>Superscripting and subscripting {#ch15.xhtml_sigil_toc_id_1398}
 
 The []{#ch15.xhtml_idm45797028390960 primary="subscripts"
 data-type="indexterm"}declaration `vertical-align: sub` causes an
@@ -48023,7 +47954,7 @@ alt="css5 1517" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1400}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1400}
 
 If you wish to make super- or subscripted text smaller than the text of
 its parent element, you can do so by using the `font-size`
@@ -48034,7 +47965,7 @@ its parent element, you can do so by using the `font-size`
 
 :::: {.section pdf-bookmark="Top and bottom alignment" data-type="sect3"}
 ::: {#ch15.xhtml_bottom_feeding .sect3}
-### Top and bottom alignment {#ch15.xhtml_sigil_toc_id_1401}
+<h3>Top and bottom alignment {#ch15.xhtml_sigil_toc_id_1401}
 
 The `vertical-align: top` option []{#ch15.xhtml_idm45797028302544
 primary="bottom keyword, vertical-align"
@@ -48114,7 +48045,7 @@ alt="css5 1519" />
 
 :::: {.section pdf-bookmark="Middle alignment" data-type="sect3"}
 ::: {#ch15.xhtml_middle_alignment .sect3}
-### Middle alignment {#ch15.xhtml_sigil_toc_id_1404}
+<h3>Middle alignment {#ch15.xhtml_sigil_toc_id_1404}
 
 The []{#ch15.xhtml_idm45797028052640
 primary="middle keyword, vertical-align" data-type="indexterm"}value
@@ -48144,7 +48075,7 @@ so can vary from one user agent to another.
 
 :::: {.section pdf-bookmark="Percentages" data-type="sect3"}
 ::: {#ch15.xhtml_text_percentages .sect3}
-### Percentages {#ch15.xhtml_sigil_toc_id_1406}
+<h3>Percentages {#ch15.xhtml_sigil_toc_id_1406}
 
 Percentages don't let you simulate `align="middle"` for images. Instead,
 setting a percentage value for `vertical-align` raises or lowers the
@@ -48182,7 +48113,7 @@ alt="css5 1521" />
 
 :::: {.section pdf-bookmark="Length alignment" data-type="sect3"}
 ::: {#ch15.xhtml_length_alignment .sect3}
-### Length alignment {#ch15.xhtml_sigil_toc_id_1408}
+<h3>Length alignment {#ch15.xhtml_sigil_toc_id_1408}
 
 Finally, let's consider vertical alignment with a specific length. The
 `vertical-align` option is very basic: it shifts an element up or down
@@ -48236,7 +48167,7 @@ startref="ix_vert_align_prop_text" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Text Transformation" data-type="sect1"}
 :::::: {#ch15.xhtml_text_transformation .sect1}
-# Text Transformation {#ch15.xhtml_sigil_toc_id_1410}
+<h1>Text Transformation {#ch15.xhtml_sigil_toc_id_1410}
 
 With the []{#ch15.xhtml_ix_text_transform_prop
 primary="text-transform property"
@@ -48252,7 +48183,7 @@ to manipulate the capitalization of text by using the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-transform .sidebar}
-# text-transform {#ch15.xhtml_sigil_toc_id_1411}
+<h1>text-transform {#ch15.xhtml_sigil_toc_id_1411}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | `uppercase` \| `lowercase` \|     |
@@ -48285,7 +48216,7 @@ characters. The `full-width` value forces the writing of a character
 inside a square, as if on a typographical grid.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1412}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1412}
 
 Accessibility note: some []{#ch15.xhtml_idm45797027871664
 primary="accessibility issues"
@@ -48346,7 +48277,7 @@ alt="css5 1523" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1414}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1414}
 
 As []{#ch15.xhtml_idm45797027772432
 primary="CJK or CJKV text characters" data-type="indexterm"}noted in
@@ -48428,7 +48359,7 @@ startref="ix_transform_text" data-type="indexterm"}
 
 ::::::::::::::::::::::::::::::: {.section pdf-bookmark="Text Decoration" data-type="sect1"}
 :::::::::::::::::::::::::::::: {#ch15.xhtml_text_decoration .sect1}
-# Text Decoration {#ch15.xhtml_sigil_toc_id_1415}
+<h1>Text Decoration {#ch15.xhtml_sigil_toc_id_1415}
 
 Next we []{#ch15.xhtml_ix_text_decor primary="text properties"
 secondary="text decoration" data-type="indexterm"}come to the topic of
@@ -48443,7 +48374,7 @@ up with a shorthand property, `text-decoration`, that covers them all.
 
 :::::: {.section pdf-bookmark="Setting Text Decoration Line Placement" data-type="sect2"}
 ::::: {#ch15.xhtml_text_decoration_line_placement .sect2}
-## Setting Text Decoration Line Placement {#ch15.xhtml_sigil_toc_id_1416}
+<h2>Setting Text Decoration Line Placement {#ch15.xhtml_sigil_toc_id_1416}
 
 With the []{#ch15.xhtml_ix_text_decor_line_prop
 primary="text-decoration-line property" data-type="indexterm"}property
@@ -48457,7 +48388,7 @@ wouldn't draw a line at all even if it *was* supported).
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-decoration-line .sidebar}
-# text-decoration-line {#ch15.xhtml_sigil_toc_id_1417}
+<h1>text-decoration-line {#ch15.xhtml_sigil_toc_id_1417}
 
   -------------------- -------------------------------------------------------------------------------------------
   **Values**           `none` \| \[ `underline` ‖ `overline` ‖ `line-through` ‖ `blink` \]
@@ -48519,7 +48450,7 @@ impacting user experience and making your content inaccessible to many
 users.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1419}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1419}
 
 Bear in mind that many users will be annoyed when they realize you've
 turned off link underlining, especially within blocks of text. If your
@@ -48539,7 +48470,7 @@ startref="ix_text_decor_line_prop" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Setting Text Decoration Color" data-type="sect2"}
 ::::: {#ch15.xhtml_setting_text_decoration_color .sect2}
-## Setting Text Decoration Color {#ch15.xhtml_sigil_toc_id_1420}
+<h2>Setting Text Decoration Color {#ch15.xhtml_sigil_toc_id_1420}
 
 By default, the []{#ch15.xhtml_idm45797027516704 primary="colors"
 secondary="text decoration" data-type="indexterm"}color of a text
@@ -48552,7 +48483,7 @@ need to change that, `text-decoration-color` is here to help.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-decoration-color .sidebar}
-# text-decoration-color {#ch15.xhtml_sigil_toc_id_1421}
+<h1>text-decoration-color {#ch15.xhtml_sigil_toc_id_1421}
 
   -------------------- ---------------------------------
   **Values**           \<*`color`*\> \| `currentcolor`
@@ -48584,7 +48515,7 @@ but the line will also be colored red. The text itself will not be red
 unless you change that as well by using the `color` property.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1422}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1422}
 
 Remember to keep the color contrast between decorations and the base
 text sufficiently high to remain accessible. It's also generally a bad
@@ -48596,7 +48527,7 @@ red underlines for more information!"
 
 ::::: {.section pdf-bookmark="Setting Text Decoration Thickness" data-type="sect2"}
 :::: {#ch15.xhtml_setting_text_decoration_thickness .sect2}
-## Setting Text Decoration Thickness {#ch15.xhtml_sigil_toc_id_1423}
+<h2>Setting Text Decoration Thickness {#ch15.xhtml_sigil_toc_id_1423}
 
 With the []{#ch15.xhtml_idm45797027456384
 primary="text-decoration-thickness property"
@@ -48608,7 +48539,7 @@ or possibly less beefy, than usual.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-decoration-thickness .sidebar}
-# text-decoration-thickness {#ch15.xhtml_sigil_toc_id_1424}
+<h1>text-decoration-thickness {#ch15.xhtml_sigil_toc_id_1424}
 
   -------------------- ---------------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `from-font` \| `auto`
@@ -48664,7 +48595,7 @@ inscrutable reasoning known only to itself.
 
 ::::: {.section pdf-bookmark="Setting Text Decoration Style" data-type="sect2"}
 :::: {#ch15.xhtml_setting_text_decoration_style .sect2}
-## Setting Text Decoration Style {#ch15.xhtml_sigil_toc_id_1426}
+<h2>Setting Text Decoration Style {#ch15.xhtml_sigil_toc_id_1426}
 
 Thus far, we've []{#ch15.xhtml_idm45797027352096
 primary="text-decoration-style property" data-type="indexterm"}shown a
@@ -48675,7 +48606,7 @@ that hidebound approach, `text-decoration-style` provides alternatives.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-decoration-style .sidebar}
-# text-decoration-style {#ch15.xhtml_sigil_toc_id_1427}
+<h1>text-decoration-style {#ch15.xhtml_sigil_toc_id_1427}
 
   -------------------- -------------------------------------------------------
   **Values**           `solid` \| `double` \| `dotted` \| `dashed` \| `wavy`
@@ -48723,7 +48654,7 @@ more complex decorations, like `dotted`, difficult to see.
 
 ::::: {.section pdf-bookmark="Using the Text Decoration Shorthand Property" data-type="sect2"}
 :::: {#ch15.xhtml_the_text_decoration_shorthand_property .sect2}
-## Using the Text Decoration Shorthand Property {#ch15.xhtml_sigil_toc_id_1429}
+<h2>Using the Text Decoration Shorthand Property {#ch15.xhtml_sigil_toc_id_1429}
 
 When you just []{#ch15.xhtml_idm45797027247984
 primary="text-decoration property" data-type="indexterm"}want to set a
@@ -48734,7 +48665,7 @@ declaration, `text-decoration` is the way to go.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-decoration .sidebar}
-# text-decoration {#ch15.xhtml_sigil_toc_id_1430}
+<h1>text-decoration {#ch15.xhtml_sigil_toc_id_1430}
 
   -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`text-decoration-line`*\> ‖ \<*`text-decoration-style`*\> ‖ \<*`text-decoration-color`*\> ‖ [\<*`text-decoration-thickness`*\>]{.keep-together}
@@ -48797,7 +48728,7 @@ p > span:first-child {text-decoration: silver dashed underline;}
 
 :::::: {.section pdf-bookmark="Offsetting Underlines" data-type="sect2"}
 ::::: {#ch15.xhtml_offsetting_underlines .sect2}
-## Offsetting Underlines {#ch15.xhtml_sigil_toc_id_1431}
+<h2>Offsetting Underlines {#ch15.xhtml_sigil_toc_id_1431}
 
 Along with []{#ch15.xhtml_idm45797027082416
 primary="text-underline-offset"
@@ -48811,7 +48742,7 @@ that the underline decorates: `text-underline-offset`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-underline-offset .sidebar}
-# text-underline-offset {#ch15.xhtml_sigil_toc_id_1432}
+<h1>text-underline-offset {#ch15.xhtml_sigil_toc_id_1432}
 
   -------------------- ------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`percentage`*\> \| `auto`
@@ -48865,7 +48796,7 @@ offset of 1.6 pixels in a font whose computed font size is [16
 pixels.]{.keep-together}
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1434}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1434}
 
 As of late 2022, only Firefox supports percentage values for
 `text-underline-offset`, which is odd given that percentage values are a
@@ -48877,7 +48808,7 @@ length values, such as 0.1em for 10%.
 
 :::::: {.section pdf-bookmark="Skipping Ink" data-type="sect2"}
 ::::: {#ch15.xhtml_skipping_ink .sect2}
-## Skipping Ink {#ch15.xhtml_sigil_toc_id_1435}
+<h2>Skipping Ink {#ch15.xhtml_sigil_toc_id_1435}
 
 An []{#ch15.xhtml_ix_skip_ink primary="skipping ink, text decoration"
 data-type="indexterm"}[]{#ch15.xhtml_ix_text_decor_skip
@@ -48892,7 +48823,7 @@ the property `text-decoration-skip-ink`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-decoration-skip-ink .sidebar}
-# text-decoration-skip-ink {#ch15.xhtml_sigil_toc_id_1436}
+<h1>text-decoration-skip-ink {#ch15.xhtml_sigil_toc_id_1436}
 
   -------------------- ---------------------------
   **Values**           `all` \| `none` \| `auto`
@@ -48952,7 +48883,7 @@ or based on other factors. You're really just telling the browser to do
 whatever it thinks is best.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1438}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1438}
 
 While this property's name begins with the label `text-decoration-`, it
 is *not* a property covered by the `text-decoration` shorthand property.
@@ -48967,7 +48898,7 @@ startref="ix_skip_ink" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Understanding Weird Decorations" data-type="sect2"}
 ::: {#ch15.xhtml_weird_decorations .sect2}
-## Understanding Weird Decorations {#ch15.xhtml_sigil_toc_id_1439}
+<h2>Understanding Weird Decorations {#ch15.xhtml_sigil_toc_id_1439}
 
 Now, let's []{#ch15.xhtml_idm45797026879552 primary="inheritance"
 secondary="text decoration's lack of" data-type="indexterm"}look into
@@ -49099,7 +49030,7 @@ data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Text Rendering" data-type="sect1"}
 ::::: {#ch15.xhtml_text_rendering .sect1}
-# Text Rendering {#ch15.xhtml_sigil_toc_id_1443}
+<h1>Text Rendering {#ch15.xhtml_sigil_toc_id_1443}
 
 A recent []{#ch15.xhtml_ix_text_render primary="text-rendering property"
 data-type="indexterm"}addition to CSS is `text-rendering`, which is
@@ -49111,7 +49042,7 @@ displaying text.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-rendering .sidebar}
-# text-rendering {#ch15.xhtml_sigil_toc_id_1444}
+<h1>text-rendering {#ch15.xhtml_sigil_toc_id_1444}
 
   ------------------- ---------------------------------------------------------------------------
   **Values**          `auto` \| `optimizeSpeed` \| `optimizeLegibility` \| `geometricPrecision`
@@ -49161,7 +49092,7 @@ differences between the two optimizations are objectively rather small,
 but they can have a noticeable impact on readability.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1446}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1446}
 
 Some user agents will always optimize for legibility, even when
 optimizing for speed. This is likely an effect of rendering speeds
@@ -49197,7 +49128,7 @@ startref="ix_text_render" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Text Shadows" data-type="sect1"}
 ::::: {#ch15.xhtml_text_shadows .sect1}
-# Text Shadows {#ch15.xhtml_sigil_toc_id_1447}
+<h1>Text Shadows {#ch15.xhtml_sigil_toc_id_1447}
 
 Sometimes you just []{#ch15.xhtml_ix_text_shadow_prop
 primary="text-shadow property"
@@ -49215,7 +49146,7 @@ little practice.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-shadow .sidebar}
-# text-shadow {#ch15.xhtml_sigil_toc_id_1448}
+<h1>text-shadow {#ch15.xhtml_sigil_toc_id_1448}
 
   ------------------- -------------------------------------------------------------------------------
   **Values**          `none` \| \[ \<*`length`*\> ‖ \<*`length`*\> \<*`length`*\> \<*`color`*\>?\]#
@@ -49314,7 +49245,7 @@ alt="css5 1534" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1451}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1451}
 
 Large []{#ch15.xhtml_idm45797026377776 primary="performance issues"
 secondary="text shadows" data-type="indexterm"}numbers of text shadows,
@@ -49335,7 +49266,7 @@ startref="ix_text_shadow_prop" data-type="indexterm"}
 
 :::::::::::::::::: {.section pdf-bookmark="Text Emphasis" data-type="sect1"}
 ::::::::::::::::: {#ch15.xhtml_text-emphasis .sect1}
-# Text Emphasis {#ch15.xhtml_sigil_toc_id_1452}
+<h1>Text Emphasis {#ch15.xhtml_sigil_toc_id_1452}
 
 Another way to []{#ch15.xhtml_ix_emph_mark_text
 primary="emphasis marks, text"
@@ -49349,7 +49280,7 @@ decorations, and then a shorthand that conflates two of them.
 
 ::::: {.section pdf-bookmark="Setting Emphasis Style" data-type="sect2"}
 :::: {#ch15.xhtml_setting_emphasis_style .sect2}
-## Setting Emphasis Style {#ch15.xhtml_sigil_toc_id_1453}
+<h2>Setting Emphasis Style {#ch15.xhtml_sigil_toc_id_1453}
 
 The []{#ch15.xhtml_ix_text_emph_style_prop
 primary="text-emphasis-style property" data-type="indexterm"}most
@@ -49361,7 +49292,7 @@ as a text string.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_idm45797026326752 .sidebar}
-# text-emphasis-style {#ch15.xhtml_sigil_toc_id_1454}
+<h1>text-emphasis-style {#ch15.xhtml_sigil_toc_id_1454}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `none` \| \[ \[ `filled` \| `open` \] ‖ \[ `dot` \| `circle` \| `double-circle` \| `triangle` \| `sesame` \] \] \| \<*`string`*\>
@@ -49457,7 +49388,7 @@ startref="ix_text_emph_style_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Changing Emphasis Color" data-type="sect2"}
 :::: {#ch15.xhtml_changing_emphasis_color .sect2}
-## Changing Emphasis Color {#ch15.xhtml_sigil_toc_id_1456}
+<h2>Changing Emphasis Color {#ch15.xhtml_sigil_toc_id_1456}
 
 If you []{#ch15.xhtml_idm45797026249040 primary="colors"
 secondary="emphasis marks"
@@ -49470,7 +49401,7 @@ have emphasis marks be a different color than the text they're marking,
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_idm45797026246752 .sidebar}
-# text-emphasis-color {#ch15.xhtml_sigil_toc_id_1457}
+<h1>text-emphasis-color {#ch15.xhtml_sigil_toc_id_1457}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`color`*\>
@@ -49502,7 +49433,7 @@ p.two strong {text-emphasis-color: hsl(0 0% 50%);}
 
 ::::: {.section pdf-bookmark="Placing Emphasis Marks" data-type="sect2"}
 :::: {#ch15.xhtml_placing_emphasis_marks .sect2}
-## Placing Emphasis Marks {#ch15.xhtml_sigil_toc_id_1458}
+<h2>Placing Emphasis Marks {#ch15.xhtml_sigil_toc_id_1458}
 
 Thus far, we've []{#ch15.xhtml_idm45797026172304
 primary="text-emphasis-position property" data-type="indexterm"}shown
@@ -49516,7 +49447,7 @@ placed.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_idm45797026171072 .sidebar}
-# text-emphasis-position {#ch15.xhtml_sigil_toc_id_1459}
+<h1>text-emphasis-position {#ch15.xhtml_sigil_toc_id_1459}
 
   -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `over` \| `under` \] && \[ `right` \| `left` \]
@@ -49555,7 +49486,7 @@ being Chinese, applying `under right` instead.
 
 ::::: {.section pdf-bookmark="Using the text-emphasis Shorthand" data-type="sect2"}
 :::: {#ch15.xhtml_text_emphasis_shorthand .sect2}
-## Using the text-emphasis Shorthand {#ch15.xhtml_sigil_toc_id_1460}
+<h2>Using the text-emphasis Shorthand {#ch15.xhtml_sigil_toc_id_1460}
 
 A []{#ch15.xhtml_idm45797026100096 primary="text-emphasis property"
 data-type="indexterm"}shorthand option exists for the `text-emphasis`
@@ -49565,7 +49496,7 @@ properties, but it brings together only style and color.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_idm45797026098720 .sidebar}
-# text-emphasis {#ch15.xhtml_sigil_toc_id_1461}
+<h1>text-emphasis {#ch15.xhtml_sigil_toc_id_1461}
 
   -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`text-emphasis-style`*\> ‖ \<*`text-emphasis-color`*\>
@@ -49604,7 +49535,7 @@ following character units do *not* get emphasis marks:
 
 :::: {.section pdf-bookmark="Setting Text Drawing Order" data-type="sect2"}
 ::: {#ch15.xhtml_text_drawing_order .sect2}
-## Setting Text Drawing Order {#ch15.xhtml_sigil_toc_id_1462}
+<h2>Setting Text Drawing Order {#ch15.xhtml_sigil_toc_id_1462}
 
 Browsers are []{#ch15.xhtml_idm45797026060496
 primary="drawing order, text" data-type="indexterm"}supposed to use a
@@ -49641,7 +49572,7 @@ startref="ix_emph_mark_text" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="Whitespace" data-type="sect1"}
 ::::::: {#ch15.xhtml_handling_whitespace .sect1}
-# Whitespace {#ch15.xhtml_sigil_toc_id_1463}
+<h1>Whitespace {#ch15.xhtml_sigil_toc_id_1463}
 
 Now that we've []{#ch15.xhtml_ix_white_space_prop
 primary="white-space property"
@@ -49658,7 +49589,7 @@ characters within the document source.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_white-space .sidebar}
-# white-space {#ch15.xhtml_sigil_toc_id_1464}
+<h1>white-space {#ch15.xhtml_sigil_toc_id_1464}
 
   -------------------- -----------------------------------------------------------------------------
   **Values**           `normal` \| `nowrap` \| `pre` \| `pre-wrap` \| `pre-line` \| `break-spaces`
@@ -49834,7 +49765,7 @@ primary="" startref="ix_white_space_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Setting Tab Sizes" data-type="sect2"}
 :::: {#ch15.xhtml_setting_tab_sizes .sect2}
-## Setting Tab Sizes {#ch15.xhtml_sigil_toc_id_1468}
+<h2>Setting Tab Sizes {#ch15.xhtml_sigil_toc_id_1468}
 
 Since []{#ch15.xhtml_idm45797025805776 primary="tab-size property"
 data-type="indexterm"}whitespace is preserved in some values of
@@ -49846,7 +49777,7 @@ tab equal? That's where `tab-size` comes in.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_tab-size .sidebar}
-# tab-size {#ch15.xhtml_sigil_toc_id_1469}
+<h1>tab-size {#ch15.xhtml_sigil_toc_id_1469}
 
   -------------------- -------------------------------------------------------
   **Values**           \<*`length`*\> \| \<*`integer`*\>
@@ -49900,7 +49831,7 @@ startref="ix_text_white_space" data-type="indexterm"}
 
 ::::::::::::::::::: {.section pdf-bookmark="Wrapping and Hyphenation" data-type="sect1"}
 :::::::::::::::::: {#ch15.xhtml_wrapping_and_hyphenation .sect1}
-# Wrapping and Hyphenation {#ch15.xhtml_sigil_toc_id_1471}
+<h1>Wrapping and Hyphenation {#ch15.xhtml_sigil_toc_id_1471}
 
 Handling []{#ch15.xhtml_ix_wrap_text_ch15 primary="wrapping text"
 data-type="indexterm"}whitespace is all well and good, but it's a lot
@@ -49910,7 +49841,7 @@ where line wrapping is allowed, as well as enable hyphenation support.
 
 ::::::: {.section pdf-bookmark="Hyphenation" data-type="sect2"}
 :::::: {#ch15.xhtml_hyphenation .sect2}
-## Hyphenation {#ch15.xhtml_sigil_toc_id_1472}
+<h2>Hyphenation {#ch15.xhtml_sigil_toc_id_1472}
 
 Hyphens []{#ch15.xhtml_ix_text_hyphens primary="text properties"
 secondary="hyphenation"
@@ -49926,7 +49857,7 @@ to enable hyphenation without littering up the document with hints.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_hyphens .sidebar}
-# hyphens {#ch15.xhtml_sigil_toc_id_1473}
+<h1>hyphens {#ch15.xhtml_sigil_toc_id_1473}
 
   -------------------- ------------------------------
   **Values**           `manual` \| `auto` \| `none`
@@ -49948,7 +49879,7 @@ on the other hand, suppresses any hyphenation, even if manual break
 markers are present; thus, U+00AD and `&shy;` are ignored.
 
 ::: {data-type="tip"}
-###### Tip {#ch15.xhtml_sigil_toc_id_1474}
+<h5>Tip {#ch15.xhtml_sigil_toc_id_1474}
 
 The `<wbr>` element does not introduce a hyphen at the line-break point.
 To make a hyphen appear only at the end of a line, use the soft hyphen
@@ -50022,7 +49953,7 @@ want to hyphenate some of these elements, just remove them from the
 selector.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1476}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1476}
 
 It is strongly []{#ch15.xhtml_idm45797025542256
 primary="lang attribute, HTML" data-type="indexterm"}advised to set the
@@ -50045,7 +49976,7 @@ startref="ix_text_hyphens" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Word Breaking" data-type="sect2"}
 :::: {#ch15.xhtml_word_breaking .sect2}
-## Word Breaking {#ch15.xhtml_sigil_toc_id_1477}
+<h2>Word Breaking {#ch15.xhtml_sigil_toc_id_1477}
 
 When a []{#ch15.xhtml_ix_text_break_word primary="text properties"
 secondary="word breaking"
@@ -50065,7 +49996,7 @@ agent, but `word-break` lets authors influence that decision making.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_word-break .sidebar}
-# word-break {#ch15.xhtml_sigil_toc_id_1478}
+<h1>word-break {#ch15.xhtml_sigil_toc_id_1478}
 
   -------------------- --------------------------------------------------------
   **Values**           `normal` \| `break-all` \| `keep-all` \| `break-word`
@@ -50146,7 +50077,7 @@ startref="ix_word_break_prop" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Line Breaking" data-type="sect2"}
 :::: {#ch15.xhtml_line_breaking .sect2}
-## Line Breaking {#ch15.xhtml_sigil_toc_id_1480}
+<h2>Line Breaking {#ch15.xhtml_sigil_toc_id_1480}
 
 If your []{#ch15.xhtml_ix_line_breaks primary="line breaks"
 data-type="indexterm"}[]{#ch15.xhtml_ix_text_line_breaks
@@ -50161,7 +50092,7 @@ know `line-break`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_line-break .sidebar}
-# line-break {#ch15.xhtml_sigil_toc_id_1481}
+<h1>line-break {#ch15.xhtml_sigil_toc_id_1481}
 
   -------------------- ---------------------------------------------------------
   **Values**           `auto` \| `loose` \| `normal` \| `strict` \| `anywhere`
@@ -50243,7 +50174,7 @@ meanings:
 
 :::::: {.section pdf-bookmark="Wrapping Text" data-type="sect2"}
 ::::: {#ch15.xhtml_wrapping_text .sect2}
-## Wrapping Text {#ch15.xhtml_sigil_toc_id_1482}
+<h2>Wrapping Text {#ch15.xhtml_sigil_toc_id_1482}
 
 After all that []{#ch15.xhtml_ix_text_wrap primary="text properties"
 secondary="wrapping text"
@@ -50265,7 +50196,7 @@ line without overflowing.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_overflow-wrap .sidebar}
-# overflow-wrap {#ch15.xhtml_sigil_toc_id_1483}
+<h1>overflow-wrap {#ch15.xhtml_sigil_toc_id_1483}
 
   -------------------- ----------------------------------------
   **Values**           `normal` \| `break-word` \| `anywhere`
@@ -50286,7 +50217,7 @@ primary effect is to change how word wrapping and minimum-content sizing
 to avoid overflow at the ends of text lines.
 
 ::: {.note data-type="note"}
-###### Note {#ch15.xhtml_sigil_toc_id_1484}
+<h5>Note {#ch15.xhtml_sigil_toc_id_1484}
 
 The `overflow-wrap` []{#ch15.xhtml_idm45797025376784
 primary="whitespace" secondary="in text" secondary-sortas="text"
@@ -50367,7 +50298,7 @@ startref="ix_overflow_wrap_prop" data-type="indexterm"}
 
 ::::::::::::::::::: {.section pdf-bookmark="Writing Modes" data-type="sect1"}
 :::::::::::::::::: {#ch15.xhtml_writing_modes_section .sect1}
-# Writing Modes {#ch15.xhtml_sigil_toc_id_1486}
+<h1>Writing Modes {#ch15.xhtml_sigil_toc_id_1486}
 
 Earlier, we []{#ch15.xhtml_ix_lang_flow_dir
 primary="language flow direction"
@@ -50383,7 +50314,7 @@ rare occasions when an override is necessary.
 
 ::::: {.section pdf-bookmark="Setting Writing Modes" data-type="sect2"}
 :::: {#ch15.xhtml_setting_writing_modes .sect2}
-## Setting Writing Modes {#ch15.xhtml_sigil_toc_id_1487}
+<h2>Setting Writing Modes {#ch15.xhtml_sigil_toc_id_1487}
 
 The []{#ch15.xhtml_ix_write_mode_prop primary="writing-mode property"
 data-type="indexterm"}property used for specifying one of five available
@@ -50395,7 +50326,7 @@ stacked together.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_writing-mode .sidebar}
-# writing-mode {#ch15.xhtml_sigil_toc_id_1488}
+<h1>writing-mode {#ch15.xhtml_sigil_toc_id_1488}
 
   -------------------- --------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `horizontal-tb` \| `vertical-rl` \| `vertical-lr` \| `sideways-rl` \| `sideways-lr`
@@ -50474,7 +50405,7 @@ primary="" startref="ix_write_mode_prop" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Changing Text Orientation" data-type="sect2"}
 ::::: {#ch15.xhtml_changing_text_orientation .sect2}
-## Changing Text Orientation {#ch15.xhtml_sigil_toc_id_1491}
+<h2>Changing Text Orientation {#ch15.xhtml_sigil_toc_id_1491}
 
 Once you've []{#ch15.xhtml_idm45797025310928
 primary="text-orientation property" data-type="indexterm"}settled on a
@@ -50489,7 +50420,7 @@ with English words or numbers mixed in. In these cases,
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_text-orientation .sidebar}
-# text-orientation {#ch15.xhtml_sigil_toc_id_1492}
+<h1>text-orientation {#ch15.xhtml_sigil_toc_id_1492}
 
   -------------------- ------------------------------------------------------------------------------------------
   **Values**           `mixed` \| `upright` \| `sideways`
@@ -50535,7 +50466,7 @@ characters are `upright`, including the English characters. In the
 third, all characters are `sideways`, including the Japanese characters.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1494}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1494}
 
 As of mid-2022, `sideways` is not supported by Chromium
 [browsers.]{.keep-together}
@@ -50545,7 +50476,7 @@ As of mid-2022, `sideways` is not supported by Chromium
 
 ::::: {.section pdf-bookmark="Combining Characters" data-type="sect2"}
 :::: {#ch15.xhtml_combining_characters .sect2}
-## Combining Characters {#ch15.xhtml_sigil_toc_id_1495}
+<h2>Combining Characters {#ch15.xhtml_sigil_toc_id_1495}
 
 Only []{#ch15.xhtml_ix_text_combine_up
 primary="text-combine-upright property" data-type="indexterm"}relevant
@@ -50558,7 +50489,7 @@ embedding Arabic numerals in CJK text, but may have other applications.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_idm45797025252656 .sidebar}
-# text-combine-upright {#ch15.xhtml_sigil_toc_id_1496}
+<h1>text-combine-upright {#ch15.xhtml_sigil_toc_id_1496}
 
   -------------------- --------------------------------------------------------------------
   **Values**           `none` \| `all` \| \[ `digits` \<*`integer`*\>? \]
@@ -50661,7 +50592,7 @@ primary="" startref="ix_text_combine_up" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Declaring Direction" data-type="sect2"}
 :::::: {#ch15.xhtml_declaring_direction .sect2}
-## Declaring Direction {#ch15.xhtml_sigil_toc_id_1498}
+<h2>Declaring Direction {#ch15.xhtml_sigil_toc_id_1498}
 
 Harking back to the days of []{#ch15.xhtml_idm45797025018368
 primary="CSS2 specification" secondary="direction of text"
@@ -50673,7 +50604,7 @@ generally not be used today, but are covered here in case you come
 across them in legacy code.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch15.xhtml_sigil_toc_id_1499}
+<h5>Warning {#ch15.xhtml_sigil_toc_id_1499}
 
 The CSS specification explicitly warns *against* using `direction` and
 `unicode-bidi` in CSS when applied to HTML documents. To quote: "Because
@@ -50686,7 +50617,7 @@ layout in the absence of a style sheet."
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_direction .sidebar}
-# direction {#ch15.xhtml_sigil_toc_id_1500}
+<h1>direction {#ch15.xhtml_sigil_toc_id_1500}
 
   -------------------- ----------------
   **Values**           `ltr` \| `rtl`
@@ -50730,7 +50661,7 @@ Unicode's capabilities.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch15.xhtml_unicode-bidi .sidebar}
-# unicode-bidi {#ch15.xhtml_sigil_toc_id_1501}
+<h1>unicode-bidi {#ch15.xhtml_sigil_toc_id_1501}
 
   -------------------- ----------------------------------------
   **Values**           `normal` \| `embed` \| `bidi-override`
@@ -50789,7 +50720,7 @@ value:
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch15.xhtml_text_summary .sect1}
-# Summary {#ch15.xhtml_sigil_toc_id_1502}
+<h1>Summary {#ch15.xhtml_sigil_toc_id_1502}
 
 Even without altering the font face, we have many ways to change the
 appearance of text.[]{#ch15.xhtml_idm45797024910384 primary=""
@@ -50812,7 +50743,7 @@ a great deal of sense.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch16.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch16.xhtml_lists-and-generated-content .chapter}
-# [Chapter 16. ]{.label}Lists and Generated Content
+<h1>[Chapter 16. ]{.label}Lists and Generated Content
 
 In the realm of CSS layout, []{#ch16.xhtml_ix_lists_ch16 primary="lists"
 data-type="indexterm"}lists are an interesting case. The items in a list
@@ -50837,7 +50768,7 @@ counters.
 
 :::::::::::::::::::::::: {.section pdf-bookmark="Working with Lists" data-type="sect1"}
 ::::::::::::::::::::::: {#ch16.xhtml_CHP-12-SECT-1 .sect1}
-# Working with Lists {#ch16.xhtml_sigil_toc_id_1503}
+<h1>Working with Lists {#ch16.xhtml_sigil_toc_id_1503}
 
 In a sense, almost anything that isn't narrative text can be considered
 a list. The US Census, the solar system, my family tree, a restaurant
@@ -50857,7 +50788,7 @@ different list-style properties.
 
 ::::::: {.section pdf-bookmark="Types of Lists" data-type="sect2"}
 :::::: {#ch16.xhtml_CHP-12-SECT-1.1 .sect2}
-## Types of Lists {#ch16.xhtml_sigil_toc_id_1504}
+<h2>Types of Lists {#ch16.xhtml_sigil_toc_id_1504}
 
 To []{#ch16.xhtml_ix_list_style_type_prop
 primary="list-style-type property"
@@ -50869,7 +50800,7 @@ used for a list's items, use the `list-style-type` property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-1 .sidebar}
-# list-style-type {#ch16.xhtml_sigil_toc_id_1505}
+<h1>list-style-type {#ch16.xhtml_sigil_toc_id_1505}
 
   -------------------- ---------------------------------------------------
   **Values**           \<*`counter-style`*\> \| \<*`string`*\> \| `none`
@@ -51048,7 +50979,7 @@ startref="ix_list_style_type_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="String markers" data-type="sect3"}
 ::: {#ch16.xhtml_CHP-12-SECT-1.1.1 .sect3}
-### String markers {#ch16.xhtml_sigil_toc_id_1508}
+<h3>String markers {#ch16.xhtml_sigil_toc_id_1508}
 
 CSS also allows []{#ch16.xhtml_idm45797024673680 primary="markers, list"
 secondary="strings as" data-type="indexterm"}authors to supply string
@@ -51081,7 +51012,7 @@ alt="css5 1603" />
 
 :::::: {.section pdf-bookmark="List-Item Images" data-type="sect2"}
 ::::: {#ch16.xhtml_CHP-12-SECT-1.2 .sect2}
-## List-Item Images {#ch16.xhtml_sigil_toc_id_1510}
+<h2>List-Item Images {#ch16.xhtml_sigil_toc_id_1510}
 
 Sometimes a []{#ch16.xhtml_ix_list_style_image_prop
 primary="list-style-image property"
@@ -51096,7 +51027,7 @@ possible with the property `list-style-image`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-2 .sidebar}
-# list-style-image {#ch16.xhtml_sigil_toc_id_1511}
+<h1>list-style-image {#ch16.xhtml_sigil_toc_id_1511}
 
   -------------------- -------------------------------------------------------------
   **Values**           \<*`uri`*\> \| \<*`image`*\> \| `none` \| `inherit`
@@ -51218,7 +51149,7 @@ marker size tends to scale with the list item's
 markers are rendered, don't use `::marker`; use `::before` instead.
 
 ::: {.note data-type="note"}
-###### Note {#ch16.xhtml_sigil_toc_id_1516}
+<h5>Note {#ch16.xhtml_sigil_toc_id_1516}
 
 The way to style list markers directly is the `::marker` pseudo-element,
 discussed later in this chapter.[]{#ch16.xhtml_idm45797024339872
@@ -51233,7 +51164,7 @@ startref="ix_markers_list_image" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="List-Marker Positions" data-type="sect2"}
 :::: {#ch16.xhtml_CHP-12-SECT-1.3 .sect2}
-## List-Marker Positions {#ch16.xhtml_sigil_toc_id_1517}
+<h2>List-Marker Positions {#ch16.xhtml_sigil_toc_id_1517}
 
 There is []{#ch16.xhtml_idm45797024245104 primary="markers, list"
 secondary="positioning"
@@ -51249,7 +51180,7 @@ is accomplished with `list-style-position`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-3 .sidebar}
-# list-style-position {#ch16.xhtml_sigil_toc_id_1518}
+<h1>list-style-position {#ch16.xhtml_sigil_toc_id_1518}
 
   -------------------- -----------------------------------------------
   **Values**           `inside` \| `outside` \| `inherit`
@@ -51301,7 +51232,7 @@ terms, that's what they act like.
 
 ::::: {.section pdf-bookmark="List Styles in Shorthand" data-type="sect2"}
 :::: {#ch16.xhtml_CHP-12-SECT-1.4 .sect2}
-## List Styles in Shorthand {#ch16.xhtml_sigil_toc_id_1520}
+<h2>List Styles in Shorthand {#ch16.xhtml_sigil_toc_id_1520}
 
 For brevity's sake, you can []{#ch16.xhtml_idm45797024199504
 primary="list-style property"
@@ -51314,7 +51245,7 @@ convenient single property: `list-style`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-4 .sidebar}
-# list-style {#ch16.xhtml_sigil_toc_id_1521}
+<h1>list-style {#ch16.xhtml_sigil_toc_id_1521}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | \[ \<*`list-style-type`*\> ‖      |
@@ -51385,7 +51316,7 @@ startref="ix_markers_list_ch16" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="List Layout" data-type="sect2"}
 :::: {#ch16.xhtml_CHP-12-SECT-1.5 .sect2}
-## List Layout {#ch16.xhtml_sigil_toc_id_1523}
+<h2>List Layout {#ch16.xhtml_sigil_toc_id_1523}
 
 Now []{#ch16.xhtml_ix_lists_layout primary="lists" secondary="layout of"
 data-type="indexterm"}that we've looked at the basics of styling list
@@ -51484,7 +51415,7 @@ alt="css5 1613" />
 </figure>
 
 ::: {#ch16.xhtml_CHP-12-NOTE-99 data-type="tip"}
-###### Tip {#ch16.xhtml_sigil_toc_id_1528}
+<h5>Tip {#ch16.xhtml_sigil_toc_id_1528}
 
 The distance `40px` is a relic of early web browsers, which indented
 lists by a pixel amount. (Block quotes are indented by the same
@@ -51531,7 +51462,7 @@ alt="css5 1614" />
 
 :::: {.section pdf-bookmark="The ::marker Pseudo-Element" data-type="sect2"}
 ::: {#ch16.xhtml_marker_pseudo-_element .sect2}
-## The ::marker Pseudo-Element {#ch16.xhtml_sigil_toc_id_1530}
+<h2>The ::marker Pseudo-Element {#ch16.xhtml_sigil_toc_id_1530}
 
 One []{#ch16.xhtml_ix_marker_pseudo primary="::marker pseudo-element"
 primary-sortas="marker pseudo-element" data-type="indexterm"}feature
@@ -51612,7 +51543,7 @@ startref="ix_marker_pseudo" data-type="indexterm"}
 
 :::::::::::::::::::::::::::: {.section pdf-bookmark="Creating Generated Content" data-type="sect1"}
 ::::::::::::::::::::::::::: {#ch16.xhtml_CHP-12-SECT-2 .sect1}
-# Creating Generated Content {#ch16.xhtml_sigil_toc_id_1532}
+<h1>Creating Generated Content {#ch16.xhtml_sigil_toc_id_1532}
 
 CSS []{#ch16.xhtml_ix_gen_cont_ch16 primary="generated content"
 data-type="indexterm"}[]{#ch16.xhtml_idm45797023720240
@@ -51640,7 +51571,7 @@ generated content.
 
 :::: {.section pdf-bookmark="Inserting Generated Content" data-type="sect2"}
 ::: {#ch16.xhtml_CHP-12-SECT-2.1 .sect2}
-## Inserting Generated Content {#ch16.xhtml_sigil_toc_id_1533}
+<h2>Inserting Generated Content {#ch16.xhtml_sigil_toc_id_1533}
 
 To insert []{#ch16.xhtml_ix_before_pseudo
 primary="::before pseudo-element" primary-sortas="before pseudo-element"
@@ -51834,7 +51765,7 @@ startref="ix_gen_cont_insert" data-type="indexterm"}
 
 ::::::::::::: {.section .less_space .pagebreak-before pdf-bookmark="Specifying Content" data-type="sect2"}
 :::::::::::: {#ch16.xhtml_CHP-12-SECT-2.2 .sect2}
-## Specifying Content {#ch16.xhtml_sigil_toc_id_1539}
+<h2>Specifying Content {#ch16.xhtml_sigil_toc_id_1539}
 
 If you're []{#ch16.xhtml_ix_gen_cont_specify primary="generated content"
 secondary="specifying content"
@@ -51848,7 +51779,7 @@ this property than you've seen thus far.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-6 .sidebar}
-# content {#ch16.xhtml_sigil_toc_id_1540}
+<h1>content {#ch16.xhtml_sigil_toc_id_1540}
 
   -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| \[ \<*`string`*\> \| \<*`uri`*\> \| \<*`counter`*\> \| `attr(`\<*`identifier`*\>+)+ \| `open-quote` \| `close-quote` \| `no-open-quote` \| `no-close-quote` \]+ \| `inherit`
@@ -51914,7 +51845,7 @@ You can also use escapes to refer to hexadecimal Unicode values, such as
 `\00AB`.
 
 ::: {#ch16.xhtml_CHP-12-NOTE-101 .warning data-type="warning"}
-###### Warning {#ch16.xhtml_sigil_toc_id_1543}
+<h5>Warning {#ch16.xhtml_sigil_toc_id_1543}
 
 As of this writing, while inserting escaped content such as `\279c` is
 very well-supported, some browsers don't support the escaped newline
@@ -51934,7 +51865,7 @@ inserted.
 
 ::::: {.section pdf-bookmark="Inserting attribute values" data-type="sect3"}
 :::: {#ch16.xhtml_CHP-12-SECT-2.2.1 .sect3}
-### Inserting attribute values {#ch16.xhtml_sigil_toc_id_1544}
+<h3>Inserting attribute values {#ch16.xhtml_sigil_toc_id_1544}
 
 Sometimes you []{#ch16.xhtml_ix_attr_gen_cont primary="attributes"
 secondary="generated content inserted"
@@ -52009,7 +51940,7 @@ document, as you can see, but nothing follows it. This is convenient
 when you want to insert the value of an attribute only when it exists.
 
 ::: {#ch16.xhtml_CHP-12-NOTE-102 .warning data-type="warning"}
-###### Warning {#ch16.xhtml_sigil_toc_id_1547}
+<h5>Warning {#ch16.xhtml_sigil_toc_id_1547}
 
 CSS defines the returned value of an attribute reference as an unparsed
 string. Therefore, if the value of an attribute contains markup or
@@ -52026,7 +51957,7 @@ startref="ix_gen_cont_attr" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Using generated quotes" data-type="sect3"}
 ::::: {#ch16.xhtml_CHP-12-SECT-2.2.2 .sect3}
-### Using generated quotes {#ch16.xhtml_sigil_toc_id_1548}
+<h3>Using generated quotes {#ch16.xhtml_sigil_toc_id_1548}
 
 A []{#ch16.xhtml_ix_sym_quote_gen_cont primary="'…​' or \"…​\" (quotes)"
 secondary="as generated content" secondary-sortas="generated content"
@@ -52044,7 +51975,7 @@ content values like `open-quote` and the property `quotes`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-7 .sidebar}
-# quotes {#ch16.xhtml_sigil_toc_id_1549}
+<h1>quotes {#ch16.xhtml_sigil_toc_id_1549}
 
   -------------------- -----------------------------------------------------------
   **Values**           \[\<*`string`*\> \<*`string`*\>\]+ \| `none` \| `inherit`
@@ -52157,7 +52088,7 @@ quote {quotes: '\201C' '\201D';}
 ```
 
 ::: {data-type="tip"}
-###### Tip {#ch16.xhtml_sigil_toc_id_1552}
+<h5>Tip {#ch16.xhtml_sigil_toc_id_1552}
 
 These particular rules use the hexadecimal Unicode positions for the
 curly quote symbols. If your CSS uses UTF-8 character encoding (and it
@@ -52221,7 +52152,7 @@ startref="ix_quote_gen_cont" data-type="indexterm"}
 
 ::::::::::::: {.section pdf-bookmark="Defining Counters" data-type="sect2"}
 :::::::::::: {#ch16.xhtml_CHP-12-SECT-2.3 .sect2}
-## Defining Counters {#ch16.xhtml_sigil_toc_id_1553}
+<h2>Defining Counters {#ch16.xhtml_sigil_toc_id_1553}
 
 Counters are []{#ch16.xhtml_ix_lists_counters primary="lists"
 secondary="counters"
@@ -52235,7 +52166,7 @@ including subsection counters employing multiple styles, such as
 
 ::::::: {.section pdf-bookmark="Resetting and incrementing" data-type="sect3"}
 :::::: {#ch16.xhtml_CHP-12-SECT-2.3.1 .sect3}
-### Resetting and incrementing {#ch16.xhtml_sigil_toc_id_1554}
+<h3>Resetting and incrementing {#ch16.xhtml_sigil_toc_id_1554}
 
 We []{#ch16.xhtml_idm45797022461744 primary="lists" secondary="counters"
 tertiary="resetting"
@@ -52251,7 +52182,7 @@ handled by the property `counter-reset`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-8 .sidebar}
-# counter-reset {#ch16.xhtml_sigil_toc_id_1555}
+<h1>counter-reset {#ch16.xhtml_sigil_toc_id_1555}
 
   -------------------- ------------------------------------------------------------------
   **Values**           \[\<*`identifier`*\> \<*`integer`*\>? \]+ \| `none` \| `inherit`
@@ -52298,7 +52229,7 @@ It would be perfectly legal to set a counter to `-32768` and count up
 from there.
 
 ::: {#ch16.xhtml_CHP-12-NOTE-103 .warning data-type="warning"}
-###### Warning {#ch16.xhtml_sigil_toc_id_1556}
+<h5>Warning {#ch16.xhtml_sigil_toc_id_1556}
 
 CSS does not []{#ch16.xhtml_idm45797022331824
 primary="negative counter values" data-type="indexterm"}define what user
@@ -52322,7 +52253,7 @@ question is, not surprisingly, `counter-increment`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_CHP-12-SIDEBAR-9 .sidebar}
-# counter-increment {#ch16.xhtml_sigil_toc_id_1557}
+<h1>counter-increment {#ch16.xhtml_sigil_toc_id_1557}
 
   -------------------- ------------------------------------------------------------------
   **Values**           \[\<*`identifier`*\> \<*`integer`*\>? \]+ \| `none` \| `inherit`
@@ -52366,7 +52297,7 @@ and so on.
 
 :::: {.section pdf-bookmark="Displaying counters" data-type="sect3"}
 ::: {#ch16.xhtml_CHP-12-SECT-2.3.2 .sect3}
-### Displaying counters {#ch16.xhtml_sigil_toc_id_1558}
+<h3>Displaying counters {#ch16.xhtml_sigil_toc_id_1558}
 
 To []{#ch16.xhtml_ix_cont_prop2 primary="content property"
 data-type="indexterm"}[]{#ch16.xhtml_ix_lists_counter_display
@@ -52543,7 +52474,7 @@ alt="css5 1629" />
 
 :::: {.section pdf-bookmark="Counters and scope" data-type="sect3"}
 ::: {#ch16.xhtml_CHP-12-SECT-2.3.3 .sect3}
-### Counters and scope {#ch16.xhtml_sigil_toc_id_1562}
+<h3>Counters and scope {#ch16.xhtml_sigil_toc_id_1562}
 
 So far, you've []{#ch16.xhtml_ix_lists_counter_scope primary="lists"
 secondary="counters" tertiary="scope of"
@@ -52656,7 +52587,7 @@ startref="ix_lists_counter_scope" data-type="indexterm"}
 
 ::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Defining Counting Patterns" data-type="sect1"}
 :::::::::::::::::::::::::::::::::: {#ch16.xhtml_counter-patterns .sect1}
-# Defining Counting Patterns {#ch16.xhtml_sigil_toc_id_1564}
+<h1>Defining Counting Patterns {#ch16.xhtml_sigil_toc_id_1564}
 
 If you []{#ch16.xhtml_ix_counter_style_descs
 primary="@counter-style descriptors"
@@ -52708,7 +52639,7 @@ Several descriptors are available, summarized here.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797021204240 .sidebar}
-# \@counter-style descriptors {#ch16.xhtml_sigil_toc_id_1566}
+<h1>\@counter-style descriptors {#ch16.xhtml_sigil_toc_id_1566}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `system`             Defines the counter patterning system to be used.
@@ -52739,7 +52670,7 @@ and `symbols`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797021099216 .sidebar}
-# system descriptor {#ch16.xhtml_sigil_toc_id_1567}
+<h1>system descriptor {#ch16.xhtml_sigil_toc_id_1567}
 
   ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**          `cyclic` \| `numeric` \| `alphabetic` \| `symbolic` \| `additive` \| \[`fixed` \<*`integer`*\>?\] \| \[ `extends` \<*`counter-style-name`*\> \]
@@ -52754,7 +52685,7 @@ and `symbols`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797021076944 .sidebar}
-# symbols descriptor {#ch16.xhtml_sigil_toc_id_1568}
+<h1>symbols descriptor {#ch16.xhtml_sigil_toc_id_1568}
 
   ------------------- -------------------------------------------------------------------------------------------------------------------------------------
   **Values**          \<*`symbol`*\>+
@@ -52774,7 +52705,7 @@ work on the styles may not be as familiar with counter styling as you!
 
 ::::: {.section pdf-bookmark="Fixed Counting Patterns" data-type="sect2"}
 :::: {#ch16.xhtml_idm45797021067392 .sect2}
-## Fixed Counting Patterns {#ch16.xhtml_sigil_toc_id_1569}
+<h2>Fixed Counting Patterns {#ch16.xhtml_sigil_toc_id_1569}
 
 The []{#ch16.xhtml_ix_fixed_patt_ctr_style
 primary="fixed pattern, @counter-style"
@@ -52835,7 +52766,7 @@ like this:
 ``` {code-language="css" data-type="programlisting"}
 @counter-style emoji {
     system: fixed;
-    symbols: # $ % ">";
+    symbols: <h1>$ % ">";
 }
 ```
 
@@ -52858,7 +52789,7 @@ ul.emoji {list-style: emoji;}
 In this case, the first five symbols represent counters 5 through 9.
 
 ::: {.note data-type="note"}
-###### Note {#ch16.xhtml_sigil_toc_id_1572}
+<h5>Note {#ch16.xhtml_sigil_toc_id_1572}
 
 This ability to set a starting number is available in only fixed counter
 systems.[]{#ch16.xhtml_idm45797020919200 primary=""
@@ -52871,7 +52802,7 @@ startref="ix_fixed_patt_ctr_style" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Cyclic Counting Patterns" data-type="sect2"}
 ::::: {#ch16.xhtml_idm45797021066768 .sect2}
-## Cyclic Counting Patterns {#ch16.xhtml_sigil_toc_id_1573}
+<h2>Cyclic Counting Patterns {#ch16.xhtml_sigil_toc_id_1573}
 
 The next []{#ch16.xhtml_ix_cyclic_counter_style
 primary="cyclic pattern, @counter-style"
@@ -52931,7 +52862,7 @@ value of the `suffix` descriptor, which has a cousin descriptor,
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797020804400 .sidebar}
-# prefix and suffix descriptors {#ch16.xhtml_sigil_toc_id_1575}
+<h1>prefix and suffix descriptors {#ch16.xhtml_sigil_toc_id_1575}
 
   ------------------- -------------------------------------------------------------------------------------------------------------------------------------
   **Value**           \<*`symbol`*\>
@@ -53039,7 +52970,7 @@ data-type="indexterm"}[]{#ch16.xhtml_idm45797020542432 primary=""
 startref="ix_suffix_desc" data-type="indexterm"}
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch16.xhtml_sigil_toc_id_1578}
+<h5>Warning {#ch16.xhtml_sigil_toc_id_1578}
 
 As of late 2022, browser support for any type of `<image>` as
 [counting]{.keep-together} symbols is essentially
@@ -53053,7 +52984,7 @@ startref="ix_cyclic_counter_style" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Symbolic Counting Patterns" data-type="sect2"}
 ::::: {#ch16.xhtml_idm45797020926448 .sect2}
-## Symbolic Counting Patterns {#ch16.xhtml_sigil_toc_id_1579}
+<h2>Symbolic Counting Patterns {#ch16.xhtml_sigil_toc_id_1579}
 
 A `symbolic` counting []{#ch16.xhtml_ix_symb_ctr_style
 primary="symbolic pattern, @counter-style"
@@ -53113,10 +53044,10 @@ the `range` descriptor.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797020462560 .sidebar}
-# range descriptor {#ch16.xhtml_sigil_toc_id_1582}
+<h1>range descriptor {#ch16.xhtml_sigil_toc_id_1582}
 
   ------------------- ---------------------------------------------------------
-  **Values**          \[ \[ \<*`integer`*\> \| `infinite` \]{2} \]# \| `auto`
+  **Values**          \[ \[ \<*`integer`*\> \| `infinite` \]{2} \]<h1>\| `auto`
   **Initial value**   `auto`
   ------------------- ---------------------------------------------------------
 :::
@@ -53178,7 +53109,7 @@ of the `fallback` descriptor.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797020318096 .sidebar}
-# fallback descriptor {#ch16.xhtml_sigil_toc_id_1584}
+<h1>fallback descriptor {#ch16.xhtml_sigil_toc_id_1584}
 
   ------------------- -----------------------------------------------------------------------------------
   **Value**           \<*`counter-style-name`*\>
@@ -53212,7 +53143,7 @@ startref="ix_symb_ctr_style" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Alphabetic Counting Patterns" data-type="sect2"}
 ::: {#ch16.xhtml_idm45797020537072 .sect2}
-## Alphabetic Counting Patterns {#ch16.xhtml_sigil_toc_id_1585}
+<h2>Alphabetic Counting Patterns {#ch16.xhtml_sigil_toc_id_1585}
 
 An `alphabetic` counting []{#ch16.xhtml_idm45797020227056
 primary="alphabetic pattern, @counter-style"
@@ -53263,7 +53194,7 @@ Unicode, as well as images (again, in theory).
 
 :::::: {.section pdf-bookmark="Numeric Counting Patterns" data-type="sect2"}
 ::::: {#ch16.xhtml_idm45797020217520 .sect2}
-## Numeric Counting Patterns {#ch16.xhtml_sigil_toc_id_1587}
+<h2>Numeric Counting Patterns {#ch16.xhtml_sigil_toc_id_1587}
 
 When you []{#ch16.xhtml_ix_num_ctr_style
 primary="numeric pattern, @counter-style"
@@ -53331,7 +53262,7 @@ into play.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797020048864 .sidebar}
-# negative descriptor {#ch16.xhtml_sigil_toc_id_1589}
+<h1>negative descriptor {#ch16.xhtml_sigil_toc_id_1589}
 
   ------------------- ------------------------------------------------------------------------------------------------------------------------------------
   **Values**          \<*`symbol`*\> \<*`symbol`*\>?
@@ -53390,7 +53321,7 @@ and 100. This can be accomplished with the `pad` descriptor.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797019967504 .sidebar}
-# pad descriptor {#ch16.xhtml_sigil_toc_id_1591}
+<h1>pad descriptor {#ch16.xhtml_sigil_toc_id_1591}
 
   ------------------- -----------------------------------
   **Value**           \<*`integer`*\> && \<*`symbol`*\>
@@ -53515,7 +53446,7 @@ alt="css5 1644" />
 
 :::::: {.section pdf-bookmark="Additive Counting Patterns" data-type="sect2"}
 ::::: {#ch16.xhtml_idm45797020196624 .sect2}
-## Additive Counting Patterns {#ch16.xhtml_sigil_toc_id_1594}
+<h2>Additive Counting Patterns {#ch16.xhtml_sigil_toc_id_1594}
 
 We []{#ch16.xhtml_ix_counter_add_sym_desc
 primary="counters and counting patterns" secondary="additive"
@@ -53531,7 +53462,7 @@ counter value.
 <aside class="less_space pagebreak-before" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797019636944 .sidebar}
-# additive-symbols descriptor {#ch16.xhtml_sigil_toc_id_1595}
+<h1>additive-symbols descriptor {#ch16.xhtml_sigil_toc_id_1595}
 
   ------------------- -----------------------------------------------------------------------------------------------------------------------
   **Value**           \[ \<*`integer`*\> && \<*`symbol`*\> \]#
@@ -53621,7 +53552,7 @@ data-type="indexterm"}[]{#ch16.xhtml_idm45797019393104 primary=""
 startref="ix_counter_add_sym_desc" data-type="indexterm"}
 
 ::: {data-type="tip"}
-###### Tip {#ch16.xhtml_sigil_toc_id_1597}
+<h5>Tip {#ch16.xhtml_sigil_toc_id_1597}
 
 So how does []{#ch16.xhtml_idm45797019391216
 primary="Roman numeral counting, generated" data-type="indexterm"}Roman
@@ -53637,7 +53568,7 @@ value equates to `1`, and you'll avoid this problem.
 
 ::::: {.section pdf-bookmark="Extending Counting Patterns" data-type="sect2"}
 :::: {#ch16.xhtml_idm45797019640816 .sect2}
-## Extending Counting Patterns {#ch16.xhtml_sigil_toc_id_1598}
+<h2>Extending Counting Patterns {#ch16.xhtml_sigil_toc_id_1598}
 
 There []{#ch16.xhtml_ix_counter_extend
 primary="counters and counting patterns" secondary="extending"
@@ -53687,7 +53618,7 @@ in
 [Figure 16-46](#ch16.xhtml_counter-patterns-extends-fourhex){data-type="xref"}.
 
 ::: {.note data-type="note"}
-###### Note {#ch16.xhtml_sigil_toc_id_1599}
+<h5>Note {#ch16.xhtml_sigil_toc_id_1599}
 
 Each list jumps from 19 to 253, thanks to a `value="253"` on one of the
 list items.
@@ -53732,7 +53663,7 @@ startref="ix_counter_extend" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Speaking Counting Patterns" data-type="sect2"}
 ::::: {#ch16.xhtml_idm45797019389280 .sect2}
-## Speaking Counting Patterns {#ch16.xhtml_sigil_toc_id_1601}
+<h2>Speaking Counting Patterns {#ch16.xhtml_sigil_toc_id_1601}
 
 While it's fun to []{#ch16.xhtml_ix_speak_as_desc
 primary="speak-as descriptor, @counter-style"
@@ -53748,7 +53679,7 @@ allows you to define an audible fallback.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch16.xhtml_idm45797019128160 .sidebar}
-# speak-as descriptor {#ch16.xhtml_sigil_toc_id_1602}
+<h1>speak-as descriptor {#ch16.xhtml_sigil_toc_id_1602}
 
   ------------------- ------------------------------------------------------------------------------------------
   **Values**          `auto` \| `bullets` \| `numbers` \| `words` \| `spell-out` \| \<*`counter-style-name`*\>
@@ -53760,7 +53691,7 @@ allows you to define an audible fallback.
 </aside>
 ```
 ::: {.warning data-type="warning"}
-###### Warning {#ch16.xhtml_sigil_toc_id_1603}
+<h5>Warning {#ch16.xhtml_sigil_toc_id_1603}
 
 As of late 2022, `speak-as` is supported only by Mozilla-based browsers.
 :::
@@ -53849,7 +53780,7 @@ startref="ix_speak_as_desc" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch16.xhtml_CHP-12-SECT-3 .sect1}
-# Summary {#ch16.xhtml_sigil_toc_id_1604}
+<h1>Summary {#ch16.xhtml_sigil_toc_id_1604}
 
 Even though list styling isn't as sophisticated as we might like, the
 ability to style lists is still highly useful. One relatively common use
@@ -53880,7 +53811,7 @@ even perspective of your design.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch17.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch17.xhtml_transforms .chapter}
-# [Chapter 17. ]{.label}Transforms
+<h1>[Chapter 17. ]{.label}Transforms
 
 Ever since the inception of CSS, elements have been rectangular and
 firmly oriented on the horizontal and vertical axes. Several tricks
@@ -53898,7 +53829,7 @@ expression---transform the way you design.
 
 :::: {.section pdf-bookmark="Coordinate Systems" data-type="sect1"}
 ::: {#ch17.xhtml_idm45797018989968 .sect1}
-# Coordinate Systems {#ch17.xhtml_sigil_toc_id_1605}
+<h1>Coordinate Systems {#ch17.xhtml_sigil_toc_id_1605}
 
 Before []{#ch17.xhtml_ix_transform_coord_sys primary="transforms"
 secondary="coordinate systems used by"
@@ -54070,7 +54001,7 @@ startref="ix_transform_3dstyle" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Transforming" data-type="sect1"}
 :::::: {#ch17.xhtml_idm45797018989056 .sect1}
-# Transforming {#ch17.xhtml_sigil_toc_id_1611}
+<h1>Transforming {#ch17.xhtml_sigil_toc_id_1611}
 
 One []{#ch17.xhtml_ix_transform_prop primary="transform property"
 data-type="indexterm"}property applies all transforms as a single
@@ -54082,7 +54013,7 @@ start with the [big cheese.]{.keep-together}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018827424 .sidebar}
-# transform {#ch17.xhtml_sigil_toc_id_1612}
+<h1>transform {#ch17.xhtml_sigil_toc_id_1612}
 
   -------------------- --------------------------------------------------------------------------------------------
   **Values**           \<*`transform-list`*\> \| `none`
@@ -54111,7 +54042,7 @@ box---the outermost edge of the element's border. Any outlines and
 margins are ignored for the purposes of calculating the bounding box.
 
 ::: {.note data-type="note"}
-###### Note {#ch17.xhtml_sigil_toc_id_1613}
+<h5>Note {#ch17.xhtml_sigil_toc_id_1613}
 
 If a []{#ch17.xhtml_idm45797018808128 primary="table layout"
 secondary="bounding box" data-type="indexterm"}table-display element is
@@ -54232,7 +54163,7 @@ set of transforms is included in the second set, so they all are applied
 along with the `scaleY()` function.
 
 ::: {.note data-type="note"}
-###### Note {#ch17.xhtml_sigil_toc_id_1617}
+<h5>Note {#ch17.xhtml_sigil_toc_id_1617}
 
 If you're wishing for properties that apply to just a single type of
 transformation, such as a property that only rotates or a property that
@@ -54266,7 +54197,7 @@ primary="" startref="ix_transform_prop" data-type="indexterm"}
 
 :::::::::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="The Transform Functions" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::::::::::::: {#ch17.xhtml_idm45797018830064 .sect1}
-# The Transform Functions {#ch17.xhtml_sigil_toc_id_1618}
+<h1>The Transform Functions {#ch17.xhtml_sigil_toc_id_1618}
 
 CSS has 21 []{#ch17.xhtml_ix_transform_func primary="transforms"
 secondary="functions used with" data-type="indexterm"}transform
@@ -54293,7 +54224,7 @@ or difficult ones.
 
 ::::::::::: {.section pdf-bookmark="Translation" data-type="sect2"}
 :::::::::: {#ch17.xhtml_idm45797018546704 .sect2}
-## Translation {#ch17.xhtml_sigil_toc_id_1619}
+<h2>Translation {#ch17.xhtml_sigil_toc_id_1619}
 
 A *translation transform* is just a []{#ch17.xhtml_idm45797018544240
 primary="translateY() function"
@@ -54307,7 +54238,7 @@ along its own x-axis, `translateY()` moves it along its
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018540464 .sidebar}
-# translateX(), translateY() functions {#ch17.xhtml_sigil_toc_id_1620}
+<h1>translateX(), translateY() functions {#ch17.xhtml_sigil_toc_id_1620}
 
   ------------ --------------------------------------
   **Values**   \<*`length`*\> \| \<*`percentage`*\>
@@ -54348,7 +54279,7 @@ upward (with respect to itself) by 20 pixels.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018528720 .sidebar}
-# translate() function {#ch17.xhtml_sigil_toc_id_1621}
+<h1>translate() function {#ch17.xhtml_sigil_toc_id_1621}
 
   ------------ ------------------------------------------------------------------------------------------
   **Values**   \[ \<*`length`*\> \| \<*`percentage`*\> \] \[`,` \<*`length`*\> \| \<*`percentage`*\>\]?
@@ -54382,7 +54313,7 @@ alt="css5 1709" />
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018515632 .sidebar}
-# translateZ() function {#ch17.xhtml_sigil_toc_id_1623}
+<h1>translateZ() function {#ch17.xhtml_sigil_toc_id_1623}
 
   ----------- ----------------
   **Value**   \<*`length`*\>
@@ -54403,7 +54334,7 @@ indeed for any z-axis value.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018507872 .sidebar}
-# translate3d() function {#ch17.xhtml_sigil_toc_id_1624}
+<h1>translate3d() function {#ch17.xhtml_sigil_toc_id_1624}
 
   ------------ -------------------------------------------------------------------------------------------------------------
   **Values**   \[ \<*`length`*\> \| \<*`percentage`*\> \], \[ \<*`length`*\> \| \<*`percentage`*\>\], \[ \<*`length`*\> \]
@@ -54440,7 +54371,7 @@ alt="css5 1710" />
 
 ::::: {.section pdf-bookmark="The translate property" data-type="sect3"}
 :::: {#ch17.xhtml_idm45797018494512 .sect3}
-### The translate property {#ch17.xhtml_sigil_toc_id_1626}
+<h3>The translate property {#ch17.xhtml_sigil_toc_id_1626}
 
 When you []{#ch17.xhtml_idm45797018492848 primary="translate property"
 data-type="indexterm"}want to translate an element without having to go
@@ -54451,7 +54382,7 @@ instead.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018491056 .sidebar}
-# translate {#ch17.xhtml_sigil_toc_id_1627}
+<h1>translate {#ch17.xhtml_sigil_toc_id_1627}
 
   -------------------- --------------------------------------------------------------------------------------------
   **Values**           \| `none` \| \[ \<*`length`*\> \| \<*`percentage`*\> \]{1,2} \<*`length`*\>?
@@ -54507,7 +54438,7 @@ The default value, `none`, means that no translation is applied.
 
 :::::::::: {.section pdf-bookmark="Scaling" data-type="sect2"}
 ::::::::: {#ch17.xhtml_idm45797018546208 .sect2}
-## Scaling {#ch17.xhtml_sigil_toc_id_1628}
+<h2>Scaling {#ch17.xhtml_sigil_toc_id_1628}
 
 A *scale transform* makes an []{#ch17.xhtml_idm45797018405056
 primary="scaleX() function"
@@ -54523,7 +54454,7 @@ scale along the x- and y-axes individually or scale them together.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018386848 .sidebar}
-# scaleX(), scaleY(), scaleZ() functions {#ch17.xhtml_sigil_toc_id_1629}
+<h1>scaleX(), scaleY(), scaleZ() functions {#ch17.xhtml_sigil_toc_id_1629}
 
   ------------ --------------------------------------
   **Values**   \<*`number`*\> \| \<*`percentage`*\>
@@ -54546,7 +54477,7 @@ on.]{.keep-together}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018358480 .sidebar}
-# scale() function {#ch17.xhtml_sigil_toc_id_1630}
+<h1>scale() function {#ch17.xhtml_sigil_toc_id_1630}
 
   ------------ -------------------------------------------------------------------------------------------
   **Values**   \[ \<*`number`*\> \| \<*`percentage`*\> \] \[`,` \<*`number`*\> \| \<*`percentage`*\> \]?
@@ -54592,7 +54523,7 @@ alt="css5 1711" />
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018342016 .sidebar}
-# scale3d() function {#ch17.xhtml_sigil_toc_id_1632}
+<h1>scale3d() function {#ch17.xhtml_sigil_toc_id_1632}
 
 +-----------------------------------+-----------------------------------+
 | **Values**                        | \[ \<*`number`*\> \|              |
@@ -54626,7 +54557,7 @@ translated 100 pixels to its right and then shrunk 50% from that spot.
 
 ::::: {.section pdf-bookmark="The scale property" data-type="sect3"}
 :::: {#ch17.xhtml_idm45797018324992 .sect3}
-### The scale property {#ch17.xhtml_sigil_toc_id_1633}
+<h3>The scale property {#ch17.xhtml_sigil_toc_id_1633}
 
 Also []{#ch17.xhtml_idm45797018309952 primary="scale property"
 data-type="indexterm"}similarly to translation, the `scale` property
@@ -54637,7 +54568,7 @@ allows you to scale elements up or down without having to use the
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018308160 .sidebar}
-# scale {#ch17.xhtml_sigil_toc_id_1634}
+<h1>scale {#ch17.xhtml_sigil_toc_id_1634}
 
   -------------------- -----------------------------------------------------------
   **Values**           `none` \| \[ \<*`percentage`*\> \| \<*`number`*\> \]{1,3}
@@ -54682,7 +54613,7 @@ The default value, `none`, means that no scaling is applied.
 
 :::::::::: {.section pdf-bookmark="Element Rotation" data-type="sect2"}
 ::::::::: {#ch17.xhtml_element_rotation .sect2}
-## Element Rotation {#ch17.xhtml_sigil_toc_id_1635}
+<h2>Element Rotation {#ch17.xhtml_sigil_toc_id_1635}
 
 A *rotation function* causes an []{#ch17.xhtml_idm45797018188560
 primary="rotate() function"
@@ -54700,7 +54631,7 @@ specifically for 3D.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018185552 .sidebar}
-# rotate(), rotateX(), rotateY(), rotateZ() functions {#ch17.xhtml_sigil_toc_id_1636}
+<h1>rotate(), rotateX(), rotateY(), rotateZ() functions {#ch17.xhtml_sigil_toc_id_1636}
 
   ----------- ---------------
   **Value**   \<*`angle`*\>
@@ -54750,7 +54681,7 @@ alt="css5 1712" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch17.xhtml_sigil_toc_id_1638}
+<h5>Warning {#ch17.xhtml_sigil_toc_id_1638}
 
 Several of the examples in
 [Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"} present a fully
@@ -54771,7 +54702,7 @@ visual results as in the figures.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018153680 .sidebar}
-# rotate3d() function {#ch17.xhtml_sigil_toc_id_1639}
+<h1>rotate3d() function {#ch17.xhtml_sigil_toc_id_1639}
 
   ------------ ---------------------------------------------------------------
   **Values**   \<*`number`*\>, \<*`number`*\>, \<*`number`*\>, \<*`angle`*\>
@@ -54895,7 +54826,7 @@ sequence around three different axes</h6>
 
 ::::: {.section pdf-bookmark="The rotate property" data-type="sect3"}
 :::: {#ch17.xhtml_idm45797018125184 .sect3}
-### The rotate property {#ch17.xhtml_sigil_toc_id_1643}
+<h3>The rotate property {#ch17.xhtml_sigil_toc_id_1643}
 
 As with []{#ch17.xhtml_ix_rotate_prop primary="rotate property"
 data-type="indexterm"}translations and scaling, CSS has a `rotate`
@@ -54907,7 +54838,7 @@ make that possible is a bit different, however.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797018121232 .sidebar}
-# rotate {#ch17.xhtml_sigil_toc_id_1644}
+<h1>rotate {#ch17.xhtml_sigil_toc_id_1644}
 
   -------------------- ------------------------------------------------------------------------------------------
   **Values**           `none` \| \<*`angle`*\> \| \[ `x` \| `y` \| `z` \| \<*`number`*\>{3} \] && \<*`angle`*\>
@@ -54979,7 +54910,7 @@ primary="" startref="ix_rotate_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Individual Transform Property Order" data-type="sect2"}
 ::: {#ch17.xhtml_idm45797018190432 .sect2}
-## Individual Transform Property Order {#ch17.xhtml_sigil_toc_id_1645}
+<h2>Individual Transform Property Order {#ch17.xhtml_sigil_toc_id_1645}
 
 When using the []{#ch17.xhtml_idm45797017960608 primary="transforms"
 secondary="order of individual properties"
@@ -55011,7 +54942,7 @@ transform-rotate-scale, use `transform` instead of the individual
 
 :::::::: {.section pdf-bookmark="Skewing" data-type="sect2"}
 ::::::: {#ch17.xhtml_idm45797017891200 .sect2}
-## Skewing {#ch17.xhtml_sigil_toc_id_1646}
+<h2>Skewing {#ch17.xhtml_sigil_toc_id_1646}
 
 When you *skew* an []{#ch17.xhtml_idm45797017889056
 primary="skewX() function"
@@ -55024,7 +54955,7 @@ skewing.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017887280 .sidebar}
-# skewX(), skewY() functions {#ch17.xhtml_sigil_toc_id_1647}
+<h1>skewX(), skewY() functions {#ch17.xhtml_sigil_toc_id_1647}
 
   ----------- ---------------
   **Value**   \<*`angle`*\>
@@ -55054,7 +54985,7 @@ alt="css5 1716" />
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017875472 .sidebar}
-# skew() function {#ch17.xhtml_sigil_toc_id_1649}
+<h1>skew() function {#ch17.xhtml_sigil_toc_id_1649}
 
   ------------ ---------------------------------------
   **Values**   \<*`angle`*\> \[`,` \<*`angle`*\> \]?
@@ -55071,7 +55002,7 @@ examples of this matrix skewing and how they differ from double-skew
 transforms that look the same at first but aren't.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch17.xhtml_sigil_toc_id_1650}
+<h5>Warning {#ch17.xhtml_sigil_toc_id_1650}
 
 For a variety of reasons, including the way `skew(a,b)` is different
 from `skewX(a) skewY(b)`, the CSS specification explicitly discourages
@@ -55094,7 +55025,7 @@ skew angle comes second. If you leave out a y skew angle, it's treated
 as 0.
 
 ::: {.note data-type="note"}
-###### Note {#ch17.xhtml_sigil_toc_id_1652}
+<h5>Note {#ch17.xhtml_sigil_toc_id_1652}
 
 Unlike for translation, rotation, and scaling, CSS has no `skew`
 property as of late 2022, so any skewing has to be managed via the
@@ -55105,7 +55036,7 @@ property as of late 2022, so any skewing has to be managed via the
 
 :::::::: {.section pdf-bookmark="Matrix Functions" data-type="sect2"}
 ::::::: {#ch17.xhtml_matrix_functions .sect2}
-## Matrix Functions {#ch17.xhtml_sigil_toc_id_1653}
+<h2>Matrix Functions {#ch17.xhtml_sigil_toc_id_1653}
 
 If you're a []{#ch17.xhtml_ix_matrix_func primary="matrix() function"
 data-type="indexterm"}particular fan of advanced math, or stale jokes
@@ -55116,7 +55047,7 @@ be your favorites. CSS has no `matrix` properties, to be clear.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017856448 .sidebar}
-# matrix() function {#ch17.xhtml_sigil_toc_id_1654}
+<h1>matrix() function {#ch17.xhtml_sigil_toc_id_1654}
 
   ------------ ---------------------------------------------
   **Values**   \<*`number`*\> \[`,` \<*`number`*\> \]{5,5}
@@ -55191,7 +55122,7 @@ want to use a matrix to transform through three dimensions?
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017710240 .sidebar}
-# matrix3d() function {#ch17.xhtml_sigil_toc_id_1656}
+<h1>matrix3d() function {#ch17.xhtml_sigil_toc_id_1656}
 
   ------------ -----------------------------------------------
   **Values**   \<*`number`*\> `[,` \<*`number`*\> `]{15,15}`
@@ -55247,7 +55178,7 @@ equivalent</h6>
 
 :::: {.section pdf-bookmark="A note on end-state equivalence" data-type="sect3"}
 ::: {#ch17.xhtml_idm45797017506384 .sect3}
-### A note on end-state equivalence {#ch17.xhtml_sigil_toc_id_1658}
+<h3>A note on end-state equivalence {#ch17.xhtml_sigil_toc_id_1658}
 
 It's []{#ch17.xhtml_idm45797017504624 primary="transforms"
 secondary="end-state equivalence" data-type="indexterm"}important to
@@ -55312,7 +55243,7 @@ primary="" startref="ix_matrix_func" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Setting Element Perspective" data-type="sect2"}
 :::: {#ch17.xhtml_idm45797017859488 .sect2}
-## Setting Element Perspective {#ch17.xhtml_sigil_toc_id_1659}
+<h2>Setting Element Perspective {#ch17.xhtml_sigil_toc_id_1659}
 
 If you're []{#ch17.xhtml_ix_persp_func primary="perspective() function"
 data-type="indexterm"}transforming an element in 3D space, you most
@@ -55324,7 +55255,7 @@ perspective applied to an element.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017324176 .sidebar}
-# perspective() function {#ch17.xhtml_sigil_toc_id_1660}
+<h1>perspective() function {#ch17.xhtml_sigil_toc_id_1660}
 
   ----------- ----------------
   **Value**   \<*`length`*\>
@@ -55414,7 +55345,7 @@ can be very [important.]{.keep-together}
 
 :::::::::::::::::::::::: {.section pdf-bookmark="More Transform Properties" data-type="sect1"}
 ::::::::::::::::::::::: {#ch17.xhtml_idm45797018564976 .sect1}
-# More Transform Properties {#ch17.xhtml_sigil_toc_id_1663}
+<h1>More Transform Properties {#ch17.xhtml_sigil_toc_id_1663}
 
 In addition to the base `transform` property and the standalone
 transform properties like `rotate`, a few related properties help to
@@ -55423,7 +55354,7 @@ perspective used for a "scene," and more.
 
 ::::: {.section pdf-bookmark="Moving the Transform’s Origin" data-type="sect2"}
 :::: {#ch17.xhtml_idm45797017217568 .sect2}
-## Moving the Transform's Origin {#ch17.xhtml_sigil_toc_id_1664}
+<h2>Moving the Transform's Origin {#ch17.xhtml_sigil_toc_id_1664}
 
 So far, all of our []{#ch17.xhtml_ix_transform_origin_move
 primary="transforms" secondary="origin of, moving"
@@ -55439,7 +55370,7 @@ can change it.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017212928 .sidebar}
-# transform-origin {#ch17.xhtml_sigil_toc_id_1665}
+<h1>transform-origin {#ch17.xhtml_sigil_toc_id_1665}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `left` \| `center` \| `right` \| `top` \| `bottom` \| \<*`percentage`*\> \| \<*`length`*\> \] \| \[ `left` \| `center` \| `right` \| \<*`percentage`*\> \| \<*`length`*\> \] && \[ `top` \| `center` \| `bottom` \| \<*`percentage`*\> \| \<*`length`*\> \] \] \<*`length`*\>?
@@ -55542,7 +55473,7 @@ startref="ix_transform_origin_move" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Choosing the Transform’s Box" data-type="sect2"}
 :::: {#ch17.xhtml_choosing-the-transforms-box .sect2}
-## Choosing the Transform's Box {#ch17.xhtml_sigil_toc_id_1669}
+<h2>Choosing the Transform's Box {#ch17.xhtml_sigil_toc_id_1669}
 
 We wrote the []{#ch17.xhtml_ix_transf_box_prop
 primary="transform-box property"
@@ -55557,7 +55488,7 @@ property `transform-box`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797017164784 .sidebar}
-# transform-box {#ch17.xhtml_sigil_toc_id_1670}
+<h1>transform-box {#ch17.xhtml_sigil_toc_id_1670}
 
   -------------------- ---------------------------------------------------------------------------
   **Values**           `border-box` \| `content-box` \| `fill-box` \| `stroke-box` \| `view-box`
@@ -55651,7 +55582,7 @@ startref="ix_transf_box_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Choosing a 3D Style" data-type="sect2"}
 :::: {#ch17.xhtml_choosing-a-3d-style .sect2}
-## Choosing a 3D Style {#ch17.xhtml_sigil_toc_id_1672}
+<h2>Choosing a 3D Style {#ch17.xhtml_sigil_toc_id_1672}
 
 If you're setting []{#ch17.xhtml_ix_transf_3dstyle primary="transforms"
 secondary="3D style for"
@@ -55666,7 +55597,7 @@ that to life.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797016934928 .sidebar}
-# transform-style {#ch17.xhtml_sigil_toc_id_1673}
+<h1>transform-style {#ch17.xhtml_sigil_toc_id_1673}
 
   -------------------- ---------------------------
   **Values**           `flat` \| `preserve-3d`
@@ -55786,7 +55717,7 @@ startref="ix_transf_3dstyle" data-type="indexterm"}
 
 :::::::::: {.section pdf-bookmark="Changing Perspective" data-type="sect2"}
 ::::::::: {#ch17.xhtml_changing-perspective .sect2}
-## Changing Perspective {#ch17.xhtml_sigil_toc_id_1676}
+<h2>Changing Perspective {#ch17.xhtml_sigil_toc_id_1676}
 
 Two []{#ch17.xhtml_ix_transf_persp primary="transforms"
 secondary="perspective change" data-type="indexterm"}properties are used
@@ -55796,7 +55727,7 @@ section; and another to define the perspective's origin point.
 
 ::::: {.section pdf-bookmark="Defining a group perspective" data-type="sect3"}
 :::: {#ch17.xhtml_idm45797016666592 .sect3}
-### Defining a group perspective {#ch17.xhtml_sigil_toc_id_1677}
+<h3>Defining a group perspective {#ch17.xhtml_sigil_toc_id_1677}
 
 First, let's []{#ch17.xhtml_ix_persp_prop primary="perspective property"
 data-type="indexterm"}[]{#ch17.xhtml_ix_persp_func2
@@ -55810,7 +55741,7 @@ differences exist.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797016661792 .sidebar}
-# perspective {#ch17.xhtml_sigil_toc_id_1678}
+<h1>perspective {#ch17.xhtml_sigil_toc_id_1678}
 
   -------------------- -------------------------------------
   **Values**           `none` \| \<*`length`*\>
@@ -55898,7 +55829,7 @@ startref="ix_persp_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Moving the perspective’s origin" data-type="sect3"}
 :::: {#ch17.xhtml_idm45797016665968 .sect3}
-### Moving the perspective's origin {#ch17.xhtml_sigil_toc_id_1680}
+<h3>Moving the perspective's origin {#ch17.xhtml_sigil_toc_id_1680}
 
 When []{#ch17.xhtml_ix_persp_orig_prop
 primary="perspective-origin property" data-type="indexterm"}transforming
@@ -55912,7 +55843,7 @@ property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797016532304 .sidebar}
-# perspective-origin {#ch17.xhtml_sigil_toc_id_1681}
+<h1>perspective-origin {#ch17.xhtml_sigil_toc_id_1681}
 
   -------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `left` \| `center` \| `right` \| `top` \| `bottom` \| \<*`percentage`*\> \| \<*`length`*\> \] \| \[ `left` \| `center` \| `right` \| \<*`percentage`*\> \| \<*`length`*\> \] && \[ `top` \| `center` \| `bottom` \| \<*`percentage`*\> \| \<*`length`*\> \] \]
@@ -55989,7 +55920,7 @@ startref="ix_persp_orig_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Dealing with Backfaces" data-type="sect2"}
 :::: {#ch17.xhtml_dealing-with-backfaces .sect2}
-## Dealing with Backfaces {#ch17.xhtml_sigil_toc_id_1684}
+<h2>Dealing with Backfaces {#ch17.xhtml_sigil_toc_id_1684}
 
 Over all the []{#ch17.xhtml_ix_transf_backface_vis primary="transforms"
 secondary="backface visibility"
@@ -56005,7 +55936,7 @@ property `backface-visibility`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch17.xhtml_idm45797016402464 .sidebar}
-# backface-visibility {#ch17.xhtml_sigil_toc_id_1685}
+<h1>backface-visibility {#ch17.xhtml_sigil_toc_id_1685}
 
   -------------------- ---------------------------
   **Values**           `visible` \| `hidden`
@@ -56115,7 +56046,7 @@ startref="ix_transf_backface_vis" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch17.xhtml_idm45797016407072 .sect1}
-# Summary {#ch17.xhtml_sigil_toc_id_1688}
+<h1>Summary {#ch17.xhtml_sigil_toc_id_1688}
 
 With the ability to transform elements in two- and three-dimensional
 space, CSS transforms provide a great deal of power to designers. From
@@ -56139,7 +56070,7 @@ transitions and animations are defined.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch18.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch18.xhtml_x-transitions .chapter}
-# [Chapter 18. ]{.label}Transitions
+<h1>[Chapter 18. ]{.label}Transitions
 
 CSS []{#ch18.xhtml_ix_transition_ch18 primary="transitions"
 data-type="indexterm"}transitions allow us to animate CSS properties
@@ -56162,7 +56093,7 @@ transition.
 
 ::::::: {.section pdf-bookmark="CSS Transitions" data-type="sect1"}
 :::::: {#ch18.xhtml_css-transitions .sect1}
-# CSS Transitions {#ch18.xhtml_sigil_toc_id_1689}
+<h1>CSS Transitions {#ch18.xhtml_sigil_toc_id_1689}
 
 CSS transitions provide a way to control how a property changes from one
 value to the next over a period of time. Thus, we can make the property
@@ -56190,7 +56121,7 @@ completely fine. If a given property or some property values aren't
 animatable, again, the change will be immediate instead of gradual.
 
 ::: {.note data-type="note"}
-###### Note {#ch18.xhtml_sigil_toc_id_1690}
+<h5>Note {#ch18.xhtml_sigil_toc_id_1690}
 
 When []{#ch18.xhtml_idm45797015981200 primary="animatable properties"
 data-type="indexterm"}[]{#ch18.xhtml_idm45797015980464
@@ -56222,7 +56153,7 @@ there is no animation.
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/cardflip.xhtml){.play}
 
 ::: {data-type="tip"}
-###### Tip {#ch18.xhtml_sigil_toc_id_1691}
+<h5>Tip {#ch18.xhtml_sigil_toc_id_1691}
 
 Look for the Play symbol
 [![](./images/play-icon-round.png){height="100"
@@ -56243,7 +56174,7 @@ a common use for CSS transitions, which we will also explore later in
 this chapter.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch18.xhtml_sigil_toc_id_1692}
+<h5>Warning {#ch18.xhtml_sigil_toc_id_1692}
 
 Especially []{#ch18.xhtml_idm45797015934400
 primary="accessibility issues" secondary="rapid transitions"
@@ -56269,7 +56200,7 @@ alt="css5 1801" />
 
 :::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Transition Properties" data-type="sect1"}
 ::::::::::::::::::::::::::::::::::: {#ch18.xhtml_transition-properties .sect1}
-# Transition Properties {#ch18.xhtml_sigil_toc_id_1694}
+<h1>Transition Properties {#ch18.xhtml_sigil_toc_id_1694}
 
 In CSS, transitions are written using four transition properties:
 `transition-property`, `transition-duration`,
@@ -56497,7 +56428,7 @@ startref="ix_transition_initial_state" data-type="indexterm"}
 
 :::::::::: {.section pdf-bookmark="Limiting Transition Effects by Property" data-type="sect2"}
 ::::::::: {#ch18.xhtml_the-transition-property-property .sect2}
-## Limiting Transition Effects by Property {#ch18.xhtml_sigil_toc_id_1696}
+<h2>Limiting Transition Effects by Property {#ch18.xhtml_sigil_toc_id_1696}
 
 The `transition-property` property[]{#ch18.xhtml_ix_transition_limits
 primary="transitions" secondary="limiting effects by property"
@@ -56512,7 +56443,7 @@ properties change instantaneously. And, yes, it's weird to say "the
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch18.xhtml_transition-property .sidebar}
-# transition-property {#ch18.xhtml_sigil_toc_id_1697}
+<h1>transition-property {#ch18.xhtml_sigil_toc_id_1697}
 
   -------------------- ---------------------------------------------------------
   **Values**           `none` \| \[ `all` \| \<*`property-name`*\> \]#
@@ -56690,7 +56621,7 @@ respectively. (The `transition-duration` property is covered in an
 
 ::::: {.section pdf-bookmark="Suppressing transitions via property limits" data-type="sect3"}
 :::: {#ch18.xhtml_idm45797014896208 .sect3}
-### Suppressing transitions via property limits {#ch18.xhtml_sigil_toc_id_1698}
+<h3>Suppressing transitions via property limits {#ch18.xhtml_sigil_toc_id_1698}
 
 While []{#ch18.xhtml_idm45797014894880 primary="transitions"
 secondary="suppressing" data-type="indexterm"}transitioning over time
@@ -56708,7 +56639,7 @@ exclude properties; rather, you can use that property only to include
 them.
 
 ::: {.note data-type="note"}
-###### Note {#ch18.xhtml_sigil_toc_id_1699}
+<h5>Note {#ch18.xhtml_sigil_toc_id_1699}
 
 Another method is to set the delay and duration of the property to `0s`.
 That way, it will appear instantaneously, as if no CSS transition is
@@ -56719,7 +56650,7 @@ being applied to it.
 
 :::: {.section pdf-bookmark="Transition events" data-type="sect3"}
 ::: {#ch18.xhtml_transition-event-transitionend .sect3}
-### Transition events {#ch18.xhtml_sigil_toc_id_1700}
+<h3>Transition events {#ch18.xhtml_sigil_toc_id_1700}
 
 The []{#ch18.xhtml_ix_transitionend primary="transitionend event"
 data-type="indexterm"}[]{#ch18.xhtml_ix_transition_event
@@ -56869,7 +56800,7 @@ startref="ix_transitionend" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Setting Transition Duration" data-type="sect2"}
 ::::: {#ch18.xhtml_the-transition-duration-property .sect2}
-## Setting Transition Duration {#ch18.xhtml_sigil_toc_id_1701}
+<h2>Setting Transition Duration {#ch18.xhtml_sigil_toc_id_1701}
 
 The `transition-duration` property[]{#ch18.xhtml_ix_transition_duration
 primary="transitions" secondary="duration"
@@ -56883,7 +56814,7 @@ transition from one state to another.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch18.xhtml_transition-duration .sidebar}
-# transition-duration {#ch18.xhtml_sigil_toc_id_1702}
+<h1>transition-duration {#ch18.xhtml_sigil_toc_id_1702}
 
   -------------------- ---------------------------------------------------------
   **Values**           \<*`time`*\>#
@@ -56996,7 +56927,7 @@ will transition over the first time declared, and every even property
 will transition over the second time value declared.
 
 ::: {data-type="tip"}
-###### Tip {#ch18.xhtml_sigil_toc_id_1703}
+<h5>Tip {#ch18.xhtml_sigil_toc_id_1703}
 
 Always remember that user experience is important. If a transition is
 too slow, the website will appear slow or unresponsive, drawing unwanted
@@ -57015,7 +56946,7 @@ startref="ix_transition_duration" data-type="indexterm"}
 
 :::::::::: {.section pdf-bookmark="Altering the Internal Timing of Transitions" data-type="sect2"}
 ::::::::: {#ch18.xhtml_the-transition-timing-function-property .sect2}
-## Altering the Internal Timing of Transitions {#ch18.xhtml_sigil_toc_id_1704}
+<h2>Altering the Internal Timing of Transitions {#ch18.xhtml_sigil_toc_id_1704}
 
 Do you want your []{#ch18.xhtml_ix_transition_time_func_prop
 primary="transition-timing-function property"
@@ -57032,7 +56963,7 @@ to control the pace of the transition.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch18.xhtml_transition-timing-function .sidebar}
-# transition-timing-function {#ch18.xhtml_sigil_toc_id_1705}
+<h1>transition-timing-function {#ch18.xhtml_sigil_toc_id_1705}
 
   -------------------- ---------------------------------------------------------
   **Values**           \<*`timing-function`*\>#
@@ -57057,7 +56988,7 @@ steps---`steps(`*`n`*`, end)`, and `cubic-bezier(x1, y1, x2, y2)`.
 
 :::: {.section pdf-bookmark="Cubic Bézier timing" data-type="sect3"}
 ::: {#ch18.xhtml_idm45797014406416 .sect3}
-### Cubic Bézier timing {#ch18.xhtml_sigil_toc_id_1706}
+<h3>Cubic Bézier timing {#ch18.xhtml_sigil_toc_id_1706}
 
 The []{#ch18.xhtml_ix_cubic_bezier_func2
 primary="cubic-Bézier timing functions"
@@ -57198,7 +57129,7 @@ startref="ix_cubic_bezier_func2" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Step timing" data-type="sect3"}
 :::: {#ch18.xhtml_idm45797014397776 .sect3}
-### Step timing {#ch18.xhtml_sigil_toc_id_1710}
+<h3>Step timing {#ch18.xhtml_sigil_toc_id_1710}
 
 Step []{#ch18.xhtml_ix_step_time_func primary="step timing functions"
 data-type="indexterm"}timing functions also are available, as well as
@@ -57248,7 +57179,7 @@ transitioned values to their *initial* values, staying there throughout
 the transition's duration.
 
 ::: {.note data-type="note"}
-###### Note {#ch18.xhtml_sigil_toc_id_1712}
+<h5>Note {#ch18.xhtml_sigil_toc_id_1712}
 
 Step timing, especially the precise meaning of `jump-start` and
 `jump-end`, is discussed in depth in
@@ -57315,7 +57246,7 @@ startref="ix_step_time_func" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Delaying Transitions" data-type="sect2"}
 :::::: {#ch18.xhtml_the-transition-delay-property .sect2}
-## Delaying Transitions {#ch18.xhtml_sigil_toc_id_1713}
+<h2>Delaying Transitions {#ch18.xhtml_sigil_toc_id_1713}
 
 The `transition-delay` property[]{#ch18.xhtml_ix_transition_delay2
 primary="transitions" secondary="delaying"
@@ -57329,7 +57260,7 @@ begins.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch18.xhtml_transition-delay .sidebar}
-# transition-delay {#ch18.xhtml_sigil_toc_id_1714}
+<h1>transition-delay {#ch18.xhtml_sigil_toc_id_1714}
 
   -------------------- ------------------------------------------------------
   **Values**           \<*`time`*\>#
@@ -57446,7 +57377,7 @@ as they quickly move the focus ring through the document.
 
 :::: {.section pdf-bookmark="Negative delay values" data-type="sect3"}
 ::: {#ch18.xhtml_negative-delay-values .sect3}
-### Negative delay values {#ch18.xhtml_sigil_toc_id_1715}
+<h3>Negative delay values {#ch18.xhtml_sigil_toc_id_1715}
 
 A []{#ch18.xhtml_idm45797013817392
 primary="negative delay values, transition delays"
@@ -57499,7 +57430,7 @@ startref="ix_transition_delay2" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Using the transition Shorthand" data-type="sect2"}
 ::::: {#ch18.xhtml_the-transition-shorthand-property .sect2}
-## Using the transition Shorthand {#ch18.xhtml_sigil_toc_id_1716}
+<h2>Using the transition Shorthand {#ch18.xhtml_sigil_toc_id_1716}
 
 The `transition` property[]{#ch18.xhtml_ix_transition_shorthand
 primary="transitions" secondary="shorthand property"
@@ -57513,7 +57444,7 @@ properties we've covered thus far---`transition-property`,
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch18.xhtml_idm45797013732512 .sidebar}
-# transition {#ch18.xhtml_sigil_toc_id_1717}
+<h1>transition {#ch18.xhtml_sigil_toc_id_1717}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \[ `none` \| \<*`transition-property`*\> \] ‖ \<*`time`*\> ‖ \<*`transition-timing-function`*\> ‖ \<*`time`*\> \]#
@@ -57586,7 +57517,7 @@ nav li ul {
 ```
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch18.xhtml_sigil_toc_id_1718}
+<h5>Warning {#ch18.xhtml_sigil_toc_id_1718}
 
 This transition will wait 200 milliseconds, then show the drop-down
 fully open and opaque with no gradual transition. Creating delays with
@@ -57636,7 +57567,7 @@ startref="ix_transition_shorthand" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Reversing Interrupted Transitions" data-type="sect2"}
 :::: {#ch18.xhtml_idm45797013753552 .sect2}
-## Reversing Interrupted Transitions {#ch18.xhtml_sigil_toc_id_1719}
+<h2>Reversing Interrupted Transitions {#ch18.xhtml_sigil_toc_id_1719}
 
 When a []{#ch18.xhtml_idm45797013371504 primary="transitions"
 secondary="reversing interrupted"
@@ -57716,7 +57647,7 @@ While this does not impact the reverse shortening, it does provide more
 control.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch18.xhtml_sigil_toc_id_1720}
+<h5>Warning {#ch18.xhtml_sigil_toc_id_1720}
 
 Beware of having []{#ch18.xhtml_idm45797013301424 primary="inheritance"
 secondary="transitions" data-type="indexterm"}transitions on both
@@ -57735,7 +57666,7 @@ expect.
 
 ::::::::: {.section pdf-bookmark="Animatable Properties and Values" data-type="sect1"}
 :::::::: {#ch18.xhtml_animatable-properties-and-values .sect1}
-# Animatable Properties and Values {#ch18.xhtml_sigil_toc_id_1721}
+<h1>Animatable Properties and Values {#ch18.xhtml_sigil_toc_id_1721}
 
 Before []{#ch18.xhtml_ix_prop_animatable primary="properties"
 secondary="animatable"
@@ -57812,7 +57743,7 @@ The `auto` value is animatable for `min-height` and `min-width`, since
 
 :::: {.section pdf-bookmark="How Property Values Are Interpolated" data-type="sect2"}
 ::: {#ch18.xhtml_how-property-values-are-interpolated .sect2}
-## How Property Values Are Interpolated {#ch18.xhtml_sigil_toc_id_1722}
+<h2>How Property Values Are Interpolated {#ch18.xhtml_sigil_toc_id_1722}
 
 Numbers are []{#ch18.xhtml_idm45797013259824 primary="transitions"
 secondary="animatable properties for"
@@ -57869,7 +57800,7 @@ each color stop is interpolated as length and percentage units.
 
 ::::: {.section pdf-bookmark="Interpolating Repeating Values" data-type="sect2"}
 :::: {#ch18.xhtml_idm45797013240976 .sect2}
-## Interpolating Repeating Values {#ch18.xhtml_sigil_toc_id_1723}
+<h2>Interpolating Repeating Values {#ch18.xhtml_sigil_toc_id_1723}
 
 When you have simple lists of other types of properties, each item in
 the list is interpolated appropriately for that type---as long as the
@@ -57980,7 +57911,7 @@ properties.^[1](../Text/ch18.xhtml#idm45797038809616){#ch18.xhtml_idm45797038809
 data-type="noteref"}^
 
 ::: {.note data-type="note"}
-###### Note {#ch18.xhtml_sigil_toc_id_1724}
+<h5>Note {#ch18.xhtml_sigil_toc_id_1724}
 
 Transitions can occur only on properties that are not currently being
 impacted by a CSS animation. If the element is being animated,
@@ -58004,7 +57935,7 @@ startref="ix_value_interpol" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Printing Transitions" data-type="sect1"}
 ::: {#ch18.xhtml_printing-transitions .sect1}
-# Printing Transitions {#ch18.xhtml_sigil_toc_id_1725}
+<h1>Printing Transitions {#ch18.xhtml_sigil_toc_id_1725}
 
 When []{#ch18.xhtml_idm45797038800464 primary="printing"
 secondary="transitions and"
@@ -58049,7 +57980,7 @@ time.
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch18.xhtml_idm45797038801968 .sect1}
-# Summary {#ch18.xhtml_sigil_toc_id_1726}
+<h1>Summary {#ch18.xhtml_sigil_toc_id_1726}
 
 Transitions are a useful and quite powerful way to add UI enhancements.
 Worrying about archaic browsers should not prevent you from including
@@ -58081,7 +58012,7 @@ timing function if there is no midpoint between the pre and post values.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch19.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch19.xhtml_animation .chapter}
-# [Chapter 19. ]{.label}Animation
+<h1>[Chapter 19. ]{.label}Animation
 
 CSS []{#ch19.xhtml_ix_animation_ch19 primary="animation"
 data-type="indexterm"}transitions, covered in the previous chapter,
@@ -58110,7 +58041,7 @@ black and ending with white, but progressing through the entire rainbow
 along the way.
 
 ::: {data-type="tip"}
-###### Tip {#ch19.xhtml_sigil_toc_id_1727}
+<h5>Tip {#ch19.xhtml_sigil_toc_id_1727}
 
 Look for the Play symbol
 [![](./images/play-icon-round.png){height="100"
@@ -58121,10 +58052,10 @@ the examples in this chapter can be found at
 
 ::::: {.section pdf-bookmark="Accommodating Seizure and Vestibular Disorders" data-type="sect1"}
 :::: {#ch19.xhtml_seizure-disorders .sect1}
-# Accommodating Seizure and Vestibular Disorders {#ch19.xhtml_sigil_toc_id_1728}
+<h1>Accommodating Seizure and Vestibular Disorders {#ch19.xhtml_sigil_toc_id_1728}
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch19.xhtml_sigil_toc_id_1729}
+<h5>Warning {#ch19.xhtml_sigil_toc_id_1729}
 
 While you can use []{#ch19.xhtml_idm45797038751760
 primary="seizure disorders, animations affecting"
@@ -58186,7 +58117,7 @@ understanding the UI, and to switch off those that are not essential.
 
 :::: {.section pdf-bookmark="Defining Keyframes" data-type="sect1"}
 ::: {#ch19.xhtml_keyframes .sect1}
-# Defining Keyframes {#ch19.xhtml_sigil_toc_id_1730}
+<h1>Defining Keyframes {#ch19.xhtml_sigil_toc_id_1730}
 
 To []{#ch19.xhtml_ix_keyframes_ch19 primary="keyframes"
 data-type="indexterm"}[]{#ch19.xhtml_ix_animate_keyframe
@@ -58294,7 +58225,7 @@ startref="ix_keyframe_name" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Setting Up Keyframe Animations" data-type="sect1"}
 ::: {#ch19.xhtml_setting-up-your-keyframe-animation .sect1}
-# Setting Up Keyframe Animations {#ch19.xhtml_sigil_toc_id_1731}
+<h1>Setting Up Keyframe Animations {#ch19.xhtml_sigil_toc_id_1731}
 
 Within the []{#ch19.xhtml_idm45797038477280 primary="keyframes"
 secondary="setting up"
@@ -58362,7 +58293,7 @@ keyword,) we *strongly* recommend against it.
 
 ::::::::::::::: {.section pdf-bookmark="Defining Keyframe Selectors" data-type="sect1"}
 :::::::::::::: {#ch19.xhtml_keyframe-selectors .sect1}
-# Defining Keyframe Selectors {#ch19.xhtml_sigil_toc_id_1732}
+<h1>Defining Keyframe Selectors {#ch19.xhtml_sigil_toc_id_1732}
 
 *Keyframe selectors* define[]{#ch19.xhtml_ix_keyframe_selectors
 primary="keyframes" secondary="selectors, including to and from"
@@ -58427,7 +58358,7 @@ the first last, or scramble them up randomly, or whatever works for you.
 
 :::: {.section pdf-bookmark="Omitting from and to Values" data-type="sect2"}
 ::: {#ch19.xhtml_omitting-from-and-to-values .sect2}
-## Omitting from and to Values {#ch19.xhtml_sigil_toc_id_1733}
+<h2>Omitting from and to Values {#ch19.xhtml_sigil_toc_id_1733}
 
 If a `0%` or `from` keyframe[]{#ch19.xhtml_idm45797038322544
 primary="from keyframe selector, animations"
@@ -58501,7 +58432,7 @@ are invalid and will be ignored.
 
 :::: {.section pdf-bookmark="Repeating Keyframe Properties" data-type="sect2"}
 ::: {#ch19.xhtml_repeating-keyframe-properties .sect2}
-## Repeating Keyframe Properties {#ch19.xhtml_sigil_toc_id_1734}
+<h2>Repeating Keyframe Properties {#ch19.xhtml_sigil_toc_id_1734}
 
 Much []{#ch19.xhtml_idm45797038137264 primary="keyframes"
 secondary="repeating properties"
@@ -58541,7 +58472,7 @@ keyframe block.
 
 ::::: {.section pdf-bookmark="Animatable Properties" data-type="sect2"}
 :::: {#ch19.xhtml_animatable-properties2 .sect2}
-## Animatable Properties {#ch19.xhtml_sigil_toc_id_1735}
+<h2>Animatable Properties {#ch19.xhtml_sigil_toc_id_1735}
 
 It's []{#ch19.xhtml_idm45797038060944 primary="animatable properties"
 data-type="indexterm"}[]{#ch19.xhtml_idm45797038060208
@@ -58554,7 +58485,7 @@ it's simply ignored. (For that matter, so are properties and values that
 the browser doesn't recognize at all, just like any other part of CSS.)
 
 ::: {.note data-type="note"}
-###### Note {#ch19.xhtml_sigil_toc_id_1736}
+<h5>Note {#ch19.xhtml_sigil_toc_id_1736}
 
 Exceptions to the midpoint rule include `animating-timing-function` and
 `visibility`, which are discussed in the next section.
@@ -58618,7 +58549,7 @@ to [rectangular]{.keep-together} corners before it starts animating.
 
 :::: {.section pdf-bookmark="Using Nonanimatable Properties That Aren’t Ignored" data-type="sect2"}
 ::: {#ch19.xhtml_non-animatable-properties-that-arent-ignored .sect2}
-## Using Nonanimatable Properties That Aren't Ignored {#ch19.xhtml_sigil_toc_id_1737}
+<h2>Using Nonanimatable Properties That Aren't Ignored {#ch19.xhtml_sigil_toc_id_1737}
 
 Exceptions to the []{#ch19.xhtml_idm45797038013728 primary="keyframes"
 secondary="nonanimatable properties not ignored"
@@ -58651,7 +58582,7 @@ Animations"](#ch19.xhtml_changing-the-internal-timing-of-animations){data-type="
 
 :::: {.section pdf-bookmark="Scripting @keyframes Animations" data-type="sect2"}
 ::: {#ch19.xhtml_scripting-keyframes-animations .sect2}
-## Scripting \@keyframes Animations {#ch19.xhtml_sigil_toc_id_1738}
+<h2>Scripting \@keyframes Animations {#ch19.xhtml_sigil_toc_id_1738}
 
 The CSSKeyframesRule API []{#ch19.xhtml_idm45797037969648
 primary="keyframes" secondary="scripting"
@@ -58731,7 +58662,7 @@ startref="ix_keyframe_selectors" data-type="indexterm"}
 
 ::::::::::::::::::::::::::::::::::::::: {.section pdf-bookmark="Animating Elements" data-type="sect1"}
 :::::::::::::::::::::::::::::::::::::: {#ch19.xhtml_animating-elements .sect1}
-# Animating Elements {#ch19.xhtml_sigil_toc_id_1739}
+<h1>Animating Elements {#ch19.xhtml_sigil_toc_id_1739}
 
 Once you have []{#ch19.xhtml_ix_elem_animate primary="elements"
 secondary="animating"
@@ -58752,7 +58683,7 @@ individual properties.
 
 ::::: {.section pdf-bookmark="Invoking a Named Animation" data-type="sect2"}
 :::: {#ch19.xhtml_the-animation-name-property .sect2}
-## Invoking a Named Animation {#ch19.xhtml_sigil_toc_id_1740}
+<h2>Invoking a Named Animation {#ch19.xhtml_sigil_toc_id_1740}
 
 The `animation-name` property[]{#ch19.xhtml_ix_animate_name_prop
 primary="animation-name property"
@@ -58769,7 +58700,7 @@ rules.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-name .sidebar}
-# animation-name {#ch19.xhtml_sigil_toc_id_1741}
+<h1>animation-name {#ch19.xhtml_sigil_toc_id_1741}
 
   -------------------- --------------------------------------------------------
   **Values**           \[ \<*`single-animation-name`*\> \| `none` \]#
@@ -58921,7 +58852,7 @@ startref="ix_keyframe_name_invoke" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Defining Animation Lengths" data-type="sect2"}
 :::: {#ch19.xhtml_defining-animation-lengths .sect2}
-## Defining Animation Lengths {#ch19.xhtml_sigil_toc_id_1742}
+<h2>Defining Animation Lengths {#ch19.xhtml_sigil_toc_id_1742}
 
 The `animation-duration` property[]{#ch19.xhtml_ix_animate_dur_prop
 primary="animation-duration property"
@@ -58933,7 +58864,7 @@ animation iteration should take in seconds (`s`) or milliseconds (`ms`).
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-duration .sidebar}
-# animation-duration {#ch19.xhtml_sigil_toc_id_1743}
+<h1>animation-duration {#ch19.xhtml_sigil_toc_id_1743}
 
   -------------------- --------------------------------------------------------
   **Values**           \<*`time`*\>#
@@ -59022,7 +58953,7 @@ startref="ix_animate_dur_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Declaring Animation Iterations" data-type="sect2"}
 :::: {#ch19.xhtml_defining-animation-iterations .sect2}
-## Declaring Animation Iterations {#ch19.xhtml_sigil_toc_id_1744}
+<h2>Declaring Animation Iterations {#ch19.xhtml_sigil_toc_id_1744}
 
 Simply []{#ch19.xhtml_ix_animate_iteration_count_prop
 primary="animation-iteration-count property"
@@ -59038,7 +58969,7 @@ animation more or fewer times than the default one time, use the
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-iteration-count .sidebar}
-# animation-iteration-count {#ch19.xhtml_sigil_toc_id_1745}
+<h1>animation-iteration-count {#ch19.xhtml_sigil_toc_id_1745}
 
   -------------------- --------------------------------------------------------
   **Values**           \[ \<*`number`*\> \| `infinite` \]#
@@ -59145,7 +59076,7 @@ startref="ix_animate_iteration_count_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Setting an Animation Direction" data-type="sect2"}
 :::: {#ch19.xhtml_setting-an-animation-direction .sect2}
-## Setting an Animation Direction {#ch19.xhtml_sigil_toc_id_1746}
+<h2>Setting an Animation Direction {#ch19.xhtml_sigil_toc_id_1746}
 
 With the `animation-direction`
 property[]{#ch19.xhtml_ix_animate_dir_prop
@@ -59161,7 +59092,7 @@ animation cycle to progress in the opposite direction.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-direction .sidebar}
-# animation-direction {#ch19.xhtml_sigil_toc_id_1747}
+<h1>animation-direction {#ch19.xhtml_sigil_toc_id_1747}
 
   -------------------- --------------------------------------------------------------------
   **Values**           \[ `normal` \| `reverse` \| `alternate` \| `alternate-reverse` \]#
@@ -59259,7 +59190,7 @@ startref="ix_animate_dir_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Delaying Animations" data-type="sect2"}
 :::: {#ch19.xhtml_delaying-animations .sect2}
-## Delaying Animations {#ch19.xhtml_sigil_toc_id_1748}
+<h2>Delaying Animations {#ch19.xhtml_sigil_toc_id_1748}
 
 The `animation-delay` property[]{#ch19.xhtml_ix_animate_delay_prop
 primary="animation-delay property"
@@ -59272,7 +59203,7 @@ element before beginning the first animation iteration.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-delay .sidebar}
-# animation-delay {#ch19.xhtml_sigil_toc_id_1749}
+<h1>animation-delay {#ch19.xhtml_sigil_toc_id_1749}
 
   -------------------- --------------------------------------------------------
   **Values**           \<*`time`*\>#
@@ -59394,7 +59325,7 @@ startref="ix_animate_delay_prop" data-type="indexterm"}
 
 ::::::::: {.section pdf-bookmark="Exploring Animation Events" data-type="sect2"}
 :::::::: {#ch19.xhtml_animation-events .sect2}
-## Exploring Animation Events {#ch19.xhtml_sigil_toc_id_1750}
+<h2>Exploring Animation Events {#ch19.xhtml_sigil_toc_id_1750}
 
 The three types of []{#ch19.xhtml_ix_event_animate primary="events"
 secondary="animation"
@@ -59489,7 +59420,7 @@ as it is equal to the absolute value of the delay.
 
 ::::: {.section pdf-bookmark="Animation chaining" data-type="sect3"}
 :::: {#ch19.xhtml_animation-chaining .sect3}
-### Animation chaining {#ch19.xhtml_sigil_toc_id_1751}
+<h3>Animation chaining {#ch19.xhtml_sigil_toc_id_1751}
 
 You can use `animation-delay` to []{#ch19.xhtml_ix_chaining_ch19
 primary="chaining" data-type="indexterm"}[]{#ch19.xhtml_ix_animate_chain
@@ -59577,7 +59508,7 @@ animations.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_idm45797036455312 .sidebar}
-# Animation Performance {#ch19.xhtml_sigil_toc_id_1752}
+<h1>Animation Performance {#ch19.xhtml_sigil_toc_id_1752}
 
 Some, but not all, []{#ch19.xhtml_idm45797010388432
 primary="performance issues" secondary="animations"
@@ -59779,7 +59710,7 @@ startref="ix_chaining_ch19" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Animation iteration delay" data-type="sect3"}
 ::: {#ch19.xhtml_animation-iteration-delay .sect3}
-### Animation iteration delay {#ch19.xhtml_sigil_toc_id_1753}
+<h3>Animation iteration delay {#ch19.xhtml_sigil_toc_id_1753}
 
 What is an []{#ch19.xhtml_ix_animate_iteration_cont primary="animation"
 secondary="iteration control" data-type="indexterm"}animation iteration
@@ -59951,7 +59882,7 @@ el.addEventListener('animationend', () => {
 
 ::::::::: {.section pdf-bookmark="Changing the Internal Timing of Animations" data-type="sect2"}
 :::::::: {#ch19.xhtml_changing-the-internal-timing-of-animations .sect2}
-## Changing the Internal Timing of Animations {#ch19.xhtml_sigil_toc_id_1754}
+<h2>Changing the Internal Timing of Animations {#ch19.xhtml_sigil_toc_id_1754}
 
 All right! The []{#ch19.xhtml_ix_animate_time_func_prop
 primary="animation-timing-function property"
@@ -59968,7 +59899,7 @@ property describes how the animation will progress from one keyframe to
 <aside class="pagebreak-before" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-timing-function .sidebar}
-# animation-timing-function {#ch19.xhtml_sigil_toc_id_1755}
+<h1>animation-timing-function {#ch19.xhtml_sigil_toc_id_1755}
 
   -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `ease` \| `linear` \| `ease-in` \| `ease-out` \| `ease-in-out` \| `step-start` \| `step-end`{.keep-together} \| `steps(`\<*`integer`*\>`, start)` \| `steps(`\<*`integer`*\>`, end)` \| `cubic-bezier`{.keep-together}`(`\<*`number`*\>, \<*`number`*\>, \<*`number`*\>, \<*`number`*\>`)` \]#
@@ -60144,7 +60075,7 @@ width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball1.
 
 :::: {.section pdf-bookmark="Using step timing functions" data-type="sect3"}
 ::: {#ch19.xhtml_step-timing-functions .sect3}
-### Using step timing functions {#ch19.xhtml_sigil_toc_id_1758}
+<h3>Using step timing functions {#ch19.xhtml_sigil_toc_id_1758}
 
 The step []{#ch19.xhtml_ix_step_end_time_func
 primary="step-end timing function"
@@ -60343,7 +60274,7 @@ startref="ix_step_strt_time_func" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Animating the timing function" data-type="sect3"}
 ::: {#ch19.xhtml_animating-the-timing-function .sect3}
-### Animating the timing function {#ch19.xhtml_sigil_toc_id_1761}
+<h3>Animating the timing function {#ch19.xhtml_sigil_toc_id_1761}
 
 The `animation-timing-function` is not an animatable property, but it
 can be included in keyframes to alter the current timing of the
@@ -60533,7 +60464,7 @@ startref="ix_time_func_animate" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Setting the Animation Play State" data-type="sect2"}
 :::: {#ch19.xhtml_setting-the-animation-play-state .sect2}
-## Setting the Animation Play State {#ch19.xhtml_sigil_toc_id_1763}
+<h2>Setting the Animation Play State {#ch19.xhtml_sigil_toc_id_1763}
 
 If you []{#ch19.xhtml_idm45797008205472 primary="animation"
 secondary="play state setting"
@@ -60546,7 +60477,7 @@ whether the animation is running or paused.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-play-state .sidebar}
-# animation-play-state {#ch19.xhtml_sigil_toc_id_1764}
+<h1>animation-play-state {#ch19.xhtml_sigil_toc_id_1764}
 
   -------------------- --------------------------------------------------------
   **Values**           \[ `running` \| `paused` \]#
@@ -60580,7 +60511,7 @@ width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball4.
 
 ::::: {.section pdf-bookmark="Animation Fill Modes" data-type="sect2"}
 :::: {#ch19.xhtml_animation-fill-modes .sect2}
-## Animation Fill Modes {#ch19.xhtml_sigil_toc_id_1765}
+<h2>Animation Fill Modes {#ch19.xhtml_sigil_toc_id_1765}
 
 The `animation-fill-mode`
 property[]{#ch19.xhtml_ix_animate_fill_mode_prop
@@ -60594,16 +60525,14 @@ animation outside of the animation's duration time.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-fill-mode .sidebar}
-# animation-fill-mode {#ch19.xhtml_sigil_toc_id_1766}
+<h1>animation-fill-mode {#ch19.xhtml_sigil_toc_id_1766}
 
-  -------------------- --------------------------------------------------------
   **Values**           \[ `none` \| `forwards` \| `backwards` \| `both` \]#
   **Initial value**    `none`
   **Applies to**       All elements, `::before` and `::after` pseudo-elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- --------------------------------------------------------
 :::
 
 ```{=html}
@@ -60718,7 +60647,7 @@ startref="ix_animate_fill_mode_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Bringing It All Together" data-type="sect1"}
 :::: {#ch19.xhtml_the-animation-shorthand-property .sect1}
-# Bringing It All Together {#ch19.xhtml_sigil_toc_id_1767}
+<h1>Bringing It All Together {#ch19.xhtml_sigil_toc_id_1767}
 
 The `animation` shorthand []{#ch19.xhtml_ix_animate_prop
 primary="animation property"
@@ -60735,16 +60664,14 @@ comma-separated list of animations.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_animation-property .sidebar}
-# animation {#ch19.xhtml_sigil_toc_id_1768}
+<h1>animation {#ch19.xhtml_sigil_toc_id_1768}
 
-  -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`animation-name`*\> ‖ \<*`animation-duration`*\> ‖ \<*`animation-timing-function`*\> ‖ \<*`animation-delay`*\> ‖ \<*`animation-iteration-count`*\> ‖ \<*`animation-direction`*\> ‖ \<*`animation-fill-mode`*\> ‖ \<*`animation-play-state`*\> \]#
   **Initial value**    `0s ease 0s 1 normal none running none`
   **Applies to**       All elements, `::before` and `::after` pseudo-elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -60920,7 +60847,7 @@ startref="ix_animate_prop" data-type="indexterm"}
 
 :::::::::: {.section pdf-bookmark="Animation, Specificity, and Precedence Order" data-type="sect1"}
 ::::::::: {#ch19.xhtml_animation-specificity-and-precedence-order .sect1}
-# Animation, Specificity, and Precedence Order {#ch19.xhtml_sigil_toc_id_1769}
+<h1>Animation, Specificity, and Precedence Order {#ch19.xhtml_sigil_toc_id_1769}
 
 In []{#ch19.xhtml_ix_animate_prec primary="animation"
 secondary="precedence order" data-type="indexterm"}terms of specificity,
@@ -60929,7 +60856,7 @@ animations supersede all other values in the [cascade.]{.keep-together}
 
 :::: {.section pdf-bookmark="Specificity and !important" data-type="sect2"}
 ::: {#ch19.xhtml_specificity-and-important .sect2}
-## Specificity and !important {#ch19.xhtml_sigil_toc_id_1770}
+<h2>Specificity and !important {#ch19.xhtml_sigil_toc_id_1770}
 
 In general, the []{#ch19.xhtml_idm45797007619024 primary="specificity"
 secondary="animation"
@@ -60963,7 +60890,7 @@ combination to which `!important` is added will be ignored.
 
 :::: {.section pdf-bookmark="Animation Iteration and display: none;" data-type="sect2"}
 ::: {#ch19.xhtml_animation-iteration-and-display-none .sect2}
-## Animation Iteration and display: none; {#ch19.xhtml_sigil_toc_id_1771}
+<h2>Animation Iteration and display: none; {#ch19.xhtml_sigil_toc_id_1771}
 
 If the `display` property[]{#ch19.xhtml_idm45797007582928
 primary="animation" secondary="iteration control" data-type="indexterm"}
@@ -60995,7 +60922,7 @@ width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/snowfl
 
 :::: {.section pdf-bookmark="Animation and the UI Thread" data-type="sect2"}
 ::: {#ch19.xhtml_animation-and-the-ui-thread .sect2}
-## Animation and the UI Thread {#ch19.xhtml_sigil_toc_id_1772}
+<h2>Animation and the UI Thread {#ch19.xhtml_sigil_toc_id_1772}
 
 CSS []{#ch19.xhtml_idm45797007557728 primary="animation"
 secondary="UI thread usage by" data-type="indexterm"}animations have the
@@ -61032,7 +60959,7 @@ primary="" startref="ix_animate_prec" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Using the will-change Property" data-type="sect1"}
 ::::: {#ch19.xhtml_will-change .sect1}
-# Using the will-change Property {#ch19.xhtml_sigil_toc_id_1773}
+<h1>Using the will-change Property {#ch19.xhtml_sigil_toc_id_1773}
 
 You []{#ch19.xhtml_ix_will_change_prop primary="will-change property"
 data-type="indexterm"}[]{#ch19.xhtml_ix_animate_advance
@@ -61046,16 +60973,14 @@ ahead of time via the `will-change` property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch19.xhtml_will-change-property .sidebar}
-# will-change {#ch19.xhtml_sigil_toc_id_1774}
+<h1>will-change {#ch19.xhtml_sigil_toc_id_1774}
 
-  -------------------- --------------------------------------------------------------------------
   **Values**           `auto` \| \[ `scroll-position` \| `contents` \| \<*`custom-ident`*\> \]#
   **Initial value**    `auto`
   **Applies to**       All elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       No
-  -------------------- --------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -61065,7 +60990,7 @@ The general idea here is to give the browser hints about the sorts of
 pre-optimizations it can make if expensive calculations may be required.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch19.xhtml_sigil_toc_id_1775}
+<h5>Warning {#ch19.xhtml_sigil_toc_id_1775}
 
 You should use `will-change` only when you have animation problems that
 you have been unable to resolve through other methods, such as
@@ -61137,7 +61062,7 @@ startref="ix_will_change_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Printing Animations" data-type="sect1"}
 ::: {#ch19.xhtml_printing-considerations .sect1}
-# Printing Animations {#ch19.xhtml_sigil_toc_id_1776}
+<h1>Printing Animations {#ch19.xhtml_sigil_toc_id_1776}
 
 When an []{#ch19.xhtml_idm45797007431680 primary="animation"
 secondary="printing"
@@ -61152,7 +61077,7 @@ element will have a `border-radius` of `50%`.
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch19.xhtml_idm45797007427776 .sect1}
-# Summary {#ch19.xhtml_sigil_toc_id_1777}
+<h1>Summary {#ch19.xhtml_sigil_toc_id_1777}
 
 As we hope this chapter shows, animations can be powerful additions to a
 user interface, as well as to decorative parts of a design. Whether an
@@ -61173,7 +61098,7 @@ eliminate animations for those who do not want them.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch20.xhtml_sbo-rt-content}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch20.xhtml_filters-compositing .chapter}
-# [Chapter 20. ]{.label}Filters, Blending, Clipping, and Masking
+<h1>[Chapter 20. ]{.label}Filters, Blending, Clipping, and Masking
 
 Several special properties allow authors to alter the appearance of
 elements with visual filters, specify different ways to visually blend
@@ -61185,7 +61110,7 @@ impossible.
 
 :::::::::::::: {.section pdf-bookmark="CSS Filters" data-type="sect1"}
 ::::::::::::: {#ch20.xhtml_idm45797007422448 .sect1}
-# CSS Filters {#ch20.xhtml_sigil_toc_id_1778}
+<h1>CSS Filters {#ch20.xhtml_sigil_toc_id_1778}
 
 CSS []{#ch20.xhtml_ix_filter_prop primary="filter property"
 data-type="indexterm"}[]{#ch20.xhtml_ix_filters_ch20 primary="filters"
@@ -61197,16 +61122,14 @@ files, to elements by way of the `filter` property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797007418128 .sidebar}
-# filter {#ch20.xhtml_sigil_toc_id_1779}
+<h1>filter {#ch20.xhtml_sigil_toc_id_1779}
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `none` \| `blur()` \| `brightness()` \| `contrast()` \| `drop-shadow()` \| `grayscale()` \| `hue-rotate()` \| `invert()` \| `opacity()` \| `sepia()` \| `saturate()` \| `url()` \]#
   **Initial value**    `none`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -61237,7 +61160,7 @@ for ease of understanding.
 
 ::::: {.section pdf-bookmark="Basic Filters" data-type="sect2"}
 :::: {#ch20.xhtml_idm45797007366480 .sect2}
-## Basic Filters {#ch20.xhtml_sigil_toc_id_1780}
+<h2>Basic Filters {#ch20.xhtml_sigil_toc_id_1780}
 
 The following filters are basic in the sense that they cause the changes
 that their names directly describe---blurring, drop shadows, and opacity
@@ -61267,7 +61190,7 @@ changes:
     purposes of computing the final value.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1781}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1781}
 
 The specification makes clear that `filter: opacity()` is *not* meant to
 be a replacement or shorthand for the `opacity` property, and in fact
@@ -61364,7 +61287,7 @@ startref="ix_shadow_filter" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Color Filtering" data-type="sect2"}
 ::: {#ch20.xhtml_csstdg4-color-filtering .sect2}
-## Color Filtering {#ch20.xhtml_sigil_toc_id_1784}
+<h2>Color Filtering {#ch20.xhtml_sigil_toc_id_1784}
 
 This []{#ch20.xhtml_ix_filter_color primary="filters" secondary="color"
 data-type="indexterm"}[]{#ch20.xhtml_ix_color_filter
@@ -61447,7 +61370,7 @@ alt="css5 2003" />
 
 :::: {.section pdf-bookmark="Brightness, Contrast, and Saturation" data-type="sect2"}
 ::: {#ch20.xhtml_idm45797007193232 .sect2}
-## Brightness, Contrast, and Saturation {#ch20.xhtml_sigil_toc_id_1786}
+<h2>Brightness, Contrast, and Saturation {#ch20.xhtml_sigil_toc_id_1786}
 
 While the following `filter` functions also manipulate color, they do so
 in closely related ways, and are a familiar grouping to anyone who's
@@ -61513,7 +61436,7 @@ alt="css5 2004" />
 
 :::: {.section pdf-bookmark="SVG Filters" data-type="sect2"}
 ::: {#ch20.xhtml_idm45797007161328 .sect2}
-## SVG Filters {#ch20.xhtml_sigil_toc_id_1788}
+<h2>SVG Filters {#ch20.xhtml_sigil_toc_id_1788}
 
 The []{#ch20.xhtml_ix_svg_filter primary="SVG format"
 secondary="filtering" data-type="indexterm"}[]{#ch20.xhtml_ix_filter_svg
@@ -61590,7 +61513,7 @@ startref="ix_svg_filter" data-type="indexterm"}
 
 ::::::::::::::::::::::: {.section pdf-bookmark="Compositing and Blending" data-type="sect1"}
 :::::::::::::::::::::: {#ch20.xhtml_idm45797007421824 .sect1}
-# Compositing and Blending {#ch20.xhtml_sigil_toc_id_1790}
+<h1>Compositing and Blending {#ch20.xhtml_sigil_toc_id_1790}
 
 In addition to []{#ch20.xhtml_idm45797007088288 primary="compositing"
 seealso="blending" data-type="indexterm"}filtering, CSS enables you to
@@ -61624,7 +61547,7 @@ and is something we just have to live with for the time being.)
 
 ::::::::::::::: {.section pdf-bookmark="Blending Elements" data-type="sect2"}
 :::::::::::::: {#ch20.xhtml_blending-elements .sect2}
-## Blending Elements {#ch20.xhtml_sigil_toc_id_1791}
+<h2>Blending Elements {#ch20.xhtml_sigil_toc_id_1791}
 
 If []{#ch20.xhtml_ix_mix_blend_mode_prop
 primary="mix-blend-mode property"
@@ -61637,16 +61560,14 @@ property.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797007071248 .sidebar}
-# mix-blend-mode {#ch20.xhtml_sigil_toc_id_1792}
+<h1>mix-blend-mode {#ch20.xhtml_sigil_toc_id_1792}
 
-  -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `normal` \| `multiply` \| `screen` \| `overlay` \| `darken` \| `lighten` \| [`color-dodge`]{.keep-together} \| `color-burn` \| `hard-light` \| `soft-light` \| `difference` \| [`exclusion`]{.keep-together} \| `hue` \| [`saturation`]{.keep-together} \| `color` \| `luminosity`
   **Initial value**    `normal`
   **Applies to**       All elements
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -61699,7 +61620,7 @@ the blend mode applied to the top element (the foreground).
 
 :::: {.section pdf-bookmark="Darken, lighten, difference, and exclusion" data-type="sect3"}
 ::: {#ch20.xhtml_idm45797007037072 .sect3}
-### Darken, lighten, difference, and exclusion {#ch20.xhtml_sigil_toc_id_1794}
+<h3>Darken, lighten, difference, and exclusion {#ch20.xhtml_sigil_toc_id_1794}
 
 The following blend modes might be called *simple-math modes*---they
 achieve their effect by directly comparing values in some way, or using
@@ -61803,7 +61724,7 @@ alt="css5 2007" />
 
 :::: {.section pdf-bookmark="Multiply, screen, and overlay" data-type="sect3"}
 ::: {#ch20.xhtml_idm45797006995408 .sect3}
-### Multiply, screen, and overlay {#ch20.xhtml_sigil_toc_id_1796}
+<h3>Multiply, screen, and overlay {#ch20.xhtml_sigil_toc_id_1796}
 
 The following blend modes might be called the *multiplication
 modes*---they achieve their effect by multiplying values together:
@@ -61866,7 +61787,7 @@ multiply, screen, and overlay blending</h6>
 
 :::: {.section pdf-bookmark="Hard and soft light" data-type="sect3"}
 ::: {#ch20.xhtml_idm45797006973808 .sect3}
-### Hard and soft light {#ch20.xhtml_sigil_toc_id_1798}
+<h3>Hard and soft light {#ch20.xhtml_sigil_toc_id_1798}
 
 The following blend modes are covered here because the first is closely
 related to a previous blend mode, and the other is just a muted version
@@ -61914,7 +61835,7 @@ alt="css5 2009" />
 
 :::: {.section pdf-bookmark="Color dodge and burn" data-type="sect3"}
 ::: {#ch20.xhtml_idm45797006957984 .sect3}
-### Color dodge and burn {#ch20.xhtml_sigil_toc_id_1800}
+<h3>Color dodge and burn {#ch20.xhtml_sigil_toc_id_1800}
 
 Color dodging and burning---terms that come from old darkroom techniques
 performed on chemical film stock---are meant to lighten or darken a
@@ -61967,7 +61888,7 @@ alt="css5 2010" />
 
 :::: {.section pdf-bookmark="Hue, saturation, luminosity, and color" data-type="sect3"}
 ::: {#ch20.xhtml_idm45797006943696 .sect3}
-### Hue, saturation, luminosity, and color {#ch20.xhtml_sigil_toc_id_1802}
+<h3>Hue, saturation, luminosity, and color {#ch20.xhtml_sigil_toc_id_1802}
 
 The final four blend modes are different from those we've shown before,
 because they do *not* perform operations on the R/G/B pixel components.
@@ -62055,7 +61976,7 @@ Two points to note:
 
 ::::: {.section pdf-bookmark="Blending Backgrounds" data-type="sect2"}
 :::: {#ch20.xhtml_idm45797006917600 .sect2}
-## Blending Backgrounds {#ch20.xhtml_sigil_toc_id_1804}
+<h2>Blending Backgrounds {#ch20.xhtml_sigil_toc_id_1804}
 
 Blending an []{#ch20.xhtml_ix_back_blends primary="backgrounds"
 secondary="blending"
@@ -62071,16 +61992,14 @@ That's where `background-blend-mode` comes in.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797006911872 .sidebar}
-# background-blend-mode {#ch20.xhtml_sigil_toc_id_1805}
+<h1>background-blend-mode {#ch20.xhtml_sigil_toc_id_1805}
 
-  -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \[ `normal` \| `multiply` \| `screen` \| `overlay` \| `darken` \| `lighten` \| [`color-dodge`]{.keep-together} \| `color-burn` \| `hard-light` \| `soft-light` \| `difference` \| `exclusion` \| `hue` \| [`saturation`]{.keep-together} \| `color` \| `luminosity`\]#
   **Initial value**    `normal`
   **Applies to**       All elements
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -62206,7 +62125,7 @@ startref="ix_blend_background" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Blending in Isolation" data-type="sect2"}
 :::: {#ch20.xhtml_blending-in-isolation1 .sect2}
-## Blending in Isolation {#ch20.xhtml_sigil_toc_id_1809}
+<h2>Blending in Isolation {#ch20.xhtml_sigil_toc_id_1809}
 
 Sometimes you might want to []{#ch20.xhtml_ix_isol_prop
 primary="isolation property"
@@ -62222,16 +62141,14 @@ you.]{.keep-together}
 <aside class="pagebreak-before less_space" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797006670864 .sidebar}
-# isolation {#ch20.xhtml_sigil_toc_id_1810}
+<h1>isolation {#ch20.xhtml_sigil_toc_id_1810}
 
-  -------------------- ---------------------------------------------------------------------------------------------------------------
   **Values**           `auto` \| `isolate`
   **Initial value**    `auto`
   **Applies to**       All elements (in SVG, it applies to container elements, graphics elements, and graphics-referencing elements)
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ---------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -62327,7 +62244,7 @@ startref="ix_isol_prop" data-type="indexterm"}
 
 ::::::: {.section pdf-bookmark="Containing Elements" data-type="sect1"}
 :::::: {#ch20.xhtml_contain .sect1}
-# Containing Elements {#ch20.xhtml_sigil_toc_id_1812}
+<h1>Containing Elements {#ch20.xhtml_sigil_toc_id_1812}
 
 Similar to []{#ch20.xhtml_ix_elem_contain primary="elements"
 secondary="containment of"
@@ -62342,16 +62259,15 @@ as a way for authors to give optimization hints to browsers.
 <aside class="pagebreak-before less_space" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797006517184 .sidebar}
-# contain {#ch20.xhtml_sigil_toc_id_1813}
 
-  -------------------- --------------------------------------------------------------------------------
+<h1>contain</h1>
+
   **Value**            `none` \| \[ `size` ‖ `layout` ‖ `style` ‖ `paint` \] \| `strict` \| `content`
   **Initial value**    `none`
   **Applies to**       All elements (with caveats given later)
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- --------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -62462,16 +62378,14 @@ rendering of an element's contents.
 <aside class="pagebreak-before less_space" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797006363968 .sidebar}
-# content-visibility {#ch20.xhtml_sigil_toc_id_1815}
+<h1>content-visibility</h1>
 
-  -------------------- ---------------------------------------
   **Value**            `visible` \| `hidden` \| `auto`
   **Initial value**    `visible`
   **Applies to**       Elements that can be layout-contained
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ---------------------------------------
 :::
 
 ```{=html}
@@ -62496,7 +62410,7 @@ contents in this case *are* available to page search and tab-order
 navigation, and can be selected and focused.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1816}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1816}
 
 As of early 2023, `content-visibility` is behind a flag in Firefox and
 not supported in Safari.
@@ -62513,7 +62427,8 @@ startref="ix_elem_contain" data-type="indexterm"}
 
 :::::::::::::::::::::: {.section pdf-bookmark="Float Shapes" data-type="sect1"}
 ::::::::::::::::::::: {#ch20.xhtml_float_shapes .sect1}
-# Float Shapes {#ch20.xhtml_sigil_toc_id_1817}
+
+<h1>Float Shapes</h1>
 
 Let's take a []{#ch20.xhtml_ix_shape_float
 primary="shaping content around floats"
@@ -62530,7 +62445,7 @@ primary="CSS Shapes" data-type="indexterm"}Thanks to CSS Shapes, these
 tricks are no longer needed.
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1818}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1818}
 
 In the future, shapes may be available for nonfloated elements such as
 elements placed using CSS Grid, but as of late 2022, they're allowed on
@@ -62546,16 +62461,15 @@ you do so.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797006332000 .sidebar}
-# shape-outside {#ch20.xhtml_sigil_toc_id_1819}
 
-  -------------------- -------------------------------------------------------------------------------------------------------------------------------------
+<h1>shape-outside</h1>
+
   **Value**            `none` \| \[ \<*`basic-shape`*\> ‖ \<*`shape-box`*\> \] \| \<*`image`*\>
   **Initial value**    `none`
   **Applies to**       Floats
   **Computed value**   For a \<*`basic-shape`*\>, as defined (see below); for an \<*`image`*\>, its URL made absolute; otherwise, as specified (see below)
   **Inherited**        No
   **Animatable**       \<*`basic-shape`*\>
-  -------------------- -------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -62632,7 +62546,7 @@ primary="" startref="ix_shape_out_prop" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Shaping with Image Transparency" data-type="sect2"}
 :::: {#ch20.xhtml_shaping_with_image_transparency .sect2}
-## Shaping with Image Transparency {#ch20.xhtml_sigil_toc_id_1822}
+<h2>Shaping with Image Transparency {#ch20.xhtml_sigil_toc_id_1822}
 
 As you saw in the []{#ch20.xhtml_idm45797006214784
 primary="shape-image-threshold property"
@@ -62651,16 +62565,14 @@ modify it with `shape-image-threshold`.
 <aside class="pagebreak-before less_space" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797006211568 .sidebar}
-# shape-image-threshold {#ch20.xhtml_sigil_toc_id_1823}
+<h1>shape-image-threshold</h1>
 
-  -------------------- ---------------------------------------------------------------------------------------------
   **Values**           \<*`number`*\>
   **Initial value**    `0.0`
   **Applies to**       Floats
   **Computed value**   The same as the specified value after clipping the \<*`number`*\> to the range \[0.0, 1.0\]
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ---------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -62697,7 +62609,7 @@ any above one is reset to `1.0`.
 
 :::::::::::: {.section pdf-bookmark="Using Inset Shapes" data-type="sect2"}
 ::::::::::: {#ch20.xhtml_inset_shapes .sect2}
-## Using Inset Shapes {#ch20.xhtml_sigil_toc_id_1825}
+<h2>Using Inset Shapes {#ch20.xhtml_sigil_toc_id_1825}
 
 Now let's turn []{#ch20.xhtml_ix_shape_float_inset
 primary="shaping content around floats" secondary="inset shapes"
@@ -62839,7 +62751,7 @@ alt="image" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1829}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1829}
 
 If you []{#ch20.xhtml_idm45797005966912 primary="border-radius property"
 data-type="indexterm"}set a `border-radius` value for your floated
@@ -62853,7 +62765,7 @@ values to `shape-outside`.
 
 :::::: {.section pdf-bookmark="Circles and ellipses" data-type="sect3"}
 ::::: {#ch20.xhtml_circles_and_ellipses .sect3}
-### Circles and ellipses {#ch20.xhtml_sigil_toc_id_1830}
+<h3>Circles and ellipses {#ch20.xhtml_sigil_toc_id_1830}
 
 Circular and []{#ch20.xhtml_ix_circ_float_shape
 primary="circular float shapes" data-type="indexterm"}elliptical float
@@ -62862,7 +62774,7 @@ radii, for the ellipse) of the shape, and then the position of its
 center.
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1831}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1831}
 
 If you're familiar with circular and elliptical gradient images, the
 syntax for defining circular and elliptical float shapes will seem very
@@ -63028,7 +62940,7 @@ alt="image" />
 </figure>
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1838}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1838}
 
 In one of the examples in
 [Figure 20-27](#ch20.xhtml_various_circular_float_shapes){data-type="xref"},
@@ -63087,7 +62999,7 @@ startref="ix_ellip_float_shape" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Polygons" data-type="sect3"}
 :::: {#ch20.xhtml_polygons .sect3}
-### Polygons {#ch20.xhtml_sigil_toc_id_1841}
+<h3>Polygons {#ch20.xhtml_sigil_toc_id_1841}
 
 Polygons are a lot []{#ch20.xhtml_ix_poly_float_shape
 primary="polygon float shapes" data-type="indexterm"}more complicated to
@@ -63209,7 +63121,7 @@ alt="image" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1846}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1846}
 
 Because of []{#ch20.xhtml_idm45797005340944
 primary="CORS (cross-origin resource sharing)"
@@ -63235,7 +63147,7 @@ startref="ix_poly_float_shape" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Adding a Shape Margin" data-type="sect2"}
 :::: {#ch20.xhtml_adding_a_shape_margin .sect2}
-## Adding a Shape Margin {#ch20.xhtml_sigil_toc_id_1847}
+<h2>Adding a Shape Margin {#ch20.xhtml_sigil_toc_id_1847}
 
 Once a []{#ch20.xhtml_ix_shape_float2
 primary="shaping content around floats" secondary="margins"
@@ -63252,16 +63164,15 @@ has been defined, it's possible to add a "margin"---more properly, a
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797005329264 .sidebar}
-# shape-margin {#ch20.xhtml_sigil_toc_id_1848}
 
-  -------------------- --------------------------------------
+<h1>shape-margin</h1>
+
   **Values**           \<*`length`*\> \| \<*`percentage`*\>
   **Initial value**    `0`
   **Applies to**       Floats
   **Computed value**   The absolute length
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- --------------------------------------
 :::
 
 ```{=html}
@@ -63367,7 +63278,8 @@ startref="ix_shape_float2" data-type="indexterm"}
 
 ::::::::::::::: {.section pdf-bookmark="Clipping and Masking" data-type="sect1"}
 :::::::::::::: {#ch20.xhtml_clipping_and_masking .sect1}
-# Clipping and Masking {#ch20.xhtml_sigil_toc_id_1851}
+
+<h1>Clipping and Masking</h1>
 
 Similar to float shaping, CSS also offers clipping and masking of
 elements, albeit without any shaping of the element box. These are
@@ -63379,7 +63291,7 @@ frame images or give them ragged edges.
 
 :::::: {.section pdf-bookmark="Clipping" data-type="sect2"}
 ::::: {#ch20.xhtml_clip-path_property .sect2}
-## Clipping {#ch20.xhtml_sigil_toc_id_1852}
+<h2>Clipping {#ch20.xhtml_sigil_toc_id_1852}
 
 If []{#ch20.xhtml_ix_clipping_ch20 primary="clipping"
 data-type="indexterm"}[]{#ch20.xhtml_ix_masks_clipping_ch20
@@ -63393,9 +63305,9 @@ visually clip away pieces of an element, you can use the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797005148672 .sidebar}
-# clip-path {#ch20.xhtml_sigil_toc_id_1853}
 
-+-----------------------------------+-----------------------------------+
+<h1>clip-path</h1>
+
 | **Values**                        | `none` \| \<*`url`*\> \| \[ \[    |
 |                                   | `inset()` \| `circle()` \|        |
 |                                   | `ellipse()` \| `polygon()` \] ‖\  |
@@ -63403,21 +63315,15 @@ visually clip away pieces of an element, you can use the property
 |                                   | \| `content-box` \| `margin-box`  |
 |                                   | \| `fill-box` \|\                 |
 |                                   | `stroke-box` \| `view-box` \] \]  |
-+-----------------------------------+-----------------------------------+
 | **Initial value**                 | `none`                            |
-+-----------------------------------+-----------------------------------+
 | **Applies to**                    | All elements (in SVG, applies to  |
 |                                   | all graphics elements and all     |
 |                                   | container elements except the     |
 |                                   | `<defs>` element)                 |
-+-----------------------------------+-----------------------------------+
 | **Computed value**                | As declared                       |
-+-----------------------------------+-----------------------------------+
 | **Inherited**                     | No                                |
-+-----------------------------------+-----------------------------------+
 | **Animatable**                    | Yes for `inset()`, `circle()`,    |
 |                                   | `ellipse()`, and `polygon()`      |
-+-----------------------------------+-----------------------------------+
 :::
 
 ```{=html}
@@ -63452,7 +63358,7 @@ an SVG file that isn't a `<clipPath>`, no clipping is
 [performed.]{.keep-together}
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1855}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1855}
 
 As of late 2022, []{#ch20.xhtml_idm45797005097536 primary="SVG format"
 secondary="clip paths and" data-type="indexterm"}URL-based clip paths
@@ -63469,7 +63375,7 @@ boxes, or both.
 
 :::: {.section pdf-bookmark="Clip Shapes" data-type="sect2"}
 ::: {#ch20.xhtml_clip_shapes .sect2}
-## Clip Shapes {#ch20.xhtml_sigil_toc_id_1856}
+<h2>Clip Shapes {#ch20.xhtml_sigil_toc_id_1856}
 
 You can define []{#ch20.xhtml_idm45797005094080 primary="clipping"
 secondary="based on simple shapes"
@@ -63546,7 +63452,7 @@ them that's actually drawn.
 
 :::: {.section pdf-bookmark="Clip Boxes" data-type="sect2"}
 ::: {#ch20.xhtml_clip_boxes .sect2}
-## Clip Boxes {#ch20.xhtml_sigil_toc_id_1858}
+<h2>Clip Boxes {#ch20.xhtml_sigil_toc_id_1858}
 
 Unlike []{#ch20.xhtml_ix_clip_box primary="clipping"
 secondary="based on boxes"
@@ -63657,7 +63563,7 @@ startref="ix_clip_box" data-type="indexterm"}
 
 ::::: {.section .less_space .pagebreak-before pdf-bookmark="Clipping with SVG Paths" data-type="sect2"}
 :::: {#ch20.xhtml_clipping_with_svg_points .sect2}
-## Clipping with SVG Paths {#ch20.xhtml_sigil_toc_id_1861}
+<h2>Clipping with SVG Paths {#ch20.xhtml_sigil_toc_id_1861}
 
 If you []{#ch20.xhtml_idm45797004891712 primary="clipping"
 secondary="based on an image"
@@ -63713,7 +63619,7 @@ and can't be declared as percentages of the image's height and width as
 the [`polygon()`]{.keep-together} shape can.
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1863}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1863}
 
 This has been a necessarily very brief spotlight on the ability to use
 SVG paths in CSS, as describing all the ways paths can be shaped is far
@@ -63735,7 +63641,8 @@ startref="ix_masks_clipping_ch20" data-type="indexterm"}
 
 ::::::::::::::::::::::::::::::::::::::::::: {.section .less_space .pagebreak-before pdf-bookmark="Masks" data-type="sect1"}
 :::::::::::::::::::::::::::::::::::::::::: {#ch20.xhtml_masks .sect1}
-# Masks {#ch20.xhtml_sigil_toc_id_1864}
+
+<h1>Masks</h1>
 
 When we []{#ch20.xhtml_ix_masks_ch20 primary="masks"
 data-type="indexterm"}say *mask*, at least in this context, we mean a
@@ -63748,7 +63655,7 @@ allowing you to do things such as position, size, and repeat the masking
 image.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1865}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1865}
 
 As of late 2022, the Chromium familiy supports most of the masking
 properties, but only with the `-webkit-` prefix. So instead of
@@ -63758,7 +63665,7 @@ instead.
 
 ::::: {.section pdf-bookmark="Defining a Mask" data-type="sect2"}
 :::: {#ch20.xhtml_defining_a_mask .sect2}
-## Defining a Mask {#ch20.xhtml_sigil_toc_id_1866}
+<h2>Defining a Mask {#ch20.xhtml_sigil_toc_id_1866}
 
 The first step to []{#ch20.xhtml_ix_mask_image2 primary="masks"
 secondary="image for"
@@ -63771,9 +63678,9 @@ accomplished with `mask-image`, which accepts any image type.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797004785024 .sidebar}
-# mask-image {#ch20.xhtml_sigil_toc_id_1867}
 
-  -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1>mask-image</h1>
+
   **Values**           \[ `none` \| \<*`image`*\> \| \<*`mask-source`*\> \]#
   **Initial value**    `none`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
@@ -63781,7 +63688,6 @@ accomplished with `mask-image`, which accepts any image type.
   **Inherited**        No
   **Animatable**       No
   **Notes**            An \<*`image`*\> is any of the value types \<*`url`*\>, \<*`image()`*\>, \<*`image-set()`*\>, \<*`element()`*\>, \<*`cross-fade()`*\>, or \<*`gradient`*\>; \<*`mask-source`*\> is a `url()` that points to a `<mask>` element in an SVG image
-  -------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -63915,7 +63821,7 @@ startref="ix_mask_image2" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Changing the Mask’s Mode" data-type="sect2"}
 :::: {#ch20.xhtml_changing_the_masks_mode .sect2}
-## Changing the Mask's Mode {#ch20.xhtml_sigil_toc_id_1871}
+<h2>Changing the Mask's Mode {#ch20.xhtml_sigil_toc_id_1871}
 
 You've just []{#ch20.xhtml_ix_mask_mode_chge primary="masks"
 secondary="changing mode"
@@ -63931,16 +63837,14 @@ mask. Switching between these two options is accomplished with the
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797004466320 .sidebar}
-# mask-mode {#ch20.xhtml_sigil_toc_id_1872}
+<h1>mask-mode</h1>
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------
   **Values**           \[ `alpha` \| `luminance` \| `match-source` \]#
   **Initial value**    `match-source`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ----------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64009,7 +63913,7 @@ source image for the mask as follows:
 
 :::::: {.section pdf-bookmark="Sizing and Repeating Masks" data-type="sect2"}
 ::::: {#ch20.xhtml_sizing_and_repeating_masks .sect2}
-## Sizing and Repeating Masks {#ch20.xhtml_sigil_toc_id_1874}
+<h2>Sizing and Repeating Masks {#ch20.xhtml_sigil_toc_id_1874}
 
 Thus far, []{#ch20.xhtml_ix_mask_size_prop primary="mask-size property"
 data-type="indexterm"}[]{#ch20.xhtml_ix_mask_size primary="masks"
@@ -64024,16 +63928,14 @@ element. CSS has a couple of ways to deal with this, starting with
 <aside class="less_space pagebreak-before" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797004268992 .sidebar}
-# mask-size {#ch20.xhtml_sigil_toc_id_1875}
+<h1>mask-size</h1>
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------
   **Values**           \[ \[ \<*`length`*\> \| \<*`percentage`*\> \| `auto` \]{1,2} \| `cover` \| `contain` \]#
   **Initial value**    `auto`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       \<*`length`*\>, \<*`percentage`*\>
-  -------------------- ----------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64084,9 +63986,8 @@ startref="ix_mask_size_prop" data-type="indexterm"}
 <aside class="pagebreak-before less_space" data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797004134640 .sidebar}
-# mask-repeat {#ch20.xhtml_sigil_toc_id_1877}
+<h1>mask-repeat</h1>
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------
   **Values**           \[ `repeat-x` \| `repeat-y` \| \[ `repeat` \| `space` \| `round` \| `no-repeat` \]{1,2} \]#
   **Initial value**    `repeat`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
@@ -64094,7 +63995,6 @@ startref="ix_mask_size_prop" data-type="indexterm"}
   **Inherited**        No
   **Animatable**       Yes
   **Note**             The keywords for `mask-repeat` are reproduced from `background-repeat` and have the same behaviors
-  -------------------- ----------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64127,7 +64027,7 @@ alt="css5 2047" />
 
 :::::: {.section .pagebreak-before .less_space pdf-bookmark="Positioning Masks" data-type="sect2"}
 ::::: {#ch20.xhtml_idm45797003999968 .sect2}
-## Positioning Masks {#ch20.xhtml_sigil_toc_id_1879}
+<h2>Positioning Masks {#ch20.xhtml_sigil_toc_id_1879}
 
 Given that []{#ch20.xhtml_ix_pos_masks primary="positioning"
 secondary="masks" data-type="indexterm"}[]{#ch20.xhtml_ix_masks_position
@@ -64143,9 +64043,8 @@ origin box, similar to `background-origin`. And you'd be exactly right.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003960928 .sidebar}
-# mask-position {#ch20.xhtml_sigil_toc_id_1880}
+<h1>mask-position</h1>
 
-  -------------------- --------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`position`*\>#
   **Initial value**    `0% 0%`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
@@ -64153,7 +64052,6 @@ origin box, similar to `background-origin`. And you'd be exactly right.
   **Inherited**        No
   **Animatable**       \<*`length`*\>, \<*`percentage`*\>
   **Notes**            \<*`position`*\> is exactly the same as the values permitted for `background-position`, and has the same behaviors
-  -------------------- --------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64193,27 +64091,21 @@ masks what `background-origin` does for backgrounds.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003889808 .sidebar}
-# mask-origin {#ch20.xhtml_sigil_toc_id_1882}
 
-+-----------------------------------+-----------------------------------+
+<h1>mask-origin</h1>
+
 | **Values**                        | \[ `content-box` \| `padding-box` |
 |                                   | \| `border-box` \| `margin-box`   |
 |                                   | \| `fill-box` \|\                 |
-|                                   | `stroke-box` \| `view-box` \]#    |
-+-----------------------------------+-----------------------------------+
+|                                   | `stroke-box` \| `view-box` \]<h1>   |
 | **Initial value**                 | `border-box`                      |
-+-----------------------------------+-----------------------------------+
 | **Applies to**                    | All elements (in SVG, applies to  |
 |                                   | all graphics elements and all     |
 |                                   | container elements except the     |
 |                                   | `<defs>` element)                 |
-+-----------------------------------+-----------------------------------+
 | **Computed value**                | As declared                       |
-+-----------------------------------+-----------------------------------+
 | **Inherited**                     | No                                |
-+-----------------------------------+-----------------------------------+
 | **Animatable**                    | No                                |
-+-----------------------------------+-----------------------------------+
 :::
 
 ```{=html}
@@ -64242,7 +64134,7 @@ alt="css5 2049" />
 
 ::::::: {.section pdf-bookmark="Clipping and Compositing Masks" data-type="sect2"}
 :::::: {#ch20.xhtml_idm45797003999312 .sect2}
-## Clipping and Compositing Masks {#ch20.xhtml_sigil_toc_id_1884}
+<h2>Clipping and Compositing Masks {#ch20.xhtml_sigil_toc_id_1884}
 
 One more []{#ch20.xhtml_idm45797003818976 primary="masks"
 secondary="clipping"
@@ -64257,28 +64149,22 @@ echoes backgrounds, and that's `mask-clip`, the mask equivalent of
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003815296 .sidebar}
-# mask-clip {#ch20.xhtml_sigil_toc_id_1885}
 
-+-----------------------------------+-----------------------------------+
+<h1>mask-clip</h1>
+
 | **Values**                        | \[ `content-box` \| `padding-box` |
 |                                   | \| `border-box` \| `margin-box`   |
 |                                   | \| `fill-box` \|\                 |
 |                                   | `stroke-box` \| `view-box` \|     |
-|                                   | `no-clip` \]#                     |
-+-----------------------------------+-----------------------------------+
+|                                   | `no-clip` \]<h1>                    |
 | **Initial value**                 | `border-box`                      |
-+-----------------------------------+-----------------------------------+
 | **Applies to**                    | All elements (in SVG, applies to  |
 |                                   | all graphics elements and all     |
 |                                   | container elements except the     |
 |                                   | `<defs>` element)                 |
-+-----------------------------------+-----------------------------------+
 | **Computed value**                | As declared                       |
-+-----------------------------------+-----------------------------------+
 | **Inherited**                     | No                                |
-+-----------------------------------+-----------------------------------+
 | **Animatable**                    | No                                |
-+-----------------------------------+-----------------------------------+
 :::
 
 ```{=html}
@@ -64317,7 +64203,7 @@ property, `mask-composite`, is quite interesting because it can
 radically change the way multiple masks interact.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1887}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1887}
 
 As of early 2023, `mask-composite` is supported only by Firefox, but all
 browsers (even Firefox) support the prefixed form
@@ -64328,16 +64214,14 @@ browsers (even Firefox) support the prefixed form
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003729456 .sidebar}
-# mask-composite {#ch20.xhtml_sigil_toc_id_1888}
+<h1>mask-composite</h1>
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------
   **Values**           \[ `add` \| `subtract` \| `intersect` \| `exclude` \]#
   **Initial value**    `add`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element)
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ----------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64406,7 +64290,7 @@ alt="css5 2052" />
 
 ::::: {.section pdf-bookmark="Bringing It All Together" data-type="sect2"}
 :::: {#ch20.xhtml_idm45797003820016 .sect2}
-## Bringing It All Together {#ch20.xhtml_sigil_toc_id_1891}
+<h2>Bringing It All Together {#ch20.xhtml_sigil_toc_id_1891}
 
 All of the []{#ch20.xhtml_idm45797003661504 primary="mask property"
 data-type="indexterm"}[]{#ch20.xhtml_idm45797003660768 primary="masks"
@@ -64417,9 +64301,9 @@ properties are brought together in the shorthand property `mask`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003659184 .sidebar}
-# mask {#ch20.xhtml_sigil_toc_id_1892}
 
-+-----------------------------------+-----------------------------------+
+<h1>mask</h1>
+
 | **Values**                        | \[ \<*`mask-image`*\> ‖           |
 |                                   | \<*`mask-position`*\> \[ /        |
 |                                   | \<*`mask-size`*\> \]? ‖\          |
@@ -64427,21 +64311,15 @@ properties are brought together in the shorthand property `mask`.
 |                                   | \<*`mask-clip`*\> ‖               |
 |                                   | \<*`mask-origin`*\> ‖\            |
 |                                   | \<*`mask-composite`*\> ‖          |
-|                                   | \<*`mask-mode`*\> \]#             |
-+-----------------------------------+-----------------------------------+
+|                                   | \<*`mask-mode`*\> \]<h1>            |
 | **Initial value**                 | See individual properties         |
-+-----------------------------------+-----------------------------------+
 | **Applies to**                    | All elements (in SVG, applies to  |
 |                                   | all graphics elements and all     |
 |                                   | container elements except the     |
 |                                   | `<defs>` element)                 |
-+-----------------------------------+-----------------------------------+
 | **Computed value**                | As declared                       |
-+-----------------------------------+-----------------------------------+
 | **Inherited**                     | No                                |
-+-----------------------------------+-----------------------------------+
 | **Animatable**                    | Refer to individual properties    |
-+-----------------------------------+-----------------------------------+
 :::
 
 ```{=html}
@@ -64489,7 +64367,7 @@ alt="css5 2053" />
 
 ::::: {.section pdf-bookmark="Setting Mask Types" data-type="sect2"}
 :::: {#ch20.xhtml_idm45797003584512 .sect2}
-## Setting Mask Types {#ch20.xhtml_sigil_toc_id_1894}
+<h2>Setting Mask Types {#ch20.xhtml_sigil_toc_id_1894}
 
 When you're []{#ch20.xhtml_idm45797003582912 primary="masks"
 secondary="setting types"
@@ -64502,16 +64380,14 @@ SVG elements, and you want to set the SVG `<mask>` type, then
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003515808 .sidebar}
-# mask-type {#ch20.xhtml_sigil_toc_id_1895}
+<h1>mask-type</h1>
 
-  -------------------- ------------------------
   **Values**           `luminance` \| `alpha`
   **Initial value**    `luminance`
   **Applies to**       SVG `<mask>` elements
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ------------------------
 :::
 
 ```{=html}
@@ -64539,7 +64415,7 @@ used instead.
 
 ::::::::::::::: {.section pdf-bookmark="Border-Image Masking" data-type="sect2"}
 :::::::::::::: {#ch20.xhtml_border-image_masking .sect2}
-## Border-Image Masking {#ch20.xhtml_sigil_toc_id_1896}
+<h2>Border-Image Masking {#ch20.xhtml_sigil_toc_id_1896}
 
 The []{#ch20.xhtml_ix_mask_border_image primary="masks"
 secondary="border-image masking" data-type="indexterm"}same
@@ -64566,7 +64442,7 @@ primary="mask-border-source property" data-type="indexterm"}been
 established, you can begin masking the border.
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1897}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1897}
 
 As of late 2022, all these properties are supported in Chromium and
 WebKit browsers as `-webkit-mask-box-image-*` instead of the names used
@@ -64580,9 +64456,8 @@ property summary boxes that follow, but examples use the standard
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003469056 .sidebar}
-# mask-border-source {#ch20.xhtml_sigil_toc_id_1898}
+<h1>mask-border-source</h1>
 
-  -------------------- -----------------------------------------------------------------------------------
   **Values**           `none` \| \<*`image`*\>
   **Initial value**    `none`
   **Applies to**       All elements, except internal table elements when `border-collapse` is `collapse`
@@ -64590,7 +64465,6 @@ property summary boxes that follow, but examples use the standard
   **Inherited**        No
   **Animatable**       No
   **Note**             Supported in Chromium and WebKit only as `-webkit-mask-box-image-source`
-  -------------------- -----------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64607,9 +64481,8 @@ defining a distinct width for the mask, and so on.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003402432 .sidebar}
-# mask-border-slice {#ch20.xhtml_sigil_toc_id_1899}
+<h1>mask-border-slice</h1>
 
-  -------------------- -----------------------------------------------------------------------------------
   **Values**           \[ \<*`number`*\> \| \<*`percentage`*\> \]{1,4} && `fill`?
   **Initial value**    `100%`
   **Applies to**       All elements, except internal table elements when `border-collapse` is `collapse`
@@ -64618,7 +64491,6 @@ defining a distinct width for the mask, and so on.
   **Inherited**        No
   **Animatable**       \<*`number`*\>, \<*`percentage`*\>
   **Note**             Supported in Chromium and WebKit only as `-webkit-mask-box-image-slice`
-  -------------------- -----------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64633,7 +64505,7 @@ to four values, defining (in order) offsets from the top, right, bottom,
 and left edges.
 
 ::: {.note data-type="note"}
-###### Note {#ch20.xhtml_sigil_toc_id_1900}
+<h5>Note {#ch20.xhtml_sigil_toc_id_1900}
 
 As of late 2022, no logical-property equivalent exists for
 `mask-border-slice`. If the proposed addition of a `logical` keyword, or
@@ -64690,7 +64562,7 @@ alt="css5 2055" />
 </figure>
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1903}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1903}
 
 As of late 2022, a bug in browsers that support the prefixed property
 causes the content and padding of an element to be completely hidden
@@ -64705,9 +64577,8 @@ primary="mask-border-width property" data-type="indexterm"}and use
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003293408 .sidebar}
-# mask-border-width {#ch20.xhtml_sigil_toc_id_1904}
+<h1>mask-border-width</h1>
 
-  -------------------- -------------------------------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`percentage`*\> \| \<*`number`*\> \| `auto` \]{1,4}
   **Initial value**    `1`
   **Applies to**       All elements, except table elements when `border-collapse` is `collapse`
@@ -64716,7 +64587,6 @@ primary="mask-border-width property" data-type="indexterm"}and use
   **Inherited**        No
   **Animatable**       Yes
   **Note**             Values can never be negative; supported in Chromium and WebKit only as `-webkit-mask-box-image-width`
-  -------------------- -------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64741,9 +64611,8 @@ the context in which it appears.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003244752 .sidebar}
-# mask-border-outset {#ch20.xhtml_sigil_toc_id_1905}
+<h1>mask-border-outset</h1>
 
-  -------------------- -----------------------------------------------------------------------------------
   **Values**           \[ \<*`length`*\> \| \<*`number`*\> \]{1,4}
   **Initial value**    `0`
   **Applies to**       All elements, except internal table elements when `border-collapse` is `collapse`
@@ -64752,7 +64621,6 @@ the context in which it appears.
   **Inherited**        No
   **Animatable**       Yes
   **Note**             Supported in Chromium and WebKit only as `-webkit-mask-box-image-outset`
-  -------------------- -----------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64767,7 +64635,7 @@ masked area outside the border will mask only the margin area, which is
 already transparent and so can't be visibly altered.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch20.xhtml_sigil_toc_id_1906}
+<h5>Warning {#ch20.xhtml_sigil_toc_id_1906}
 
 As of late 2022, browsers supporting the prefixed property not only push
 the slices outward, but also expand the center area by the given amount,
@@ -64783,9 +64651,8 @@ data-type="indexterm"}correct by a CSS Working Group decision).
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003194688 .sidebar}
-# mask-border-repeat {#ch20.xhtml_sigil_toc_id_1907}
+<h1>mask-border-repeat</h1>
 
-  -------------------- -----------------------------------------------------------------------------------
   **Values**           \[ `stretch` \| `repeat` \| `round` \| `space` \]{1,2}
   **Initial value**    `stretch`
   **Applies to**       All elements, except internal table elements when `border-collapse` is `collapse`
@@ -64793,7 +64660,6 @@ data-type="indexterm"}correct by a CSS Working Group decision).
   **Inherited**        No
   **Animatable**       No
   **Note**             Supported in Chromium and WebKit only as `-webkit-mask-box-image-repeat`
-  -------------------- -----------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64832,9 +64698,8 @@ styling aspect that image borders do not, and it's set with the property
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003171376 .sidebar}
-# mask-border-mode {#ch20.xhtml_sigil_toc_id_1909}
+<h1>mask-border-mode</h1>
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           `alpha` \| `luminance`
   **Initial value**    `alpha`
   **Applies to**       All elements (in SVG, applies to all graphics elements and all container elements except the `<defs>` element, all graphics elements, and the `<use>` element)
@@ -64842,7 +64707,6 @@ styling aspect that image borders do not, and it's set with the property
   **Inherited**        No
   **Animatable**       Discrete
   **Note**             Not yet supported in any browser, even with a `-webkit-` prefix
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64858,9 +64722,8 @@ chapter.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003152912 .sidebar}
-# mask-border {#ch20.xhtml_sigil_toc_id_1910}
+<h1>mask-border</h1>
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`mask-border-source`*\> ‖ \<*`mask-border-slice`*\> \[ / \<*`mask-border-width`*\>? \[ / \<*`mask-border-outset`*\> \]? \]? ‖ \<*`mask-border-repeat`*\> ‖ \<*`mask-border-mode`*\>
   **Initial value**    See individual properties
   **Applies to**       See individual properties
@@ -64868,7 +64731,6 @@ chapter.
   **Inherited**        No
   **Animatable**       See individual properties
   **Note**             Supported in Chromium and WebKit only as `-webkit-mask-box-image` without the `mask-border-mode` value
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -64887,7 +64749,7 @@ startref="ix_mask_border_image" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Object Fitting and Positioning" data-type="sect1"}
 ::::: {#ch20.xhtml_object-fitting-and-positioning .sect1}
-# Object Fitting and Positioning {#ch20.xhtml_sigil_toc_id_1911}
+<h1>Object Fitting and Positioning {#ch20.xhtml_sigil_toc_id_1911}
 
 One more []{#ch20.xhtml_ix_image_fit_pos primary="images"
 secondary="fitting and positioning"
@@ -64903,16 +64765,14 @@ have it not fill that box completely.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797003125872 .sidebar}
-# object-fit {#ch20.xhtml_sigil_toc_id_1912}
+<h1>object-fit {#ch20.xhtml_sigil_toc_id_1912}
 
-  -------------------- ----------------------------------------------------------
   **Values**           `fill` \| `contain` \| `cover` \| `scale-down` \| `none`
   **Initial value**    `fill`
   **Applies to**       Replaced elements
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- ----------------------------------------------------------
 :::
 
 ```{=html}
@@ -65018,9 +64878,8 @@ startref="ix_obj_fit_prop" data-type="indexterm"}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch20.xhtml_idm45797002953840 .sidebar}
-# object-position {#ch20.xhtml_sigil_toc_id_1915}
+<h1>object-position {#ch20.xhtml_sigil_toc_id_1915}
 
-  -------------------- --------------------------------------------------------------------------------------------------------------------
   **Values**           \<*`position`*\>
   **Initial value**    `50% 50%`
   **Applies to**       Replaced elements
@@ -65028,7 +64887,6 @@ startref="ix_obj_fit_prop" data-type="indexterm"}
   **Inherited**        No
   **Animatable**       Yes
   **Notes**            \<*`position`*\> is exactly the same as the values permitted for `background-position`, and has the same behaviors
-  -------------------- --------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -65106,7 +64964,7 @@ startref="ix_pos_object" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch20.xhtml_idm45797003130784 .sect1}
-# Summary {#ch20.xhtml_sigil_toc_id_1918}
+<h1>Summary {#ch20.xhtml_sigil_toc_id_1918}
 
 With all of the effects available to CSS authors, we have an infinite
 variety of outcomes and thus an infinite variety of creative
@@ -65124,7 +64982,7 @@ fingertips.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch21.xhtml_sbo-rt-content}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch21.xhtml_css-at-rules .chapter}
-# [Chapter 21. ]{.label}CSS At-Rules
+<h1>[Chapter 21. ]{.label}CSS At-Rules
 
 For 20 chapters now, we've explored the []{#ch21.xhtml_ix_at-rules_ch21
 primary="at-rules" data-type="indexterm"}properties, values, and
@@ -65144,7 +65002,7 @@ This chapter explores the three powerful at-rules `@media`,
 
 ::::::::::::::::::::::: {.section pdf-bookmark="Media Queries" data-type="sect1"}
 :::::::::::::::::::::: {#ch21.xhtml_idm45797002729632 .sect1}
-# Media Queries {#ch21.xhtml_sigil_toc_id_1919}
+<h1>Media Queries {#ch21.xhtml_sigil_toc_id_1919}
 
 Thanks to the []{#ch21.xhtml_ix_media_qs
 primary="media queries (@media)"
@@ -65159,7 +65017,7 @@ form before exploring the more complex forms.
 
 :::::: {.section pdf-bookmark="Basic Media Queries" data-type="sect2"}
 ::::: {#ch21.xhtml_basic-media-queries .sect2}
-## Basic Media Queries {#ch21.xhtml_sigil_toc_id_1920}
+<h2>Basic Media Queries {#ch21.xhtml_sigil_toc_id_1920}
 
 For []{#ch21.xhtml_ix_media_q_attr primary="media queries (@media)"
 secondary="media attribute"
@@ -65246,7 +65104,7 @@ provided for the `screen` medium alone, followed by another block of
 rules that applies only in the `print` medium.
 
 ::: {.note data-type="note"}
-###### Note {#ch21.xhtml_sigil_toc_id_1921}
+<h5>Note {#ch21.xhtml_sigil_toc_id_1921}
 
 The indentation shown in these blocks is solely for purposes of clarity.
 You don't have to indent the rules found inside an `@media` block, but
@@ -65294,7 +65152,7 @@ should almost certainly be converted to one of the three recognized
 media types, if [possible.]{.keep-together}
 
 ::: {.note data-type="note"}
-###### Note {#ch21.xhtml_sigil_toc_id_1922}
+<h5>Note {#ch21.xhtml_sigil_toc_id_1922}
 
 As of 2022, a couple of browsers still support `projection`, which
 allows a document to be presented as a slideshow. Several mobile-device
@@ -65330,7 +65188,7 @@ startref="ix_media_attr_ch21" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Complex Media Queries" data-type="sect2"}
 ::: {#ch21.xhtml_complex-media-queries .sect2}
-## Complex Media Queries {#ch21.xhtml_sigil_toc_id_1923}
+<h2>Complex Media Queries {#ch21.xhtml_sigil_toc_id_1923}
 
 In the []{#ch21.xhtml_ix_media_q_complex
 primary="media queries (@media)" secondary="complex"
@@ -65502,7 +65360,7 @@ incompatibility. Yes, really.
 
 :::: {.section pdf-bookmark="Special Value Types" data-type="sect2"}
 ::: {#ch21.xhtml_special-value-types .sect2}
-## Special Value Types {#ch21.xhtml_sigil_toc_id_1925}
+<h2>Special Value Types {#ch21.xhtml_sigil_toc_id_1925}
 
 Two []{#ch21.xhtml_idm45797002069072 primary="media queries (@media)"
 secondary="special value types" data-type="indexterm"}value types were
@@ -65532,7 +65390,7 @@ specific media features, which are explained later in the chapter:
 
 :::: {.section pdf-bookmark="Keyword Media Features" data-type="sect2"}
 ::: {#ch21.xhtml_keyword-media-feature-descriptors .sect2}
-## Keyword Media Features {#ch21.xhtml_sigil_toc_id_1926}
+<h2>Keyword Media Features {#ch21.xhtml_sigil_toc_id_1926}
 
 So far you've []{#ch21.xhtml_ix_media_desc_value
 primary="media queries (@media)"
@@ -65870,7 +65728,7 @@ Media feature: `video-dynamic-range`
 
 :::: {.section pdf-bookmark="Forced Colors, Contrast, and Display Mode" data-type="sect2"}
 ::: {#ch21.xhtml_forced_colors_contrast_and_display_mode .sect2}
-## Forced Colors, Contrast, and Display Mode {#ch21.xhtml_sigil_toc_id_1927}
+<h2>Forced Colors, Contrast, and Display Mode {#ch21.xhtml_sigil_toc_id_1927}
 
 Three of the []{#ch21.xhtml_ix_media_q_user_pref
 primary="media queries (@media)"
@@ -66043,7 +65901,7 @@ startref="ix_media_q_user_pref" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Ranged Media Features" data-type="sect2"}
 :::: {#ch21.xhtml_ranged_descriptors .sect2}
-## Ranged Media Features {#ch21.xhtml_sigil_toc_id_1928}
+<h2>Ranged Media Features {#ch21.xhtml_sigil_toc_id_1928}
 
 Now we []{#ch21.xhtml_ix_media_q_ranged primary="media queries (@media)"
 secondary="ranged media features" data-type="indexterm"}turn our
@@ -66222,7 +66080,7 @@ width of the display area is between 20 and 45 em, and the output
 resolution is below 600 dots per inch.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch21.xhtml_sigil_toc_id_1929}
+<h5>Warning {#ch21.xhtml_sigil_toc_id_1929}
 
 As of early 2023, the Chrome and Firefox browser families support the
 compact range syntax, and Safari has it in its nightly builds. We hope
@@ -66235,7 +66093,7 @@ startref="ix_media_q_ranged" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Deprecated Media Features" data-type="sect2"}
 ::: {#ch21.xhtml_deprecated_descriptors .sect2}
-## Deprecated Media Features {#ch21.xhtml_sigil_toc_id_1930}
+<h2>Deprecated Media Features {#ch21.xhtml_sigil_toc_id_1930}
 
 The []{#ch21.xhtml_idm45797001430432 primary="media queries (@media)"
 secondary="deprecated media features" data-type="indexterm"}following
@@ -66297,7 +66155,7 @@ Best replaced by: `aspect-ratio`, `min-aspect-ratio`, `max-aspect-ratio`
 
 :::: {.section pdf-bookmark="Responsive Styling" data-type="sect2"}
 ::: {#ch21.xhtml_idm45797001398288 .sect2}
-## Responsive Styling {#ch21.xhtml_sigil_toc_id_1931}
+<h2>Responsive Styling {#ch21.xhtml_sigil_toc_id_1931}
 
 Media []{#ch21.xhtml_idm45797001396624 primary="media queries (@media)"
 secondary="responsive styling using"
@@ -66418,7 +66276,7 @@ startref="ix_media_qs" data-type="indexterm"}
 
 :::::::::::::::::::::::::::::::: {.section pdf-bookmark="Paged Media" data-type="sect1"}
 ::::::::::::::::::::::::::::::: {#ch21.xhtml_paged-media .sect1}
-# Paged Media {#ch21.xhtml_sigil_toc_id_1932}
+<h1>Paged Media {#ch21.xhtml_sigil_toc_id_1932}
 
 In CSS terms, a *paged medium* is any []{#ch21.xhtml_ix_paged_media
 primary="paged media"
@@ -66436,7 +66294,7 @@ slide is a "page" in CSS terms.
 
 :::: {.section pdf-bookmark="Print Styles" data-type="sect2"}
 ::: {#ch21.xhtml_print-styles .sect2}
-## Print Styles {#ch21.xhtml_sigil_toc_id_1933}
+<h2>Print Styles {#ch21.xhtml_sigil_toc_id_1933}
 
 Even in []{#ch21.xhtml_idm45797001234144 primary="printing"
 secondary="paged media styles"
@@ -66457,7 +66315,7 @@ print styles on a monitor.
 
 :::: {.section pdf-bookmark="Differences Between Screen and Print" data-type="sect2"}
 ::: {#ch21.xhtml_differences-between-screen-and-print .sect2}
-## Differences Between Screen and Print {#ch21.xhtml_sigil_toc_id_1934}
+<h2>Differences Between Screen and Print {#ch21.xhtml_sigil_toc_id_1934}
 
 Beyond the []{#ch21.xhtml_idm45797001193584 primary="paged media"
 secondary="screen versus print" data-type="indexterm"}obvious physical
@@ -66559,7 +66417,7 @@ book.
 
 :::::: {.section pdf-bookmark="Page Size" data-type="sect2"}
 ::::: {#ch21.xhtml_defining-the-page-size .sect2}
-## Page Size {#ch21.xhtml_sigil_toc_id_1935}
+<h2>Page Size {#ch21.xhtml_sigil_toc_id_1935}
 
 In much the []{#ch21.xhtml_ix_paged_media_size primary="paged media"
 secondary="page size" data-type="indexterm"}same way as it defines the
@@ -66608,7 +66466,7 @@ of styles. One of them, `size`, makes sense only in the context of an
 `@page` block.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch21.xhtml_sigil_toc_id_1937}
+<h5>Warning {#ch21.xhtml_sigil_toc_id_1937}
 
 As of late 2022, only Chromium-based browsers support `size`.
 :::
@@ -66617,16 +66475,14 @@ As of late 2022, only Chromium-based browsers support `size`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45797000997648 .sidebar}
-# size {#ch21.xhtml_sigil_toc_id_1938}
+<h1>size</h1>
 
-  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
   **Values**          `auto` \| \<*`length`*\>{1,2} \| \[ \<*`page-size`*\> \|\| \[ `portrait` \| `landscape` \] \]
   **Initial value**   `auto`
   **Applies to**      The page area
   **Inherited**       No
   **Animatable**      No
   **Note**            \<*`page-size`*\> is one of a defined set of standard pages sizes; see [Table 21-1](#ch21.xhtml_page-size-keywords){data-type="xref"} for details
-  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -66657,7 +66513,6 @@ are available. These are summarized in
 [Table 21-1](#ch21.xhtml_page-size-keywords){data-type="xref"}.
 
   Keyword    Description
-  ---------- ---------------------------------------------------------------------------------------------------
   `A5`       International Standards Organization (ISO) A5 size, 148 mm wide x 210 mm tall (5.83 in x 8.27 in)
   `A4`       ISO A2 size, 210 mm x 297 mm (8.27 in x 11.69 in)
   `A3`       ISO A3 size, 297 mm x 420 mm (11.69 in x 16.54 in)
@@ -66707,7 +66562,7 @@ startref="ix_size_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Page Margins and Padding" data-type="sect2"}
 ::: {#ch21.xhtml_idm45797001085008 .sect2}
-## Page Margins and Padding {#ch21.xhtml_sigil_toc_id_1940}
+<h2>Page Margins and Padding {#ch21.xhtml_sigil_toc_id_1940}
 
 Related to `size`, CSS []{#ch21.xhtml_idm45797000825520
 primary="margins" secondary="paged media"
@@ -66732,7 +66587,7 @@ used for the content displayed on the page.
 
 :::::: {.section pdf-bookmark="Named Page Types" data-type="sect2"}
 ::::: {#ch21.xhtml_selecting-page-types .sect2}
-## Named Page Types {#ch21.xhtml_sigil_toc_id_1941}
+<h2>Named Page Types {#ch21.xhtml_sigil_toc_id_1941}
 
 CSS []{#ch21.xhtml_ix_paged_media_name primary="paged media"
 secondary="named page types" data-type="indexterm"}enables you to create
@@ -66765,15 +66620,13 @@ The `page` propery is what makes this possible.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45797000696336 .sidebar}
-# page {#ch21.xhtml_sigil_toc_id_1942}
+<h1>page {#ch21.xhtml_sigil_toc_id_1942}
 
-  ------------------- ------------------------------
   **Values**          \<*`identifier`*\> \| `auto`
   **Initial value**   `auto`
   **Applies to**      Block-level elements
   **Inherited**       No
   **Animatable**      No
-  ------------------- ------------------------------
 :::
 
 ```{=html}
@@ -66811,7 +66664,7 @@ book would be. This is a common practice when pages are to be bound
 together into a book of some type.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch21.xhtml_sigil_toc_id_1943}
+<h5>Warning {#ch21.xhtml_sigil_toc_id_1943}
 
 As of early 2023 the Firefox family doesn't support `:first`, `:left`,
 or `:right`.[]{#ch21.xhtml_idm45797000585424 primary=""
@@ -66824,7 +66677,7 @@ startref="ix_paged_media_name" data-type="indexterm"}
 
 :::::: {.section pdf-bookmark="Page Breaking" data-type="sect2"}
 ::::: {#ch21.xhtml_page-breaking .sect2}
-## Page Breaking {#ch21.xhtml_sigil_toc_id_1944}
+<h2>Page Breaking {#ch21.xhtml_sigil_toc_id_1944}
 
 In a []{#ch21.xhtml_ix_page_break_bef_prop
 primary="page-break-before property"
@@ -66842,16 +66695,14 @@ page breaking by using the properties `page-break-before` and
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45797000567616 .sidebar}
-# page-break-before, page-break-after {#ch21.xhtml_sigil_toc_id_1945}
+<h1>page-break-before, page-break-after {#ch21.xhtml_sigil_toc_id_1945}
 
-  -------------------- -----------------------------------------------------------------------------------
   **Values**           `auto` \| `always` \| `avoid` \| `left` \| `right` \| `inherit`
   **Initial value**    `auto`
   **Applies to**       Nonfloated block-level elements with a `position` value of `relative` or `static`
   **Inherited**        No
   **Animatable**       No
   **Computed value**   As specified
-  -------------------- -----------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -66931,16 +66782,16 @@ h4 {page-break-after: avoid;}
 h4 + img {height: 10.5in;}
 ```
 
-Now, suppose further that an `<h4>` is placed between two images, and
+Now, suppose further that an `&lt;h4&gt;` is placed between two images, and
 its height calculates to be half an inch. Each image will have to be
-printed on a separate page, but the `<h4>` can go only two places: at
+printed on a separate page, but the `&lt;h4&gt;` can go only two places: at
 the bottom of the page holding the first element, or on the page after
 it. If it's placed after the first image, it has to be followed by a
 page break, since there's no room for the second image to follow it.
 
-On the other hand, if the `<h4>` is placed on a new page following the
+On the other hand, if the `&lt;h4&gt;` is placed on a new page following the
 first image, there won't be room on that same page for the second image.
-So, again, a page break will occur after the `<h4>`. And, in either
+So, again, a page break will occur after the `&lt;h4&gt;`. And, in either
 case, at least one image, if not both, will be preceded by a page break.
 There's only so much the user agent can do, given a situation like this
 one.[]{#ch21.xhtml_idm45797000416896 primary=""
@@ -66964,15 +66815,13 @@ its cousins.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45797000412832 .sidebar}
-# page-break-inside {#ch21.xhtml_sigil_toc_id_1947}
+<h1>page-break-inside {#ch21.xhtml_sigil_toc_id_1947}
 
-  -------------------- -----------------------------------------------------------------------------------
   **Values**           `auto` \| `avoid`
   **Initial value**    `auto`
   **Applies to**       Nonfloated block-level elements with a `position` value of `relative` or `static`
   **Inherited**        Yes
   **Computed value**   As specified
-  -------------------- -----------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -66996,7 +66845,7 @@ break inside the element.
 
 :::::: {.section pdf-bookmark="Orphans and Widows" data-type="sect2"}
 ::::: {#ch21.xhtml_orphans-and-widows .sect2}
-## Orphans and Widows {#ch21.xhtml_sigil_toc_id_1948}
+<h2>Orphans and Widows {#ch21.xhtml_sigil_toc_id_1948}
 
 There are two []{#ch21.xhtml_ix_widows_prop primary="widows property"
 data-type="indexterm"}[]{#ch21.xhtml_ix_orphan_prop
@@ -67011,16 +66860,14 @@ breaking: `widows` and `orphans`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45797000349952 .sidebar}
-# widows, orphans {#ch21.xhtml_sigil_toc_id_1949}
+<h1>widows, orphans {#ch21.xhtml_sigil_toc_id_1949}
 
-  -------------------- ----------------------
   **Values**           \<*`integer`*\>
   **Initial value**    `2`
   **Applies to**       Block-level elements
   **Computed value**   As specified
   **Inherited**        No
   **Animatable**       Yes
-  -------------------- ----------------------
 :::
 
 ```{=html}
@@ -67088,7 +66935,7 @@ p {page-break-inside: avoid;}
 ```
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch21.xhtml_sigil_toc_id_1951}
+<h5>Warning {#ch21.xhtml_sigil_toc_id_1951}
 
 Both `widows` and `orphans` have long been supported in most browsers,
 except for the Firefox family, which still does not seem to support them
@@ -67104,7 +66951,7 @@ startref="ix_orphan_prop" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Page-Breaking Behavior" data-type="sect2"}
 ::: {#ch21.xhtml_page-breaking-behavior .sect2}
-## Page-Breaking Behavior {#ch21.xhtml_sigil_toc_id_1952}
+<h2>Page-Breaking Behavior {#ch21.xhtml_sigil_toc_id_1952}
 
 Because CSS allows for some odd page-breaking styles, it defines a set
 of behaviors regarding allowed page breaks and "best" page breaks. These
@@ -67207,7 +67054,7 @@ startref="ix_paged_media_break" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Repeated Elements" data-type="sect2"}
 ::: {#ch21.xhtml_repeated-elements .sect2}
-## Repeated Elements {#ch21.xhtml_sigil_toc_id_1954}
+<h2>Repeated Elements {#ch21.xhtml_sigil_toc_id_1954}
 
 A very []{#ch21.xhtml_idm45797000189008 primary="paged media"
 secondary="repeated elements on every page" data-type="indexterm"}common
@@ -67255,7 +67102,7 @@ an element with `page: toc` set:
 
 :::: {.section pdf-bookmark="Elements Outside the Page" data-type="sect2"}
 ::: {#ch21.xhtml_elements-outside-the-page .sect2}
-## Elements Outside the Page {#ch21.xhtml_sigil_toc_id_1955}
+<h2>Elements Outside the Page {#ch21.xhtml_sigil_toc_id_1955}
 
 All []{#ch21.xhtml_idm45797000062976 primary="paged media"
 secondary="elements outside the page" data-type="indexterm"}this talk of
@@ -67309,7 +67156,7 @@ startref="ix_paged_media" data-type="indexterm"}
 
 :::::::::::::::::::: {.section pdf-bookmark="Container Queries" data-type="sect1"}
 ::::::::::::::::::: {#ch21.xhtml_container-queries .sect1}
-# Container Queries {#ch21.xhtml_sigil_toc_id_1956}
+<h1>Container Queries {#ch21.xhtml_sigil_toc_id_1956}
 
 As []{#ch21.xhtml_ix_container_queries primary="container queries"
 data-type="indexterm"}[]{#ch21.xhtml_ix_atrule_contain
@@ -67354,7 +67201,7 @@ Let's explore the new properties that container queries introduce, and
 then dig into the query block syntax.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch21.xhtml_sigil_toc_id_1957}
+<h5>Warning {#ch21.xhtml_sigil_toc_id_1957}
 
 Container queries gained widespread browser support in mid- to late
 2022, so be careful when using them if you have users with browsers
@@ -67364,7 +67211,7 @@ evergreen browsers.
 
 ::::: {.section pdf-bookmark="Defining Container Types" data-type="sect2"}
 :::: {#ch21.xhtml_defining-container-types .sect2}
-## Defining Container Types {#ch21.xhtml_sigil_toc_id_1958}
+<h2>Defining Container Types {#ch21.xhtml_sigil_toc_id_1958}
 
 There are a []{#ch21.xhtml_ix_contain_q_types
 primary="container queries" secondary="types of containers"
@@ -67378,16 +67225,14 @@ that are enabled for the container. It's all managed through the
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45796999877552 .sidebar}
-# container-type {#ch21.xhtml_sigil_toc_id_1959}
+<h1>container-type {#ch21.xhtml_sigil_toc_id_1959}
 
-  -------------------- -------------------------------------
   **Value**            `normal` \| `size` \| `inline-size`
   **Initial value**    `normal`
   **Applies to**       All elements
   **Computed value**   As declared
   **Inherited**        No
   **Animatable**       No
-  -------------------- -------------------------------------
 :::
 
 ```{=html}
@@ -67487,7 +67332,7 @@ startref="ix_contain_q_types" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Defining Container Names" data-type="sect2"}
 :::: {#ch21.xhtml_defining-container-names .sect2}
-## Defining Container Names {#ch21.xhtml_sigil_toc_id_1960}
+<h2>Defining Container Names {#ch21.xhtml_sigil_toc_id_1960}
 
 To refer to a []{#ch21.xhtml_ix_contain_q_name
 primary="container queries" secondary="naming containers"
@@ -67499,9 +67344,8 @@ to the same element.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45796999502208 .sidebar}
-# container-name {#ch21.xhtml_sigil_toc_id_1961}
+<h1>container-name {#ch21.xhtml_sigil_toc_id_1961}
 
-  -------------------- ----------------------------------------------------------------------------------------
   **Value**            `none` ‖ \<*`custom-ident`*\>
   **Initial value**    `none`
   **Applies to**       All elements
@@ -67509,7 +67353,6 @@ to the same element.
   **Inherited**        No
   **Animatable**       No
   **Note**             You cannot use the keywords `and`, `none`, `not`, nor `or` in the \<*`custom-ident`*\>
-  -------------------- ----------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -67560,7 +67403,7 @@ header#page, .full-width, full-bleed, footer {
 
 ::::: {.section pdf-bookmark="Using Container Shorthand" data-type="sect2"}
 :::: {#ch21.xhtml_the-container-shorthand .sect2}
-## Using Container Shorthand {#ch21.xhtml_sigil_toc_id_1962}
+<h2>Using Container Shorthand {#ch21.xhtml_sigil_toc_id_1962}
 
 Now let's []{#ch21.xhtml_idm45796999325760 primary="container queries"
 secondary="shorthand property"
@@ -67572,9 +67415,8 @@ properties together into a single shorthand, `container`.
 <aside data-type="sidebar" epub:type="sidebar">
 ```
 ::: {#ch21.xhtml_idm45796999323440 .sidebar}
-# container {#ch21.xhtml_sigil_toc_id_1963}
+<h1>container {#ch21.xhtml_sigil_toc_id_1963}
 
-  -------------------- ------------------------------------------------------------------------------------------
   **Value**            \<*`container-name`*\> \[ / \<*`container-type`*\> \]?
   **Initial value**    See individual properties
   **Applies to**       All elements
@@ -67582,7 +67424,6 @@ properties together into a single shorthand, `container`.
   **Inherited**        No
   **Animatable**       No
   **Note**             You cannot use the keywords `and`, `none`, `not`, nor `or` in the \<*`container-name`*\>
-  -------------------- ------------------------------------------------------------------------------------------
 :::
 
 ```{=html}
@@ -67638,7 +67479,7 @@ now it's time to discuss exactly how that works.
 
 :::: {.section pdf-bookmark="Using Container At-Rules" data-type="sect2"}
 ::: {#ch21.xhtml_container-at-blocks .sect2}
-## Using Container At-Rules {#ch21.xhtml_sigil_toc_id_1964}
+<h2>Using Container At-Rules {#ch21.xhtml_sigil_toc_id_1964}
 
 The []{#ch21.xhtml_ix_contain_q_atrules primary="container queries"
 secondary="at-rules for" data-type="indexterm"}syntax of container query
@@ -67829,7 +67670,7 @@ startref="ix_contain_q_atrules" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Defining Container Query Features" data-type="sect2"}
 ::: {#ch21.xhtml_container-query-features .sect2}
-## Defining Container Query Features {#ch21.xhtml_sigil_toc_id_1965}
+<h2>Defining Container Query Features {#ch21.xhtml_sigil_toc_id_1965}
 
 You can []{#ch21.xhtml_idm45796998614080 primary="container queries"
 secondary="features" data-type="indexterm"}check seven features in a
@@ -67896,7 +67737,7 @@ math-style range notation we covered previously is used.
 
 :::: {.section pdf-bookmark="Setting Container Length Units" data-type="sect2"}
 ::: {#ch21.xhtml_container-units .sect2}
-## Setting Container Length Units {#ch21.xhtml_sigil_toc_id_1966}
+<h2>Setting Container Length Units {#ch21.xhtml_sigil_toc_id_1966}
 
 In []{#ch21.xhtml_idm45796998580624 primary="units of measure"
 secondary="lengths for container queries"
@@ -67981,7 +67822,7 @@ startref="ix_contain_q_length" data-type="indexterm"}
 
 ::::: {.section pdf-bookmark="Feature Queries (@supports)" data-type="sect1"}
 :::: {#ch21.xhtml_feature_queries .sect1}
-# Feature Queries (@supports) {#ch21.xhtml_sigil_toc_id_1968}
+<h1>Feature Queries (@supports) {#ch21.xhtml_sigil_toc_id_1968}
 
 CSS has the []{#ch21.xhtml_ix_supports_feat_queries
 primary="@supports (feature query) rule"
@@ -68179,7 +68020,7 @@ its values---but maybe not `grid`. That's why property and value are
 always tested in feature queries.
 
 ::: {.warning data-type="warning"}
-###### Warning {#ch21.xhtml_sigil_toc_id_1969}
+<h5>Warning {#ch21.xhtml_sigil_toc_id_1969}
 
 Remember that these are *feature* queries, not *correctness* queries. A
 browser can understand the feature you're testing for, but implement it
@@ -68199,7 +68040,7 @@ startref="ix_supports_feat_queries" data-type="indexterm"}
 
 :::::::: {.section pdf-bookmark="Other At-Rules" data-type="sect1"}
 ::::::: {#ch21.xhtml_other-at-rules .sect1}
-# Other At-Rules {#ch21.xhtml_sigil_toc_id_1970}
+<h1>Other At-Rules {#ch21.xhtml_sigil_toc_id_1970}
 
 A variety of other at-rules were covered in other parts of the book:
 
@@ -68222,7 +68063,7 @@ Two more were not covered elsewhere, so we'll cover them here.
 
 :::: {.section pdf-bookmark="Defining a Character Set for a Stylesheet" data-type="sect2"}
 ::: {#ch21.xhtml_idm45796997862704 .sect2}
-## Defining a Character Set for a Stylesheet {#ch21.xhtml_sigil_toc_id_1971}
+<h2>Defining a Character Set for a Stylesheet {#ch21.xhtml_sigil_toc_id_1971}
 
 The `@charset` at-rule[]{#ch21.xhtml_idm45796997860752
 primary="at-rules" secondary="@charset" secondary-sortas="charset"
@@ -68260,7 +68101,7 @@ things work, don't worry about it.
 
 :::: {.section pdf-bookmark="Defining a Namespace for Selectors" data-type="sect2"}
 ::: {#ch21.xhtml_idm45796997852448 .sect2}
-## Defining a Namespace for Selectors {#ch21.xhtml_sigil_toc_id_1972}
+<h2>Defining a Namespace for Selectors {#ch21.xhtml_sigil_toc_id_1972}
 
 The `@namespace` at-rule[]{#ch21.xhtml_idm45796997846880
 primary="at-rules" secondary="@namespace for selectors"
@@ -68302,7 +68143,7 @@ startref="ix_at-rules_ch21" data-type="indexterm"}
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch21.xhtml_idm45796997798208 .sect1}
-# Summary {#ch21.xhtml_sigil_toc_id_1973}
+<h1>Summary {#ch21.xhtml_sigil_toc_id_1973}
 
 Thanks to the flexibility of at-rules, it is possible to provide a wide
 range of design experiences from within a single set of styles. Whether
@@ -68320,7 +68161,7 @@ to make your work the best it can be.
 ::::: {#app01.xhtml_sbo-rt-content}
 :::: {.section .appendix pdf-bookmark="Appendix A. Additional Resources" data-type="appendix"}
 ::: {#app01.xhtml_additional-resources .appendix}
-# [Appendix A. ]{.label}Additional Resources
+<h1>[Appendix A. ]{.label}Additional Resources
 
 Here's a []{#app01.xhtml_ix_resources_app primary="resources"
 data-type="indexterm"}small collection of useful websites, resources,
@@ -68419,11 +68260,11 @@ and documentation freely available to all:
 :::::::::::::::::::::::::::::::: {#ix01.xhtml_sbo-rt-content}
 ::::::::::::::::::::::::::::::: {.section .index data-type="index"}
 :::::::::::::::::::::::::::::: {#ix01.xhtml_idm45796997744016 .index}
-# Index
+<h1>Index
 
 ::::::::::::::::::::::::::::: {data-type="index"}
 ::: {data-type="indexdiv"}
-### [Symbols]{gentext="indexsymbols"} {#ix01.xhtml_sigil_toc_id_1974}
+<h3>[Symbols]{gentext="indexsymbols"} {#ix01.xhtml_sigil_toc_id_1974}
 
 -   [! (exclamation point)]{data-type="index-term"}
     -   [in !important flag]{data-type="index-term"},
@@ -68435,7 +68276,7 @@ and documentation freely available to all:
 -   [\"i\", in attribute selectors]{data-type="index-term"}, [The
     Case-Insensitivity
     Identifier](../Text/ch02.xhtml#idm45797100021408){data-type="index:locator"}
--   [\# (octothorpe)]{data-type="index-term"}
+-   [\<h1>(octothorpe)]{data-type="index-term"}
     -   [in ID selectors]{data-type="index-term"}, [ID
         Selectors](../Text/ch02.xhtml#idm45797109034240){data-type="index:locator"}
     -   [in value syntax]{data-type="index-term"}, [Value Syntax
@@ -68572,7 +68413,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### A {#ix01.xhtml_sigil_toc_id_1975}
+<h3>A {#ix01.xhtml_sigil_toc_id_1975}
 
 -   [absolute length units]{data-type="index-term"}, [Absolute Length
     Units](../Text/ch05.xhtml#ix_absol_length){data-type="index:locator"}-[Resolution
@@ -69140,7 +68981,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### B {#ix01.xhtml_sigil_toc_id_1976}
+<h3>B {#ix01.xhtml_sigil_toc_id_1976}
 
 -   [::backdrop pseudo-element]{data-type="index-term"}, [The Backdrop
     Pseudo-Element](../Text/ch03.xhtml#idm45797103359488){data-type="index:locator"}
@@ -69959,7 +69800,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### C {#ix01.xhtml_sigil_toc_id_1977}
+<h3>C {#ix01.xhtml_sigil_toc_id_1977}
 
 -   [calc() function]{data-type="index-term"},
     [Fractions](../Text/ch05.xhtml#idm45797106295856){data-type="index:locator"},
@@ -70699,7 +70540,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### D {#ix01.xhtml_sigil_toc_id_1978}
+<h3>D {#ix01.xhtml_sigil_toc_id_1978}
 
 -   [darken blend mode]{data-type="index-term"}, [Darken, lighten,
     difference, and
@@ -70898,7 +70739,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### E {#ix01.xhtml_sigil_toc_id_1979}
+<h3>E</h3>
 
 -   [each-line indent]{data-type="index-term"}, [Indenting
     Text](../Text/ch15.xhtml#idm45797029736336){data-type="index:locator"}
@@ -71065,7 +70906,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### F {#ix01.xhtml_sigil_toc_id_1980}
+<h3>F</h3>
 
 -   [fallback descriptor, \@counter-style]{data-type="index-term"},
     [Symbolic Counting
@@ -71805,7 +71646,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### G {#ix01.xhtml_sigil_toc_id_1981}
+<h3>G</h3>
 
 -   [gap property]{data-type="index-term"}, [Opening Gaps Between Flex
     Items](../Text/ch11.xhtml#ix_gap_prop){data-type="index:locator"}-[Opening
@@ -72204,7 +72045,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### H {#ix01.xhtml_sigil_toc_id_1982}
+<h3>H</h3>
 
 -   [half-leading]{data-type="index-term"}, [Basic Terms and
     Concepts](../Text/ch06.xhtml#idm45797080916336){data-type="index:locator"},
@@ -72366,7 +72207,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### I {#ix01.xhtml_sigil_toc_id_1983}
+<h3>I</h3>
 
 -   [ic unit]{data-type="index-term"}, [Other relative length
     units](../Text/ch05.xhtml#idm45797088093040){data-type="index:locator"}
@@ -72728,7 +72569,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### J {#ix01.xhtml_sigil_toc_id_1984}
+<h3>J {#ix01.xhtml_sigil_toc_id_1984}
 
 -   [JavaScript, CSS influence on]{data-type="index-term"},
     [Nonhyperlink location
@@ -72752,7 +72593,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### K {#ix01.xhtml_sigil_toc_id_1985}
+<h3>K {#ix01.xhtml_sigil_toc_id_1985}
 
 -   [kerning]{data-type="index-term"}, [Font
     Kerning](../Text/ch14.xhtml#idm45797030865792){data-type="index:locator"}
@@ -72803,7 +72644,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### L {#ix01.xhtml_sigil_toc_id_1986}
+<h3>L {#ix01.xhtml_sigil_toc_id_1986}
 
 -   [Lab colors]{data-type="index-term"}, [Lab
     Colors](../Text/ch05.xhtml#idm45797085826960){data-type="index:locator"}
@@ -73094,7 +72935,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### M {#ix01.xhtml_sigil_toc_id_1987}
+<h3>M {#ix01.xhtml_sigil_toc_id_1987}
 
 -   [main-axis, flexbox]{data-type="index-term"}, [Flexbox
     Fundamentals](../Text/ch11.xhtml#idm45797054355328){data-type="index:locator"},
@@ -73537,7 +73378,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### N {#ix01.xhtml_sigil_toc_id_1988}
+<h3>N {#ix01.xhtml_sigil_toc_id_1988}
 
 -   [\@namespace rule]{data-type="index-term"}, [Defining a Namespace
     for
@@ -73658,7 +73499,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### O {#ix01.xhtml_sigil_toc_id_1989}
+<h3>O {#ix01.xhtml_sigil_toc_id_1989}
 
 -   [object bounding box]{data-type="index-term"},
     [Transforming](../Text/ch17.xhtml#idm45797018805984){data-type="index:locator"}
@@ -73903,7 +73744,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### P {#ix01.xhtml_sigil_toc_id_1990}
+<h3>P {#ix01.xhtml_sigil_toc_id_1990}
 
 -   [pad descriptor, \@counter-style]{data-type="index-term"}, [Numeric
     Counting
@@ -74381,7 +74222,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### Q {#ix01.xhtml_sigil_toc_id_1991}
+<h3>Q {#ix01.xhtml_sigil_toc_id_1991}
 
 -   [q (quarter-millimeters) unit]{data-type="index-term"}, [Absolute
     Length
@@ -74404,7 +74245,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### R {#ix01.xhtml_sigil_toc_id_1992}
+<h3>R {#ix01.xhtml_sigil_toc_id_1992}
 
 -   [rad (radians) unit]{data-type="index-term"},
     [Angles](../Text/ch05.xhtml#idm45797085157872){data-type="index:locator"}
@@ -74697,7 +74538,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### S {#ix01.xhtml_sigil_toc_id_1993}
+<h3>S {#ix01.xhtml_sigil_toc_id_1993}
 
 -   [s (seconds) unit]{data-type="index-term"}, [Time and
     Frequency](../Text/ch05.xhtml#idm45797085104816){data-type="index:locator"}
@@ -75210,7 +75051,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### T {#ix01.xhtml_sigil_toc_id_1994}
+<h3>T {#ix01.xhtml_sigil_toc_id_1994}
 
 -   [tab-size property]{data-type="index-term"}, [Setting Tab
     Sizes](../Text/ch15.xhtml#idm45797025805776){data-type="index:locator"}
@@ -75676,7 +75517,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### U {#ix01.xhtml_sigil_toc_id_1995}
+<h3>U {#ix01.xhtml_sigil_toc_id_1995}
 
 -   [UI-state pseudo-classes]{data-type="index-term"}, [UI-State
     Pseudo-Classes](../Text/ch03.xhtml#ix_uistate_pseudo_class){data-type="index:locator"}-[Mutability
@@ -75759,7 +75600,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### V {#ix01.xhtml_sigil_toc_id_1996}
+<h3>V {#ix01.xhtml_sigil_toc_id_1996}
 
 -   [:valid pseudo-class]{data-type="index-term"}, [UI-State
     Pseudo-Classes](../Text/ch03.xhtml#idm45797096255472){data-type="index:locator"},
@@ -76057,7 +75898,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### W {#ix01.xhtml_sigil_toc_id_1997}
+<h3>W {#ix01.xhtml_sigil_toc_id_1997}
 
 -   [weight, in cascade rules]{data-type="index-term"}, [The
     Cascade](../Text/ch04.xhtml#ix_weight_casc_rules){data-type="index:locator"}-[The
@@ -76176,7 +76017,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### X {#ix01.xhtml_sigil_toc_id_1998}
+<h3>X {#ix01.xhtml_sigil_toc_id_1998}
 
 -   [x-height]{data-type="index-term"}, [Automatically Adjusting
     Size](../Text/ch14.xhtml#idm45797033432704){data-type="index:locator"}
@@ -76202,7 +76043,7 @@ and documentation freely available to all:
 :::
 
 ::: {data-type="indexdiv"}
-### Z {#ix01.xhtml_sigil_toc_id_1999}
+<h3>Z {#ix01.xhtml_sigil_toc_id_1999}
 
 -   [z-index property]{data-type="index-term"}, [Placement on the
     Z-Axis](../Text/ch10.xhtml#ix_zindex_prop){data-type="index:locator"}-[Placement
@@ -76229,7 +76070,7 @@ and documentation freely available to all:
 ::::: {#colophon01.xhtml_sbo-rt-content}
 :::: {.section .abouttheauthor .colophon pdf-bookmark="About the Authors" data-type="colophon"}
 ::: {#colophon01.xhtml_idm45796997743488 .colophon}
-# About the Authors
+<h1>About the Authors
 
 **Eric A. Meyer** has been working with the web since late 1993 and is
 an internationally recognized expert on the subjects of HTML, CSS, and
@@ -76315,7 +76156,7 @@ it's just one more way Estelle is working to bring the world into the
 ::::: {#colophon02.xhtml_sbo-rt-content}
 :::: {.section .colophon pdf-bookmark="Colophon" data-type="colophon"}
 ::: {#colophon02.xhtml_colophon .colophon}
-# Colophon
+<h1>Colophon
 
 The animals on the cover of *CSS: The Definitive Guide* are salmon
 (*salmonidae*), which is a family of fish consisting of many species.
